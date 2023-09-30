@@ -136,13 +136,21 @@ a:active {
     width:100%;
   }
 }
+
+  /* Hide logo on small screens */
+  @media screen and (max-width:800px) {
+  img#logo {
+    display: none;
+    width:100%;
+  }
+}
 </style>
 </head>
 <body>
 
  <div class="header">
    <a href="https://www.uni-muenster.de/en/">
- <img src="Logo_UniMuenster_2023_RGB.png" style="width: 20%; height: 20%"/>
+ <img id="logowwu" src="Logo_UniMuenster_2023_RGB.png" style="width: 25%; height: 25%"/>
    </a>
     </div>  
 
