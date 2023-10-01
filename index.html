@@ -102,11 +102,12 @@ document.write("Last update: " + document.lastModified +"");
 </SCRIPT>   -->
 
   <SCRIPT LANGUAGE="JavaScript">
+const month = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 update = new Date(document.lastModified)
 theMonth = update.getMonth() + 1
 theDate = update.getDate()
 theYear = update.getFullYear()
-document.writeln("Last updated:" + theDate + "." + theMonth + "." + theYear + "")
+document.writeln("Last updated:" + month[update.getMonth()+1] + "" + theDate + "" + theYear + "")
 </SCRIPT>
   </div>
 </div>
