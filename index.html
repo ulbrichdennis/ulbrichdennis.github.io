@@ -98,13 +98,15 @@
 <div class="footer">
 <script LANGUAGE="JavaScript">
 const month = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const day = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 update = new Date(document.lastModified)
+theDay = update.getDay()
 theMonth = update.getMonth() 
 theDate = update.getDate()
 theYear = update.getFullYear()
 theHours = update.getHours()
 theMinutes = update.getMinutes()
-document.write("This page was last updated on " + month[theMonth] + " " + theDate + ", " + theYear + " at " + theHours + ":" + theMinutes + ".")
+document.write("This page was last updated on " + theDay + ", " +  month[theMonth] + " " + theDate + ", " + theYear + " at " + theHours + ":" + theMinutes + ".")
 </script>
   </div>
 </div>
