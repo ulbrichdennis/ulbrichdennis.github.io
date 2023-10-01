@@ -85,8 +85,8 @@ a:active {
   padding-left: 10px;
 }
 
-/* Add a card effect for articles */
-.card {
+/* A new entry */
+.entry {
   background-color: #f1f1f1;
   padding: 10px;
   }
