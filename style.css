@@ -89,8 +89,7 @@ a:active {
 .card {
   background-color: #f1f1f1;
   padding: 10px;
-  <<!-- margin-top: 0.5px;  -->
-}
+  }
 
 /* Clear floats after the columns */
 .row::after {
