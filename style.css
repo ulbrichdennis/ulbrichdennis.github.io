@@ -123,7 +123,9 @@ a:active {
     width: 100%;
   }
 }
-  
+
+<!--
+
 /* Hide portrait on small screens */
   @media screen and (max-width:800px) {
   img#portrait {
@@ -139,3 +141,5 @@ a:active {
     width:100%;
   }
 }
+
+-->
