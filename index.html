@@ -96,9 +96,17 @@
 </div>
 
 <div class="footer">
-  <div class="card">
+ <<!<< <div class="card">
   <script language="Javascript">
 document.write("Last update: " + document.lastModified +"");
+</SCRIPT>   -->
+
+  <SCRIPT LANGUAGE="JavaScript">
+update = new Date(document.lastModified)
+theMonth = update.getMonth() + 1
+theDate = update.getDate()
+theYear = update.getFullYear()
+document.writeln("<I>Last updated:" + theMonth + "/" + theDate + "/" + theYear + "</I>")
 </SCRIPT>
   </div>
 </div>
