@@ -107,7 +107,8 @@ update = new Date(document.lastModified)
 theMonth = update.getMonth() 
 theDate = update.getDate()
 theYear = update.getFullYear()
-document.writeln("Last updated on " + month[theMonth] + " " + theDate + ", " + theYear + "")
+theTime = update.getTime()
+document.writeln("Last updated on " + month[theMonth] + " " + theDate + ", " + theYear + "at " + theTime)
 </SCRIPT>
   </div>
 </div>
