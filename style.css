@@ -122,7 +122,21 @@ a:active {
   }
 }
 
+/* Hide portrait on small screens */
+  @media screen and (max-width:800px) {
+  img#portrait {
+    display: none;
+    width:100%;
+  }
+}
 
+  /* Hide logo on small screens */
+  @media screen and (max-width:800px) {
+  img#logowwu {
+    display: none;
+    width:100%;
+  }
+}
 
 
 
