@@ -96,20 +96,15 @@
 </div>
 
 <div class="footer">
- <!-- <div class="card">
-  <script language="Javascript">
-document.write("Last update: " + document.lastModified +"");
-</SCRIPT>   -->
-
-  <SCRIPT LANGUAGE="JavaScript">
+<script LANGUAGE="JavaScript">
 const month = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 update = new Date(document.lastModified)
 theMonth = update.getMonth() 
 theDate = update.getDate()
 theYear = update.getFullYear()
 theTime = update.getTime()
-document.writeln("Last updated on " + month[theMonth] + " " + theDate + ", " + theYear + "at " + theTime)
-</SCRIPT>
+document.writeln("This page was last updated on " + month[theMonth] + " " + theDate + ", " + theYear + ".")
+</script>
   </div>
 </div>
 
