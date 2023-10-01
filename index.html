@@ -102,8 +102,9 @@ update = new Date(document.lastModified)
 theMonth = update.getMonth() 
 theDate = update.getDate()
 theYear = update.getFullYear()
-theTime = update.getTime()
-document.write("This page was last updated on " + month[theMonth] + " " + theDate + ", " + theYear + ".").style.fontSize="small"
+theHours = update.getHours()
+theMinutes = update.getMinutes()
+document.write("This page was last updated on " + month[theMonth] + " " + theDate + ", " + theYear + "at" + theHours + ":" + theMinutes + ".")
 </script>
   </div>
 </div>
