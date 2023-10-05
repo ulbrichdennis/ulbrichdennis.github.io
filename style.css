@@ -159,7 +159,9 @@ a:active {
   }
 }
 
-img {
-  width: 100%;
-  height: auto;
+.wwulogo .university-logo {
+    display: inline-block;
+    margin-left: -92px;
+    max-width: inherit
 }
+
