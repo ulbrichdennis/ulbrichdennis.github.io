@@ -138,6 +138,10 @@ a:active {
   }
 }
 
+.sm-ico.linkedin::before {
+    content: ""
+
+
 
 
 
