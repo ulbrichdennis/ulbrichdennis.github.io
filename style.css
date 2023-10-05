@@ -159,9 +159,50 @@ a:active {
   }
 }
 
-.wwulogo .university-logo {
+.wwulogo.university-logo {
     display: inline-block;
     margin-left: -92px;
     max-width: inherit
+}
+
+#logos .wwulogo {
+    width: 100px
+}
+
+#logos .wwulogo:last-child {
+    width: 335px;
+    max-width: 100%;
+    float: left
+}
+
+#logos .wwulogo,#logos .campaignlogo {
+    display: inline-block;
+    margin: 0;
+    height: 97px
+}
+
+#logos .wwulogo {
+    overflow: hidden
+}
+
+#logos .wwulogo~* {
+    max-width: 45%
+}
+
+.secondary-logo,.tertiary-logo {
+    float: right;
+    height: 97px;
+    width: 100%;
+    object-fit: contain;
+    object-position: bottom right
+}
+
+#logos>*:nth-child(2) {
+    display: none
+}
+
+#logos>*+*:last-child {
+    display: block;
+    float: right
 }
 
