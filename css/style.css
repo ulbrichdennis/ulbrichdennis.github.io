@@ -68,7 +68,7 @@ a:active {
   color: black;
 }
 
-/* Create two unequal columns that floats next to each other */
+/* Create two inequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
   float: left;
