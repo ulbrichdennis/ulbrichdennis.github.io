@@ -168,10 +168,10 @@ a:active {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  color: black; /* Text color */
+  color:white; /* Text color */
   padding: 15px; /* Some padding */
   font-size: 15px; /* Increase font size */
-  background-color: #f1f1f1;
+  background-color: #ddd;
 }
 
 /* Scroll to top button for small screen */
