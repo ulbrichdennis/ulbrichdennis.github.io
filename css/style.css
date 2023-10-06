@@ -175,7 +175,7 @@ a:active {
 
 /* Hide portrait on small screens */
   @media screen and (max-width:800px) {
-  #myBtn {
+  button#myBtn {
     display: none;
     width:100%;
   }
