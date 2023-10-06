@@ -2,8 +2,6 @@
   box-sizing: border-box;
 }
 
-
-
 body {
   font-family: Arial;
   padding: 10px;
@@ -52,7 +50,9 @@ a:active {
   text-decoration: underline;
 }
 
-  
+  #portrait {
+    boarder: radius 50px;
+  }
 
 /* Style the topnav links */
 .topnav a {
