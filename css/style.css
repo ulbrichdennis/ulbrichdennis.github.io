@@ -169,7 +169,7 @@ a:active {
   outline: none; /* Remove outline */
   color: black; /* Text color */
   padding: 15px; /* Some padding */
-  font-size: 25px; /* Increase font size */
+  font-size: 15px; /* Increase font size */
   background-color: #f1f1f1;
 }
 
