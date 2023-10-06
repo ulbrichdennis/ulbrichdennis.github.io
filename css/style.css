@@ -175,7 +175,7 @@ a:active {
 
 /* Hide portrait on small screens */
   @media screen and (max-width:800px) {
-  button#myBtn {
+  #myBtn {
     display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 20px; /* Place the button at the bottom of the page */
