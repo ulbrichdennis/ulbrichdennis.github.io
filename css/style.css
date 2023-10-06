@@ -159,6 +159,7 @@ a:active {
   }
 }
 
+/* Scroll to top button for wide screen */
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -173,7 +174,7 @@ a:active {
   background-color: #f1f1f1;
 }
 
-/* Hide portrait on small screens */
+/* Scroll to top button for small screen */
   @media screen and (max-width:800px) {
   #myBtn {
     display: none; /* Hidden by default */
