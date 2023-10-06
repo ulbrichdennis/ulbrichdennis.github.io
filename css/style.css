@@ -51,7 +51,7 @@ a:active {
 }
 
   #portrait {
-    boarder: radius 50px;
+    border-radius: 60%;
   }
 
 /* Style the topnav links */
