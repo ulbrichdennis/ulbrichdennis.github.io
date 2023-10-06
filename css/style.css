@@ -168,9 +168,7 @@ a:active {
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   color: black; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
-  border-radius: 100%; /* Rounded corners */
   font-size: 15px; /* Increase font size */
 }
 
