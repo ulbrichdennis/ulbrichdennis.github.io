@@ -170,6 +170,7 @@ a:active {
   color: black; /* Text color */
   padding: 15px; /* Some padding */
   font-size: 15px; /* Increase font size */
+  background: #f1f1f1;
 }
 
 
