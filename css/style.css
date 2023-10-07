@@ -74,15 +74,15 @@ a:active {
 /* Left column */
 .leftcolumn {   
   float: left;
-  width: 30%;
+  width: 95%;
 }
 
 /* Right column */
 .rightcolumn {
-  float: left;
-  width: 70%;
+  float: right;
+  width: 5%;
   background-color: #f1f1f1;
-  text-align: left;  
+  text-align: center;  
 }
 
 /* A new entry */
