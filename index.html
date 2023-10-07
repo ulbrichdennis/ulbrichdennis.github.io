@@ -23,19 +23,6 @@
 <button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;</button>
 <div class="row">
   <div class="leftcolumn">
-
-<div class=""card">
-    <img  src="portrait.jpeg"  alt="Dennis Ulbrich" style="width: 25%; height: 25%; margin-top:35px; margin-bottom:10px;"/>
-    <p>
-     <a href="https://orcid.org/0000-0001-5541-011X"><img src="/Icons/OrcidIcon.svg" width="35" height="35" style="margin-right:15px"></a>
-    <a href="https://www.researchgate.net/profile/Dennis-Ulbrich-2"><img src="/Icons/ResearchGateIcon.svg" width="35" height="35" style="margin-right:15px"></a>
-      <a href="https://www.linkedin.com/in/ulbrichdennis/"><img src="/Icons/LinkedInIcon.svg" width="35" height="35"></a>
-     </p>
-     </div>
-
-     </div>
-  <div class="rightcolumn" >
-    
 <div class="card">
       <h1>Dr. Dennis Ulbrich</h1>
       <h3>Postal address</h3>
@@ -47,16 +34,17 @@
 
       <p><strong>Office:</strong> Orléans-Ring 10, Room 130.023, 48149 Münster</p>
       <p><strong>E-mail:</strong> <a href="mailto:dennis.ulbrich@uni-muenster.de">dennis.ulbrich@uni-muenster.de</a></p>
-       
-      
-       </div>
+     <p>
+     <a href="https://orcid.org/0000-0001-5541-011X"><img src="/Icons/OrcidIcon.svg" width="35" height="35" style="margin-right:15px"></a>
+    <a href="https://www.researchgate.net/profile/Dennis-Ulbrich-2"><img src="/Icons/ResearchGateIcon.svg" width="35" height="35" style="margin-right:15px"></a>
+      <a href="https://www.linkedin.com/in/ulbrichdennis/"><img src="/Icons/LinkedInIcon.svg" width="35" height="35"></a>
+     </p>
+</div>
+</div>
+  <div class="rightcolumn" >
     <script>
-// Get the button
 let mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 30px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
-
 function scrollFunction() {
   if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
     mybutton.style.display = "block";
@@ -64,8 +52,6 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
-
-// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
