@@ -114,7 +114,7 @@ a:active {
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+/* Responsive layout - when the scree is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .topnav a {
     float: none;
