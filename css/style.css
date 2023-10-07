@@ -79,7 +79,7 @@ a:active {
 
 /* Right column */
 .rightcolumn {
-  float: center;
+  float: right;
   width: 40%;
   background-color: #f1f1f1;
   text-align: left;  
