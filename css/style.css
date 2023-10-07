@@ -79,10 +79,10 @@ a:active {
 
 /* Right column */
 .rightcolumn {
-  float: right;
+  float: left;
   width: 85%;
   background-color: #f1f1f1;
-  text-align: center;  
+  text-align: left;  
 }
 
 /* A new entry */
