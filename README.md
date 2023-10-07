@@ -1,2 +1,2 @@
 # ulbrichdennis.github.io
-My personal website related to my current position at the University of Münster
+My personal website related to the University of Münster
