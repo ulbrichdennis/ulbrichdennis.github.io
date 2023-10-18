@@ -15,23 +15,16 @@ body {
   background: #f1f1f1;
 }
 
-/* Header/Blog Title */
 .header {
    padding: 10px; 
   text-align: left;
   background: #f1f1f1;
   }
 
-<!-- .header h1 {
-  font-size: 50px;
-}   -->
-
-/* Style the top navigation bar */
 .topnav {
   overflow: hidden;
   background-color: #333;
 }
-
 
 a:link {
   color: #333;
@@ -61,7 +54,6 @@ a:active {
     border-radius: 50%;
   }
 
-/* Style the topnav links */
 .topnav a {
   float: left;
   display: block;
@@ -71,20 +63,16 @@ a:active {
   text-decoration: none;
 }
 
-/* Change color on hover */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Create two inequal columns that floats next to each other */
-/* Left column */
 .leftcolumn {   
   float: left;
   width: 82%;
 }
 
-/* Right column */
 .rightcolumn {
   float: right;
   width: 18%;
@@ -92,20 +80,17 @@ a:active {
   text-align: left;  
 }
 
-/* A new entry */
 .card {
   background-color: #f1f1f1;
   padding: 10px;
   }
 
-/* Clear floats after the columns */
 .row::after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Footer */
 .footer {
   padding: 10px;
   text-align: left;
@@ -113,7 +98,6 @@ a:active {
   margin-top: 20px;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .rightcolumn, .leftcolumn {   
     width: 100%;
@@ -121,7 +105,6 @@ a:active {
   }
 }
 
-/* Responsive layout - when the scree is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .topnav a {
     float: none;
@@ -129,15 +112,13 @@ a:active {
   }
 }
 
-/* Hide portrait on small screens */
-  @media screen and (max-width:800px) {
+@media screen and (max-width:800px) {
   img#portrait {
     display: none;
     width:100%;
   }
 }
 
-  /* Hide logo on small screens */
   @media screen and (max-width:800px) {
   img#logowwu {
     display: none;
@@ -166,7 +147,6 @@ a:active {
   }
 }
 
-/* Scroll to top button  */
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
