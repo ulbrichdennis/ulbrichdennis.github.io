@@ -6,7 +6,7 @@ excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-02-17
 venue: 'Ergodic Theory and Dynamical Systems'
 paperurl: ''
-citation: <br> 'M. Keßeböhmer, J.D.M. Rademacher, D. Ulbrich.<br>
+citation: 'M. Keßeböhmer, J.D.M. Rademacher, D. Ulbrich.<br>
 Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata.<br>
 Ergodic Theory and Dynamical Systems. 2021;41(5):1397-1430
 '
