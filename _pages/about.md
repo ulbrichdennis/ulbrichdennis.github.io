@@ -15,13 +15,13 @@ Beforehand, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bre
 
 <table>
   <tr><th>Postal address</th> <th>Office</th> </tr>
-  <tr><td>University of Münster\
-Department of Mathematics\
-Institute for Analysis and Numerics\
-Einsteinstraße 61\
+  <tr><td>University of Münster<br>
+Department of Mathematics<br>
+Institute for Analysis and Numerics<br>
+Einsteinstraße 61<br>
 48149 Münster</td>
-  <td>Orléans-Ring 10\
-Room 130.023\
+  <td>Orléans-Ring 10<br>
+Room 130.023<br>
 48149 Münster</td></tr>
   </table>
 
