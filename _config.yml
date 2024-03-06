@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "ulbrichdennis.png"
+  avatar           : "du_portrait.png"
   name             : "Dennis Ulbrich"
   pronouns         : # example: "she/her"  
   bio              : "Postdoc in Mathematics"
