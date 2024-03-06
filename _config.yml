@@ -25,7 +25,7 @@ author:
   name             : "Dennis Ulbrich"
   pronouns         : # example: "she/her"  
   bio              : "Postdoc Mathematics"
-  location         : "Bruchhausen-Vilsen"
+  location         : #"Bruchhausen-Vilsen"
   employer         : "University of Münster"
   uri              : # URL
   email            : "mail@ulbrichdennis.de" 
