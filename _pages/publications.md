@@ -20,7 +20,7 @@ I am interested both in theory and applications. In particular, I am dealing wit
 <li>physical applications.</li>
 </ul>
 
-<h2>Current project particioation</h2>
+<h2>Current project participation</h2>
 *DFG project number [456849348](https://gepris.dfg.de/gepris/projekt/456849348?language=en)*:       
 
 **Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation**
