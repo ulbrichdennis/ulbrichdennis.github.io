@@ -4,11 +4,6 @@ title: "Research"
 permalink: /publications/
 author_profile: true
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 <h2>Interests</h2>
 I am interested both in theory and applications. In particular, I am dealing with
 <ul>
@@ -34,8 +29,6 @@ I am interested both in theory and applications. In particular, I am dealing wit
 
 <h2>Publications</h2>
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+ - M. Keßeböhmer, J.D.M. Rademacher, D. Ulbrich.<br>
+**Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata**.<br>
+*Ergodic Theory and Dynamical Systems*. 2021;41(5):1397-1430 [DOI](https://www.cambridge.org/core/journals/ergodic-theory-and-dynamical-systems/article/dynamics-and-topological-entropy-of-1d-greenberghastings-cellular-automata/1DBE1EC4EC7BE9F216E9E35C214F2F3C)
