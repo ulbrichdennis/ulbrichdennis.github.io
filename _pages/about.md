@@ -10,6 +10,8 @@ I am a postdoctoral researcher at the [Institute for Analysis and Numerics](http
 
 Beforehand, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen (cf. [MGP](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=277103)).
 
+<h2>Email</h2>
+mail@ulbrichdennis.de
 <h2>Postal address</h2>
 University of Münster<br>
 Department of Mathematics<br>
