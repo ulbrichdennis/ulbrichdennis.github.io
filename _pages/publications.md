@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research"
+title: ""
 permalink: /publications/
 author_profile: true
 ---
@@ -9,6 +9,7 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
+<h2>Research interests</h2>
 I am interested both in theory and applications. In particular, I am dealing with
 <ul>
 <li>(dynamics of) ordinary and partial differential equations,</li>
