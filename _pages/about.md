@@ -10,7 +10,7 @@ I am a postdoctoral researcher at the Department of Mathematics of the Universit
 
 Beforehand, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen (supervised by Prof. Dr. Jens Rademacher and Prof. Dr. Marc Keßeböhmer).
 
-Postal adress
+Postal address
 ======
 University of Münster\
 Department of Mathematics\
