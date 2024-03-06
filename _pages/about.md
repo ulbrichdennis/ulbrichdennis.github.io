@@ -11,7 +11,8 @@ My supervisor is [Prof. Dr. Marlies Pirner](https://www.uni-muenster.de/AMM/en/P
 
 Beforehand, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen (cf. [MGP](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=277103)).
 
-<h2>Contact</h2>
+
+<hr>
 <table>
   <tr><th>Postal address</th> <th>Office</th> </tr>
   <tr><td>University of Münster<br>
