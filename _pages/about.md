@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "Welcome!"
 author_profile: true
 redirect_from: 
   - /about/
@@ -13,14 +13,14 @@ My supervisor is [Prof. Dr. Marlies Pirner](https://www.uni-muenster.de/AMM/en/P
 
 Beforehand, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen (cf. [MGP](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=277103)).
 
-<h4>Postal address</h4>
+<h2>Postal address</h2>
 University of Münster\
 Department of Mathematics\
 Institute for Analysis and Numerics\
 Einsteinstraße 61\
 48149 Münster
 
-<h4>Office</h4>
+<h2>Office</h2>
 Orléans-Ring 10\
 Room 130.023\
 48149 Münster
