@@ -10,7 +10,8 @@ I am a postdoctoral researcher at the [Institute for Analysis and Numerics](http
 
 Beforehand, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen under the supervision of Prof. Jens Rademacher and Prof. Marc Keßeböhmer.
 
-<h2>Location</h2>
+Contact
+=======
 <table>
   <tr><th>Postal address</th> <th>Office</th> </tr>
   <tr><td>University of Münster<br>
