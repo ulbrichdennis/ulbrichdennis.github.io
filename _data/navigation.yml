@@ -4,13 +4,15 @@ main:
     url: /research/
 
   - title: "Other activities"
-    url: /other/    
+    url: /other/  
+
+  - title: "Events"
+   url: /events/
 
   #- title: "Teaching"
   #  url: /teaching/    
     
-  - title: "Events"
-   url: /events/
+
         
  # - title: "Blog Posts"
  #   url: /year-archive/
