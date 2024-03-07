@@ -25,10 +25,10 @@ author:
   name             : "Dr. Dennis Ulbrich"
   pronouns         : # example: "she/her"  
   bio              : Postdoc in Mathematics
-  location         : #"Bruchh.-Vilsen, Germany"
-  employer         : #"University of Münster"
+  location         : "Bruchhausen-Vilsen"
+  employer         : "University of Münster"
   uri              : # URL
-  email            : # 
+  email            : dennis.ulbrich@uni-muenster.de 
 
   # Academic websites
   arxiv            : # "https://arxiv.org/search/math?searchtype=author&query=Ulbrich%2C+D"
