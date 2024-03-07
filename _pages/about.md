@@ -14,9 +14,6 @@ Temporarily, I worked at Jacobs University Bremen as a lecturer in mathematics.
 
 I also worked in industry before returning to the academic world. 
 
-<h2>Email and phone</h2>
-<img src='https://MailPNG.de?string=dennis.ulbrich(X)uni-muenster.de&size=10'>\
-<img src='https://MailPNG.de?string=04240/952139&size=10'>
 <h2>Postal address</h2>
 University of Münster<br>
 Department of Mathematics<br>
