@@ -18,8 +18,8 @@ I also worked in industry before returning to the academic world.
 
 <img src='https://MailPNG.de?string=dennis.ulbrich(X)uni-muenster.de&size=10'>
 <h2>Phone</h2>
-<img src='https://MailPNG.de?string=04240 952139&size=10'>\
-(The international dialing code for Germany is +49.)
+<img src='https://MailPNG.de?string=04240/952139&size=10'>\
+(German dialing code: +49)
 <h2>Postal address</h2>
 University of Münster<br>
 Department of Mathematics<br>
