@@ -5,4 +5,5 @@ permalink: /events/
 author_profile: true
 ---
 
-<h3>Past events</h3>
+<h2>Past events</h2>
+to be added
