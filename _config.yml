@@ -210,6 +210,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  events:
+    output: true
+    permalink: /:collection/:path
 
 
 # Defaults
@@ -267,6 +270,16 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _events
+  - scope:
+      path: ""
+      type: events
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+    
 
 
 # Sass/SCSS
