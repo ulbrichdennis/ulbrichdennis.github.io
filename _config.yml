@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Dr. Dennis Ulbrich"
+title                    : "About"
 title_separator          : "-"
 name                     : &name "Dennis Ulbrich"
 description              : &description "personal website"
