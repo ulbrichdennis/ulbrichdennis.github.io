@@ -10,10 +10,11 @@
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
 {% endif %} -->
 
+
 {% if page.title and page.author_profile != true %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
 {% elsif page.title and page.author_profile == true %}
-  {% assign seo_title = "About: D. Ulbrich" %}
+  {% assign seo_title = page.title | append: " " %}
 {% endif %}
 
 {% if seo_title %}
