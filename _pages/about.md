@@ -15,8 +15,11 @@ Temporarily, I worked at Jacobs University Bremen as a lecturer in mathematics.
 I also worked in industry before returning to the academic world. 
 
 <h2>Email</h2>
-The best way to reach me is to write an email:\
+
 <img src='https://MailPNG.de?string=dennis.ulbrich(X)uni-muenster.de&size=10'>
+<h2>Phone</h2>
+<img src='https://MailPNG.de?string=04240 942139&size=10'>\
+(German calling code: replace the first zero by +49)
 <h2>Postal address</h2>
 University of Münster<br>
 Department of Mathematics<br>
