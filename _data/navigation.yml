@@ -6,8 +6,8 @@ main:
   - title: "Other activities"
     url: /other/  
 
-  - title: "Events"
-    url: /events/
+  #- title: "Events"
+  #  url: /events/
   
 
   #- title: "Teaching"
