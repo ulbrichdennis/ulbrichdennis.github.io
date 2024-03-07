@@ -10,7 +10,7 @@ Since June 2023, I am a postdoctoral researcher at the [Institute for Analysis a
 
 Beforehand, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen under the supervision of [Prof. J. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html) and [Prof. M. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer), also see [MGP](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=277103).
 
-Temporarily, I also worked as a lecturer and, moreover, had a non-academic job in industry.
+Temporarily, I worked as a lecturer in mathematics and, moreover, had a job in industry.
 
 <h2>Email</h2>
 <img src='https://MailPNG.de?string=dennis.ulbrich(X)uni-muenster.de&size=10'>
