@@ -6,4 +6,4 @@ author_profile: true
 ---
 
 <h2>Past events</h2>
- - July 8-12, 2019: Equadiff 2019, University of Leiden, Netherlands
+ - 2019, July 8-12: *Equadiff 2019*, University of Leiden, Netherlands
