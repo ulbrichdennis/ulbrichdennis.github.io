@@ -14,7 +14,7 @@
 {% if page.title and page.author_profile != true %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
 {% elsif page.title and page.author_profile == true %}
-  {% assign seo_title = page.title | append: " " | append: site.title_seperator | append: " " | append: Dennis Ulbrich %}
+  {% assign seo_title = page.title | append: " " | append: site.title_seperator | append: " " | append: "Dennis Ulbrich" %}
 {% endif %}
 
 {% if seo_title %}
