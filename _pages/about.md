@@ -12,7 +12,7 @@ Beforehand, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bre
 
 Temporarily, I worked at Jacobs University Bremen as a lecturer in mathematics.
 
-Last but not least, I had a job in academia before returning to academia. 
+Last but not least, I had a job in industry before returning to academia. 
 
 <h2>Email</h2>
 <img src='https://MailPNG.de?string=dennis.ulbrich(X)uni-muenster.de&size=10'>
