@@ -4,5 +4,4 @@ title: "Events"
 permalink: /events/
 author_profile: true
 ---
-
-test test test
+<h2>Events</h2>
