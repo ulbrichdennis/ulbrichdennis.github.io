@@ -26,7 +26,7 @@ Institute for Analysis and Numerics<br>
 Room 130.023<br>
 48149 Münster
 
-<p style="font-size:0.5em">Page last modified: Mar 8, 2024</p>
+<p style="font-size:0.7em">Page last modified: Mar 8, 2024</p>
 
 
  

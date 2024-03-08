@@ -22,3 +22,5 @@ author_profile: true
 - 2016, Aug 28-Sep 2: *Workshop Analysis and Applications of Localized Structures in Nonlinear Media*, Lorentz Center Leiden, Netherlands
 - 2016, Mar 14-18: *4th Bremen Winter School and Symposium*, University of Bremen, Germany
 
+<p style="font-size:0.7em">Page last modified: Mar 8, 2024</p>
+
