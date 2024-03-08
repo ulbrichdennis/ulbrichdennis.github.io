@@ -18,7 +18,7 @@ I also worked in industry before returning to the academic world.
 University of Münster<br>
 Department of Mathematics<br>
 Institute for Analysis and Numerics<br>
-[Einsteinstraße 61](https://maps.app.goo.gl/ZqTvMLWmbqvH5zKY9)<br>
+[Einsteinstr. 61](https://maps.app.goo.gl/ZqTvMLWmbqvH5zKY9)<br>
 48149 Münster
 
 <h2>Office</h2>
