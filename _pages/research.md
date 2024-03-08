@@ -42,4 +42,4 @@ I am interested both in theory and applications. In particular, I am dealing wit
 **Ergodic theory of nonlinear waves in discrete and excitable excitable media**.<br>
 Dissertation, 2021
 
-<p style="font-size:0.7em">Page last modified: Mar 7, 2024</p>
+
