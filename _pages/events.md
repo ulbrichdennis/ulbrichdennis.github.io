@@ -11,7 +11,7 @@ author_profile: true
 - 2020
     - *Bremen-Oldenburg Dynamics Seminar*, Jan 23, Jacobs University, Bremen, Germany, 
 - 2019
-    - [*4th Hanseatic Dynamical Systems Days*](https://sites.google.com/view/handsdays4/), Dec 6, Jacobs University Bremen, Germany, 
+    - [*4<sup>th</sup> Hanseatic Dynamical Systems Days*](https://sites.google.com/view/handsdays4/), Dec 6, Jacobs University Bremen, Germany, 
     - [*Dynamics Days Europe 2019*](https://dyndays.uni-rostock.de/), Sep 2-6, University of Rostock, Germany
     - [*7th Bremen Summer School and Symposium*](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems), Aug 5-9, University of Bremen, Germany
     - [*Equadiff 2019*](https://www.universiteitleiden.nl/en/news/2019/07/photo-report-this-is-what-the-equadiff-math-conference-looks-like), Jul 8-12, University of Leiden, Netherlands
