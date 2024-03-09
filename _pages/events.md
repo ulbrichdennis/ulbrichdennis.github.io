@@ -5,27 +5,28 @@ permalink: /events/
 author_profile: true
 ---
 <h2>Upcoming</h2>
- - 2024, Mar 25-27: [*Mathematics Münster Mid-term Conference*](https://www.uni-muenster.de/MathematicsMuenster/de/events/2024/MMmidterm.shtml), University of Münster, Germany
+ - 2024
+    - [*Mathematics Münster Mid-term Conference*](https://www.uni-muenster.de/MathematicsMuenster/de/events/2024/MMmidterm.shtml), Mar 25-27, University of Münster, Germany, 
 <h2>Past (selected)</h2>
 - 2020
-    - Jan 23: *Bremen-Oldenburg Dynamics Seminar*, Jacobs University, Bremen, Germany
+    - *Bremen-Oldenburg Dynamics Seminar*, Jan 23, Jacobs University, Bremen, Germany, 
 - 2019
-    - Dec 6: [*4th Hanseatic Dynamical Systems Days*](https://sites.google.com/view/handsdays4/), Jacobs University Bremen, Germany
-    - Sep 2-6: [*Dynamics Days Europe 2019*](https://dyndays.uni-rostock.de/), University of Rostock, Germany
-    - Aug 5-9: [*7th Bremen Summer School and Symposium*](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems), University of Bremen, Germany
-    - Jul 8-12: [*Equadiff 2019*](https://www.universiteitleiden.nl/en/news/2019/07/photo-report-this-is-what-the-equadiff-math-conference-looks-like), University of Leiden, Netherlands
-    - Jun 29: [*3rd Hanseatic Dynamical Systems Days*](https://sites.google.com/view/handsdays3/), University of Bremen, Germany
-    - Feb 2: *2nd Bremen-Oldenburg Analysis Seminar*, University of Oldenburg, Germany
-    - Feb 28: *1st Bremen-Oldenburg Analysis Seminar*, University of Bremen, Germany
+    - [*4th Hanseatic Dynamical Systems Days*](https://sites.google.com/view/handsdays4/), Dec 6, Jacobs University Bremen, Germany, 
+    - [*Dynamics Days Europe 2019*](https://dyndays.uni-rostock.de/), Sep 2-6, University of Rostock, Germany
+    - [*7th Bremen Summer School and Symposium*](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems), Aug 5-9, University of Bremen, Germany
+    - [*Equadiff 2019*](https://www.universiteitleiden.nl/en/news/2019/07/photo-report-this-is-what-the-equadiff-math-conference-looks-like), Jul 8-12, University of Leiden, Netherlands
+    - [*3rd Hanseatic Dynamical Systems Days*](https://sites.google.com/view/handsdays3/), Jun 29, University of Bremen, Germany
+    - *2nd Bremen-Oldenburg Analysis Seminar*, Feb 2, University of Oldenburg, Germany
+    - *1st Bremen-Oldenburg Analysis Seminar*, Feb 28, University of Bremen, Germany
 - 2018
-    - Jun 29: [*1st Hanseatic Dynamical Systems Days*](https://sites.google.com/view/handsdays/home), University of Hamburg, Germany
-    - Mar 12-16: [*6th Bremen Winter School and Symposium*](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems), University of Bremen, Germany
+    - [*1st Hanseatic Dynamical Systems Days*](https://sites.google.com/view/handsdays/home), Jun 29, University of Hamburg, Germany
+    - [*6th Bremen Winter School and Symposium*](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems), Mar 12-16, University of Bremen, Germany
 - 2017
-    - Oct 4-6: [*Workshop Analysis and PDE*](https://www.maphy.uni-hannover.de/de/news-veranstaltungen/math-conf/archive), University of Hannover, Germany
-    - Mar 27-31: [*5th Bremen Winter School and Symposium*](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems), University of Bremen, Germany
+    - [*Workshop Analysis and PDE*](https://www.maphy.uni-hannover.de/de/news-veranstaltungen/math-conf/archive), Oct 4-6, University of Hannover, Germany
+    - [*5th Bremen Winter School and Symposium*](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems), Mar 27-31, University of Bremen, Germany
 - 2016
-    - Aug 28-Sep 2: [*Workshop Analysis and Applications of Localized Structures in Nonlinear Media*](https://www.lorentzcenter.nl/index.php?pntType=ConPagina&id=694&conBestandId=777&pntHandler=DownloadAction), Lorentz Center Leiden, Netherlands
-    - Mar 14-18: [*4th Bremen Winter School and Symposium*](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems), University of Bremen, Germany
+    - [*Workshop Analysis and Applications of Localized Structures in Nonlinear Media*](https://www.lorentzcenter.nl/index.php?pntType=ConPagina&id=694&conBestandId=777&pntHandler=DownloadAction), Aug 28-Sep 2, Lorentz Center Leiden, Netherlands
+    - [*4th Bremen Winter School and Symposium*](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems), Mar 14-18, University of Bremen, Germany
 
 
 
