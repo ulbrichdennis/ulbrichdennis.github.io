@@ -1,12 +1,12 @@
 ---
-title: "Paper Title Number 1"
+title: "Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2009-10-01
 venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+paperurl: 'https://doi.org/10.1017/etds.2020.18'
+citation: 'M. Keßeböhmer, J.D.M. Rademacher, D. Ulbrich. (2021). &quot;Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata.&quot; <i>Ergodic Theory and Dynamical Systems</i>. 41(5):1397-1430.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+In this paper we analyse the non-wandering set of one-dimensional Greenberg–Hastings cellular automaton models for excitable media with  excited and  refractory states and determine its (strictly positive) topological entropy. We show that it results from a Devaney chaotic closed invariant subset of the non-wandering set that consists of colliding and annihilating travelling waves, which is conjugate to a skew-product dynamical system of coupled shift dynamics. Moreover, we determine the remaining part of the non-wandering set explicitly as a Markov system with strictly less topological entropy that also scales differently for large .
