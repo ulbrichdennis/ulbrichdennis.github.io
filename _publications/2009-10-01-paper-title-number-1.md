@@ -2,9 +2,9 @@
 title: "Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
+excerpt: 'This paper is about the dynamics of a discrete model of excitable media and its ergodic properties.'
+date: 2021
+venue: 'Ergodic Theory and Dynamical Systems'
 paperurl: 'https://doi.org/10.1017/etds.2020.18'
 citation: 'M. Keßeböhmer, J.D.M. Rademacher, D. Ulbrich. (2021). &quot;Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata.&quot; <i>Ergodic Theory and Dynamical Systems</i>. 41(5):1397-1430.'
 ---
