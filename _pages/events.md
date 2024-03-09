@@ -4,9 +4,9 @@ title: "Events"
 permalink: /events/
 author_profile: true
 ---
-<h2> Future events</h2>
+<h2>Upcoming</h2>
  - 2024, Mar 25-27: [*Mathematics Münster Mid-term Conference*](https://www.uni-muenster.de/MathematicsMuenster/de/events/2024/MMmidterm.shtml), University of Münster, Germany
-<h2>Past events</h2>
+<h2>Past (selected)</h2>
 - 2020, Jan 23: *Bremen-Oldenburg Dynamics*, Jacobs University, Bremen, Germany
 - 2019, Dec 6: *4th Hanseatic Dynamical Systems Days*, Jacobs University Bremen, Germany
 - 2019, Sep 2-6: *Dynamics Days Europe 2019*, University of Rostock, Germany
