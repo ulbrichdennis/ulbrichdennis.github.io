@@ -1,7 +1,7 @@
 ---
 title: "Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2009-10-01-paper-title-number-2
 excerpt: 'This paper is about the dynamics of a discrete model of excitable media and its ergodic properties.'
 date: 2021-02-17
 venue: 'Ergodic Theory and Dynamical Systems'
