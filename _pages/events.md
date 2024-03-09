@@ -21,7 +21,7 @@ author_profile: true
     - Jun 29: [*1st Hanseatic Dynamical Systems Days*](https://sites.google.com/view/handsdays/home), University of Hamburg, Germany
     - Mar 12-16: [*6th Bremen Winter School and Symposium*](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems), University of Bremen, Germany
 - 2017
-    - Oct 4-6: *Workshop Analysis and PDE*, University of Hannover, Germany
+    - Oct 4-6: [*Workshop Analysis and PDE*](https://www.maphy.uni-hannover.de/de/news-veranstaltungen/math-conf/archive), University of Hannover, Germany
     - Mar 27-31: [*5th Bremen Winter School and Symposium*](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems), University of Bremen, Germany
 - 2016
     - Aug 28-Sep 2: [*Workshop Analysis and Applications of Localized Structures in Nonlinear Media*](https://www.lorentzcenter.nl/index.php?pntType=ConPagina&id=694&conBestandId=777&pntHandler=DownloadAction), Lorentz Center Leiden, Netherlands
