@@ -18,7 +18,7 @@ author_profile: true
     - Feb 2: *2nd Bremen-Oldenburg Analysis Seminar*, University of Oldenburg, Germany
     - Feb 28: *1st Bremen-Oldenburg Analysis Seminar*, University of Bremen, Germany
 - 2018
-    - Jun 29: *1st Hanseatic Dynamical Systems Days*, University of Hamburg, Germany
+    - Jun 29: [*1st Hanseatic Dynamical Systems Days*](https://sites.google.com/view/handsdays/home), University of Hamburg, Germany
     - Mar 12-16: [*6th Bremen Winter School and Symposium*](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems), University of Bremen, Germany
 - 2017
     - Oct 4-6: *Workshop Analysis and PDE*, University of Hannover, Germany
