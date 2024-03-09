@@ -3,7 +3,7 @@ title: "Weak and strong interaction of excitation kinks in scalar parabolic equa
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: 'This paper is about the dynamics of a PDE serving as a model for excitable media.'
-date: 2021
+date: 2021-04-17
 venue: 'Journal of Dynamics and Differential Equations'
 paperurl: 'https://doi.org/10.1007/s10884-021-10040-2'
 citation: 'A. Pauthier, J.D.M. Rademacher, D. Ulbrich.<br>
