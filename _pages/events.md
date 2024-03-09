@@ -24,7 +24,7 @@ author_profile: true
     - Oct 4-6: *Workshop Analysis and PDE*, University of Hannover, Germany
     - Mar 27-31: [*5th Bremen Winter School and Symposium*](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems), University of Bremen, Germany
 - 2016
-    - Aug 28-Sep 2: *Workshop Analysis and Applications of Localized Structures in Nonlinear Media*, Lorentz Center Leiden, Netherlands
+    - Aug 28-Sep 2: [*Workshop Analysis and Applications of Localized Structures in Nonlinear Media*](https://www.lorentzcenter.nl/index.php?pntType=ConPagina&id=694&conBestandId=777&pntHandler=DownloadAction), Lorentz Center Leiden, Netherlands
     - Mar 14-18: [*4th Bremen Winter School and Symposium*](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems), University of Bremen, Germany
 
 
