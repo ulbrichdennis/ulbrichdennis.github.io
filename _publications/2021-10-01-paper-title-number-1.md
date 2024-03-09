@@ -1,7 +1,7 @@
 ---
 title: "Ergodic theory of nonlinear waves in discrete and continuous excitable media"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-3
+permalink: /publication/2010-10-01-paper-title-number-1
 excerpt: 'Dissertation'
 date: 2021-09-01
 venue: 'Staats- und Universitätsbibliothek Bremen'
