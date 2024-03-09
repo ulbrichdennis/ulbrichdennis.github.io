@@ -42,7 +42,7 @@ I am interested both in theory and applications. In particular, I am dealing wit
 
  - D. Ulbrich.<br>
 **Ergodic theory of nonlinear waves in discrete and continuous excitable media**.<br>
-Dissertation, 2021 
+Dissertation, 2021 [[DOI]](https://media.suub.uni-bremen.de/handle/elib/5257) 
 
 
 
