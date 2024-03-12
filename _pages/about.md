@@ -10,7 +10,7 @@ I am a postdoctoral researcher at the [Institute for Analysis and Numerics](http
 
 Beforehand, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen, see [MGP](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=277103).
 
-Temporarily, I worked as a lecturer and worked in industry before returning to academic research.
+Temporarily, I worked as a lecturer and in industry before returning to academic research.
 <h2>Postal address</h2>
 University of Münster<br>
 Department of Mathematics<br>
