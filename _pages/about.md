@@ -6,7 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a postdoctoral researcher at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/index.shtml) of the University of Münster. Before, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen, see [MGP](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=277103).
+I am a postdoctoral researcher at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/index.shtml) of the University of Münster and did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen, see [MGP](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=277103).
+
+Temporarily, I also worked as a lecturer at Jacobs University Bremen and made some experiences in industry before returning to the academic world.
 <h2>Postal address</h2>
 University of Münster<br>
 Department of Mathematics<br>
