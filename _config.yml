@@ -140,8 +140,7 @@ analytics:
     tracking_id          :
 
 
-head_scripts:
-  - /assets/js/button.js
+
 
 # Reading Files
 include:
