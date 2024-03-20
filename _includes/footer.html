@@ -23,4 +23,7 @@
 </div>
 -->
 
-<div class="page__footer-copyright">Last modified: {{ site.time | date: '%D' '%Y' }} <br> &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }} 
+<div class="page__footer-copyright"><script>
+  let text = document.lastModified;
+  document.getElementById("demo").innerHTML = text;
+  </script><br>Last modified: {{ site.time | date: '%D' '%Y' }} <br> &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }} 
