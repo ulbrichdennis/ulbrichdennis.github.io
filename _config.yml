@@ -139,7 +139,8 @@ analytics:
   google:
     tracking_id          :
 
-
+head_scripts:
+  - /assets/js/mybutton.js
 
 
 # Reading Files
