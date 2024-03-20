@@ -140,6 +140,9 @@ analytics:
     tracking_id          :
 
 
+head_scripts:
+  - /assets/js/button.js
+
 # Reading Files
 include:
   - .htaccess
@@ -162,7 +165,6 @@ exclude:
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
-  - assets/js/button.js
   - config
   - gulpfile.js
   - log
