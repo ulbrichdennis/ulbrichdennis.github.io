@@ -22,8 +22,7 @@
   </ul>
 </div>
 -->
-
-<div class="page__footer-copyright"><p><script LANGUAGE="JavaScript">
+<p><script LANGUAGE="JavaScript">
   const month = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
   const day = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   update = new Date(document.lastModified)
@@ -35,4 +34,5 @@
   theMinutes = update.getMinutes()
   document.write("Last modified: " +  month[theMonth] + " " + theDate + ", " + theYear)
   </script> 
-  </p>&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+  </p>
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
