@@ -11,7 +11,7 @@ I am interested both in theory and applications. In particular, I am dealing wit
 <li>dynamical systems, ergodic theory,</li>
 <li>kinetic theory, entropy methods,</li>
 <li>the Boltzmann equation and its BGK-type approximations, models for chemical reactions,</li>
-<li>long-time behaviour of solutions, convergence to equilibrium, and</li>
+<li>long-time behaviour of solutions, convergence to equilibrium (hypocoercivity), and</li>
 <li>physical applications.</li>
 </ul>
 
