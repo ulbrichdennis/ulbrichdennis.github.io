@@ -14,8 +14,7 @@ author_profile: true
                       </header>
                       <ul class="toc__menu">
                                  <li><a href="#interests">Interests</a></li>
-                                 <li>Project participations</li>
-                                 <li><a href="#currentprojects">Current projects</a></li>
+                                  <li><a href="#currentprojects">Current projects</a></li>
                                  <li><a href="#pastprojects">Past projects</a></li>
                                  <li><a href="#publications">Publications</a></li>
                       </ul>
