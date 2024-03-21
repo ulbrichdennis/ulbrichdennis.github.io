@@ -4,6 +4,8 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
+<aside class="sidebar__right">
+           
 <h2>Interests</h2>
 I am interested both in theory and applications. In particular, I am dealing with
 <ul>
