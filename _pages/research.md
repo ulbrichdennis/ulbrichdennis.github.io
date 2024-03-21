@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
-<!--
+
 <aside class="sidebar__right ">
            <nav class="toc">
                       <header><h4 class="nav__title">
@@ -20,7 +20,7 @@ author_profile: true
                       </ul>
            </nav>
 </aside>
--->
+
            
 <h2>Interests</h2>
 I am interested both in theory and applications. In particular, I am dealing with
