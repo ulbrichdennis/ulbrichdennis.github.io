@@ -4,6 +4,9 @@
 
 .masthead {
   position: relative;
+  top: 0; /* Stick to the top of the page */
+  width: 100%; /* Take the full width of the viewport */
+  background-color: white; /* Set a background color if needed */
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
