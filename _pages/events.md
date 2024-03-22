@@ -5,8 +5,6 @@ permalink: /events/
 author_profile: true
 ---
 {% include toc %}
-1. [Upcoming](#upcoming)
-2. [Past](#past)
 
 <h2 id="upcoming">Upcoming</h2><hr>
  - 2024
