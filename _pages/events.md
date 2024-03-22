@@ -3,7 +3,7 @@ layout: archive
 title: "Events"
 permalink: /events/
 author_profile: true
-toc_lable: Contents
+toc_label: Contents
 ---
  {% include toc %} 
 
