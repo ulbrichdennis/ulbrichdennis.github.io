@@ -14,7 +14,7 @@ redirect_from:
                       </h4>
                       </header>
                       <ul class="toc__menu">
-                                  <li><a href="#about">About</a></li>
+                                  <li><a href="#about">Welcome!</a></li>
                                  <li><a href="#postal">Postal address</a></li>
                                   <li><a href="#office">Office</a></li>          
                       </ul>
