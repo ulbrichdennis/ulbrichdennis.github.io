@@ -4,19 +4,6 @@ title: "Events"
 permalink: /events/
 author_profile: true
 ---
-<aside class="sidebar__right ">
-           <nav class="toc">
-                      <header><h4 class="nav__title">
-                                 Contents
-                      </h4>
-                      </header>
-                      <ul class="toc__menu">
-                                 <li><a href="#upcoming">Upcoming</a></li>
-                                  <li><a href="#past">Past</a></li>
-                       </ul>
-           </nav>
-</aside>
-
 <h2 id="upcoming">Upcoming</h2>
  - 2024
     - [*Mathematics Münster Mid-term Conference*](https://www.uni-muenster.de/MathematicsMuenster/de/events/2024/MMmidterm.shtml), Mar 25-27, University of Münster, Germany
