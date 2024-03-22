@@ -5,7 +5,7 @@ permalink: /events/
 author_profile: true
 toc_label: Contents
 ---
- {% include toc %} 
+<!-- {% include toc %} -->
 
 <!-- <h2 id="upcoming">Upcoming</h2><hr> -->
 ## Upcoming 
