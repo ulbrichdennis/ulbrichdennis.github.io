@@ -9,7 +9,7 @@ author_profile: true
 <aside class="sidebar__right ">
            <nav class="toc">
                       <header><h4 class="nav__title">
-                                 On This Page
+                                 Contents
                       </h4>
                       </header>
                       <ul class="toc__menu">
