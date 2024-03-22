@@ -4,7 +4,7 @@ title: "Events"
 permalink: /events/
 author_profile: true
 ---
-<!-- {% include toc %} -->
+ {% include toc %} 
 
 <h2 id="upcoming">Upcoming</h2><hr>
  - 2024
