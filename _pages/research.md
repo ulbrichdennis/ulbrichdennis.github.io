@@ -36,7 +36,7 @@ I am interested both in theory and applications. In particular, I am dealing wit
 
 ## Publications
 ---
-<h3>Refereed journal articles</h3>
+### Refereed journal articles
 
 - A. Pauthier, J.D.M. Rademacher, D. Ulbrich.<br>
 **Weak and strong interaction of excitation kinks in scalar parabolic equations**.<br>
@@ -46,7 +46,7 @@ I am interested both in theory and applications. In particular, I am dealing wit
 **Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata**.<br>
 *Ergodic Theory and Dynamical Systems*. 2021;41(5):1397-1430 [[DOI]](https://doi.org/10.1017/etds.2020.18)
 
-<h3>Theses</h3>
+### Theses
 
  - D. Ulbrich.<br>
 **Ergodic theory of nonlinear waves in discrete and continuous excitable media**.<br>
