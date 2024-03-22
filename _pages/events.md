@@ -6,7 +6,8 @@ author_profile: true
 ---
  {% include toc %} 
 
-<h2 id="upcoming">Upcoming</h2><hr>
+<!-- <h2 id="upcoming">Upcoming</h2><hr> -->
+## Upcoming
  - 2024
     - [*Mathematics Münster Mid-term Conference*](https://www.uni-muenster.de/MathematicsMuenster/de/events/2024/MMmidterm.shtml), Mar 25-27, University of Münster, Germany
 <h2 id="past">Past (selected)</h2><hr>
