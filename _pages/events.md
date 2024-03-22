@@ -11,8 +11,8 @@ author_profile: true
                       </h4>
                       </header>
                       <ul class="toc__menu">
-                                 <li><a href="#upcoming">Upcoming events</a></li>
-                                  <li><a href="#past">Past events</a></li>
+                                 <li><a href="#upcoming">Upcoming</a></li>
+                                  <li><a href="#past">Past</a></li>
                        </ul>
            </nav>
 </aside>
