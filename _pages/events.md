@@ -4,10 +4,23 @@ title: "Events"
 permalink: /events/
 author_profile: true
 ---
-<h2>Upcoming</h2>
+<aside class="sidebar__right ">
+           <nav class="toc">
+                      <header><h4 class="nav__title">
+                                 Contents
+                      </h4>
+                      </header>
+                      <ul class="toc__menu">
+                                 <li><a href="#upcoming">Upcoming events</a></li>
+                                  <li><a href="#past">Past events</a></li>
+                       </ul>
+           </nav>
+</aside>
+
+<h2 id="upcoming">Upcoming</h2>
  - 2024
     - [*Mathematics Münster Mid-term Conference*](https://www.uni-muenster.de/MathematicsMuenster/de/events/2024/MMmidterm.shtml), Mar 25-27, University of Münster, Germany
-<h2>Past (selected)</h2>
+<h2 id="past">Past (selected)</h2>
 - 2020
     - *Bremen-Oldenburg Dynamics Seminar*, Jan 23, Jacobs University, Bremen, Germany 
 - 2019
