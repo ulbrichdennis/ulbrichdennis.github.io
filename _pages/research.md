@@ -4,7 +4,7 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-{% include toc %}
+<!-- {% include toc %} -->
 
 
            
