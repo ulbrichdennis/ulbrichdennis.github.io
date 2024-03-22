@@ -14,11 +14,11 @@ Temporarily, I worked as a lecturer at Jacobs University Bremen and also in indu
 University of Münster<br>
 Department of Mathematics<br>
 Institute for Analysis and Numerics<br>
-[Einsteinstr. 61](https://maps.app.goo.gl/ZqTvMLWmbqvH5zKY9)<br>
+Einsteinstr. 61<br>
 48149 Münster
 
 <h2 id="office">Office</h2>
-[Orléans-Ring 10](https://maps.app.goo.gl/vfcdXPwWCDYmbhgy5)<br>
+Orléans-Ring 10<br>
 Room 130.023<br>
 48149 Münster
 
