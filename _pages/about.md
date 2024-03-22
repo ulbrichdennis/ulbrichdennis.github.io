@@ -13,11 +13,11 @@ redirect_from:
                       </h4>
                       </header>
                       <ul class="toc__menu">
-                                 <li><a href="#teaching">About</a></li>
-                                  <li><a href="#supervision">Contace</a></li>
+                                 <li>About</a></li>
+                                  <li>Contact</a></li>
                                     <ul>
-                                      <li>Postal address</li>
-                                      <li>Office</li>
+                                      <li><a href="#postal">Postal address</a></li>
+                                      <li><a href="#office">Office</a></li>
                                     </ul>
                      </ul>
            </nav>
@@ -28,14 +28,14 @@ I am a postdoctoral researcher at the [Institute for Analysis and Numerics](http
 Beforehand, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen under the supervision of [Prof. J. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html) and [Prof. M. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer), see [MGP](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=277103).
 
 Temporarily, I worked as a lecturer at Jacobs University Bremen and also in industry.
-<h2>Postal address</h2>
+<h2 id="postal">Postal address</h2>
 University of Münster<br>
 Department of Mathematics<br>
 Institute for Analysis and Numerics<br>
 [Einsteinstr. 61](https://maps.app.goo.gl/ZqTvMLWmbqvH5zKY9)<br>
 48149 Münster
 
-<h2>Office</h2>
+<h2 id="office">Office</h2>
 [Orléans-Ring 10](https://maps.app.goo.gl/vfcdXPwWCDYmbhgy5)<br>
 Room 130.023<br>
 48149 Münster
