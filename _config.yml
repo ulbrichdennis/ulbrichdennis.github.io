@@ -119,9 +119,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "ulbrichdennis"
+  username               : #"ulbrichdennis"
 instagram:
-  username               : "dennisulbrich"
+  username               : #"dennisulbrich"
 facebook:
   username               :
   app_id                 :
