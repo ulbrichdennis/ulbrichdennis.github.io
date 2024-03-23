@@ -24,6 +24,6 @@ author_profile: true
 ---
 <h3>University of Bremen, 2017-21</h3>
 <ul>
-<li>Mathematical collection</a> and its <a href="https://www.uni-bremen.de/appanalysis/mathematical-collection/">website</a></li>
+<li>Mathematical collection and its <a href="https://www.uni-bremen.de/appanalysis/mathematical-collection/">website</a></li>
 </ul>
 
