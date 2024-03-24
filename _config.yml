@@ -56,7 +56,7 @@ author:
   keybase          : # Username
   instagram        : #"dennisulbrich"
   lastfm           : # Username
-  linkedin         : "ulbrichdennis"
+  linkedin         : #"ulbrichdennis"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -118,8 +118,10 @@ yandex_site_verification :
 
 
 # Social Sharing
-twitter:
+linkedin:
   username               : "ulbrichdennis"
+twitter:
+  username               : #"ulbrichdennis"
 instagram:
   username               : #"dennisulbrich"
 facebook:
