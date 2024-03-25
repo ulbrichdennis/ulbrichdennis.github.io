@@ -121,9 +121,9 @@ yandex_site_verification :
 linkedin:
   username               : #"ulbrichdennis"
 twitter:
-  username               : "ulbrichdennis"
+  username               : #"ulbrichdennis"
 instagram:
-  username               : "dennisulbrich"
+  username               : #"dennisulbrich"
 facebook:
   username               :
   app_id                 :
