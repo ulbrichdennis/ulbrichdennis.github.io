@@ -16,7 +16,6 @@ toc_label: Contents
 ## Past (selected)
 ---
 - ### 2024
-    - # 2024
     - [*Mathematics Münster Mid-term Conference*](https://www.uni-muenster.de/MathematicsMuenster/de/events/2024/MMmidterm.shtml), Mar 25-27, University of Münster, Germany
 - ### 2020
     - *Bremen-Oldenburg Dynamics Seminar*, Jan 23, Jacobs University, Bremen, Germany 
