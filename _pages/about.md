@@ -4,8 +4,6 @@ title: "About"
 author_profile: true
 redirect_from: 
   - /about/
-header:
-  image: /images/easter.jpg
 ---
 
 
