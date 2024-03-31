@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "HAPPY EASTER!"
+title                    : "About"
 title_separator          : "-"
 name                     : &name "Dennis Ulbrich"
 description              : &description "This is my very personal website."
@@ -21,7 +21,7 @@ repository               : "ulbrichdennis/ulbrichdennis.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "easter.jpg"
+  avatar           : "du_portrait.png"
   name             : "Dr. Dennis Ulbrich"
   pronouns         : # example: "she/her"  
   bio              : Postdoc in Mathematics at University of Münster, Germany
