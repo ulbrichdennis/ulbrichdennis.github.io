@@ -4,7 +4,10 @@ title: "About"
 author_profile: true
 redirect_from: 
   - /about/
+  header:
+  image: /images/easter.jpg
 ---
+
 
 I am a postdoctoral researcher at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/index.shtml) of the University of Münster. My supervisor is [Prof. M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml).
 
