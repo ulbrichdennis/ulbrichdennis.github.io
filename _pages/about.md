@@ -27,7 +27,7 @@ Orléans-Ring 10<br>
 Room 130.023<br>
 48149 Münster
 
-## Phone (private)
+## Phone (non-corporate)
 +49 (0) 4240 952139
 
 
