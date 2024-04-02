@@ -45,16 +45,8 @@
   }
 
   img {
-    max-width: 200px;
-    border-radius: 0%;
-
-    @include breakpoint($large) {
-      padding: 0px;
-      border: 0px solid $border-color;
-    }
+    width: 100%;
   }
- 
-  
 }
 
 .sidebar__right {
