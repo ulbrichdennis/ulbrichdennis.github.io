@@ -52,9 +52,10 @@ $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
+$evenlighter-gray           : mix(#fff, $gray, 95%);
 
 $body-color                 : #fff;
-$background-color           : #fff;
+$background-color           : $evenlighter-gray;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
