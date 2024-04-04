@@ -21,7 +21,7 @@ repository               : "ulbrichdennis/ulbrichdennis.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "du_portrait.png"
+  avatar           : "DUportrait.png"
   name             : "Dr. Dennis Ulbrich"
   pronouns         : # example: "she/her"  
   bio              : Postdoc in Mathematics at University of Münster, Germany
