@@ -4,7 +4,7 @@ title: "Other"
 permalink: /other/
 author_profile: true
 ---
-<!-- {% include toc %} -->
+
 
 ## Teaching
 ---
