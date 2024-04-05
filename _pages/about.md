@@ -2,8 +2,8 @@
 permalink: /
 title: "About"
 header:
-    overlay_image: /images/joel-filipe-small-warmer.jpg
-    caption: "Photo by [Joel Filipe](https://unsplash.com/@joelfilip) on [Unsplash](https://unsplash.com)"
+    overlay_image: /images/headimg.jpg
+    caption: "Photo by me"
 author_profile: true
 redirect_from: 
   - /about/
