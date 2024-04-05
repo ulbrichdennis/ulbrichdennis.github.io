@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Research"
 toc: true
 toc_label: "Content"
