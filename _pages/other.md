@@ -9,8 +9,8 @@ author_profile: true
 ## Teaching
 ---
 - Jacobs University Bremen, spring semester 2022:
-  - *Finite Mathematics* (undergraduate lecture; basics in linear algebra and stochastics),
-  - *Introduction to Dynamical Systems* (undergraduate seminar)
+  - **Finite Mathematics** (undergraduate lecture; basics in linear algebra and stochastics),
+  - **Introduction to Dynamical Systems** (undergraduate seminar)
 
 
 ## Supervision
@@ -22,6 +22,6 @@ Co-supervision of a [student research project]("https://www.uni-bremen.de/en/fb3
 ## Maintenance
 ---
 - University of Bremen, 2017-21:<br>
-Mathematical collection and its [website]("https://www.uni-bremen.de/appanalysis/mathematical-collection/")
+**Mathematical collection** and its [website]("https://www.uni-bremen.de/appanalysis/mathematical-collection/")
 
 
