@@ -1,11 +1,10 @@
 ---
-permalink: /about/
+permalink: /
 title: "About"
 author_profile: true
-header:
-    overlay_image: /images/headimg.jpg
 redirect_from: 
   - /about/
+  - /about.html
 ---
 
 
