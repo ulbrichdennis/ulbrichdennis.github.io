@@ -20,10 +20,10 @@ I am interested both in theory and applications. In particular, I am dealing wit
 <li>physical applications.</li>
 </ul>
 
-## Projects
+## Project participations
 ---
-- **Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation** (*DFG project number [456849348](https://gepris.dfg.de/gepris/projekt/456849348?language=en))*
-- **Ergodic theory of nonlinear waves in discrete and continuous excitable media**(*DFG project number [384027439](https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2))* 
+- **Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation** (*DFG project number [456849348](https://gepris.dfg.de/gepris/projekt/456849348?language=en), since 2021)*
+- **Ergodic theory of nonlinear waves in discrete and continuous excitable media**(*DFG project number [384027439](https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2), 2017-2021)* 
 
 ## Publications
 ---
