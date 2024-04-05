@@ -2,9 +2,8 @@
 permalink: /
 title: "About"
 header:
-    overlay_image: "/images/headimg.jpg"
-    caption: "Photo by me"
-author_profile: true
+    overlay_image: /images/headimg.jpg
+    author_profile: true
 redirect_from: 
   - /about/
 ---
