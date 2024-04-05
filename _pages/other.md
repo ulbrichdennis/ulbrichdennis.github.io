@@ -21,8 +21,7 @@ Co-supervision of a [student research project]("https://www.uni-bremen.de/en/fb3
   
 ## Maintenance
 ---
-<h3>University of Bremen, 2017-21</h3>
-<ul>
-<li>Mathematical collection and its <a href="https://www.uni-bremen.de/appanalysis/mathematical-collection/">website</a></li>
-</ul>
+- University of Bremen, 2017-21<br>
+Mathematical collection and its [website]("https://www.uni-bremen.de/appanalysis/mathematical-collection/")
+
 
