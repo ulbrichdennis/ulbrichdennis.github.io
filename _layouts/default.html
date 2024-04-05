@@ -15,9 +15,9 @@ layout: compress
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
-
+ {% include toc.html html=content h_min=2 h_max=3 class="toc-list" item_class="toc-item" sanitize=true %}
     {{ content }}
-    {% include toc.html html=content %}
+  
 
     <div class="page__footer">
       <footer>
