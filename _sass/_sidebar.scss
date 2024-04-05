@@ -89,8 +89,8 @@
     border-radius: 0%;
 
     @include breakpoint($large) {
-      padding: 1px;
-      border: 0px solid $border-color;
+      padding: 5px;
+      border: 1px solid $border-color;
     }
   }
 
