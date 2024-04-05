@@ -34,12 +34,12 @@ I am interested both in theory and applications. In particular, I am dealing wit
 ### Refereed journal articles
 
 - A. Pauthier, J.D.M. Rademacher, D. Ulbrich.<br>
-**Weak and strong interaction of excitation kinks in scalar parabolic equations**.<br>
-*J Dyn Diff Equat*. Published: 30 July 2021; Volume 35, pages 2199-2235, (2023) [[DOI]](https://doi.org/10.1007/s10884-021-10040-2)
+*Weak and strong interaction of excitation kinks in scalar parabolic equations*.<br>
+J Dyn Diff Equat. Published: 30 July 2021; Volume 35, pages 2199-2235, (2023) [[DOI]](https://doi.org/10.1007/s10884-021-10040-2)
 
  - M. Keßeböhmer, J.D.M. Rademacher, D. Ulbrich.<br>
-**Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata**.<br>
-*Ergodic Theory and Dynamical Systems*. 2021;41(5):1397-1430 [[DOI]](https://doi.org/10.1017/etds.2020.18)
+*Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata*.<br>
+Ergodic Theory and Dynamical Systems. 2021;41(5):1397-1430 [[DOI]](https://doi.org/10.1017/etds.2020.18)
 
 ### Theses
 
