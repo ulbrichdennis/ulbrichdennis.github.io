@@ -1,6 +1,8 @@
 ---
 layout: archive
 title: "Research"
+toc: true
+toc_label: "Content"
 permalink: /research/
 author_profile: true
 ---
