@@ -16,7 +16,7 @@ layout: compress
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    {{ content }}
+    {% include toc.html html=content %}  <!-- {{ content }}  -->
 
     <div class="page__footer">
       <footer>
