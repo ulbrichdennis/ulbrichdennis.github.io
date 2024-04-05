@@ -4,7 +4,7 @@ permalink: /
 title: "About"
 author_profile: true
 header:
-    image: /assets/images/headimg.jpg
+    image: /images/headimg.jpg
     caption: "Photo by DU"
 redirect_from: 
   - /about/
