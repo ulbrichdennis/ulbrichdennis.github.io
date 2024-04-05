@@ -1,11 +1,11 @@
 ---
-layout: single
 permalink: /about/
-title: About
+title: "About"
 author_profile: true
 header:
     overlay_image: /images/headimg.jpg
-author_profile: true
+redirect_from: 
+  - /about/
 ---
 
 
