@@ -1,6 +1,8 @@
 ---
-permalink: /
-title: "About"
+layout: single
+permalink: /about/
+title: About
+author_profile: true
 header:
     overlay_image: /images/headimg.jpg
     author_profile: true
