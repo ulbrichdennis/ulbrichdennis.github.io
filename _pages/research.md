@@ -35,7 +35,7 @@ I am interested both in theory and applications. In particular, I am dealing wit
 
 - A. Pauthier, J.D.M. Rademacher, D. Ulbrich.<br>
 **Weak and strong interaction of excitation kinks in scalar parabolic equations**.<br>
-*Journal of Dynamics and Differential Equations*. Published: 30 July 2021; Volume 35, pages 2199-2235, (2023) [[DOI]](https://doi.org/10.1007/s10884-021-10040-2)
+*J Dyn Diff Equat*. Published: 30 July 2021; Volume 35, pages 2199-2235, (2023) [[DOI]](https://doi.org/10.1007/s10884-021-10040-2)
 
  - M. Keßeböhmer, J.D.M. Rademacher, D. Ulbrich.<br>
 **Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata**.<br>
