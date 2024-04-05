@@ -1,11 +1,7 @@
 ---
-layout: single
 permalink: /
 title: "About"
 author_profile: true
-header:
-    image: /images/headimg.jpg
-    caption: "Photo by DU"
 redirect_from: 
   - /about/
   - /about.html
