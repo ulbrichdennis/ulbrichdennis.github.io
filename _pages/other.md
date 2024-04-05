@@ -9,8 +9,8 @@ author_profile: true
 ## Teaching
 ---
 - Jacobs University Bremen, spring semester 2022
- - **Finite Mathematics** (undergraduate lecture; basics in linear algebra and stochastics
- - **Introduction to dynamical systems** (undergraduate seminar)
+  - **Finite Mathematics** (undergraduate lecture; basics in linear algebra and stochastics
+  - **Introduction to dynamical systems** (undergraduate seminar)
 
 
 ## Supervision
