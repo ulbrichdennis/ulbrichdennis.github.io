@@ -44,7 +44,7 @@ Ergodic Theory and Dynamical Systems. 2021;41(5):1397-1430 [[DOI]](https://doi.o
 ### Theses
 
  - D. Ulbrich.<br>
-**Ergodic theory of nonlinear waves in discrete and continuous excitable media**.<br>
+*Ergodic theory of nonlinear waves in discrete and continuous excitable media*.<br>
 Dissertation, 2021 [[DOI]](https://media.suub.uni-bremen.de/handle/elib/5257) 
 
 
