@@ -2,6 +2,9 @@
 permalink: /
 title: "About"
 author_profile: true
+header:
+    overlay_image: /assets/images/headimg.jpg
+    caption: "Photo by DU"
 redirect_from: 
   - /about/
   - /about.html
