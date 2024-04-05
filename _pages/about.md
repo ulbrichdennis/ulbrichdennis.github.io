@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 permalink: /
 title: "About"
 author_profile: true
@@ -9,6 +9,9 @@ header:
 redirect_from: 
   - /about/
   - /about.html
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
 ---
 
 
