@@ -8,7 +8,8 @@ redirect_from:
 ---
 
 
-Postdoctoral researcher, [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/index.shtml), [University of Münster](https://www.uni-muenster.de/en/) 
+ - Postdoctoral researcher, [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/index.shtml), [University of Münster](https://www.uni-muenster.de/en/) 
+   - supervisor: Prof. M. Pirner
 
 Beforehand, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen under the supervision of [Prof. J. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html) and [Prof. M. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer), see [MGP](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=277103).
 
