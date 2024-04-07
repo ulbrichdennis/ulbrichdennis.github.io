@@ -20,7 +20,7 @@ Co-supervision of a [student research project]("https://www.uni-bremen.de/en/fb3
 
 ## Organisation
 ---
-- Involved in organising a [series of schools](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems) on, e.g.,  dynamical systems
+- Involved in organising a [series of schools](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems) in Bremen on, e.g.,  dynamical systems
 
 ## Maintenance
 ---
