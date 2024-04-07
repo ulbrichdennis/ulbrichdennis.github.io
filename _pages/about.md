@@ -11,7 +11,7 @@ I am a postoctoral researcher at the [Institute for Analysis and Numerics](https
    
 Beforehand, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen, see [MGP](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=277103).
 
-Temporarily, I worked as a lecturer at Jacobs University Bremen and also in industry.
+Temporarily, I worked as a lecturer and also in industry.
 <!-- <h2 id="postal">Postal address</h2> -->
 ## Postal address
 
