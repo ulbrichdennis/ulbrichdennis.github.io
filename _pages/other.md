@@ -24,4 +24,4 @@ Mathematical collection and its [website]("https://www.uni-bremen.de/appanalysis
 ## Teaching
 ---
 - Spring 2022:<br>
-Lecturer for undergraduate courses  
+Lecturer for undergraduate mathematical courses  
