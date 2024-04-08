@@ -8,7 +8,7 @@ author_profile: true
 
 ## Teaching
 ---
-- Jacobs University Bremen, spring 2022:
+- Jacobs University Bremen (now Constructor University), spring 2022:
   - Finite Mathematics (undergraduate lecture),
   - Introduction to Dynamical Systems (undergraduate seminar)
 
