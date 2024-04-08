@@ -23,5 +23,4 @@ Mathematical collection and its [website]("https://www.uni-bremen.de/appanalysis
 
 ## Teaching
 ---
-- Spring 2022:<br>
-Lecturer for undergraduate Mathematics (basics in linear algebra, stochastics and dynamical systems)
+I have some experience in lecturing undergraduate courses (basics in linear algebra, stochastics etc.).
