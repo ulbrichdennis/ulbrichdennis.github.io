@@ -23,7 +23,7 @@ Mathematical collection and its [website]("https://www.uni-bremen.de/appanalysis
 
 ## Teaching 
 ---
-- Jacobs University Bremen, spring semester 2022 (first half):
+- Jacobs University Bremen, spring semester 2022 (first half only):
   - Finite Mathematics (undergraduate lecture),
   - Introduction to Dynamical Systems (proseminar)
 
