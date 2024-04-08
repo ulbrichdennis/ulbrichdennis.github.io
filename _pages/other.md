@@ -23,5 +23,6 @@ Mathematical collection and its [website]("https://www.uni-bremen.de/appanalysis
 
 ## Teaching
 ---
-- Some experience in lecturing undergraduate courses:<br>
-Basics in linear algebra, stochastics etc. 
+- Jacobs University Bremen, spring semester 2022 (1st half):
+  - Finite Mathematics (undergraduate lecture) 
+  - Introduction to Dynamical Systems (proseminar)
