@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a postdoctoral researcher at the Institute for Analysis and Numerics of the University of Münster in Germany. My supervisor is Prof. Dr. Marlies Pirner.
+I am a postdoctoral researcher at the Institute for Analysis and Numerics of the University of Münster, Germany. My supervisor is Prof. Dr. Marlies Pirner.
 
 Before, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen under the supervision of Prof. Dr. Jens Rademacher and Prof. Dr. Marc Keßeböhmer.
 
