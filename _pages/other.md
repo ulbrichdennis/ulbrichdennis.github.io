@@ -21,9 +21,9 @@ Involved in organising a [series of schools](https://www.uni-bremen.de/dynamical
 - University of Bremen, 2017-21:<br>
 Mathematical collection and its [website]("https://www.uni-bremen.de/appanalysis/mathematical-collection/")
 
-## Teaching
+## Teaching (
 ---
-- Jacobs University Bremen, spring 2022:
-  - Finite Mathematics (undergraduate lecture),
-  - Introduction to Dynamical Systems (undergraduate seminar)
+- Jacobs University Bremen (undergraduate level), spring 2022:
+  - Finite Mathematics,
+  - Introduction to Dynamical Systems
 
