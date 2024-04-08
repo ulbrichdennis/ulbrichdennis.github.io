@@ -6,13 +6,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-- Since Jun 2023: Postoctoral researcher, *[Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/index.shtml), University of Münster*
-  - Supervisor: Prof. Dr. Marlies Pirner
+I am a postdoctoral researcher at the Institute for Analysis and Numerics of the University of Münster in Germany. My supervisor is Prof. Dr. Marlies Pirner.
 
-- Aug 2021: PhD (Dr. rer. nat. in Mathematics), *University of Bremen*, see [MGP](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=277103)
-  - Supervisors: Prof. Dr. Jens Rademacher, Prof. Dr. Marc Keßeböhmer
+Before, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen under the supervision of Prof. Dr. Jens Rademacher and Prof. Dr. Marc Keßeböhmer.
 
-- Temporarily, I worked as a lecturer and also in industry.
+Meanwhile, I worked as a lecturer and in industry.
 <!-- <h2 id="postal">Postal address</h2> -->
 ## Postal address
 
