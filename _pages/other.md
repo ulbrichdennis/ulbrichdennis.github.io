@@ -23,5 +23,5 @@ Mathematical collection and its [website]("https://www.uni-bremen.de/appanalysis
 
 ## Teaching
 ---
-I have some experience in lecturing undergraduate courses on, e.g.,<br>
-basics in linear algebra, stochastics and dynamical systems. 
+- Some experience in lecturing undergraduate courses:<br>
+basics in linear algebra, stochastics etc. 
