@@ -6,13 +6,6 @@ author_profile: true
 ---
 
 
-## Teaching
----
-- Jacobs University Bremen (now Constructor University), spring 2022:
-  - Finite Mathematics (undergraduate lecture),
-  - Introduction to Dynamical Systems (undergraduate seminar)
-
-
 ## Supervision
 ---
 - University of Bremen, 2020-21:<br>
@@ -28,4 +21,9 @@ Involved in organising a [series of schools](https://www.uni-bremen.de/dynamical
 - University of Bremen, 2017-21:<br>
 Mathematical collection and its [website]("https://www.uni-bremen.de/appanalysis/mathematical-collection/")
 
+## Teaching
+---
+- Jacobs University Bremen, spring 2022:
+  - Finite Mathematics (undergraduate lecture),
+  - Introduction to Dynamical Systems (undergraduate seminar)
 
