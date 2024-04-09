@@ -10,7 +10,7 @@ I am a postdoctoral researcher at the [Institute for Analysis and Numerics](http
 
 Before, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen, see [MGP](https://www.mathgenealogy.org/id.php?id=277103).
 
-Meanwhile, I worked as a lecturer and also in industry.
+Meanwhile, I worked as a lecturer for undergraduates and also in industry.
 <!-- <h2 id="postal">Postal address</h2> -->
 ## Postal address
 
