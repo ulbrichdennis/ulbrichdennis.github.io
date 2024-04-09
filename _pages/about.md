@@ -13,7 +13,6 @@ Before, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen,
 Meanwhile, I worked as a lecturer for undergraduates and also in industry.
 <!-- <h2 id="postal">Postal address</h2> -->
 ## Postal address
-
 University of Münster<br>
 Department of Mathematics<br>
 Institute for Analysis and Numerics<br>
@@ -25,6 +24,9 @@ Einsteinstr. 61<br>
 Orléans-Ring 10<br>
 Room 130.023<br>
 48149 Münster
+
+## Phone
++49 (0) 4240 952139
 
 
 
