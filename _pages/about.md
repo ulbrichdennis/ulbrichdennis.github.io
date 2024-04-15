@@ -24,7 +24,6 @@ Einsteinstr. 61<br>
 Orléans-Ring 10<br>
 Room 130.023<br>
 48149 Münster<br>
-
 Phone (WFH): 04240 952139
 
 
