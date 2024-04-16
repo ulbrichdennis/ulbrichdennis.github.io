@@ -38,7 +38,7 @@
       {% endif %}
       {% if author.phone %}
        <li><a href="tel:{{ author.phone }}"><i class="fa fa-phone" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].phone_label | default: "Phone" }}</a></li>
-
+      {% endif %}
       <!-- Font Awesome and Academicons icons / Academic websites -->
       {% if author.arxiv %}
         <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
