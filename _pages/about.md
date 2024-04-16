@@ -25,8 +25,6 @@ Orléans-Ring 10<br>
 Room 130.023<br>
 48149 Münster<br>
 
-## Phone
-<img src='https://MailPNG.de?string=04240 952139&size=5'>
 
 
 
