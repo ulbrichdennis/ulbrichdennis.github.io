@@ -25,7 +25,7 @@ Orléans-Ring 10<br>
 Room 130.023<br>
 48149 Münster<br>
 
-Phone (WFH): +49 (0) 4240-952139.
+Phone: +49 4240 952139
 
 
 
