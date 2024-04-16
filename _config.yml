@@ -25,8 +25,8 @@ author:
   name             : "Dr. Dennis Ulbrich"
   pronouns         : # example: "she/her"  
   bio              : Postdoc in Mathematics at University of Münster, Germany
-  location         : "Münster"
-  employer         : "University of Münster"
+  location         : #"Münster"
+  employer         : #"University of Münster"
   uri              : # URL
   email            : "dennis.ulbrich@uni-muenster.de" 
   phone            : "+494240952139"
