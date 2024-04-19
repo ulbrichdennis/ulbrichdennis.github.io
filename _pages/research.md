@@ -31,6 +31,10 @@ I am interested both in theory and applications. In particular, I am dealing wit
 
 ## Publications
 ---
+### In preparation
+
+- *Discrete hypocoercivity for a nonlinear generation-recombination model*, with L. Liu and M. Pirner
+
 ### Refereed journal articles
 
 - A. Pauthier, J.D.M. Rademacher, D. Ulbrich.<br>
