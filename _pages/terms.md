@@ -11,6 +11,6 @@ title: "Disclosure"
   48149 M&uuml;nster</p>
   
   <h3>Contact</h3>
-  <p><strong>Email:</strong> <img src='https://MailPNG.de?string=dennis.ulbrich(X)uni-muenster.de&size=5'></p>
+  <p><strong>Email:</strong> <img src='https://MailPNG.de?string=ulbrich.dennis(X)t-online.de&size=5'></p>
   <p><strong>Source:</strong> <a href="https://www.e-recht24.de">https://www.e-recht24.de</a></p>
   
