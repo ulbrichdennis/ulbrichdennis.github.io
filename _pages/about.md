@@ -26,9 +26,7 @@ Room 130.023<br>
 48149 Münster
 
 
-<div style="width: auto !important; min-width: 375px; max-width: 415px; height: 415px;">
-<iframe style="width: 100%; height: 100%;" frameborder="0" scrolling="no" src="https://www.stadtradeln.de/fileadmin/radelkalender/embed/radelmeter-team.php?sr_team_id=10896&L=0"></iframe>
-</div>
+
  
 
 
