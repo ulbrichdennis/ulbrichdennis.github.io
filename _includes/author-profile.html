@@ -34,7 +34,7 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fa fa-envelope-square icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Send an email" }}</a></li>
+        <li><a href="mailto:{{ author.email }}"><i class="fa fa-envelope-square icon-pad-right" aria-hidden="true"></i>Email</a></li>
       {% endif %}
       {% if author.phone %}
        <li><a href="tel:{{ author.phone }}"><i class="fa-solid fa-square-phone icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].phone_label | default: "Phone" }}</a></li>
