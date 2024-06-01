@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral researcher at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/index.shtml) of the University of Münster. My supervisor is [Prof. Dr. M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml).
+Until May 31, 2024, I was a postdoctoral researcher at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/index.shtml) of the University of Münster. My supervisor is [Prof. Dr. M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml).
 
 Before, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen, see [MGP](https://www.mathgenealogy.org/id.php?id=277103).
 
