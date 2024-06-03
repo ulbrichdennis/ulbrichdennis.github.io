@@ -14,11 +14,11 @@ Before, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen,
 Meanwhile, I worked as a lecturer for undergraduates and also in industry.
 <!-- <h2 id="postal">Postal address</h2> -->
 ## Postal address
-tba
+outdated
 
 <!-- <h2 id="office">Office</h2> -->
 ## Office
-tba
+outdated
 
 
 
