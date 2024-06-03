@@ -14,7 +14,7 @@ Before, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen,
 Meanwhile, I worked as a lecturer for undergraduates and also in industry.
 <!-- <h2 id="postal">Postal address</h2> -->
 ## Postal address
-University of Münster<br>
+<del>University of Münster<br></del>
 Department of Mathematics<br>
 Institute for Analysis and Numerics<br>
 Einsteinstr. 61<br>
