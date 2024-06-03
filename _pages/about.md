@@ -15,16 +15,16 @@ Meanwhile, I worked as a lecturer for undergraduates and also in industry.
 <!-- <h2 id="postal">Postal address</h2> -->
 ## Postal address
 <del>University of Münster<br></del>
-Department of Mathematics<br>
-Institute for Analysis and Numerics<br>
-Einsteinstr. 61<br>
+<del>Department of Mathematics<br></del>
+<del>Institute for Analysis and Numerics<br></del>
+<del>Einsteinstr. 61<br></del>
 48149 Münster
 
 <!-- <h2 id="office">Office</h2> -->
 ## Office
-Orléans-Ring 10<br>
-Room 130.023<br>
-48149 Münster
+<del>Orléans-Ring 10<br></del>
+<del>Room 130.023<br></del>
+<del>48149 Münster</del>
 
 
 
