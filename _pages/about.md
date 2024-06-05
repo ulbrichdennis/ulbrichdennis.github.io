@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 <p style="color:red">I am looking for a position in Mathematics or a related field as
-<ul>
+<ul style="color:red">
 <li>postdoc, and/ or</li>
 <li>lecturer.</li>
 </ul>
