@@ -12,7 +12,7 @@ author_profile: true
 ---
 
 <ul>
-<li>Gewöhnliche und partielle Differenzialgleichungen und deren Dynamik</li>
+<li>Gewöhnliche und partielle Differentialgleichungen und deren Dynamik</li>
 <li>Dynamische Systeme, Ergodentheorie</li>
 <li>Kinetische Theorie, Entropiemethoden</li>
 <li>Boltzmanngleichung und ihre BGK-artigen Approximationen, Modelle für chemische Reaktionen</li>
