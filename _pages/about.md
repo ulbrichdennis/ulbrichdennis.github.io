@@ -6,25 +6,25 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p style="color:red">I am looking for a position in Mathematics or a related field as
+<p style="color:red">Aktuell suche ich eine Position als
 <ul style="color:red">
-<li>postdoc, and/ or</li>
-<li>lecturer.</li>
+<li>Postdoc/ wissenschaflicher Mitarbeiter in Mathematik bzw. einer verwandten Fachrichtung und/oder</li>
+<li>Dozent in Mathematik.</li>
 </ul>
 </p>
 
-Until May 31, 2024, I was a postdoctoral researcher at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/index.shtml) of the University of Münster. My supervisor is [Prof. Dr. M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml).
+Bis zum 31.5.2024 war ich als Postdoc am [Institut für Analysis und Numerik](https://www.uni-muenster.de/AMM/index.shtml) an der Universität Münster unter der Leitung von [Prof. Dr. M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml) beschäftigt.
 
-Before, I did my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen, see [MGP](https://www.mathgenealogy.org/id.php?id=277103).
+Zuvor habe ich an der Universität Bremen in Mathematik zum Dr. rer. nat. promoviert, s. [MGP](https://www.mathgenealogy.org/id.php?id=277103).
 
-Meanwhile, I worked as a lecturer for undergraduates and also in industry.
+Zwischenzeitlich war ich als Dozent in Mathematik tätig und habe auch in der Industrie gearbeitet.
 <!-- <h2 id="postal">Postal address</h2> -->
 ## Postal address
-no longer up to date
+nicht länger aktuell
 
 <!-- <h2 id="office">Office</h2> -->
 ## Office
-no longer up to date
+nicht länger aktuell
 
 
 
