@@ -17,7 +17,7 @@ Bis zum 31.5.2024 war ich als Postdoc am [Institut für Analysis und Numerik](ht
 
 Zuvor habe ich an der Universität Bremen in Mathematik zum Dr. rer. nat. promoviert, s. [MGP](https://www.mathgenealogy.org/id.php?id=277103).
 
-Zwischenzeitlich war ich als Dozent in Mathematik tätig und habe auch in der Industrie gearbeitet.
+Zudem war ich als Dozent tätig und habe auch in der Industrie gearbeitet.
 <!-- <h2 id="postal">Postal address</h2> -->
 ## Postal address
 nicht länger aktuell
