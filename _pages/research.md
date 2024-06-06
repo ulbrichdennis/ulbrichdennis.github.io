@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research"
+title: "Forschung"
 permalink: /research/
 author_profile: true
 ---
@@ -8,35 +8,35 @@ author_profile: true
 
 
            
-## Interests
+## Forschungsinteressen
 ---
-I am interested both in theory and applications. In particular, I am dealing with
+Ich interessiere mich für Theorie und Anwendungen, insbesondere für
 <ul>
-<li>(dynamics of) ordinary and partial differential equations,</li>
-<li>dynamical systems, ergodic theory,</li>
-<li>kinetic theory, entropy methods,</li>
-<li>the Boltzmann equation and its BGK-type approximations, models for chemical reactions,</li>
-<li>long-time behaviour of solutions, convergence to equilibrium (hypocoercivity), and</li>
-<li>physical applications.</li>
+<li>gewöhnliche und partielle Differenzialgleichungen und ihre Dynamik,</li>
+<li>dynamische Systeme, Ergodentheorie,</li>
+<li>kinetische Theorie, Entropiemethoden</li>
+<li>die Boltzmanngleichung und ihre BGK-artigen Approximationen, Modelle für chemische Reaktionen,</li>
+<li>Langzeitverhalten von Lösungen, Konvergenz zum Gleichgewicht (Hypokoerzivität) und</li>
+<li>physikalische Anwendungen.</li>
 </ul>
 
-## Project participations
+## Projektteilnahme
 ---
-- DFG project number [456849348](https://gepris.dfg.de/gepris/projekt/456849348?language=en), participating since 6/2023:<br>
+- DFG-Projekt Nr. [456849348](https://gepris.dfg.de/gepris/projekt/456849348?language=en), Teilnahme seit Juni 2023:<br>
 *Modeling and mathematical description of concrete physical applications in the <br>
  context of kinetic theory using the Bathnagar-Gross-Krook equation*
-- DFG project number [384027439](https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2), 2017-2021:<br>
+- DFG-Projekt Nr. [384027439](https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2), 2017-2021:<br>
 *Ergodic theory of nonlinear waves in discrete and continuous excitable media* 
  
 
-## Publications
+## Veröffentlichungen
 ---
-### In progress
+### In Bearbeitung
 
 - *Discrete hypocoercivity for a nonlinear generation-recombination model*.<br>
 Joint work with [L. Liu](https://www.math.cuhk.edu.hk/~lliu/) and [M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)
 
-### Refereed journal articles
+### Artikel in Zeitschriften 
 
 - A. Pauthier, J.D.M. Rademacher, D. Ulbrich.<br>
 *Weak and strong interaction of excitation kinks in scalar parabolic equations*.<br>
@@ -46,7 +46,7 @@ J Dyn Diff Equat. Published: 30 July 2021; Volume 35, pages 2199-2235, (2023) [[
 *Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata*.<br>
 Ergodic Theory and Dynamical Systems. 2021;41(5):1397-1430 [[DOI]](https://doi.org/10.1017/etds.2020.18)
 
-### Theses
+### Graduierungsarbeiten
 
  - D. Ulbrich.<br>
 *Ergodic theory of nonlinear waves in discrete and continuous excitable media*.<br>
