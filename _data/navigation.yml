@@ -1,9 +1,9 @@
 # main links links
 main:
-  - title: "Research"
+  - title: "Forschung"
     url: /research/
 
-  - title: "Other"
+  - title: "Sonstiges"
     url: /other/  
 
  # - title: "Events"
