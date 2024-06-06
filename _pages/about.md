@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: "Über mich"
 author_profile: true
 redirect_from: 
   - /about/
@@ -19,11 +19,11 @@ Zuvor habe ich an der Universität Bremen in Mathematik zum Dr. rer. nat. promov
 
 Zudem war ich als Dozent tätig und habe auch in der Industrie gearbeitet.
 <!-- <h2 id="postal">Postal address</h2> -->
-## Postal address
+## Postanschrift
 nicht länger aktuell
 
 <!-- <h2 id="office">Office</h2> -->
-## Office
+## Büro
 nicht länger aktuell
 
 
