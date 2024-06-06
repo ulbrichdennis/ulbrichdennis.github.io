@@ -10,14 +10,14 @@ author_profile: true
            
 ## Forschungsinteressen
 ---
-Ich interessiere mich für Theorie und Anwendungen, insbesondere für
+
 <ul>
-<li>gewöhnliche und partielle Differenzialgleichungen und ihre Dynamik,</li>
-<li>dynamische Systeme, Ergodentheorie,</li>
-<li>kinetische Theorie, Entropiemethoden</li>
-<li>die Boltzmanngleichung und ihre BGK-artigen Approximationen, Modelle für chemische Reaktionen,</li>
-<li>Langzeitverhalten von Lösungen, Konvergenz zum Gleichgewicht (Hypokoerzivität) und</li>
-<li>physikalische Anwendungen.</li>
+<li>Gewöhnliche und partielle Differenzialgleichungen und deren Dynamik</li>
+<li>Dynamische Systeme, Ergodentheorie</li>
+<li>Kinetische Theorie, Entropiemethoden</li>
+<li>Boltzmanngleichung und ihre BGK-artigen Approximationen, Modelle für chemische Reaktionen</li>
+<li>Langzeitverhalten von Lösungen, Konvergenz zum Gleichgewicht (Hypokoerzivität)</li>
+<li>Physikalische Anwendungen</li>
 </ul>
 
 ## Projektteilnahme
