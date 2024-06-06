@@ -19,12 +19,13 @@ Zuvor habe ich an der Universität Bremen in Mathematik zum Dr. rer. nat. promov
 
 Zudem war ich als Dozent tätig und habe auch in der Industrie gearbeitet.
 <!-- <h2 id="postal">Postal address</h2> -->
-## Postanschrift
-nicht länger aktuell
+
+<!-- ## Postanschrift
+nicht länger aktuell  -->
 
 <!-- <h2 id="office">Office</h2> -->
-## Büro
-nicht länger aktuell
+<!--## Büro
+nicht länger aktuell  -->
 
 
 
