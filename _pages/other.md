@@ -1,28 +1,28 @@
 ---
 layout: archive
-title: "Other"
+title: "Sonstiges"
 permalink: /other/
 author_profile: true
 ---
 
 
-## Supervision
+## Betreuung
 ---
-- University of Bremen, 2020-21:<br>
-Co-supervision of a [student research project](https://www.uni-bremen.de/en/fb3/studies-teaching/student-research-projects-in-mathematics/assigned-and-completed-projects/wave-patterns-in-cellular-automata-for-excitable-media) on wave patterns
+- Universität Bremen, 2020-21:<br>
+Mitbetreuung eines studentischen [Forschungsprojekts](https://www.uni-bremen.de/en/fb3/studies-teaching/student-research-projects-in-mathematics/assigned-and-completed-projects/wave-patterns-in-cellular-automata-for-excitable-media)
 
 ## Organisation
 ---
-- University of Bremen, 2016-21:<br>
-Involved in organising a [series of schools](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems) on, e.g.,  dynamical systems
+- Universität Bremen, 2016-21:<br>
+Unterstützung bei [Konferenzen](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems) 
 
-## Maintenance
+## Wartung
 ---
-- University of Bremen, 2017-21:<br>
-Mathematical collection and its [website](https://www.uni-bremen.de/appanalysis/mathematical-collection/)
+- Universität Bremen, 2017-21:<br>
+Mathematische Sammlung und zugehöriger [Webauftritt](https://www.uni-bremen.de/appanalysis/mathematical-collection/)
 
-## Teaching
+## Lehre
 ---
-- Jacobs University Bremen, spring semester 2022 (1<sup>st</sup> half):
+- Jacobs University Bremen, spring semester 2022 (erste Hälfte):
   - Finite Mathematics (undergraduate lecture) 
   - Introduction to Dynamical Systems (proseminar)
