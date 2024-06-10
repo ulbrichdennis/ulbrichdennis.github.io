@@ -13,9 +13,9 @@ Zuvor habe ich an der Universität Bremen in Mathematik zum Dr. rer. nat. promov
 
 Zudem war ich als Dozent tätig und habe auch in der Industrie gearbeitet.
 
-<h2 style="color:red">Aktuell</h2>
-<p style="color:red">Absofort suche ich eine Stelle als
-<ul style="color:red">
+## Aktuell
+Ab sofort suche ich eine Stelle als
+<ul>
 <li>Postdoc/ wissenschaflicher Mitarbeiter in Mathematik bzw. einer verwandten Fachrichtung und/oder</li>
 <li>Dozent/ Lehrkraft in Mathematik.</li>
 </ul>
