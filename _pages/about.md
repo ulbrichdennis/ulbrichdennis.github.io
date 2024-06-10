@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Bis zum 31.5.2024 war ich als Postdoc am [Institut für Analysis und Numerik](https://www.uni-muenster.de/AMM/index.shtml) an der Universität Münster unter der Leitung von [Prof. Dr. M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml) beschäftigt.
+Bis Ende Mai 2024 war ich als Postdoc am [Institut für Analysis und Numerik](https://www.uni-muenster.de/AMM/index.shtml) an der Universität Münster unter der Leitung von [Prof. Dr. M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml) beschäftigt.
 
 Zuvor habe ich an der Universität Bremen in Mathematik zum Dr. rer. nat. promoviert, s. [MGP](https://www.mathgenealogy.org/id.php?id=277103).
 
