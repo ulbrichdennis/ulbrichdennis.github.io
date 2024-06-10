@@ -1,10 +1,10 @@
 # main links links
 main:
   - title: "Forschung"
-    url: /research/
+    url: /Forschung/
 
   - title: "Sonstiges"
-    url: /other/  
+    url: /Sonstiges/  
 
  # - title: "Events"
  #   url: /events/
