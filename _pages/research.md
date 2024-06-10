@@ -20,7 +20,7 @@ author_profile: true
 <li>Physikalische Anwendungen</li>
 </ul>
 
-## Projektteilnahme
+## Projektteilnahmen
 ---
 - DFG-Projekt Nr. [456849348](https://gepris.dfg.de/gepris/projekt/456849348?language=en), Teilnahme seit Juni 2023:<br>
 *Modeling and mathematical description of concrete physical applications in the <br>
