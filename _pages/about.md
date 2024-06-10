@@ -6,12 +6,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
+# Aktuelles 
 <p style="color:red">Aktuell suche ich eine Position als
 <ul style="color:red">
 <li>Postdoc/ wissenschaflicher Mitarbeiter in Mathematik bzw. einer verwandten Fachrichtung und/oder</li>
 <li>Dozent/ Lehrkraft in Mathematik.</li>
 </ul>
 </p>
+
+# Über mich 
 
 Bis zum 31.5.2024 war ich als Postdoc am [Institut für Analysis und Numerik](https://www.uni-muenster.de/AMM/index.shtml) an der Universität Münster unter der Leitung von [Prof. Dr. M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml) beschäftigt.
 
