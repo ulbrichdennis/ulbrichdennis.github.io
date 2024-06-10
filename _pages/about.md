@@ -15,8 +15,8 @@ Zudem war ich als Dozent tätig und habe auch in der Industrie gearbeitet.
 
 ## Aktuell
 <p style="padding: 10px; border: 2px solid red;">
-Ab sofort suche ich eine Stelle als Postdoc/ wissenschaflicher Mitarbeiter in Mathematik bzw. einer verwandten Fachrichtung und/oder
-Dozent/ Lehrkraft in Mathematik.</p>
+Ab sofort suche ich eine Stelle als <b>Postdoc/ wissenschaftlicher Mitarbeiter</b> in Mathematik bzw. einer verwandten Fachrichtung oder
+<b>Dozent/ Lehrkraft</b> in Mathematik.</p>
 <!-- <h2 id="postal">Postal address</h2> -->
 
 <!-- ## Postanschrift
