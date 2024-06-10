@@ -19,7 +19,7 @@ Ab sofort suche ich eine Stelle als
 <li> <b>wissenschaftlicher Mitarbeiter (Postdoc)</b> in Mathematik bzw. einer verwandten Fachrichtung oder </li>
 <li> <b>Dozent/ Lehrkraft</b> in Mathematik
 </ul>
-und freue mich über entsprechende Angebote.
+und freue mich über entsprechende Jobangebote.
 
 
 <!-- <h2 id="postal">Postal address</h2> -->
