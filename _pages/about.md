@@ -17,9 +17,9 @@ Zudem war ich als Dozent tätig und habe auch in der Industrie gearbeitet.
 Ab sofort suche ich eine Stelle als 
 <ul>
 <li> <b>wissenschaftlicher Mitarbeiter (Postdoc)</b> in Mathematik bzw. einer verwandten Fachrichtung oder </li>
-<li> <b>Dozent/ Lehrkraft</b> in Mathematik
+<li> <b>Dozent/ Lehrkraft</b> in Mathematik</li>
 </ul>
-und freue mich über entsprechende Jobangebote.
+und freue mich über entsprechende Jobangebote per Email.
 
 
 <!-- <h2 id="postal">Postal address</h2> -->
