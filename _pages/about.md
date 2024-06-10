@@ -9,7 +9,7 @@ redirect_from:
 <p style="color:red">Aktuell suche ich eine Position als
 <ul style="color:red">
 <li>Postdoc/ wissenschaflicher Mitarbeiter in Mathematik bzw. einer verwandten Fachrichtung und/oder</li>
-<li>Dozent in Mathematik.</li>
+<li>Dozent/ Lehrkraft in Mathematik.</li>
 </ul>
 </p>
 
