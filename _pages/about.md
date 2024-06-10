@@ -14,9 +14,14 @@ Zuvor habe ich an der Universität Bremen in Mathematik zum Dr. rer. nat. promov
 Zudem war ich als Dozent tätig und habe auch in der Industrie gearbeitet.
 
 ## Aktuelles
-<p style="padding: 10px; border: 2px solid red;">
-Ab sofort suche ich eine Stelle als <b>Postdoc/ wissenschaftlicher Mitarbeiter</b> in Mathematik bzw. einer verwandten Fachrichtung oder
-<b>Dozent/ Lehrkraft</b> in Mathematik.</p>
+Ab sofort suche ich eine Stelle als 
+<ul>
+<li> <b>wissenschaftlicher Mitarbeiter (Postdoc)</b> in Mathematik bzw. einer verwandten Fachrichtung oder </li>
+<li> <b>Dozent/ Lehrkraft</b> in Mathematik
+</ul>
+und freue mich über entsprechende Angebote.
+
+
 <!-- <h2 id="postal">Postal address</h2> -->
 
 <!-- ## Postanschrift
