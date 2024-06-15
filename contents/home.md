@@ -1,4 +1,4 @@
-
+## Über mich <hr>
 Bis Ende Mai 2024 war ich als Postdoc am [Institut für Analysis und Numerik](https://www.uni-muenster.de/AMM/Pirner-Forscher/index.html) an der Universität Münster beschäftigt.
 
 Zuvor hab ich zum Dr. rer. nat. in Mathematik promoviert, s. [MGP](https://www.mathgenealogy.org/id.php?id=277103).
