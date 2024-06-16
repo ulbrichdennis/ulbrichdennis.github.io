@@ -8,7 +8,7 @@ Mitbetreuung eines studentischen [Forschungsprojekts](https://www.uni-bremen.de/
 ## Organisation <hr>
 
 - Universität Bremen, 2016-21:<br>
-Unterstützung bei [Konferenzen](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems)
+Unterstützung bei [Summer/ Winter Schools](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems)
 
 <br>
 
