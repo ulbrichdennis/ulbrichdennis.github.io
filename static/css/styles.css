@@ -632,6 +632,7 @@ progress {
 
 .figure-caption {
   font-size: 0.875em;
+  float: right;
   color: #6c757d;
 }
 
