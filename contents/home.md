@@ -1,13 +1,10 @@
 
-<ul>
-<li> trdtdrtdgdrf [Dennis Ulbrich](www.dulbrich.de) rdtrtrdt</li>
-</ul>
+
 
 Bis Ende Mai 2024 war ich als Postdoc am [Institut für Analysis und Numerik](https://www.uni-muenster.de/AMM/institute.shtml) an der Universität Münster unter der Leitung von [Prof. Dr. Marlies Pirner](https://www.uni-muenster.de/AMM/Pirner/index.shtml)  beschäftigt.
 
 
-
-Zuvor habe ich zum Dr. rer. nat. in Mathematik an der Universität Bremen promoviert, s. [MGP](https://www.mathgenealogy.org/id.php?id=277103).
+Zuvor habe ich zum Dr. rer. nat. in Mathematik an der Universität Bremen promoviert (Betreuung durch [Prof. Dr. Jens Rademacher](https://www.math.uni-hamburg.de/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html) und [Prof. Dr. Marc Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer)),  s. [MGP](https://www.mathgenealogy.org/id.php?id=277103).
 
 
 Ich war außerdem als Dozent und in der Industrie tätig. 
