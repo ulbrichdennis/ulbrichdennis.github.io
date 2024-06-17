@@ -12,13 +12,6 @@
 <li>Tätigkeiten als Dozent und in der Industrie</li>
 </ul>
 
-
-
-
-
-
-Ich war außerdem als Dozent und in der Industrie tätig. 
-
 <br>
 
 ## Offen für Stellenangebote <hr>
