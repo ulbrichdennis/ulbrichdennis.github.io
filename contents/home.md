@@ -15,9 +15,9 @@ Ab sofort (1.6.2024) suche ich eine Stelle als
 <li> <b>wissenschaftlicher Mitarbeiter (Postdoc)</b> in Mathematik bzw. einer verwandten Fachrichtung oder </li>
 <li> <b>Dozent/ Lehrkraft</b> in Mathematik.</li>
 </ul>
-Gerne lasse ich Ihnen einen detailierten CV zukommen.
+Gerne stelle ich auf Nachfrage einen detailierten CV bereit und gebe weitere Auskünfte.
 
-Über Angebote, vorzugsweise per <a href="mailto:ulbrich.dennis@t-online.de">Email</a>, freue ich mich.
+
 
  
 
