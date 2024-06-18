@@ -5,8 +5,8 @@
 <li>Ordinary and Partial Differential Equations and their Dynamics</li>
 <li>Dynamical Systems, Ergodic Theory</li>
 <li>Kinetic Theory, Entropy methods</li>
-<li>Boltzmann equation and its BGK-type approximations, models of chemicalo reactions</li>
-<li>Long-time hevaviour of solutions, convergence to equilibrium (hypocoercivity)</li>
+<li>Boltzmann equation and its BGK-type approximations, models of chemical reactions</li>
+<li>Long-time bevaviour of solutions, convergence to equilibrium (hypocoercivity)</li>
 <li>Physical applications</li>
 </ul>
 
