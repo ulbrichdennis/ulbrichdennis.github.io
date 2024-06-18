@@ -1,7 +1,9 @@
 
-Bis 31.5.24 war ich als Postdoc am <a href="https://www.uni-muenster.de/AMM/institute.shtml">Institut für Analysis und Numerik</a> an der Universität Münster</li> unter der Leitung von Prof. Dr. Marlies Pirner  beschäftigt.
+Bis 31.5.24 war ich als Postdoc am <a href="https://www.uni-muenster.de/AMM/institute.shtml">Institut für Analysis und Numerik</a> an der Universität Münster</li> beschäftigt. <br>
+Leitung: Prof. Dr. Marlies Pirner
 
-Zuvor habe ich zum Dr. rer. nat. in Mathematik an der Universität Bremen bei Prof. Dr. Jens Rademacher und Prof. Dr. Marc Keßeböhmer promoviert, s. <a href="https://www.mathgenealogy.org/id.php?id=277103">MGP</a>.
+Zuvor habe ich zum Dr. rer. nat. in Mathematik an der Universität Bremen promoviert, s. <a href="https://www.mathgenealogy.org/id.php?id=277103">MGP</a>. <br>
+Betreuung: Prof. Dr. Jens Rademacher, Prof. Dr. Marc Keßeböhmer
 
 Ich war zudem als Dozent und in der Industrie tätig.
 
