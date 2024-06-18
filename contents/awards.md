@@ -27,5 +27,5 @@ Mathematische Sammlung und zugehöriger [Webauftritt](https://www.uni-bremen.de/
 
 ## Industrie <hr>
 
-- affinis, Bremen, 2022
- - IT-Consultant  
+- Affinis AG, Bremen, 2022
+   - IT-Consultant  
