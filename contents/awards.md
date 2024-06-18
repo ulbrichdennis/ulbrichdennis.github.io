@@ -24,3 +24,8 @@ Mathematische Sammlung und zugehöriger [Webauftritt](https://www.uni-bremen.de/
 - Jacobs University Bremen, spring semester 2022 (erste Hälfte):
   - Finite Mathematics (undergraduate lecture) 
   - Introduction to Dynamical Systems (proseminar)
+
+## Industrie <hr>
+
+- affinis, Bremen, 2022
+ - IT-Consultant  
