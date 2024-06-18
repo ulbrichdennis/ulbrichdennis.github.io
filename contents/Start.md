@@ -1,4 +1,4 @@
-## Über mich <hr>
+
 <ul>
 <li>Bis 31.5.2024: Postdoc am <a href="https://www.uni-muenster.de/AMM/institute.shtml">Institut für Analysis und Numerik</a> an der <a href="https://www.uni-muenster.de/de/">Universität Münster</a><br>
 (Leitung: <a href="https://www.uni-muenster.de/AMM/Pirner/index.shtml">Prof. Dr. Marlies Pirner</a>)</li>
