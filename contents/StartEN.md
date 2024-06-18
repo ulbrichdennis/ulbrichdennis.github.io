@@ -1,4 +1,4 @@
-
+## About <hr>
 <ul>
 <li>Until May 31<sup>st</sup> 2024: Postdoc at the <a href="https://www.uni-muenster.de/AMM/en/institute.shtml">Institute for Analysis and Numerics</a> at the <a href="https://www.uni-muenster.de/en/">University of Münster</a><br>
 (Supervisor: <a href="https://www.uni-muenster.de/AMM/en/Pirner/index.shtml">Prof. Dr. Marlies Pirner</a>)</li>
