@@ -5,7 +5,7 @@ Bis 31.5.24 war ich als Postdoc am <a href="https://www.uni-muenster.de/AMM/inst
 Zuvor habe ich zum Dr. rer. nat. in Mathematik an der Universität Bremen promoviert, s. <a href="https://www.mathgenealogy.org/id.php?id=277103">MGP</a> <br>
 (Betreuung: <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html">Prof. Dr. Jens Rademacher</a>, <a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer">Prof. Dr. Marc Keßeböhmer</a>).
 
-Ich war zudem als Dozent und in der Industrie tätig.
+Ich war zudem als Dozent und in der Industrie tätig, s. <a href="https://www.dulbrich.de/#Sonstiges">Sonstiges</a>.
 
 <br>
 
