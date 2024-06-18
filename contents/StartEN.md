@@ -10,7 +10,7 @@
 <br>
 
 ## Open to work <hr>
-As of now (June 1st, 2024) I am searching for a position as 
+As of now (June 1<sup>st</sup>, 2024) I am searching for a position as 
 <ul>
 <li> <b>postdoctoral researcher</b> in Mathematics (or a related area) or </li>
 <li> <b>lecturer/ teacher</b> in Mathematics.</li>
