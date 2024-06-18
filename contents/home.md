@@ -1,6 +1,6 @@
 
 <ul>
-<li>Bis 31.5.24: Postdoc am <a href="https://www.uni-muenster.de/AMM/institute.shtml">Institut für Analysis und Numerik</a> an der Universität Münster</li><br>
+<li>Bis 31.5.24: Postdoc am <a href="https://www.uni-muenster.de/AMM/institute.shtml">Institut für Analysis und Numerik</a> an der Universität Münster<br>
 (Leitung: <a href="https://www.uni-muenster.de/AMM/Pirner/index.shtml">Prof. Dr. Marlies Pirner</a>)<li>
 <li>Promotion zum Dr. rer. nat. in Mathematik an der Universität Bremen, s. <a href="https://www.mathgenealogy.org/id.php?id=277103">MGP</a> <br>
 (Betreuung: <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html">Prof. Dr. Jens Rademacher</a>, <a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer">Prof. Dr. Marc Keßeböhmer</a>)</li>
