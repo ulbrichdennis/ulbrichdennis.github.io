@@ -25,7 +25,7 @@ Mathematical Collection and its [website](https://www.uni-bremen.de/appanalysis/
   - Finite Mathematics (undergraduate lecture) 
   - Introduction to Dynamical Systems (proseminar)
 
-## Other (non-academic) professional activities <hr>
+## Further professional activities <hr>
 
 - Affinis AG, Bremen, 2022
    - IT-Consultant  
