@@ -19,7 +19,7 @@ Mathematical Collection and its [website](https://www.uni-bremen.de/appanalysis/
 
 <br>
 
-## Teaching <hr>
+## Teaching experience <hr>
 
 - Jacobs University Bremen, spring semester 2022 (1<sup>st</sup> half):
   - Finite Mathematics (undergraduate lecture) 

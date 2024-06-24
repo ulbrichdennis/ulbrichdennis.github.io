@@ -19,7 +19,7 @@ Mathematische Sammlung und zugehöriger [Webauftritt](https://www.uni-bremen.de/
 
 <br>
 
-## Lehre <hr>
+## Lehrerfahrung <hr>
 
 - Jacobs University Bremen, spring semester 2022 (erste Hälfte):
   - Finite Mathematics (undergraduate lecture) 
