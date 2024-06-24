@@ -16,7 +16,7 @@ Pflege der Mathematischen Sammlung und Erstellung des zugehörigen [Webauftritts
 
 ## Lehrerfahrung <hr>
 
-- Jacobs University Bremen (jetzt Constructor University Bremen), spring semester 2022 (erste Hälfte):
+- Jacobs University Bremen, spring semester 2022 (erste Hälfte):
   - Finite Mathematics (undergraduate lecture) 
   - Introduction to Dynamical Systems (proseminar)
 
