@@ -5,17 +5,12 @@ Co-supervision of a Student [Research Project](https://www.uni-bremen.de/en/fb3/
 
 <br>
 
-## Organisation <hr>
+## Organisation and maintenance <hr>
 
 - University of Bremen, 2016-21:<br>
 Supporting several [Summer/ Winter Schools](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems)
-
-<br>
-
-## Maintenance <hr>
-
 - University of Bremen, 2017-21:<br>
-Mathematical Collection and its [website](https://www.uni-bremen.de/appanalysis/mathematical-collection/)
+Maintaining the Mathematical Collection and creating its [website](https://www.uni-bremen.de/appanalysis/mathematical-collection/)
 
 <br>
 

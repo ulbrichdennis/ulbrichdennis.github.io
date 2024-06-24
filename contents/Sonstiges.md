@@ -5,17 +5,12 @@ Mitbetreuung eines studentischen [Forschungsprojekts](https://www.uni-bremen.de/
 
 <br>
 
-## Organisation <hr>
+## Organisation und Wartung <hr>
 
 - Universität Bremen, 2016-21:<br>
 Unterstützung bei [Summer/ Winter Schools](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems)
-
-<br>
-
-## Wartung <hr>
-
 - Universität Bremen, 2017-21:<br>
-Mathematische Sammlung und zugehöriger [Webauftritt](https://www.uni-bremen.de/appanalysis/mathematical-collection/)
+Pflege der Mathematischen Sammlung und Erstellung des zugehörigen [Webauftritts](https://www.uni-bremen.de/appanalysis/mathematical-collection/)
 
 <br>
 
