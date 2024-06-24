@@ -25,7 +25,7 @@ Mathematische Sammlung und zugehöriger [Webauftritt](https://www.uni-bremen.de/
   - Finite Mathematics (undergraduate lecture) 
   - Introduction to Dynamical Systems (proseminar)
 
-## Nicht-Akademisches <hr>
+## Weitere berufliche Tätigkeiten <hr>
 
 - Affinis AG, Bremen, 2022
    - IT-Consultant  
