@@ -15,7 +15,7 @@ As of now (June 1<sup>st</sup>, 2024) I am searching for a position as
 <li> <b>postdoctoral researcher</b> in Mathematics (or a related area) or </li>
 <li> <b>lecturer/ teacher</b> in Mathematics.</li>
 </ul>
-Please let me know if you wish to get a detailed CV or further information.
+I would be happy to provide a detailed CV and further information upon request.
 
 
 
