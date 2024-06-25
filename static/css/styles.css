@@ -367,7 +367,7 @@ svg {
 table {
   caption-side: bottom;
   border-collapse: collapse;
-  border-spacing: 60px;
+  
 }
 
 caption {
@@ -391,6 +391,7 @@ th {
   border-color: inherit;
   border-style: solid;
   border-width: 0;
+  padding-right: 50px;
 }
 
 label {
