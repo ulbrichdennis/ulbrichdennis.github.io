@@ -1,4 +1,4 @@
-Eine <a href="mailto:ulbrich.dennis@t-online.de">Email</i></a> senden oder Kontakt via:
+Eine <a href="mailto:ulbrich.dennis@t-online.de">Email</i></a> senden
 <table>
 <tr>
 <td><a href="https://arxiv.org/search/math?searchtype=author&query=Ulbrich%2C+D"><i class="ai ai-arxiv ai-2x"></i></a></td>
