@@ -367,6 +367,7 @@ svg {
 table {
   caption-side: bottom;
   border-collapse: collapse;
+  border-spacing: 30px;
 }
 
 caption {
@@ -1295,6 +1296,8 @@ progress {
   .gy-md-5 {
     --bs-gutter-y: 3rem;
   }
+
+  
 }
 @media (min-width: 992px) {
   .col-lg {
