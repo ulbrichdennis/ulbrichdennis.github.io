@@ -31,7 +31,7 @@ joint work with [L. Liu](https://www.math.cuhk.edu.hk/~lliu/) and [M. Pirner](ht
 
 <br>
 
-#### Artikel in Zeitschriften 
+#### Refereed journal articles 
 
 - A. Pauthier, J.D.M. Rademacher, D. Ulbrich.<br>
 *Weak and strong interaction of excitation kinks in scalar parabolic equations*.<br>
@@ -43,7 +43,7 @@ Ergodic Theory and Dynamical Systems. 2021;41(5):1397-1430 [<a href="https://doi
 
 <br>
 
-#### Graduierungsarbeiten
+#### Theses
 
  - D. Ulbrich.<br>
 *Ergodic theory of nonlinear waves in discrete and continuous excitable media*.<br>
