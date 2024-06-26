@@ -1,12 +1,4 @@
-Bis zum 31.5.24 war ich als Postdoc am Institut für Analysis und Numerik der <a href="https://www.uni-muenster.de/de/">Universität Münster</a> beschäftigt (Leitung: <a href="https://www.uni-muenster.de/AMM/Pirner/index.shtml">Prof. Dr. Marlies Pirner</a>). Zuvor habe ich zum Dr. rer. nat. in Mathematik an der <a href="https://www.uni-bremen.de/">Universität Bremen</a> promoviert (betreut durch <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html">Prof. Dr. Jens Rademacher</a> und <a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer">Prof. Dr. Marc Keßeböhmer</a>). Ich war zudem als Dozent und in der IT-Branche tätig, s. <a href="https://www.dulbrich.de/#Sonstiges">Sonstiges</a>.
-
-<ul>
-<li>Bis 31.5.2024: Postdoc am <a href="https://www.uni-muenster.de/AMM/institute.shtml">Institut für Analysis und Numerik</a> an der <a href="https://www.uni-muenster.de/de/">Universität Münster</a><br>
-(Leitung: <a href="https://www.uni-muenster.de/AMM/Pirner/index.shtml">Prof. Dr. Marlies Pirner</a>)</li>
-<li>Promotion zum Dr. rer. nat. in Mathematik an der <a href="https://www.uni-bremen.de/">Universität Bremen</a>, siehe auch <a href="https://www.mathgenealogy.org/id.php?id=277103">MGP</a> <br>
-(Betreuung: <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html">Prof. Dr. Jens Rademacher</a>, <a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer">Prof. Dr. Marc Keßeböhmer</a>)</li>
-<li>Tätigkeiten als Dozent und in der IT-Branche, siehe <a href="https://www.dulbrich.de/#Sonstiges">Sonstiges</a></li>
-</ul>
+Bis zum 31.5.24 war ich als Postdoc am Institut für Analysis und Numerik der <a href="https://www.uni-muenster.de/de/">Universität Münster</a> beschäftigt (Leitung: <a href="https://www.uni-muenster.de/AMM/Pirner/index.shtml">Prof. Dr. Marlies Pirner</a>). Zuvor habe ich zum Dr. rer. nat. in Mathematik an der <a href="https://www.uni-bremen.de/">Universität Bremen</a> promoviert (Betreuung: <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html">Prof. Dr. Jens Rademacher</a>, <a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer">Prof. Dr. Marc Keßeböhmer</a>), s. auch cf. <a href="https://www.mathgenealogy.org/id.php?id=277103">MGP</a>. Ich war zudem als Dozent und in der IT-Branche tätig, s. <a href="https://www.dulbrich.de/#Sonstiges">Sonstiges</a>.
 
 <br>
 
