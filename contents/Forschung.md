@@ -39,7 +39,7 @@ J Dyn Diff Equat. Published: 30 July 2021; Volume 35, pages 2199-2235, (2023) [[
 
  - M. Keßeböhmer, J.D.M. Rademacher, D. Ulbrich.<br>
 *Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata*.<br>
-Ergodic Theory and Dynamical Systems. 2021;41(5):1397-1430 [[DOI]](https://doi.org/10.1017/etds.2020.18)
+Ergodic Theory and Dynamical Systems. 2021;41(5):1397-1430 <a href="https://doi.org/10.1017/etds.2020.18"><i class="ai ai-doi ai-1x"></i></a>[[DOI]](https://doi.org/10.1017/etds.2020.18)
 
 <br>
 
