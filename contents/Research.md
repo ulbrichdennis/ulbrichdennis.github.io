@@ -35,11 +35,11 @@ joint work with [L. Liu](https://www.math.cuhk.edu.hk/~lliu/) and [M. Pirner](ht
 
 - A. Pauthier, J.D.M. Rademacher, D. Ulbrich.<br>
 *Weak and strong interaction of excitation kinks in scalar parabolic equations*.<br>
-J Dyn Diff Equat. Published: 30 July 2021; Volume 35, pages 2199-2235, (2023) [[DOI]](https://doi.org/10.1007/s10884-021-10040-2)
+J Dyn Diff Equat. Published: 30 July 2021; Volume 35, pages 2199-2235, (2023) <a href="https://doi.org/10.1007/s10884-021-10040-2"><i class="ai ai-doi ai-1.5x"></i></a>  
 
  - M. Keßeböhmer, J.D.M. Rademacher, D. Ulbrich.<br>
 *Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata*.<br>
-Ergodic Theory and Dynamical Systems. 2021;41(5):1397-1430 [[DOI]](https://doi.org/10.1017/etds.2020.18)
+Ergodic Theory and Dynamical Systems. 2021;41(5):1397-1430 <a href="https://doi.org/10.1017/etds.2020.18"><i class="ai ai-doi ai-1.5x"></i></a>
 
 <br>
 
@@ -47,4 +47,4 @@ Ergodic Theory and Dynamical Systems. 2021;41(5):1397-1430 [[DOI]](https://doi.o
 
  - D. Ulbrich.<br>
 *Ergodic theory of nonlinear waves in discrete and continuous excitable media*.<br>
-Dissertation, 2021 [[DOI]](https://media.suub.uni-bremen.de/handle/elib/5257) 
+Dissertation, 2021 <a href="https://media.suub.uni-bremen.de/handle/elib/5257"><i class="ai ai-doi ai-1.5x"></i></a>  
