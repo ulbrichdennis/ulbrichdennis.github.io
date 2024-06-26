@@ -1,4 +1,4 @@
-Write an [Email](mailto:ulbrich.dennis@t-online.de)
+Send an [Email](mailto:ulbrich.dennis@t-online.de)
 <table>
 <tr><td><a href="https://arxiv.org/search/math?searchtype=author&query=Ulbrich%2C+D"><i class="ai ai-arxiv ai-2x"></i></i></a></td>
 <td><a href="https://orcid.org/0000-0001-5541-011X"><i class="ai ai-orcid ai-2x"></i></a></td>
