@@ -27,7 +27,7 @@
 #### In Bearbeitung
 
 - *Discrete hypocoercivity for a nonlinear generation-recombination model*.<br>
-gemeinsam mit [L. Liu](https://www.math.cuhk.edu.hk/~lliu/) und [M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)
+Gemeinsames Projekt mit [L. Liu](https://www.math.cuhk.edu.hk/~lliu/) und [M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)
 
 <br>
 
