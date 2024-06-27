@@ -1,8 +1,4 @@
-Ehemaliger Postdoc am <a href="https://www.uni-muenster.de/AMM/institute.shtml">Institut für Analysis und Numerik</a> der <a href="https://www.uni-muenster.de/de/">Universität Münster</a> (<i>Leitung:</i> <a href="https://www.uni-muenster.de/AMM/Pirner/index.shtml">Prof. Dr. M. Pirner</a>) 
-
-Promotion zum <i>Dr. rer. nat.</i> in Mathematik an der <a href="https://www.uni-bremen.de/">Universität Bremen</a>, s. <a href="https://www.mathgenealogy.org/id.php?id=277103">MGP</a>
-
-Tätigkeiten als Dozent und in der IT-Branche, s. <a href="https://www.dulbrich.de/#Sonstiges">Sonstiges</a>
+Ich bin ehemaliger Postdoc am <a href="https://www.uni-muenster.de/AMM/institute.shtml">Institut für Analysis und Numerik</a> der <a href="https://www.uni-muenster.de/de/">Universität Münster</a> (<i>Leitung:</i> <a href="https://www.uni-muenster.de/AMM/Pirner/index.shtml">Prof. Dr. M. Pirner</a>). Zuvor habe ich zum  <i>Dr. rer. nat.</i> in Mathematik an der <a href="https://www.uni-bremen.de/">Universität Bremen</a> promoviert, s. <a href="https://www.mathgenealogy.org/id.php?id=277103">MGP</a>. Zudem war ich als Dozent und in der IT-Branche tätig, s. <a href="https://www.dulbrich.de/#Sonstiges">Sonstiges</a>.
 
 <br>
 
