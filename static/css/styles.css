@@ -3863,7 +3863,7 @@ textarea.form-control-lg {
 }
 .navbar-nav .show > .nav-link,
 .navbar-nav .nav-link.active {
-  color: var(--bs-navbar-active-color);
+  color: #050d5a;
 }
 .navbar-nav .dropdown-menu {
   position: static;
