@@ -6,7 +6,7 @@
 }
 
 .header {
-    border-bottom: solid 2px var(--bs-blue);
+    border-bottom: solid 2px #050d5a;
     z-index: 10000;
 }
 
