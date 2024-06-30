@@ -1,6 +1,6 @@
 title: Dennis Ulbrich | Webseite
 page-top-title:  Willkommen!
-page-top-tileEN: <script>
+page-top-titleEN: <script>
         date = new Date();
         year = date.getFullYear();
         month = date.getMonth() + 1;
