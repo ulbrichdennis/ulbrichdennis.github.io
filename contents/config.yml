@@ -1,6 +1,12 @@
 title: Dennis Ulbrich | Webseite
 page-top-title:  Willkommen!
-page-top-tileEN: Welcome! 
+page-top-tileEN: <script>
+        date = new Date();
+        year = date.getFullYear();
+        month = date.getMonth() + 1;
+        day = date.getDate();
+        document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
+    </script> 
 top-section-bg-text: Dr. Dennis Ulbrich
 Start-subtitle: Über mich
 copyright-text: '&copy; 2024 D. Ulbrich'
