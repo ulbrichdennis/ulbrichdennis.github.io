@@ -16,10 +16,10 @@
 
 .top-section {
     position: relative;
-    padding: 1rem 0;
+    padding: 10rem 0;
     background-position: center;
     background-size: cover;
-    height: 5rem;
+    height: 10rem;
 }
 
 .top-section h2 {
