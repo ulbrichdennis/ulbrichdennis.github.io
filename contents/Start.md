@@ -1,7 +1,7 @@
 Bis Ende Mai 2024 war ich Postdoc am <a href="https://www.uni-muenster.de/AMM/institute.shtml">Institut für Analysis und Numerik</a> der <a href="https://www.uni-muenster.de/de/">Universität Münster</a>:
 <ul>
 <li>Leitung: <a href="https://www.uni-muenster.de/AMM/Pirner/index.shtml">Prof. Dr. M. Pirner</a></li>
-<li>Stelle im Rahmen des DFG-Projekts Nr. <a href="https://gepris.dfg.de/gepris/projekt/456849348?language=en">456849348</a>
+<li>Forschungsstelle im Rahmen des DFG-Projekts Nr. <a href="https://gepris.dfg.de/gepris/projekt/456849348?language=en">456849348</a>
 </ul> 
 Zuvor habe ich zum <i>Dr. rer. nat.</i> in Mathematik an der <a href="https://www.uni-bremen.de/">Universität Bremen</a> promoviert, s. auch <a href="https://www.mathgenealogy.org/id.php?id=277103">MGP</a>:
 <ul>
