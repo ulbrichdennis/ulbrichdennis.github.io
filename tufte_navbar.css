@@ -154,14 +154,14 @@ top: 0;
     top: 0;
     background: white;
     display: flex;
-    justify-content: space-between;
-    padding: 0.5em;
+    /*justify-content: space-between; */
+    padding: 0em;
     align-items: center;
   }
   header.header ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    gap: 0.5em;
+    gap: 0em;
   }
 }
