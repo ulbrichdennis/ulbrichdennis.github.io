@@ -151,7 +151,7 @@ top: 0;
 @media (min-width: 970px) {
   header.header {
     position: sticky;
-    top: 0;
+    top: -5em;
     background: white;
     display: flex;
     justify-content: space-between;
