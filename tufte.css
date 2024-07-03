@@ -275,3 +275,11 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
                             label { cursor: pointer; }
                             div.table-wrapper, table { width: 85%; }
                             img { width: 100%; } }
+                            
+                            
+@media (min-width: 970px) {
+     body { width: 88%;
+          padding-left: 8%;
+          padding-right: 8%;
+          margin-top: -80px; }
+     }
