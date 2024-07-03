@@ -47,6 +47,7 @@ background-color: #f4f4f4;
 .header .logo {
 display: block;
 float: left;
+font-size: 1.6em;
 padding: 10px 10px;
 text-decoration: none;
 background-repeat: no-repeat; /* added by MattK to remove underlined links */
