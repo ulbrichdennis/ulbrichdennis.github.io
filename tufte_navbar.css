@@ -45,7 +45,7 @@ background-color: #f4f4f4;
 }
 
 .header .logo {
-display: block;
+display: none;
 float: left;
 font-size: 1.6em;
 padding: 10px 10px;
