@@ -155,7 +155,7 @@ top: 0;
     background: white;
     display: flex;
     justify-content: space-between;
-    padding: 1em 0em 0em 0em; 
+    padding: 0em; 
     align-items: center;
     
   }
@@ -163,6 +163,6 @@ top: 0;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    gap: 0em;
+    gap: 0.5em;
   }
 }
