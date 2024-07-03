@@ -154,7 +154,7 @@ top: 0;
     top: 0;
     background: white;
     display: flex;
-    /*justify-content: space-between; */
+    justify-content: space-between;
     padding: 0em;
     align-items: center;
   }
