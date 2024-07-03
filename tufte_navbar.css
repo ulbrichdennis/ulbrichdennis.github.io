@@ -17,6 +17,7 @@
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: sticky;
+  display: flex;
   width: 87.5%;
   z-index: 3;
   position-left: 0;
