@@ -67,7 +67,7 @@ transition: max-height .2s ease-out;
 cursor: pointer;
 display: inline-block;
 float: right;
-padding: 28px 20px;
+padding: 10px 10px;
 position: relative;
 user-select: none;
 }
