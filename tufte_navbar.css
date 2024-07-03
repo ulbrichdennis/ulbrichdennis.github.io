@@ -131,7 +131,16 @@ top: 0;
 
 /* @media (min-width: 48em) { */
 @media (min-width: 970px) { /* changes when menu folds down to a hamburger icon */
-.header li {
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 1.6em;
+    padding: 28px 20px;
+    text-decoration: none;
+    background-repeat: no-repeat; /* added by MattK to remove underlined links */
+    }
+
+  .header li {
   float: left;
   margin: 0;
 }
