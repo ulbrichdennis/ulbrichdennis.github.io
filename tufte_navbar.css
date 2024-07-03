@@ -147,3 +147,5 @@
     display: none;
   }
 }
+
+header.header {   position:sticky;   top:0;   background:white;   display:flex;   justify-content:space-between;   padding:0.5em;   align-items:center;   width:90%;   margin:0 auto;   box-shadow:0 0 3px; } header.header ul {   display:flex;   flex-wrap:wrap;   list-style:none;   gap:0.5em }
