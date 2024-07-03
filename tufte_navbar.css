@@ -3,7 +3,7 @@
 .anch is added so that when you click to a link in a page, it moves down 80px so that you can see the anchor point
  <h1 class="anch" id="blah">This will be positioned under the menu bar</h1>
  */
- .anch {
+.anch {
   /* places the contents of the element 100px from the top of the view-port */
   padding-top: 80px;
   margin-top: -80px;
@@ -17,7 +17,7 @@
 background-color: #fff;
 box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
 position: fixed;
-width: 88%;
+width: 87.5%;
 z-index: 3;
 position-left: 0;
 }
@@ -131,7 +131,7 @@ top: 0;
 
 /* @media (min-width: 48em) { */
 @media (min-width: 970px) { /* changes when menu folds down to a hamburger icon */
-  .header li {
+.header li {
   float: left;
   margin: 0;
 }
@@ -146,23 +146,4 @@ top: 0;
 .header .menu-icon {
   display: none;
 }
-}
-
-/* DU: changed in order to see the complete navbar on a wide screen */
-@media (min-width: 970px) {
-  header.header {
-    position: sticky;
-    top: 0;
-    background: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 0em;
-    align-items: center;
-  }
-  header.header ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    gap: 0em;
-  }
 }
