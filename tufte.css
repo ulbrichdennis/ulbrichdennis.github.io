@@ -45,7 +45,9 @@ h1 { font-weight: 400;
      margin-bottom: 1.5rem;
      font-size: 3.0rem;
      line-height: 1;
-     color: #c55 }
+     color:darkblue;
+     /* color: #c55 */
+     }
 
 h2 { font-style: italic;
      font-weight: 400;
