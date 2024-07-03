@@ -93,11 +93,11 @@ width: 100%;
 }
 
 .header .menu-icon .navicon:before {
-top: 0px;
+top: 5px;
 }
 
 .header .menu-icon .navicon:after {
-top: 0px;
+top: -5px;
 }
 
 /* menu btn */
