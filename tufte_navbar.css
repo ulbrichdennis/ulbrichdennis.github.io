@@ -162,6 +162,6 @@ top: 0;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    gap: 0.5em;
+    gap: 0em;
   }
 }
