@@ -136,7 +136,7 @@ top: 0;
   margin: 0;
 }
 .header li a {
-  padding: 10px 10px;
+  padding: 10px 15px;
 }
 .header .menu {
   clear: none;
@@ -148,6 +148,7 @@ top: 0;
 }
 }
 
+/* DU: changed in order to see the complete navbar on a wide screen */
 @media (min-width: 970px) {
   header.header {
     position: sticky;
