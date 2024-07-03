@@ -198,7 +198,7 @@ img { max-width: 100%; }
 
 blockquote .sidenote, blockquote .marginnote { margin-right: -82%;
                                                min-width: 59%;
-                                               text-align: left; }
+                                               text-align: right; }
 
 div.fullwidth, table.fullwidth { width: 100%; }
 
