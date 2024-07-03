@@ -19,7 +19,6 @@ box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
 position: fixed;
 width: 88%;
 z-index: 3;
-position-left: 0;
 }
 
 .header ul {
@@ -66,7 +65,7 @@ transition: max-height .2s ease-out;
 
 .header .menu-icon {
 cursor: pointer;
-display: inline-block;
+display: block;
 float: right;
 padding: 28px 20px;
 position: relative;
