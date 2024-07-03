@@ -150,7 +150,7 @@ top: 0;
 
 @media (min-width: 970px) {
   header.header {
-    position: sticky;
+    position: fixed;
     margin-top:5px;
     top: 0;
     background: white;
