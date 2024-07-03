@@ -144,7 +144,7 @@ top: 0;
   max-height: none;
 }
 .header .menu-icon {
-  display: block;
+  display: none;
 }
 }
 
