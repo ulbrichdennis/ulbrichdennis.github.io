@@ -169,7 +169,7 @@ a:link::-moz-selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.0
                          background: #b4d5fe; }
 
 
-.ai-arxiv{display: inline-block;
+.ai-arxiv::before{display: inline-block;
      text-decoration: none;}
 
 /* Sidenotes, margin notes, figures, captions */
