@@ -77,7 +77,10 @@ p.subtitle { font-style: italic;
              display: block;
              line-height: 1; }
 
-
+i[class^="icon-"]:before {
+               display: inline-block;
+               text-decoration: none;
+          }
 
 .numeral { font-family: et-book-roman-old-style; }
 
