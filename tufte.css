@@ -77,7 +77,7 @@ p.subtitle { font-style: italic;
              display: block;
              line-height: 1; }
 
-i[class^="ai-"]:before {
+i[class^="ai ai-"]:before {
                display: inline-block;
                text-decoration: none;
           }
