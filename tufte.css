@@ -77,11 +77,6 @@ p.subtitle { font-style: italic;
              display: block;
              line-height: 1; }
 
-i[class^="ai ai-"]:before {
-               display: inline-block;
-               text-decoration: none;
-          }
-
 .numeral { font-family: et-book-roman-old-style; }
 
 .danger { color: red; }
