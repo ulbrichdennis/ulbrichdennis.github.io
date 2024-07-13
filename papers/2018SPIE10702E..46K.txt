@@ -1,2 +1,0 @@
-ERIS grating vector APP coronagraph
-The grating vector Apodizing Phase Plate for the ERIS camera, comprised of a liquid crystal substrate between glass plates. 
