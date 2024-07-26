@@ -89,7 +89,7 @@ section { padding-top: 1rem;
 
 .accordion {
                
-               color: #444;
+               
                cursor: pointer;
                padding: 18px;
                width: 55%;
@@ -119,7 +119,7 @@ section { padding-top: 1rem;
 .accordion:after {
              content: '\02795'; /* Unicode character for "plus" sign (+) */
              font-size: 13px;
-             color: #777;
+             
              float: right;
              margin-left: 5px;
            }
