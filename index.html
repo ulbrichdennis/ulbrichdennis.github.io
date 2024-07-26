@@ -23,11 +23,12 @@ content="Webpage of Dennis Ulbrich">
   color: #444;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 88%;
   text-align: left;
   border: none;
   outline: none;
   transition: 0.4s;
+  font-size: 1.4rem;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -42,6 +43,18 @@ content="Webpage of Dennis Ulbrich">
   display: none;
   overflow: hidden;
 } 
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
 </style>
 
 </head>
