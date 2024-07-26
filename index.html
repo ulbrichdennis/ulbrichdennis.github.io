@@ -17,32 +17,51 @@ content="Webpage of Dennis Ulbrich">
 <script>history.scrollRestoration = "manual"</script>
 <script src="https://kit.fontawesome.com/aef6edf51d.js" crossorigin="anonymous"></script>
 
+<script>var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      /* Toggle between adding and removing the "active" class,
+      to highlight the button that controls the panel */
+      this.classList.toggle("active");
+  
+      /* Toggle between hiding and showing the active panel */
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }</script>
+
 
 <style>
-  summary {
-   position: relative;  
-   font-size: 1.4rem;
-   }
-
-summary::marker, summary::-webkit-details-marker {
-   color: transparent;
+ .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
 }
 
-summary::after {
-   content:  "+"; 
-   position: absolute;
-   color: green;
-   font-size: 2em;
-   font-weight: bold; 
-   right: 1em;
-   top: .2em;
-   transition: all 0.5s;
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
 } 
-
-details[open] > summary::after {
- color: red;
- transform: translate(5px,0) rotate(45deg);
-}
 </style>
 
 </head>
@@ -70,23 +89,15 @@ details[open] > summary::after {
     <p class="subtitle">Postdoctoral researcher</p>
 
  <h2 id="About">About</h2> 
-
-
-<details>
-  <summary>Postdoc at Münster</summary>
-  <p>Until May 2024, I was postdoc at the <a href="https://www.uni-muenster.de/AMM/en/institute.shtml">Institute for Analysis and Numerics</a> at the <a href="https://www.uni-muenster.de/en/">University of Münster</a>. I was supervised by <a href="https://www.uni-muenster.de/AMM/Pirner/index.shtml">Prof. Dr. M. Pirner</a>. My research position was embedded into the DFG project number 456849348 (<i>Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation</i>), see <a href="https://www.dulbrich.de/research/#projects">Research</a> » <a href="https://www.dulbrich.de/research/#projects">Projects</a>.</p>
-</details>
-
-
-
- <p>
+<p>
   Until May 2024, I was postdoc at the <a href="https://www.uni-muenster.de/AMM/en/institute.shtml">Institute for Analysis and Numerics</a> at the <a href="https://www.uni-muenster.de/en/">University of Münster</a>. I was supervised by <a href="https://www.uni-muenster.de/AMM/Pirner/index.shtml">Prof. Dr. M. Pirner</a>. My research position was embedded into the DFG project number 456849348 (<i>Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation</i>), see <a href="https://www.dulbrich.de/research/#projects">Research</a> » <a href="https://www.dulbrich.de/research/#projects">Projects</a>.
 </p>
 
-     
-<p>Beforehand, I did my PhD (<i>Dr. rer. nat.</i> in Mathematics) at the <a href="https://www.uni-bremen.de/en/">University of Bremen</a>, cf. <a href="https://www.mathgenealogy.org/id.php?id=277103">MGP</a>. My advisors were <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html">Prof. Dr. J. Rademacher</a> and <a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer">Prof. Dr. M. Keßeböhmer</a>.
-  My work was supported by the DFG project number 384027439 (<i>Ergodic theory of nonlinear waves in discrete and continuous excitable media</i>), also see <a href="https://www.dulbrich.de/research/#projects">Research</a> » <a href="https://www.dulbrich.de/research/#projects">Projects</a>.
- </p>
+<p>
+Beforehand, I did my PhD (<i>Dr. rer. nat.</i> in Mathematics) at the <a href="https://www.uni-bremen.de/en/">University of Bremen</a>, cf. <a href="https://www.mathgenealogy.org/id.php?id=277103">MGP</a>. My advisors were <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html">Prof. Dr. J. Rademacher</a> and <a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer">Prof. Dr. M. Keßeböhmer</a>.
+My work was supported by the DFG project number 384027439 (<i>Ergodic theory of nonlinear waves in discrete and continuous excitable media</i>), also see <a href="https://www.dulbrich.de/research/#projects">Research</a> » <a href="https://www.dulbrich.de/research/#projects">Projects</a>.
+</p>
+
 <p>I also work as a lecturer, see <a href="https://www.dulbrich.de/other/">Other</a> » <a href="https://www.dulbrich.de/other/#teaching">Teaching</a>.</p>
 
 <h2>Contact</h2>
