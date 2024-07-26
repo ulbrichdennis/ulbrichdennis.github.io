@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- 
-  <meta charset="utf-8"/>
+ <meta charset="utf-8"/>
 <title>Dennis Ulbrich | Home</title>
 
 <link rel="stylesheet" href="tufte.css"/>
@@ -17,6 +16,34 @@ content="Webpage of Dennis Ulbrich">
 <link rel="stylesheet" href="/css/academicons.min.css" style="text-decoration:none">
 <script>history.scrollRestoration = "manual"</script>
 <script src="https://kit.fontawesome.com/aef6edf51d.js" crossorigin="anonymous"></script>
+
+
+<style>
+  summary {
+   position: relative;  
+   }
+
+summary::marker, summary::-webkit-details-marker {
+   color: transparent;
+}
+
+summary::after {
+   content:  "+"; 
+   position: absolute;
+   color: green;
+   font-size: 2em;
+   font-weight: bold; 
+   right: 1em;
+   top: .2em;
+   transition: all 0.5s;
+} 
+
+details[open] > summary::after {
+ color: red;
+ transform: translate(5px,0) rotate(45deg);
+}
+</style>
+
 </head>
 
 <body>
@@ -42,6 +69,15 @@ content="Webpage of Dennis Ulbrich">
     <p class="subtitle">Postdoctoral researcher</p>
 
  <h2 id="About">About</h2> 
+
+
+<details>
+  <summary>Postdoc at Münster</summary>
+  <p>Until May 2024, I was postdoc at the <a href="https://www.uni-muenster.de/AMM/en/institute.shtml">Institute for Analysis and Numerics</a> at the <a href="https://www.uni-muenster.de/en/">University of Münster</a>. I was supervised by <a href="https://www.uni-muenster.de/AMM/Pirner/index.shtml">Prof. Dr. M. Pirner</a>. My research position was embedded into the DFG project number 456849348 (<i>Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation</i>), see <a href="https://www.dulbrich.de/research/#projects">Research</a> » <a href="https://www.dulbrich.de/research/#projects">Projects</a>.</p>
+</details>
+
+
+
  <p>
   Until May 2024, I was postdoc at the <a href="https://www.uni-muenster.de/AMM/en/institute.shtml">Institute for Analysis and Numerics</a> at the <a href="https://www.uni-muenster.de/en/">University of Münster</a>. I was supervised by <a href="https://www.uni-muenster.de/AMM/Pirner/index.shtml">Prof. Dr. M. Pirner</a>. My research position was embedded into the DFG project number 456849348 (<i>Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation</i>), see <a href="https://www.dulbrich.de/research/#projects">Research</a> » <a href="https://www.dulbrich.de/research/#projects">Projects</a>.
 </p>
