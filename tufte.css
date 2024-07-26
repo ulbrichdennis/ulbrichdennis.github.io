@@ -87,6 +87,44 @@ article { position: relative;
 section { padding-top: 1rem;
           padding-bottom: 1rem; }
 
+.accordion {
+               background-color: #eee;
+               color: #444;
+               cursor: pointer;
+               padding: 18px;
+               width: 55%;
+               border: none;
+               text-align: left;
+               outline: none;
+               font-size: 1.4rem;
+               transition: 0.4s;
+             }
+             
+.active, .accordion:hover {
+               background-color: #ccc; 
+             }
+             
+.panel {
+               padding: 0 18px;
+               display: none;
+               background-color: white;
+               overflow: hidden;
+               width:55%;
+               font-size: 1.4rem;
+             }
+             
+           
+.accordion:after {
+             content: &#8853; /* Unicode character for "plus" sign (+) */
+             font-size: 13px;
+             color: #777;
+             float: right;
+             margin-left: 5px;
+           }
+           
+.active:after {
+             content: "\2796"; /* Unicode character for "minus" sign (-) */}
+
 p, ol, ul { font-size: 1.4rem;
             line-height: 2rem; }
 
