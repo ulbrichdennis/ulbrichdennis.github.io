@@ -96,6 +96,7 @@ section { padding-top: 1rem;
                border: none;
                text-align: left;
                outline: none;
+               font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
                font-size: 1.4rem;
                transition: 0.4s;
              }
@@ -110,6 +111,7 @@ section { padding-top: 1rem;
                background-color: white;
                overflow: hidden;
                width:55%;
+               font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
                font-size: 1.4rem;
              }
              
