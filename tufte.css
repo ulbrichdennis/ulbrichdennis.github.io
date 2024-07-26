@@ -87,46 +87,6 @@ article { position: relative;
 section { padding-top: 1rem;
           padding-bottom: 1rem; }
 
-.accordion {
-               
-               
-               cursor: pointer;
-               padding: 18px;
-               width: 55%;
-               border: none;
-               text-align: left;
-               outline: none;
-               font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-               font-size: 1.4rem;
-               transition: 0.4s;
-             }
-             
-.active, .accordion:hover {
-               
-             }
-             
-.panel {
-               padding: 0 18px;
-               display: none;
-               overflow: hidden;
-               width:54%;
-               font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-               font-size: 1.4rem;
-             }
-             
-           
-.accordion:after {
-             content: '\02795'; /* Unicode character for "plus" sign (+) */
-             font-size: 1.4rem;
-             
-             float: right;
-             margin-left: 5px;
-           }
-           
-.active:after {
-             content: "\2796"; /* Unicode character for "minus" sign (-) */
-          font-size:1.4rem;}
-
 p, ol, ul { font-size: 1.4rem;
             line-height: 2rem; }
 
