@@ -88,7 +88,7 @@ section { padding-top: 1rem;
           padding-bottom: 1rem; }
 
 .accordion {
-               background-color: #eee;
+               
                color: #444;
                cursor: pointer;
                padding: 18px;
@@ -108,7 +108,7 @@ section { padding-top: 1rem;
 .panel {
                padding: 0 18px;
                display: none;
-               background-color: white;
+               
                overflow: hidden;
                width:55%;
                font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
