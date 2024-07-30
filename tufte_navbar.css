@@ -5,8 +5,8 @@
  */
 .anch {
   /* places the contents of the element 100px from the top of the view-port */
-  padding-top: 75px;
-  margin-top: -75px;
+  padding-top: 80px;
+  margin-top: -80px;
 }
 
 /* This hamburger menu bar was based on: https://codepen.io/mutedblues/pen/MmPNPG */
