@@ -98,6 +98,13 @@ p { margin-top: 1.4rem;
 /* Chapter Epigraphs */
 div.epigraph { margin: 5em 0; }
 
+.tableconditions{
+     table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+}
+
 div.epigraph > blockquote { margin-top: 3em;
                             margin-bottom: 3em; }
 
