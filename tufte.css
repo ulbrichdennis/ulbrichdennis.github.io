@@ -167,6 +167,11 @@ a:link { text-decoration: none;
          text-shadow: 0.03em 0 #F7F9FB, -0.03em 0 #F7F9FB, 0 0.03em #F7F9FB, 0 -0.03em #F7F9FB, 0.06em 0 #F7F9FB, -0.06em 0 #F7F9FB, 0.09em 0 #F7F9FB, -0.09em 0 #F7F9FB, 0.12em 0 #F7F9FB, -0.12em 0 #F7F9FB, 0.15em 0 #F7F9FB, -0.15em 0 #F7F9FB;
          background-position: 0% 93%, 100% 93%, 0% 93%; }
 
+         .icon-link {
+          border: none;
+          text-decoration: none !important;
+        }
+
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) { a:link { background-position-y: 87%, 87%, 87%; } }
 
