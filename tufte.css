@@ -168,9 +168,8 @@ a:link { text-decoration: none;
          background-position: 0% 93%, 100% 93%, 0% 93%; }
 
          .icon-link {
-          border: none;
-          text-decoration: none !important;
-        }
+          border: none !important;
+          }
 
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) { a:link { background-position-y: 87%, 87%, 87%; } }
