@@ -169,6 +169,9 @@ a:link { text-decoration: none;
 
 .register a:link{
           text-decoration: none !important;}
+          
+
+a.register:link {text-decoration: none !important;}
 
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) { a:link { background-position-y: 87%, 87%, 87%; } }
