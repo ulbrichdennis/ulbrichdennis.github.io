@@ -173,6 +173,10 @@ a:link { text-decoration: none;
 
 a.register:link {text-decoration: none !important;}
 
+a > .ai {
+     display: inline;
+   }
+
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) { a:link { background-position-y: 87%, 87%, 87%; } }
 
