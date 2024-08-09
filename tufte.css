@@ -302,6 +302,10 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
           color: #111;
           max-width: 1400px;
           counter-reset: sidenote-counter; }
+
+          .socializeonsmallscreen{
+               display:none;
+          }
      }
 
     
