@@ -303,9 +303,11 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
           max-width: 1400px;
           counter-reset: sidenote-counter; }
 
-          .socializeonsmallscreen{
+     }
+
+     @media (min-width: 970px) {
+          .socialize-small{
                display:none;
           }
      }
-
     
