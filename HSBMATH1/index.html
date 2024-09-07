@@ -46,7 +46,8 @@
     <p class="subtitle">Hochschule Bremen, WiSe 2024/25</p>
     <p>Dozent: <a href="https://www.dulbrich.de/index.html">Dr. Dennis Ulbrich</a> (Kontakt: <a href="mailto:dennis.ulbrich@lba.hs-bremen.de">HSB-Email</a>)</p>
 <p>Mo., 13:30 - 15:00, 15:15 - 16:45, 17:00 - 18:30, Raum M 26a</p>
-<p id="demo"></p>
+<p id="nextdate"></p>
+<p id ="topics"></p>
 <script>
  const lectureDates = [
   { week: 42, date: "14.10.2024", Themen: "Mengen, Reelle Zahlen, Gleichungen und Ungleichungen" },
@@ -79,15 +80,19 @@ function getWeekNumber(date) {
 const currentDate = new Date();
 const currentWeek = getWeekNumber(currentDate);
 let nextSession = "No lectures today happy days ahead...";
+let topics ="All or nothing..."
 
 // Find the next lecture date
 for (const lectureDate of lectureDates) {
   if (lectureDate.week >= currentWeek) {
     nextSession = lectureDate.date;
+    topics = lectureDate.topic;
     break;
   }
 }
-document.getElementById("demo").innerHTML = "Nächster Termin: " + nextSession;
+document.getElementById("nextdate").innerHTML = "Nächster Termin: " + nextSession;
+document.getElementById("topics").innerHTML = "Themen: " + topics;
+
 console.log(`The next lecture is on ${nextSession}`);
   </script>
 
