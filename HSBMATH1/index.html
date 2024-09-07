@@ -64,7 +64,9 @@
     (currentDate > nextMonday ? Math.ceil(
     (currentDate - nextMonday) / (24 * 3600 * 1000) / 7) : 1);
 }
- const currentDate = new Date();
+</script>
+<script>
+const currentDate = new Date();
 const weekNumber = getDateWeek();
 let nextSession;
 switch (weekNumber) {
