@@ -83,8 +83,12 @@
 
 <hr>
 <footer>
-<p style="font-size:small">Last modified: Sep 6<sup>th</sup>, 2024<br>
-<a href="../disclosure.html">Legal notice</a><br>
+  <p id="modified" style="font-size:small" ></p>
+<script>
+    const date = new Date(document.lastModified);
+    document.getElementById("modified").innerHTML = "Last modified: " + date;
+    </script>
+<p style="font-size:small"><a href="disclosure.html">Legal notice</a><br>
 &copy; 2024 D. Ulbrich
 </p>
 </footer>
