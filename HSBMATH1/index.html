@@ -48,10 +48,23 @@
 <p>Mo., 13:30 - 15:00, 15:15 - 16:45, 17:00 - 18:30, Raum M 26a</p>
 <p id="demo"></p>
 <script>
-  let day;
-  switch (new Date().getDay()) {
-    case 0:
-      day = "Sunday";
+  function getWeekNumber(d) {
+    // Copy date so don't modify original
+    d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+    // Set to nearest Thursday: current date + 4 - current day number
+    // Make Sunday's day number 7
+    d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay()||7));
+    // Get first day of year
+    var yearStart = new Date(Date.UTC(d.getUTCFullYear(),0,1));
+    // Calculate full weeks to nearest Thursday
+    var weekNo = Math.ceil(( ( (d - yearStart) / 86400000) + 1)/7);
+    // Return array of year and week number
+    return [d.getUTCFullYear(), weekNo];
+}
+let nextSession;
+switch (getWeekNumber(new Date())) {
+    case getWeekNumber(new Date()) <= 42:
+      nextSession = "14.10.2024";
       break;
     case 1:
       day = "Monday";
@@ -71,7 +84,7 @@
     case  6:
       day = "Saturday";
   }
-  document.getElementById("demo").innerHTML = "Today is " + day;
+  document.getElementById("demo").innerHTML = "Nächster Termin: " + nextSession;
   </script>
 
 
