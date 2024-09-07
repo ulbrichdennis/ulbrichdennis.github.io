@@ -46,7 +46,7 @@
     <p class="subtitle">Hochschule Bremen, WiSe 2024/25</p>
     <p>Dozent: <a href="https://www.dulbrich.de/index.html">Dr. Dennis Ulbrich</a> (Kontakt: <a href="mailto:dennis.ulbrich@lba.hs-bremen.de">HSB-Email</a>)</p>
 <p>Mo., 13:30 - 15:00, 15:15 - 16:45, 17:00 - 18:30, Raum M 26a</p>
-
+<p id="demo"></p>
 <script>
  const lectureDates = [
   { week: 42, date: "October 14, 2024" },
@@ -82,7 +82,7 @@ for (const lectureDate of lectureDates) {
     break;
   }
 }
-
+document.getElementById("demo").innerHTML = "Nächster Termin: " + nextSession;
 console.log(`The next lecture is on ${nextSession}`);
   </script>
 
