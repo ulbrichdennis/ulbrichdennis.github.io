@@ -46,11 +46,11 @@
     <p class="subtitle">Hochschule Bremen, WiSe 2024/25</p>
     <p>Dozent: <a href="https://www.dulbrich.de/index.html">Dr. Dennis Ulbrich</a> (Kontakt: <a href="mailto:dennis.ulbrich@lba.hs-bremen.de">HSB-Email</a>)</p>
 <p>Mo., 13:30 - 15:00, 15:15 - 16:45, 17:00 - 18:30, Raum M 26a</p>
-<p id="nextdate"></p>
-<p id ="topics"></p>
+<p id="nextdate" style="font-size: small"></p>
+<p id ="topics" style="font-size: small"></p>
 <script>
  const lectureDates = [
-  { week: 42, date: "14.10.2024", topic: "Mengen, $\mathbb{R}, Gleichungen/Ungleichungen" },
+  { week: 42, date: "14.10.2024", topic: "Mengen, Reelle Zahlen, Gleichungen/Ungleichungen" },
   { week: 43, date: "21.10.2024" },
   { week: 44,  date: "28.10.2024"},
   { week: 45, date: "4.11.2024"},
@@ -91,7 +91,7 @@ for (const lectureDate of lectureDates) {
   }
 }
 document.getElementById("nextdate").innerHTML = "Nächster Termin: " + nextSession;
-document.getElementById("topics").innerHTML = "Themen: " + topics;
+document.getElementById("topics").innerHTML = "Voraussichtliche Themen an diesem Tag: " + topics;
 </script>
 
 
