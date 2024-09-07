@@ -46,6 +46,38 @@
     <p class="subtitle">Hochschule Bremen, WiSe 2024/25</p>
     <p>Dozent: <a href="https://www.dulbrich.de/index.html">Dr. Dennis Ulbrich</a> (Kontakt: <a href="mailto:dennis.ulbrich@lba.hs-bremen.de">HSB-Email</a>)</p>
 <p>Mo., 13:30 - 15:00, 15:15 - 16:45, 17:00 - 18:30, Raum M 26a</p>
+<script>
+  
+
+function getDateWeek(date) {
+    const currentDate = 
+        (typeof date === 'object') ? date : new Date();
+    const januaryFirst = 
+        new Date(currentDate.getFullYear(), 0, 1);
+    const daysToNextMonday = 
+        (januaryFirst.getDay() === 1) ? 0 : 
+        (7 - januaryFirst.getDay()) % 7;
+    const nextMonday = 
+        new Date(currentDate.getFullYear(), 0, 
+        januaryFirst.getDate() + daysToNextMonday);
+ 
+    return (currentDate < nextMonday) ? 52 : 
+    (currentDate > nextMonday ? Math.ceil(
+    (currentDate - nextMonday) / (24 * 3600 * 1000) / 7) : 1);
+}
+const weekNumber = getDateWeek();
+switch(weekNumber) {
+  case weekNumber <=42:
+    Nächste Vorlesung: 14.10.2014
+    break;
+  case weekNummber >42:
+    Später
+    break;
+  default:
+    // code block
+}
+</script>
+
 
 <section>
       <div class="epigraph">
