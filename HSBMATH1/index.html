@@ -66,16 +66,30 @@ function getDateWeek(date) {
     (currentDate - nextMonday) / (24 * 3600 * 1000) / 7) : 1);
 }
 const weekNumber = getDateWeek();
-switch(weekNumber) {
-  case weekNumber <=42:
-    Nächste Vorlesung: 14.10.2014
+let nextSession;
+switch (weekNumber) {
+  case weekNumber <= 42:
+    nextSession = "14.10.2024";
     break;
-  case weekNummber >42:
-    Später
+  case 1:
+    day = "Monday";
     break;
-  default:
-    // code block
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case  6:
+    day = "Saturday";
 }
+document.getElementById("demo").innerHTML = "Nächste Vorlesung am " + nextSession;
 </script>
 
 
