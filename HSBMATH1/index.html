@@ -209,6 +209,14 @@ document.getElementById("nextdate").innerHTML = "Nächster Termin: " + nextSessi
 
 <hr>
 <footer>
+  <p id="modified" style="font-size:small" ></p>
+
+  <script>
+    const date = new Date(document.lastModified);
+    document.getElementById("modified").innerHTML = date;
+    </script>
+
+
 <p style="font-size:small">Last modified: Sep 5<sup>th</sup>, 2024<br>
 <a href="../disclosure.html">Legal notice</a> | <a href="https://www.hs-bremen.de/en/data-privacy-policy/">Data privacy policy</a><br>
 &copy; 2024 D. Ulbrich
