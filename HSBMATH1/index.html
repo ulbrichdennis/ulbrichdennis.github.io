@@ -62,8 +62,9 @@
     return [d.getUTCFullYear(), weekNo];
 }
 let nextSession;
-switch (getWeekNumber(new Date())) {
-    case getWeekNumber(new Date()) <= 42:
+var result = getWeekNumber(new Date());
+switch (result[1]) {
+    case result[1] <= 42:
       nextSession = "14.10.2024";
       break;
     case 1:
