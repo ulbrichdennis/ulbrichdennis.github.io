@@ -46,38 +46,44 @@
     <p class="subtitle">Hochschule Bremen, WiSe 2024/25</p>
     <p>Dozent: <a href="https://www.dulbrich.de/index.html">Dr. Dennis Ulbrich</a> (Kontakt: <a href="mailto:dennis.ulbrich@lba.hs-bremen.de">HSB-Email</a>)</p>
 <p>Mo., 13:30 - 15:00, 15:15 - 16:45, 17:00 - 18:30, Raum M 26a</p>
-<p id="demo"></p>
+
 <script>
-  function getDateWeek(date) {
-    const currentDate = 
-        (typeof date === 'object') ? date : new Date();
-    const januaryFirst = 
-        new Date(currentDate.getFullYear(), 0, 1);
-    const daysToNextMonday = 
-        (januaryFirst.getDay() === 1) ? 0 : 
-        (7 - januaryFirst.getDay()) % 7;
-    const nextMonday = 
-        new Date(currentDate.getFullYear(), 0, 
-        januaryFirst.getDate() + daysToNextMonday);
- 
-    return (currentDate < nextMonday) ? 52 : 
-    (currentDate > nextMonday ? Math.ceil(
-    (currentDate - nextMonday) / (24 * 3600 * 1000) / 7) : 1);
+ const lectureDates = [
+  { week: 42, date: "October 14, 2024" },
+  { week: 43, date: "October 21, 2024" },
+  { week: 3, date: "January 14, 2025" },
+];
+
+// a func to calculate the current week number of the year...
+function getWeekNumber(date) {
+  const currentDate = typeof date === "object" ? date : new Date();
+  const januaryFirst = new Date(currentDate.getFullYear(), 0, 1);
+  const daysToNextMonday =
+    januaryFirst.getDay() === 1 ? 0 : (7 - januaryFirst.getDay() + 1) % 7;
+  const nextMonday = new Date(
+    currentDate.getFullYear(),
+    0,
+    januaryFirst.getDate() + daysToNextMonday
+  );
+  const weekNumber =
+    Math.ceil((currentDate - nextMonday) / (24 * 3600 * 1000) / 7) + 1;
+  return weekNumber;
 }
-</script>
-<script>
+
+// Get the current week number
 const currentDate = new Date();
-const weekNumber = getDateWeek();
-let nextSession;
-switch (weekNumber) {
-    case weekNumber <= 42:
-      nextSession = "14.10.2024";
-      break;
-    case weekNumber > 42 & weekNumber <= 43:
-      nextSession = "21.10.2024";
-      break;
-    }
-  document.getElementById("demo").innerHTML = "Nächster Termin: " + nextSession;
+const currentWeek = getWeekNumber(currentDate);
+let nextSession = "No lectures today happy days ahead...";
+
+// Find the next lecture date
+for (const lectureDate of lectureDates) {
+  if (lectureDate.week >= currentWeek) {
+    nextSession = lectureDate.date;
+    break;
+  }
+}
+
+console.log(`The next lecture is on ${nextSession}`);
   </script>
 
 
