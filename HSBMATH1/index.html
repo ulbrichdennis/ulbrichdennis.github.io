@@ -238,11 +238,15 @@ document.getElementById("nextdate").innerHTML = "<b>Nächster Vorlesungstag:</b>
 
 <hr>
 <footer>
-<p style="font-size:small">
-  Last modified: Sep 8, 2024<br>
+  <p id="HSBMATH1LastModified" style="font-size:small"></p>
+  <p style="font-size:small">
   <a href="../disclosure.html">Legal notice</a> | <a href="https://www.hs-bremen.de/en/data-privacy-policy/">Data privacy policy</a><br>
     &copy; 2024 D. Ulbrich
-</p>
+  </p>
+  <script>
+    var n = new Date(document.lastModified).toLocaleString();
+     document.getElementById("HSBMATH1LastModified").innerHTML = "Last modified: " + n;
+    </script>
 </footer>
 
       
@@ -250,3 +254,4 @@ document.getElementById("nextdate").innerHTML = "<b>Nächster Vorlesungstag:</b>
   </article>
 </body>
 </html>
+
