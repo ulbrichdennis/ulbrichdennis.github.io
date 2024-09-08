@@ -120,7 +120,8 @@ const lectureDay = 0; // Monday
 const lectureStartHour = 14; // 3 PM
 const lectureEndHour = 18; // 5 PM
 
-document.getElementById("nextdate").innerHTML = "Nächster Vorlesungstag: Montag, " + nextSession;
+
+document.getElementById("nextdate").innerHTML = "Nächster Vorlesungstag: Montag, " + getNextLectureDate(lectureDay, lectureStartHour, lectureEndHour);
 </script>
 
 
