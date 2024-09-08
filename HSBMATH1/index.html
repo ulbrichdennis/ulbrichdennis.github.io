@@ -125,7 +125,7 @@ const currentDate = date || new Date();
   const currentTime = currentDate.getHours() * 60 + currentDate.getMinutes();
 
 const nextSession = getNextLectureDate(lectureDay, lectureStartHour, lectureEndHour,) // 4th argument is (automatically) the current date
-document.getElementById("nextdate").innerHTML = "<b> Next lecture day:</b> " + nextSession + "Current Time: " + currentTime;
+document.getElementById("nextdate").innerHTML = "<b> Next lecture day:</b> " + nextSession;
 //document.getElementById("nextdate").innerHTML = "Next lecture day: " + getNextLectureDate(lectureDay, lectureStartHour, lectureEndHour,new Date("2024-10-21T14:30:00"));  test any date
 
 </script>
