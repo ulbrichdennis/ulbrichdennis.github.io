@@ -47,7 +47,7 @@
     <p>Dozent: <a href="https://www.dulbrich.de/index.html">Dr. Dennis Ulbrich</a> (Kontakt: <a href="mailto:dennis.ulbrich@lba.hs-bremen.de">HSB-Email</a>)</p>
 <p>Mo., 13:30 - 15:00, 15:15 - 16:45, 17:00 - 18:30, Raum M 26a</p>
 <p id="nextdate"></p>
-
+"2024-10-21T18:31:00"
 <script>
  const lectureDates = [
   { week: 42, date: "October 14, 2024" },
@@ -105,11 +105,11 @@ function getNextLectureDate(
     if (currentDate.getTime() <= lectureDate.getTime()) {
       if (currentDate.toDateString() === lectureDate.toDateString()) {
         if (currentTime <= lectureEndTime) {
-          nextSession = lecture.date;
+          nextSession = lecture.date.toLocaleDateString();
           break;
         }
       } else {
-        nextSession = lecture.date;
+        nextSession = lecture.date.toLocaleDateString();
         break;
       }
     }
