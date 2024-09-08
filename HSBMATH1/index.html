@@ -85,13 +85,14 @@ function getWeekNumber(date) {
 
 // Get the current week number
 const currentDate = new Date();
+const currentDay = currentDate.getDay();
 const currentWeek = getWeekNumber(currentDate);
 let nextSession = "No lectures today happy days ahead...";
 let topics ="All or nothing..."
 
 // Find the next lecture date
 for (const lectureDate of lectureDates) {
-  if (lectureDate.week >= currentWeek) {
+  if (lectureDate.week > currentWeek) {
     nextSession = lectureDate.date;
     topics = lectureDate.topic;
     break;
