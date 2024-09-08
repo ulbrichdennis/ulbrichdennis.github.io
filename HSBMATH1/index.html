@@ -50,7 +50,7 @@
 
 <script>
  const lectureDates = [
-  { week: 42, date: "14.10.2024" },
+  { week: 42, date: "October 14, 2024" },
   { week: 43, date: "October 21, 2024" },
   { week: 44, date: "October 28, 2024" },
   { week: 45, date: " November 4, 2024" },
@@ -123,8 +123,8 @@ const lectureStartMinutes = 30;
 const lectureEndHour = 18; 
 const lectureEndMinutes=30;
 
-const currentDate = new Date();
-document.getElementById("nextdate").innerHTML = "<b>Nächste Vorlesung:</b> " + getNextLectureDate(lectureDay, lectureStartHour, lectureEndHour,lectureStartMinutes, lectureEndMinutes,) + "Current: " + currentDate.toLocaleDateString();  // 4th argument is (automatically) the current date
+
+document.getElementById("nextdate").innerHTML = "<b>Nächste Vorlesung:</b> " + getNextLectureDate(lectureDay, lectureStartHour, lectureEndHour,lectureStartMinutes, lectureEndMinutes,);  // 4th argument is (automatically) the current date
 //document.getElementById("nextdate").innerHTML = "Next lecture day: " + getNextLectureDate(lectureDay, lectureStartHour, lectureEndHour,lectureStartMinutes,lectureEndMinutes,new Date("2024-10-21T18:31:00"));  // test any date
 
 </script>
