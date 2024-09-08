@@ -95,7 +95,7 @@ function getNextLectureDate(
   const lectureStartTime = lectureStartHour * 60;
   const lectureEndTime = lectureEndHour * 60;
 
-  let nextSession = "No upcoming lectures";
+  let nextSession = "No lectures today";
 
   for (const lecture of lectureDates) {
     const lectureDate = new Date(lecture.date);
@@ -113,15 +113,28 @@ function getNextLectureDate(
       }
     }
   }
-
-return nextSession;
+  console.log(
+    currentWeek,
+    currentDay,
+    lectureStartTime / 60,
+    lectureEndTime / 60
+  );
+  return nextSession;
 }
 
 const lectureDay = 0; // Monday
-const lectureStartHour = 13; // 3 PM
-const lectureEndHour = 30; // 5 PM
+const lectureStartHour = 14; // 3 PM
+const lectureEndHour = 18; // 5 PM
 
-
+console.log(getNextLectureDate(lectureDay, lectureStartHour, lectureEndHour));
+console.log(
+  getNextLectureDate(
+    lectureDay,
+    lectureStartHour,
+    lectureEndHour,
+    new Date("2024-10-21T14:30:00")
+  )
+);
 
  
   document.getElementById("nextdate").innerHTML = "Nächster Vorlesungstag: Montag, " + nextSession;
