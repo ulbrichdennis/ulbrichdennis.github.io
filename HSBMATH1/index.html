@@ -104,11 +104,11 @@ function getNextLectureDate(
     if (currentDate.getTime() <= lectureDate.getTime()) {
       if (currentDate.toDateString() === lectureDate.toDateString()) {
         if (currentTime <= lectureEndTime) {
-          nextSession = lecture.date;
+          nextSession = new Date(lecture.date).toLocaleDateString;
           break;
         }
       } else {
-        nextSession = lecture.date;
+        nextSession = new Date(lecture.date).toLocaleDateString;
         break;
       }
     }
