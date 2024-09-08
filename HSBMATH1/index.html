@@ -67,37 +67,66 @@
   { week: 6, date: "3.2.2025", topic: "Prüfung" }
   ];
 
-// a func to calculate the current week number of the year...
-function getWeekNumber(date) {
+  function getWeekNumber(date) {
   const currentDate = typeof date === "object" ? date : new Date();
   const januaryFirst = new Date(currentDate.getFullYear(), 0, 1);
   const daysToNextMonday =
-    januaryFirst.getDay() === 1 ? 0 : (7 - januaryFirst.getDay() + 1) % 7;
+januaryFirst.getDay() === 1 ? 0 : (7 - januaryFirst.getDay() + 1) % 7;
   const nextMonday = new Date(
-    currentDate.getFullYear(),
-    0,
-    januaryFirst.getDate() + daysToNextMonday
+currentDate.getFullYear(),
+0,
+januaryFirst.getDate() + daysToNextMonday
   );
   const weekNumber =
-    Math.ceil((currentDate - nextMonday) / (24 * 3600 * 1000) / 7) + 1;
+Math.ceil((currentDate - nextMonday) / (24 * 3600 * 1000) / 7) + 1;
   return weekNumber;
 }
 
-// Get the current week number
-const currentDate = new Date();
-const currentDay = currentDate.getDay();
-const currentWeek = getWeekNumber(currentDate);
-let nextSession = "No lectures today happy days ahead...";
-let topics ="All or nothing..."
+// func to get the date of the next lecture based on the current date and time
+function getNextLectureDate(lectureDay, lectureHour, lectureMinute) {
+  const currentDate = new Date();
+  const currentWeek = getWeekNumber(currentDate);
+  const currentDay = currentDate.getDay(); 
+  const currentHour = currentDate.getHours(); 
+  const currentMinute = currentDate.getMinutes(); 
 
-// Find the next lecture date
-for (const lectureDate of lectureDates) {
-  if (lectureDate.week > currentWeek) {
-    nextSession = lectureDate.date;
-    topics = lectureDate.topic;
-    break;
-  }
+  // Check if the current time has passed the lecture time on the lecture day
+  const isPastLectureTime =
+currentDay > lectureDay ||
+(currentDay === lectureDay &&
+  (currentHour > lectureHour ||
+    (currentHour === lectureHour && currentMinute >= lectureMinute)));
+
+  let nextSession = "No lectures happy days";
+
+  // the next lecture date by comparing the current week number and lecture timing
+  for (const lectureDate of lectureDates) {
+// If we are in the current week and it's before or at the lecture time, show the current week's lecture
+if (lectureDate.week === currentWeek && !isPastLectureTime) {
+  nextSession = lectureDate.date;
+  break;
 }
+// If the current time is past the lecture time or you're in a later week, move to the next available lecture
+if (
+  lectureDate.week > currentWeek ||
+  (lectureDate.week === currentWeek && isPastLectureTime)
+) {
+  nextSession = lectureDate.date;
+  break; // Stop loop after finding the first upcoming date
+}
+  }
+  return nextSession;
+}
+
+// specifically define your own time and time
+const lectureDay = 1; // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
+const lectureHour = 17; // 17 = 6 PM
+const lectureMinute = 30; // 30 minutes
+
+// Get the date of the next lecture based on the current date and time
+const nextSession = getNextLectureDate(lectureDay, lectureHour, lectureMinute);
+
+
 document.getElementById("nextdate").innerHTML = "Nächster Termin: " + nextSession + " (" + topics + ")";
 </script>
 
@@ -211,17 +240,13 @@ document.getElementById("nextdate").innerHTML = "Nächster Termin: " + nextSessi
 <hr>
 <footer>
   <p id="modified" style="font-size:small" ></p>
-
-  <script>
+<script>
     const date = new Date(document.lastModified);
-    document.getElementById("modified").innerHTML = "Last modified: " + date;
+    document.getElementById("modified").innerHTML = "Last modified: " + date + "<br>";
     </script>
-
-
-
-<p style="font-size:small"><a href="../disclosure.html">Legal notice</a> | <a href="https://www.hs-bremen.de/en/data-privacy-policy/">Data privacy policy</a><br>
+<a href="../disclosure.html">Legal notice</a> | <a href="https://www.hs-bremen.de/en/data-privacy-policy/">Data privacy policy</a><br>
 &copy; 2024 D. Ulbrich
-</p>
+
 </footer>
 
       
