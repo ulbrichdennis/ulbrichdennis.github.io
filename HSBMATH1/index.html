@@ -121,13 +121,17 @@ if (
 // specifically define your own time and time
 const lectureDay = 0; // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
 const lectureHour = 12; // 1 = 6 PM
-const lectureMinute = 50; // 30 minutes
+const lectureMinute = 55; // 30 minutes
 
 // Get the date of the next lecture based on the current date and time
 const nextSession = getNextLectureDate(lectureDay, lectureHour, lectureMinute);
 const currentWeek = getWeekNumber(currentDate);
+const currentDay = currentDate.getDay(); 
+  const currentHour = currentDate.getHours(); 
+  const currentMinute = currentDate.getMinutes(); 
+
  
-  document.getElementById("nextdate").innerHTML = "Nächster Termin: " + nextSession + " Current Week: " + currentWeek;
+  document.getElementById("nextdate").innerHTML = "Nächster Termin: " + nextSession + " Current Week: " + currentWeek + " Current Day: " + currentDay + " Current Hour: " + currentHour + " Current Min: " + currentMinute;
 </script>
 
 
