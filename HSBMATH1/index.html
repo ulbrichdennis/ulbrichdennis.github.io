@@ -79,7 +79,7 @@ januaryFirst.getDate() + daysToNextMonday
   );
   const weekNumber =
 Math.ceil((currentDate - nextMonday) / (24 * 3600 * 1000) / 7) + 1;
-  return weekNumber;
+  return weekNumber -1 ;
 }
 
 // func to get the date of the next lecture based on the current date and time
@@ -120,8 +120,8 @@ if (
 
 // specifically define your own time and time
 const lectureDay = 0; // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
-const lectureHour = 12; // 1 = 6 PM
-const lectureMinute = 55; // 30 minutes
+const lectureHour = 13; // 1 = 6 PM
+const lectureMinute = 10; // 30 minutes
 
 // Get the date of the next lecture based on the current date and time
 const nextSession = getNextLectureDate(lectureDay, lectureHour, lectureMinute);
@@ -132,7 +132,7 @@ const currentDay = currentDate.getDay();
   const currentMinute = currentDate.getMinutes(); 
 
  
-  document.getElementById("nextdate").innerHTML = "Nächster Termin: " + nextSession + " Current Week: " + currentWeek + " Current Day: " + currentDay + " Current Hour: " + currentHour + " Current Min: " + currentMinute;
+  document.getElementById("nextdate").innerHTML = "Nächster Termin: " + nextSession;
 </script>
 
 
