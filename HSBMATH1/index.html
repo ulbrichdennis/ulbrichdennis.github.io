@@ -103,7 +103,7 @@ function getNextLectureDate(
     lectureDate.setHours(lectureEndHour, 30, 0, 0);
 
     if (currentDate.getTime() <= lectureDate.getTime()) {
-      if (currentDate.toLocaleDateString() === lectureDate.toLocaleDateString()) {
+      if (currentDate.toDateString() === lectureDate.toDateString()) {
         if (currentTime <= lectureEndTime) {
           nextSession = lecture.date;
           break;
@@ -123,7 +123,8 @@ const lectureStartMinutes = 30;
 const lectureEndHour = 18; 
 const lectureEndMinutes=30;
 
-document.getElementById("nextdate").innerHTML = "<b>Nächste Vorlesung:</b> " + getNextLectureDate(lectureDay, lectureStartHour, lectureEndHour,lectureStartMinutes, lectureEndMinutes,); // 4th argument is (automatically) the current date
+const currentDate = date || new Date();
+document.getElementById("nextdate").innerHTML = "<b>Nächste Vorlesung:</b> " + getNextLectureDate(lectureDay, lectureStartHour, lectureEndHour,lectureStartMinutes, lectureEndMinutes,) + "Current: " + currentDate.toLocaleDateString();  // 4th argument is (automatically) the current date
 //document.getElementById("nextdate").innerHTML = "Next lecture day: " + getNextLectureDate(lectureDay, lectureStartHour, lectureEndHour,lectureStartMinutes,lectureEndMinutes,new Date("2024-10-21T18:31:00"));  // test any date
 
 </script>
