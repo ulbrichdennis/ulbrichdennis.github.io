@@ -105,16 +105,16 @@ function getNextLectureDate(
     if (currentDate.getTime() <= lectureDate.getTime()) {
       if (currentDate.toDateString() === lectureDate.toDateString()) {
         if (currentTime <= lectureEndTime) {
-          nextSession = lecture.date;
+          nextSession = lecture.datetoLocaleDateString();
           break;
         }
       } else {
-        nextSession = lecture.date;
+        nextSession = lecture.datetoLocaleDateString();
         break;
       }
     }
   }
-return nextSession.toLocaleString("de-DE");
+return nextSession;
 }
 
 const lectureDay = 1; 
