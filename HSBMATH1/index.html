@@ -239,13 +239,11 @@ document.getElementById("nextdate").innerHTML = "Nächster Termin: " + nextSessi
 
 <hr>
 <footer>
-  <p id="modified" style="font-size:small" >
-    <a href="../disclosure.html">Legal notice</a> | <a href="https://www.hs-bremen.de/en/data-privacy-policy/">Data privacy policy</a><br>
-&copy; 2024 D. Ulbrich
-</p>
+  <p id="modified" style="font-size:small" ></p>
 <script>
     const date = new Date(document.lastModified);
-    document.getElementById("modified").innerHTML = "Last modified: " + date + "<br>";
+    document.getElementById("modified").innerHTML = "Last modified: " + date + "<br>" + "<a href="../disclosure.html">Legal notice</a> | <a href="https://www.hs-bremen.de/en/data-privacy-policy/">Data privacy policy</a><br>
+    &copy; 2024 D. Ulbrich";
     </script>
 </footer>
 
