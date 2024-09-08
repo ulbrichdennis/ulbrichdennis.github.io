@@ -85,14 +85,16 @@ function getNextLectureDate(
   lectureDay,
   lectureStartHour,
   lectureEndHour,
+  lecturesStartMinutes,
+  lecturesEndMinutes,
   date
 ) {
   const currentDate = date || new Date();
   const currentWeek = getWeekNumber(currentDate);
   const currentDay = currentDate.getDay();
   const currentTime = currentDate.getHours() * 60 + currentDate.getMinutes();
-  const lectureStartTime = lectureStartHour * 60;
-  const lectureEndTime = lectureEndHour * 60;
+  const lectureStartTime = lectureStartHour * 60 + lecturesStartMinutes;
+  const lectureEndTime = lectureEndHour * 60 + lecturesEndMinutes;
 
   let nextSession = "No lectures today";
 
@@ -117,15 +119,11 @@ return nextSession;
 
 const lectureDay = 1; // Monday
 const lectureStartHour = 13; // 3 PM
+const lecturesStartMinutes = 30;
 const lectureEndHour = 18; // 6 PM
+const lectureEndMinutes=30;
 
-const currentDate = date || new Date();
-  const currentWeek = getWeekNumber(currentDate);
-  const currentDay = currentDate.getDay();
-  const currentTime = currentDate.getHours() * 60 + currentDate.getMinutes();
-
-const nextSession = getNextLectureDate(lectureDay, lectureStartHour, lectureEndHour,) // 4th argument is (automatically) the current date
-document.getElementById("nextdate").innerHTML = "<b> Next lecture day:</b> " + nextSession;
+document.getElementById("nextdate").innerHTML = "<b> Next lecture day:</b> " + getNextLectureDate(lectureDay, lectureStartHour, lectureEndHour,); // 4th argument is (automatically) the current date
 //document.getElementById("nextdate").innerHTML = "Next lecture day: " + getNextLectureDate(lectureDay, lectureStartHour, lectureEndHour,new Date("2024-10-21T14:30:00"));  test any date
 
 </script>
