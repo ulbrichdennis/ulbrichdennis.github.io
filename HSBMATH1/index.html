@@ -125,7 +125,10 @@ const lectureMinute = 40; // 30 minutes
 
 // Get the date of the next lecture based on the current date and time
 const nextSession = getNextLectureDate(lectureDay, lectureHour, lectureMinute);
-
+const currentDate = new Date();
+  
+const currentHour = currentDate.getHours(); 
+  
 
 document.getElementById("nextdate").innerHTML = "Nächster Termin: " + nextSession + "CurrentHour: " + currentHour;
 </script>
