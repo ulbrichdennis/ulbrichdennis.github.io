@@ -125,6 +125,7 @@ const lectureMinute = 55; // 30 minutes
 
 // Get the date of the next lecture based on the current date and time
 const nextSession = getNextLectureDate(lectureDay, lectureHour, lectureMinute);
+const currentDate = new Date();
 const currentWeek = getWeekNumber(currentDate);
 const currentDay = currentDate.getDay(); 
   const currentHour = currentDate.getHours(); 
