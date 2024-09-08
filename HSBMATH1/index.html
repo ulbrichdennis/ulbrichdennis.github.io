@@ -50,7 +50,7 @@
 
 <script>
  const lectureDates = [
-  { week: 42, date: "October 14, 2024" },
+  { week: 42, date: "14.10.2024" },
   { week: 43, date: "October 21, 2024" },
   { week: 44, date: "October 28, 2024" },
   { week: 45, date: " November 4, 2024" },
@@ -103,7 +103,7 @@ function getNextLectureDate(
     lectureDate.setHours(lectureEndHour, 30, 0, 0);
 
     if (currentDate.getTime() <= lectureDate.getTime()) {
-      if (currentDate.toDateString() === lectureDate.toDateString()) {
+      if (currentDate.toLocaleDateString() === lectureDate.toLocaleDateString()) {
         if (currentTime <= lectureEndTime) {
           nextSession = lecture.date;
           break;
