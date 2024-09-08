@@ -100,7 +100,7 @@ function getNextLectureDate(
 
   for (const lecture of lectureDates) {
     const lectureDate = new Date(lecture.date);
-    lectureDate.setHours(lectureEndHour, 0, 0, 0);
+    lectureDate.setHours(lectureEndHour, 30, 0, 0);
 
     if (currentDate.getTime() <= lectureDate.getTime()) {
       if (currentDate.toDateString() === lectureDate.toDateString()) {
