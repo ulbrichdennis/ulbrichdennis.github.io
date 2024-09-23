@@ -18,10 +18,65 @@ content="Webpage of Dennis Ulbrich">
 <script src="https://kit.fontawesome.com/aef6edf51d.js" crossorigin="anonymous"></script>
 
 
+<style>
+  .collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+</style>
+
+
+
 
 </head>
 
 <body>
+
+
+
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
+
+
+
+
+
+
 
   <header class="header">
     <a href="index.html" class="logo">Home</a>
@@ -68,6 +123,21 @@ My work was supported by the now completed DFG project number 384027439 (<i>Ergo
   <a class="no-tufte-underline" href="https://www.researchgate.net/profile/Dennis-Ulbrich-2"><i class="ai ai-researchgate ai-border ai-1x" style="color:#050131;" title="ResearchGate"></i></a>
   <a class="no-tufte-underline" href="https://www.linkedin.com/in/ulbrichdennis/"><i class="fa-brands fa-linkedin ai-border ai-1x" style="color:#050131" title="LinkedIn"></i></a>
 </p>
+
+
+<button type="button" class="collapsible">Open Collapsible</button>
+<div class="content">
+  <p>Lorem ipsum...</p>
+</div>
+
+
+
+
+
+
+
+
+
 <hr>
 <footer>
 <p style="font-size:small"><a href="../disclosure.html">Legal notice</a><br>
