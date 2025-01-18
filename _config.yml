@@ -1,0 +1,240 @@
+# Site
+repository: ulbrichdennis/ulbrichdennis.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Dr. Dennis Ulbrich
+title: Postdoctoral researcher
+email: ulbrich@magenta.de
+# email_title:  
+#phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+website: 
+# website_title: Web (Website title override)
+
+
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+
+# Social links
+#twitter_username: jekyllrb
+#github_username:  jekyll
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: 
+linkedin_username: ulbrichdennis
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+orcid_username: 0000-0001-5541-011X
+googlescholar_username: b1u5plUAAAAJ
+
+# Additional icon links
+additional_links:
+- title: Link name
+  icon: fab fa-researchgate
+  url: https://www.researchgate.net/profile/Dennis-Ulbrich-2
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: About Me
+about_profile_image: images/UD.jpeg
+about_content: | # this will include new lines to allow paragraphs
+
+  Currently, I am a part-time lecturer at [Hochschule Bremen](https://www.hs-bremen.de/en/).
+
+  Beforehand, I was a postdoctoral researcher at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/institute.shtml) at the [University of Münster](https://www.uni-muenster.de/en/).
+  
+  I earned my PhD (*Dr. rer. nat.* in Mathematics) at the [University of Bremen](https://www.uni-bremen.de/en/), cf. [MGP](https://www.mathgenealogy.org/id.php?id=277103). 
+
+  Some more details and further information can be found in the sections below.
+    
+content:
+  - title: Research interests # Title for the section
+    layout: text
+    content: |
+     * Ordinary and Partial Differential Equations and their dynamics
+     * Dynamical Systems, Ergodic Theory
+     * Kinetic Theory, Entropy methods
+     * Boltzmann equation and its BGK-type approximations, models of chemical reactions
+     * Long-time bevaviour of solutions, convergence to equilibrium (hypocoercivity)
+     * Physical applications
+  - title: Projects  
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: DFG 456849348
+        link: https://gepris.dfg.de/gepris/projekt/456849348?bundesland=DEU%23&fachgebiet=%23&findButton=historyCall&ggsHunderter=0&hitsPerPage=25&index=128925&language=en&lis=%23&nurProjekteMitAB=false&oldGgsHunderter=0&teilprojekte=true
+        link_text: Link to project
+        #additional_links:
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: https://gepris.dfg.de/gepris/projekt/456849348?bundesland=DEU%23&fachgebiet=%23&findButton=historyCall&ggsHunderter=0&hitsPerPage=25&index=128925&language=en&lis=%23&nurProjekteMitAB=false&oldGgsHunderter=0&teilprojekte=true
+          #- title:  Github page for project (eg. sproogen/modern-resume-theme)
+           # icon: fab fa-github
+           # url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Modeling and mathematical description of concrete physical applications in the context of<br>kinetic theory using the Bathnagar-Gross-Krook equation
+        description: | # this will include new lines to allow paragraphs
+                     Term from 2021 to 2025; participating since June 2023
+      - layout: left
+        #border: weak
+        title: DFG 384027439
+        link: https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2
+        link_text: Link to project
+        quote: >
+         Ergodic theory of nonlinear waves in discrete and continuous excitable media
+        description: | # this will include new lines to allow paragraphs  
+                     Term and participation from 2017 to 2021
+  - title: Publications
+    layout: text
+    content: |
+    
+      ## In progress
+      
+        * *Discrete hypocoercivity for a nonlinear generation-recombination model.* <br>
+           joint work with [L. Liu](https://www.math.cuhk.edu.hk/~lliu/) and [M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)
+    
+      ## Refereed journal articles
+    
+        * A. Pauthier, J.D.M. Rademacher, D. Ulbrich.<br>
+          *Weak and strong interaction of excitation kinks in scalar parabolic equations.*<br>
+          J Dyn Diff Equat. Published 30 July 2021; Volume 35, pages 2199-2235, (2023) [[DOI]](https://link.springer.com/article/10.1007/s10884-021-10040-2) [[arXiv]](https://arxiv.org/abs/2012.00309)
+        * M. Keßeböhmer, J.D.M. Rademacher, D. Ulbrich.<br>
+          *Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata.*<br>
+          Ergodic Theory and Dynamical Systems. 2021;41(5):1397-1430 [[DOI]](https://www.cambridge.org/core/journals/ergodic-theory-and-dynamical-systems/article/dynamics-and-topological-entropy-of-1d-greenberghastings-cellular-automata/1DBE1EC4EC7BE9F216E9E35C214F2F3C) [[arXiv]](https://arxiv.org/abs/1903.02459)
+        
+      ## Theses
+      
+         * D. Ulbrich.<br>
+           *Ergodic theory of nonlinear waves in discrete and continuous excitable media.*<br>
+           Dissertation, 2021 [[DOI]](https://media.suub.uni-bremen.de/handle/elib/5257)
+          
+  - title: Short CV (Research & Education) 
+    layout: list
+    content:
+      - layout: top-right
+        border: weak
+        title: University of Münster
+        sub_title: Postdoctoral researcher
+        caption: 6.2023 -- 6.2024
+        quote: >
+           Faculty of Mathematics and Computer Science<br>
+           Institute for Analysis and Numerics
+        description: | # this will include new lines to allow paragraphs
+          Research within DFG project 456849348 (see above)<br>
+          *Supervision:* [Prof. Dr. M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)<br>
+          <mark>Hypocoercivity</mark> <mark>Kinetic Equations</mark> <mark>BGK Approximations</mark> <mark>Chemical Reactions</mark> <mark>Entropy Methods</mark>
+      - layout: top-right
+        border: weak 
+        title: University of Bremen
+        sub_title: PhD student and research assistant <br>
+                   PhD degree (Dr. rer. nat.) in 8.2021
+        caption: 4.2016 -- 9.2021
+        quote: >
+           Department of Mathematics<br>
+           Research groups: Nonlinear Analysis and Applied Analysis,<br>
+           Stochastics and Dynamical Systems<br>
+        description: |
+         Research within DFG project number 384027439 (see above)<br>
+         PhD thesis: *Ergodic theory of nonlinear waves in discrete and continuous excitable media*<br>
+         *Advisors:* [Prof. Dr. J. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html) and [Prof. Dr. M. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer)<br>
+         *Referees:* Prof. Dr. J. Rademacher (now University of Hamburg) and [Prof. Dr. I. Melbourne](https://warwick.ac.uk/fac/sci/maths/people/staff/ian_melbourne/) (Warwick University)<br>
+         <mark>Analysis</mark> <mark>Ergodic Theory</mark> <mark>PDE</mark> <mark>Excitable media</mark> <mark>Cellular Automata</mark> <mark>Dynamical Systems</mark>
+      - layout: top-right
+        title: University of Bremen
+        sub_title: Study of Mathematics<br>
+                  Master and Bachelor degree (M.Sc. and B.Sc.)
+        caption: until 4.2016
+        quote: >
+         Department of Mathematics
+        description: |
+         M.Sc. thesis: *Dynamics of the three-state 1D Greenberg-Hastings cellular automaton*<br>
+         *Referees:* Prof. Dr. J. Rademacher and [Dr. T. Samuel](https://tony-samuel.github.io/index.html) (University of Birmingham) <br>
+         B.Sc. thesis: *Unerwartete Fehler bei bedingten Erwartungswerten und Wahrscheinlichkeiten* <br>
+         *Referees:* [Prof. Dr. W. Brannath](https://www.uni-bremen.de/kksb/biometrie/team/mitglieder/prof-dr-werner-brannath) (University of Bremen) and [Dr. K. Falk](https://www.math.uni-kiel.de/de/personen/a-z/dr-kurt-falk) (University of Kiel)
+  - title: Short CV (Teaching)
+    layout: list
+    content:
+      - layout: right
+        border: weak
+        title: Hochschule Bremen
+        sub_title: Lecturer
+        caption: Winter semester 2024/25
+        link: 
+        quote: >
+          Faculty 5 - School of Nature and Engineering
+        description: | # this will include new lines to allow paragraphs
+          *Mathematik 1* (MATH1)
+      - layout: right
+        title: Jacobs University Bremen
+        sub_title: Lecturer
+        caption: Spring term 2022
+        quote: > 
+          School of Science
+        description: |
+          *Finite Mathematics*<br>
+          *Introduction to Dynamical Systems*
+  - title: Other
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      ## Grants
+        + [Brückenstipendium](https://www.uni-bremen.de/fileadmin/user_upload/forschung/Anlage/Stipendium/Merkblatt_Brueckenstip.pdf) der Universität Bremen, 2016 -- 2017
+
+      ## Supervision
+
+         + University of Bremen, 2020-21<br>
+          Student Research Project<br>
+          *Wave patterns in cellular automata for excitable media*
+
+      ## Organisation etc.
+
+         + University of Bremen, 2016-21<br>
+           Supporting several [summer and winter schools](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems)
+         + University of Bremen, 2017-21<br>
+           Maintaining the Mathematical Collection and creating its [website](https://www.uni-bremen.de/appanalysis/mathematical-collection/)
+            
+# Footer
+footer_show_references: true
+references_title: Last modified Jan 18, 2025
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
