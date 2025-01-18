@@ -139,8 +139,9 @@ content:
            Faculty of Mathematics and Computer Science<br>
            Institute for Analysis and Numerics
         description: | # this will include new lines to allow paragraphs
-          + Research on discrete hypocoercivity within DFG project 456849348<br>
+          Research on discrete hypocoercivity within DFG project 456849348<br>
           + *Supervision:* [Prof. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)<br>
+          + Keywords:
              + <mark>Hypocoercivity</mark>
              + <mark>Kinetic Equations</mark>
              + <mark>BGK-type Approximations</mark>
