@@ -140,7 +140,7 @@ content:
            Institute for Analysis and Numerics
         description: | # this will include new lines to allow paragraphs
           Research on discrete hypocoercivity within DFG project 456849348<br>
-          *Supervision:* [Prof. Marlies Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)<br>
+          *Supervision:* [Prof. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)<br>
           + <mark>Hypocoercivity</mark>
           + <mark>Kinetic Equations</mark>
           + <mark>BGK-type Approximations</mark>
@@ -159,8 +159,8 @@ content:
         description: |
          Research within DFG project number 384027439<br>
          PhD thesis: *Ergodic theory of nonlinear waves in discrete and continuous excitable media*<br>
-         *Advisors:* [Prof. J. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html), [Prof. M. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer)<br>
-         *Referees:* Prof. J. Rademacher (now University of Hamburg), [Prof. I. Melbourne](https://warwick.ac.uk/fac/sci/maths/people/staff/ian_melbourne/) (Warwick University)<br>
+         *Advisors:* [Prof. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html), [Prof. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer)<br>
+         *Referees:* Prof. Rademacher (now University of Hamburg), [Prof. Melbourne](https://warwick.ac.uk/fac/sci/maths/people/staff/ian_melbourne/) (Warwick University)<br>
           + <mark>Nonlinear Analysis</mark>
           + <mark>Ergodic Theory</mark>
           + <mark>PDE</mark>
@@ -176,9 +176,9 @@ content:
          Department of Mathematics
         description: |
          M.Sc. thesis: *Dynamics of the three-state 1D Greenberg-Hastings cellular automaton*<br>
-         *Referees:* Prof. J. Rademacher, [Dr. T. Samuel](https://tony-samuel.github.io/index.html) (University of Birmingham) <br>
+         *Referees:* Prof. Rademacher, [Dr. Samuel](https://tony-samuel.github.io/index.html) (University of Birmingham) <br>
          B.Sc. thesis: *Unerwartete Fehler bei bedingten Erwartungswerten und Wahrscheinlichkeiten* <br>
-         *Referees:* [Prof. W. Brannath](https://www.uni-bremen.de/kksb/biometrie/team/mitglieder/prof-dr-werner-brannath) (University of Bremen), [Dr. K. Falk](https://www.math.uni-kiel.de/de/personen/a-z/dr-kurt-falk) (University of Kiel)
+         *Referees:* [Prof. Brannath](https://www.uni-bremen.de/kksb/biometrie/team/mitglieder/prof-dr-werner-brannath) (University of Bremen), [Dr. Falk](https://www.math.uni-kiel.de/de/personen/a-z/dr-kurt-falk) (University of Kiel)
   - title: Short CV (Teaching)
     layout: list
     content:
