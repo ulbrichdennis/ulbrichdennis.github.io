@@ -97,7 +97,8 @@ content:
         quote: >
           Modeling and mathematical description of concrete physical applications in the context of<br>kinetic theory using the Bathnagar-Gross-Krook equation
         description: | # this will include new lines to allow paragraphs
-                     Term 2021 - 2025, participating since 6.2023
+                     + Term 2021 - 2025
+                     + Participation since 6.2023
       - layout: left
         #border: weak
         title: DFG 384027439
@@ -106,7 +107,8 @@ content:
         quote: >
          Ergodic theory of nonlinear waves in discrete and continuous excitable media
         description: | # this will include new lines to allow paragraphs  
-                     Term and participation 2017 - 2021
+                     + Term 2017 - 2021
+                     + Participation 2017 - 2021
   - title: Publications
     layout: text
     content: |
@@ -197,7 +199,8 @@ content:
         quote: >
           Faculty 5 - School of Nature and Engineering
         description: | # this will include new lines to allow paragraphs
-          *Mathematik 1* (MATH1)
+           + *Mathematik 1* (MATH1)
+             + Undergraduate lecture
       - layout: right
         title: Jacobs University Bremen
         sub_title: Lecturer
@@ -205,8 +208,10 @@ content:
         quote: > 
           School of Science
         description: |
-          *Finite Mathematics*<br>
-          *Introduction to Dynamical Systems*
+          + *Finite Mathematics*
+             + Undergraduate lecture
+          + *Introduction to Dynamical Systems*
+             + proseminar
   - title: Other
     layout: text
     content: | # this will include new lines to allow paragraphs
