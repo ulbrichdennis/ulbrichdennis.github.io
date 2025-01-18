@@ -68,13 +68,16 @@ content:
   - title: Research interests # Title for the section
     layout: text
     content: |
-     * Ordinary and Partial Differential Equations and their dynamics
-     * Dynamical Systems, Ergodic Theory
-     * Kinetic Theory, Entropy methods
-     * Boltzmann equation and its BGK-type approximations
-     * Models of chemical reactions
-     * Hypocoercivity
-     * Physical applications
+     * <mark>ODE, PDE and their dynamics</mark>
+     * <mark>Dynamical Systems</mark>
+     * <mark>Ergodic Theory</mark>
+     * <mark>Kinetic Theory</mark>
+     * <mark>Entropy methods</mark>
+     * <mark>Boltzmann equation</mark>
+     * <mark>BGK-type approximations</mark>
+     * <mark>Models of chemical reactions</mark>
+     * <mark>Hypocoercivity</mark>
+     * <mark>Physical applications</mark>
   - title: Projects  
     layout: list # Type of content section (list/text)
     content:
