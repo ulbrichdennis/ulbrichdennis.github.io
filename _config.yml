@@ -134,7 +134,7 @@ content:
         border: weak
         title: University of Münster
         sub_title: Postdoctoral researcher
-        caption: 6.2023 -- 6.2024
+        caption: 6.2023 - 6.2024
         quote: >
            Faculty of Mathematics and Computer Science<br>
            Institute for Analysis and Numerics
@@ -147,7 +147,7 @@ content:
         title: University of Bremen
         sub_title: PhD student and research assistant <br>
                    PhD degree (Dr. rer. nat.) in 8.2021
-        caption: 4.2016 -- 9.2021
+        caption: 4.2016 - 9.2021
         quote: >
            Department of Mathematics<br>
            Research groups: Nonlinear Analysis and Applied Analysis,<br>
@@ -200,7 +200,7 @@ content:
 
       ## Supervision
 
-         + University of Bremen, 2020-21<br>
+         + University of Bremen, 2020 -- 2021<br>
           Student Research Project<br>
           *Wave patterns in cellular automata for excitable media*
 
