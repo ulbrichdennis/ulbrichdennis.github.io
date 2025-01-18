@@ -196,7 +196,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       ## Grants
-        + [Brückenstipendium](https://www.uni-bremen.de/fileadmin/user_upload/forschung/Anlage/Stipendium/Merkblatt_Brueckenstip.pdf) der Universität Bremen, 2016 -- 2017
+        + [Brückenstipendium](https://www.uni-bremen.de/fileadmin/user_upload/forschung/Anlage/Stipendium/Merkblatt_Brueckenstip.pdf), Universität Bremen, 2016 -- 2017
 
       ## Supervision
 
