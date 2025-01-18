@@ -141,11 +141,11 @@ content:
         description: | # this will include new lines to allow paragraphs
           + Research on discrete hypocoercivity within DFG project 456849348<br>
           + *Supervision:* [Prof. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)<br>
-           + <mark>Hypocoercivity</mark>
-           + <mark>Kinetic Equations</mark>
-           + <mark>BGK-type Approximations</mark>
-           + <mark>Chemical Reactions</mark>
-           + <mark>Entropy Methods</mark>
+             + <mark>Hypocoercivity</mark>
+             + <mark>Kinetic Equations</mark>
+             + <mark>BGK-type Approximations</mark>
+             + <mark>Chemical Reactions</mark>
+             + <mark>Entropy Methods</mark>
       - layout: top-right
         border: weak 
         title: University of Bremen
