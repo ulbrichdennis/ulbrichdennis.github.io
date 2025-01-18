@@ -72,7 +72,7 @@ content:
      * Dynamical Systems, Ergodic Theory
      * Kinetic Theory, Entropy methods
      * Boltzmann equation and its BGK-type approximations, models of chemical reactions
-     * Long-time bevaviour of solutions, convergence to equilibrium (hypocoercivity)
+     * Convergence to equilibrium (hypocoercivity)
      * Physical applications
   - title: Projects  
     layout: list # Type of content section (list/text)
