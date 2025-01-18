@@ -141,7 +141,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Research on discrete hypocoercivity within DFG project 456849348<br>
           *Supervision:* [Prof. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)<br>
-          <mark>Hypocoercivity</mark> <mark>Kinetic Equations</mark> <mark>BGK Approximations</mark> <mark>Chemical Reactions</mark> <mark>Entropy Methods</mark>
+          <mark>Hypocoercivity</mark><mark>Kinetic Equations</mark> <mark>BGK Approximations</mark><mark>Chemical Reactions</mark><mark>Entropy Methods</mark>
       - layout: top-right
         border: weak 
         title: University of Bremen
@@ -157,7 +157,7 @@ content:
          PhD thesis: *Ergodic theory of nonlinear waves in discrete and continuous excitable media*<br>
          *Advisors:* [Prof. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html), [Prof. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer)<br>
          *Referees:* Prof. Rademacher (now University of Hamburg), [Prof. Melbourne](https://warwick.ac.uk/fac/sci/maths/people/staff/ian_melbourne/) (Warwick University)<br>
-         <mark>Analysis</mark> <mark>Ergodic Theory</mark> <mark>PDE</mark> <mark>Excitable media</mark> <mark>Cellular Automata</mark> <mark>Dynamical Systems</mark>
+         <mark>Analysis</mark><mark>Ergodic Theory</mark><mark>PDE</mark><mark>Excitable media</mark><mark>Cellular Automata</mark><mark>Dynamical Systems</mark>
       - layout: top-right
         title: University of Bremen
         sub_title: Study of Mathematics<br>
