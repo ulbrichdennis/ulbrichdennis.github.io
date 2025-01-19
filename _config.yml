@@ -135,6 +135,15 @@ content:
     content:
       - layout: top-right
         border: weak
+        title: Hochschule Bremen
+        sub_title: Postdoctoral researcher
+        caption: 2.2025 - today
+        quote: >
+            Faculty 4: School of Electrical Engineering and Computer Science 
+        description: |
+          will be added 
+      - layout: top-right
+        border: weak
         title: University of Münster
         sub_title: Postdoctoral researcher
         caption: 6.2023 - 6.2024
@@ -194,7 +203,7 @@ content:
         caption: Winter semester 2024/25
         link: 
         quote: >
-          Faculty 5 - School of Nature and Engineering
+          Faculty 5: School of Nature and Engineering
         description: | # this will include new lines to allow paragraphs
            + *Mathematik 1* (MATH1)
              + Undergraduate lecture
