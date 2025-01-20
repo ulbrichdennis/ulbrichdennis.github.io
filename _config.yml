@@ -136,12 +136,12 @@ content:
       - layout: top-right
         border: weak
         title: Hochschule Bremen
-        sub_title: Postdoctoral Researcher
+        sub_title: Postdoctoral researcher
         caption: 2.2025 - today
         quote: >
             Faculty 4: School of Electrical Engineering and Computer Science 
         description: |
-          + Conception and development of deep learning approaches to text recognition and extraction, based on current research approaches
+          + Conception and development of deep learning approaches to text recognition and extraction
           + Development of a modern application for the usage of the developed deep learning approaches
       - layout: top-right
         border: weak
