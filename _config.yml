@@ -141,7 +141,8 @@ content:
         quote: >
             Faculty 4: School of Electrical Engineering and Computer Science 
         description: |
-          will be added 
+          + Conception and development of deep learning approaches to text recognition and extraction, based on current research approaches
+          + Development of a modern application for the usage of the developed deep learning approaches
       - layout: top-right
         border: weak
         title: University of Münster
