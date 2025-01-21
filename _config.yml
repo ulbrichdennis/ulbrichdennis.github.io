@@ -103,8 +103,9 @@ content:
         link_text: Link to project
         quote: >
           KI-basierte Übertragung, Analyse und Prüfung handgeschriebener Dokumente zur Entlastung von Lehrer:innen; TP A
-        description: + Term 12.2024 - 5.2026
-                     + Participation since 2.2025 
+        description: |
+                + Term 12.2024 - 5.2026
+                + Participation since 2.2025 
       - layout: left
         #border: weak
         title: DFG 384027439
