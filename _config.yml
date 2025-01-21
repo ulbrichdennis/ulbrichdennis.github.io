@@ -97,6 +97,15 @@ content:
                      + Term 2021 - 2025
                      + Participation since 6.2023
       - layout: left
+        border: weak
+        title: DATIPilot - Sprint - Lector4Teachers
+        link: https://www.hs-bremen.de/forschen/forschungs-und-transferprofil/forschungsprojekt/datipilot-sprint-lector4teachers-ki-basierte-uebertragung-analyse-und-pruefung-handgeschriebener-dokumente-zur-entlastung-von-lehrerinnen-tp-a/
+        link_text: Link to project
+        quote: >
+          KI-basierte Übertragung, Analyse und Prüfung handgeschriebener Dokumente zur Entlastung von Lehrer:innen; TP A
+        description: + Term 12.2024 - 5.2026
+                     + Participation since 2.2025 
+      - layout: left
         #border: weak
         title: DFG 384027439
         link: https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2
