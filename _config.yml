@@ -18,7 +18,7 @@ website:
 
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 
 # Social links
