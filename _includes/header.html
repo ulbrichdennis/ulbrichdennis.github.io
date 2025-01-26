@@ -106,6 +106,12 @@
         {% endfor %}
       </ul>
       
+      {%- if site.address -%}
+      <p>
+        {{ site.address_title | default: "Contact" }}: Fakestreet 123<br>Room: 234<br>2881122 Bremen
+      </p>
+    {%- endif -%}
+
  {%- if site.email -%}
         <p>
           {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
