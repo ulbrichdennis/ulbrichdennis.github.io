@@ -255,6 +255,7 @@ content:
   - title: <a id="Contact">Contact</a> 
     layout: text
     content: | # this will include new lines to allow paragraphs
+         ![logo](/images/logo.svg) 
          ## Postal address
 
             Hochschule Bremen<br>
