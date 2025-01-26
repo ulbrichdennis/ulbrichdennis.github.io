@@ -3,6 +3,12 @@
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <h1>{{ site.name | escape }}</h1>
       <h2>{{ site.title | escape }}</h2>
+      <p align="left">
+        Hochschule Bremen<br>
+        Neustadtswall 30<br>
+        Raum 12345<br>
+        28199 Bremen
+        </p>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
       <ul class="icons no-print">
@@ -105,14 +111,8 @@
           </li>
         {% endfor %}
       </ul>
-      <p align="left">
-      Hochschule Bremen<br>
-      Neustadtswall 30<br>
-      Raum 12345<br>
-      28199 Bremen
-      </p>
-
-      {%- if site.email -%}
+      
+ {%- if site.email -%}
         <p>
           {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
         </p>
