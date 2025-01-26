@@ -54,7 +54,7 @@ additional_links:
 
 # About Section
 about_title: About Me
-about_profile_image: images/UD.jpeg
+about_profile_image: images/UD.jpeg <br> /images/logosvg
 about_content: | # this will include new lines to allow paragraphs
 
   Currently, I am a postdoctoral researcher at [Faculty 4](https://www.hs-bremen.de/en/hsb/faculties/school-of-electrical-engineering-and-computer-science/#c1325) of the [Bremen University of Applied Sciences](https://www.hs-bremen.de/en/).
