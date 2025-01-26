@@ -65,6 +65,20 @@ about_content: | # this will include new lines to allow paragraphs
   Some more details and further information, including my teaching activities, can be found below. 
     
 content:
+
+  - title: Contact 
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      ## Postal Address
+        Hochschule Bremen<br>
+        Neustadtswall 30<br>
+        28199 Bremen, Germany
+
+      ## Email
+      [ulbrich@magenta.de](mailto:ulbric@magenta.de)
+
+      ## Phone
+      to be added
   - title: Research interests # Title for the section
     layout: text
     content: |
@@ -247,19 +261,7 @@ content:
            Supporting several [summer and winter schools](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems)
          + University of Bremen, 2017 -- 2021<br>
            Maintaining the Mathematical Collection and creating its [website](https://www.uni-bremen.de/appanalysis/mathematical-collection/)
-  - title: Contact 
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      ## Postal Address
-        Hochschule Bremen<br>
-        Neustadtswall 30<br>
-        28199 Bremen, Germany
-
-      ## Email
-      [ulbrich@magenta.de](mailto:ulbric@magenta.de)
-
-      ## Phone
-      to be added
+  
         
 
       
