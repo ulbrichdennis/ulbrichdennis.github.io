@@ -8,12 +8,11 @@ version: 2
 # Personal info
 name: Dr. Dennis Ulbrich
 title: Postdoctoral researcher
-email: ulbrich@magenta.de
+email: 
 # email_title:  
 #phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
 website: 
-address: yes
 # website_title: Web (Website title override)
 
 
