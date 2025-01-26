@@ -150,7 +150,7 @@ content:
     content:
       - layout: top-right
         border: weak
-        title:  ![logo](/images/logo.svg) <br> Hochschule Bremen
+        title: Hochschule Bremen
         sub_title: Postdoctoral researcher
         caption: from 2.2025
         quote: >
