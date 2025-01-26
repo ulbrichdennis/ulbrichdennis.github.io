@@ -254,8 +254,7 @@ content:
            Maintaining the Mathematical Collection and creating its [website](https://www.uni-bremen.de/appanalysis/mathematical-collection/)   
   - title: <a id="Contact">Contact</a> 
     layout: text
-    content: | # this will include new lines to allow paragraphs
-         ![logo](/images/logo.svg) 
+    content: | # this will include new lines to allow paragraphs 
          ## Postal address
 
             Hochschule Bremen<br>
