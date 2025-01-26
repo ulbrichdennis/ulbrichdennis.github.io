@@ -251,13 +251,12 @@ content:
   - title: <a id="Contact">Contact</a> 
     layout: text
     content: | # this will include new lines to allow paragraphs
-          ## Postal address
+          
              Hochschule Bremen<br>
              Neustadtswall 30<br>
-             28199 Bremen
+             28199 Bremen<br>
 
-          ## Email 
-             Write me an [Email](mailto:ulbrich@magenta.de)
+            [Email](mailto:ulbrich@magenta.de)
     
         
 
