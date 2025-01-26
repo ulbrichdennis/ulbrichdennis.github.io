@@ -221,6 +221,7 @@ content:
         quote: >
           Faculty 5: School of Nature and Engineering
         description: | # this will include new lines to allow paragraphs
+         ![logo](/images/logo.svg)
            + *Mathematik 1* (MATH1)
              + Undergraduate lecture
       - layout: right
