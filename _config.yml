@@ -62,7 +62,7 @@ about_content: | # this will include new lines to allow paragraphs
   
   I earned my PhD degree in Mathematics (*Dr. rer. nat.* in Mathematics) at the [University of Bremen](https://www.uni-bremen.de/en/), cf. [MGP](https://www.mathgenealogy.org/id.php?id=277103). 
 
-  Some more details as well as information about my teaching activities can be found below. 
+  Some more details as well as my contact data can be found below. 
     
 content:
   - title: Research interests # Title for the section
@@ -247,7 +247,13 @@ content:
            Supporting several [summer and winter schools](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems)
          + University of Bremen, 2017 -- 2021<br>
            Maintaining the Mathematical Collection and creating its [website](https://www.uni-bremen.de/appanalysis/mathematical-collection/)
-            
+ - title: Contact address
+  layout: text
+  content: |
+    Hochschule Bremen<br>
+    Neustadtswall 30<br>
+    28199 Bremen  
+
 # Footer
 footer_show_references: true
 references_title: Last modified Jan 25, 2025
