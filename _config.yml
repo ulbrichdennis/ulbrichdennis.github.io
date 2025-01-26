@@ -252,7 +252,7 @@ content:
   - title: <a id="Contact">Contact</a> 
     layout: text
     content: | # this will include new lines to allow paragraphs
-         ## Postal address(https://www.google.de/maps/place/Hochschule+Bremen/@53.0726386,8.7912445,17z/data=!3m2!4b1!5s0x47b12823c8030005:0x171ef841752dd631!4m6!3m5!1s0x47b128223506c4e1:0xf67fda2f8b8baa97!8m2!3d53.0726354!4d8.7938194!16s%2Fm%2F065ycr7?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D)
+         ## [Postal address](https://www.google.de/maps/place/Hochschule+Bremen/@53.0726386,8.7912445,17z/data=!3m2!4b1!5s0x47b12823c8030005:0x171ef841752dd631!4m6!3m5!1s0x47b128223506c4e1:0xf67fda2f8b8baa97!8m2!3d53.0726354!4d8.7938194!16s%2Fm%2F065ycr7?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D)
 
             Hochschule Bremen<br>
             Neustadtswall 30<br>
