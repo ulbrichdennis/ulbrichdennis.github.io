@@ -250,13 +250,13 @@ content:
   - title: <a id="Contact">Contact</a>
     layout: text
     content: |
-     ## Postal address
-      Hochschule Bremen<br>
-      Neustadtswall 30<br>
-      28199 Bremen
+      ## Postal address
+           Hochschule Bremen<br>
+           Neustadtswall 30<br>
+           28199 Bremen
 
-     ## Email 
-      Write an <a href="mailto:ulbrich@magenta.de">Email</a>
+      ## Email 
+           Write an <a href="mailto:ulbrich@magenta.de">Email</a>
      
     
         
