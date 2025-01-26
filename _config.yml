@@ -64,7 +64,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   Some more details and further information, including my teaching activities, can be found below. 
 
-  See section [Contact]{#Contact}
+  See section [Contact]{#Contact-id}
 
 content:
   - title: Research interests # Title for the section
@@ -249,7 +249,7 @@ content:
            Supporting several [summer and winter schools](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems)
          + University of Bremen, 2017 -- 2021<br>
            Maintaining the Mathematical Collection and creating its [website](https://www.uni-bremen.de/appanalysis/mathematical-collection/)   
-  - title: <a id="Contact">Contact</a> 
+  - title: <a id="Contact_id">Contact</a> 
     layout: text
     content: | # this will include new lines to allow paragraphs
          Hochschule Bremen<br>
