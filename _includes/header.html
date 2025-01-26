@@ -105,21 +105,8 @@
           </li>
         {% endfor %}
       </ul>
-      <p>
-        <table>
-          <tr><th>Contact address:</th><td>Hochschule Bremen<br>Neustadtswall 30<br>Room 234<br>28199 Bremen</td></tr>
-          <tr><th>Email:</th><td>ulbrich@magenta.de</td></tr>
-          <tr><th>Phone:</th><td>to be added</td></tr>
-        </table>
-      </p>
-
-      {%- if site.address -%}
-      <p>
-        {{ site.address_title | default: "Contact" }}: Fakestreet 123<br>Room: 234<br>2881122 Bremen
-      </p>
-    {%- endif -%}
-
- {%- if site.email -%}
+      
+      {%- if site.email -%}
         <p>
           {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
         </p>
