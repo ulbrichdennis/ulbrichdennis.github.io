@@ -111,7 +111,9 @@
           {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
         </p>
       {%- endif -%}
-      
+      {%- if site.contactdata -%}
+      <a href="https://www.dulbrich.de/index.html#Contact">Contact data</a>
+        {%- endif -%}
       {%- if site.phone -%}
         <p>
           {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
@@ -122,7 +124,7 @@
           {{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
         </p>
       {%- endif -%}
-       [Further contact data](https://www.dulbrich.de/index.html#Contact).
+      
  </div>
   </div>
 </div>

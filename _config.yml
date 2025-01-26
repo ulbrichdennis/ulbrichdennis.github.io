@@ -14,7 +14,7 @@ email: ulbrich@magenta.de
 # phone_title: Phone (Phone title override)
 website: 
 # website_title: Web (Website title override)
-
+contactdata: true
 
 
 # Dark Mode (true/false/never)
