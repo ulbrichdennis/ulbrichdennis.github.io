@@ -65,7 +65,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   Some more details and further information, including my teaching activities, can be found below.
   
-  ![logo](/images/logo.svg)
+ 
 
   
 
@@ -150,7 +150,7 @@ content:
     content:
       - layout: top-right
         border: weak
-        title: Hochschule Bremen
+        title:  ![logo](/images/logo.svg) <br> Hochschule Bremen
         sub_title: Postdoctoral researcher
         caption: from 2.2025
         quote: >
