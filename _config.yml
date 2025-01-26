@@ -229,7 +229,7 @@ content:
              + Undergraduate lecture
           + *Introduction to Dynamical Systems*
              + proseminar
-  - title: Other
+  - title: Other 
     layout: text
     content: | # this will include new lines to allow paragraphs
       ## Grants
@@ -247,8 +247,22 @@ content:
            Supporting several [summer and winter schools](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems)
          + University of Bremen, 2017 -- 2021<br>
            Maintaining the Mathematical Collection and creating its [website](https://www.uni-bremen.de/appanalysis/mathematical-collection/)
-  
-# Footer
+  - title: Contact 
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      ## Postal Address
+        Hochschule Bremen<br>
+        Neustadtswall 30<br>
+        28199 Bremen, Germany
+
+      ## Email in general
+         ulbrich@magenta.de
+
+      ## Email HSB
+         dennis.ulbrich@lba.hs-bremen.de
+        
+
+      
 footer_show_references: true
 references_title: Last modified Jan 25, 2025
 
