@@ -111,6 +111,12 @@
           {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
         </p>
       {%- endif -%}
+      {%- if site.address -%}
+        <p style="text-align:left">
+          Fakestreet 1234<br>
+          1234 Faketwoen<br>
+          1234 Fake Fake
+        </p>
       {%- if site.phone -%}
         <p>
           {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}

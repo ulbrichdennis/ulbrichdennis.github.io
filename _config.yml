@@ -13,6 +13,7 @@ email: ulbrich@magenta.de
 #phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
 website: 
+address: yes
 # website_title: Web (Website title override)
 
 
@@ -62,7 +63,7 @@ about_content: | # this will include new lines to allow paragraphs
   
   I earned my PhD degree in Mathematics (*Dr. rer. nat.* in Mathematics) at the [University of Bremen](https://www.uni-bremen.de/en/), cf. [MGP](https://www.mathgenealogy.org/id.php?id=277103). 
 
-  Some more details as well as information about my teaching activities can be found below. [Projects](#Projects)
+  Some more details as well as information about my teaching activities can be found below. 
     
 content:
   - title: Research interests # Title for the section
