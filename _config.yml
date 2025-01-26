@@ -250,12 +250,10 @@ content:
   - title: <a id="Contact">Contact</a> 
     layout: text
     content: | # this will include new lines to allow paragraphs
-          
-             Hochschule Bremen<br>
-             Neustadtswall 30<br>
-             28199 Bremen<br>
-
-            [Email](mailto:ulbrich@magenta.de)
+         Hochschule Bremen<br>
+         Neustadtswall 30<br>
+         28199 Bremen<br>
+         [Email](mailto:ulbrich@magenta.de)
     
         
 
