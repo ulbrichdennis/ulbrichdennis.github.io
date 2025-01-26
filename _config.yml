@@ -64,7 +64,10 @@ about_content: | # this will include new lines to allow paragraphs
 
   Some more details and further information, including my teaching activities, can be found below. 
 
-
+   <b>Contact:</b><br>
+    Hochschule Bremen<br>
+    Neustadtswall 30<br>
+    28199 Bremen 
     
 content:
   - title: Contact
