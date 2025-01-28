@@ -42,6 +42,11 @@ additional_links:
 - title: Link name
   icon: fab fa-researchgate
   url: https://www.researchgate.net/profile/Dennis-Ulbrich-2
+
+additional_links:
+- title: arXiv
+  icon: ai ai-arxiv
+  url: https://arxiv.org/search/math?searchtype=author&query=Ulbrich,+D
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
