@@ -30,16 +30,19 @@ darkmode: false
 #facebook_username: jekyll
 #flickr_username: jekyll
 #instagram_username: 
-linkedin_username: ulbrichdennis
+#linkedin_username: ulbrichdennis
 #xing_username: jekyll
 #pinterest_username: jekyll
 #youtube_username: jekyll
-orcid_username: 0000-0001-5541-011X
-googlescholar_username: b1u5plUAAAAJ
+#orcid_username: 0000-0001-5541-011X
+#googlescholar_username: b1u5plUAAAAJ
 
 # Additional icon links
 additional_links:
-- title: Link name
+- title: Orcid
+  icon: ai ai-orcid
+  url: https://orcid.org/0000-0001-5541-011X
+- title: Researchgate
   icon: ai ai-researchgate
   url: https://www.researchgate.net/profile/Dennis-Ulbrich-2
 - title: arXiv
