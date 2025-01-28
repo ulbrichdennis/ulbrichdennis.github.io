@@ -1,8 +1,8 @@
 <div class="container footer-container">
   <p>
-    &#169; 2025 {{ site.name | escape }} <br>
     {%- if site.footer_show_references -%}
       &nbsp; {{ site.references_title | default: "References on request" }}
-    {%- endif -%}
+    {%- endif -%} <br>
+    &#169; 2025 {{ site.name | escape }} 
   </p>
 </div>
