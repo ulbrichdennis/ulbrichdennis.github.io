@@ -261,7 +261,7 @@ content:
             Hochschule Bremen<br>
             Fakultät 4 <br>
             Flughafenallee 10<br>
-            28199 Bremen<br>
+            28199 Bremen
 
          ## Building, Office
 
@@ -283,7 +283,7 @@ content:
 
       
 footer_show_references: true
-references_title: Last modified: Jan 28, 2025 
+references_title: Last modified Jan 28, 2025 
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
