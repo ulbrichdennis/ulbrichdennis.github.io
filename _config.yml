@@ -40,7 +40,7 @@ googlescholar_username: b1u5plUAAAAJ
 # Additional icon links
 additional_links:
 - title: Link name
-  icon: fab fa-researchgate
+  icon: ai ai-researchgate
   url: https://www.researchgate.net/profile/Dennis-Ulbrich-2
 
 additional_links:
