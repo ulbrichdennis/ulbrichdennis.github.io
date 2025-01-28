@@ -42,8 +42,6 @@ additional_links:
 - title: Link name
   icon: ai ai-researchgate
   url: https://www.researchgate.net/profile/Dennis-Ulbrich-2
-
-additional_links:
 - title: arXiv
   icon: ai ai-google-scholar
   url: https://arxiv.org/search/math?searchtype=author&query=Ulbrich,+D
