@@ -35,7 +35,7 @@ darkmode: false
 #pinterest_username: jekyll
 #youtube_username: jekyll
 #orcid_username: 0000-0001-5541-011X
-#googlescholar_username: b1u5plUAAAAJ
+googlescholar_username: b1u5plUAAAAJ
 
 # Additional icon links
 additional_links:
@@ -45,9 +45,6 @@ additional_links:
 - title: arXiv
   icon: ai ai-arxiv
   url: https://arxiv.org/search/math?searchtype=author&query=Ulbrich,+D
-- title: Google scholar
-  icon: ai ai-google-scholar
-  url: https://scholar.google.com/citations?user=b1u5plUAAAAJ&hl=de&oi=ao
 - title: Researchgate
   icon: ai ai-researchgate
   url: https://www.researchgate.net/profile/Dennis-Ulbrich-2
