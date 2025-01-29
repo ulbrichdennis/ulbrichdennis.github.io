@@ -156,7 +156,7 @@ content:
   - title: Short CV
     layout: list
     content:
-      - layout: top-right
+      - layout: top-middle
         border: weak
         title: Hochschule Bremen
         sub_title: Postdoctoral researcher
