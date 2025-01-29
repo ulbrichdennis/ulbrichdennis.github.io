@@ -265,16 +265,16 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs 
          
-              **Hochschule Bremen**<br>
+              Hochschule Bremen
               Fakultät 4 <br>
               Flughafenallee 10<br>
               28199 Bremen
 
-              [**ZIMT**, Office XXX](https://www.hs-bremen.de/raumfinder/)
+              [ZIMT, Office XXX](https://www.hs-bremen.de/raumfinder/)
 
               [Phone](tel:+49)
 
-              [**Email**](mailto:dennis.ulbrich@hs-bremen.de)
+              [Email](mailto:dennis.ulbrich@hs-bremen.de)
 
          
 
