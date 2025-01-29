@@ -35,7 +35,7 @@ additional_links:
 
 # About Section
 about_title: About me title (Use this to override about section title)
-about_profile_image: _test/images/travis.png
+about_profile_image: 
 about_content: > # this means to ignore newlines until the next config item.
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
