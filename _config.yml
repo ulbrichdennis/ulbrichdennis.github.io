@@ -156,9 +156,9 @@ content:
   - title: Short CV
     layout: list
     content:
-      - layout: top-middle
+      - layout: top-right
         border: weak
-        title: Hochschule Bremen
+        title: <img src="images/Logo_HSB.svg"> Hochschule Bremen
         sub_title: Postdoctoral researcher
         caption: from 2.2025
         quote: >
