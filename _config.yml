@@ -158,8 +158,8 @@ content:
     content:
       - layout: top-right
         border: weak
-        title: <img src="images/Logo_HSB.svg"> Hochschule Bremen
-        sub_title: Postdoctoral researcher
+        title: <img src="images/Logo_HSB.svg"> 
+        sub_title: Hochschule Bremen <br> <i>Postdoctoral researcher</i>
         caption: from 2.2025
         quote: >
             Faculty 4: School of Electrical Engineering and Computer Science 
