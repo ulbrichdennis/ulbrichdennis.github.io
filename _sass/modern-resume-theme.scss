@@ -4,6 +4,11 @@
 @import "dark";
 @import "icons";
 
+html {
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
 .header-right p {
   margin-bottom: 3px;
 }
