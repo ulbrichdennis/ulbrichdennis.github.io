@@ -149,7 +149,10 @@ html {
 body {
   background: #ffffff;
   font-family: Roboto, sans-serif;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased; 
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
 
 .center-text {
   text-align: center; }
