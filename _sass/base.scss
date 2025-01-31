@@ -104,7 +104,9 @@ picture {
   max-width: 100%; }
 
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;}
 
 *,
 *::after,
@@ -149,10 +151,8 @@ html {
 body {
   background: #ffffff;
   font-family: Roboto, sans-serif;
-
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
-}
+  -webkit-font-smoothing: antialiased; 
+  }
 
 .center-text {
   text-align: center; }
