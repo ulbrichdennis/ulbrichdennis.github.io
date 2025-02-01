@@ -65,11 +65,6 @@ about_title: About Me
 about_profile_image: images/UD.jpeg 
 about_content: | # this will include new lines to allow paragraphs
 
-  <figure>
-  <img src="/images/ZIMT-small.jpg" alt="my alt text"/>
-  <figcaption>Hochschule Bremen, ZIMT, Flughafenallee 10, 28199 Bremen (&#169; Sven Stolzenwald)</figcaption>
-  </figure>
-
   Currently, I am a postdoctoral researcher at [Faculty 4](https://www.hs-bremen.de/en/hsb/faculties/school-of-electrical-engineering-and-computer-science/#c1325) of the [Bremen University of Applied Sciences](https://www.hs-bremen.de/en/).
 
   Beforehand, I was a postdoctoral researcher at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/institute.shtml) at the [University of Münster](https://www.uni-muenster.de/en/).
@@ -77,6 +72,11 @@ about_content: | # this will include new lines to allow paragraphs
   I earned my PhD degree in Mathematics (*Dr. rer. nat.* in Mathematics) at the [University of Bremen](https://www.uni-bremen.de/en/), cf. [MGP](https://www.mathgenealogy.org/id.php?id=277103). 
 
   Some more details and further information, including my teaching activities, can be found below. 
+
+  <figure style="margin-top:15px">
+  <img src="/images/ZIMT-small.jpg" alt="my alt text"/>
+  <figcaption>Hochschule Bremen, ZIMT, Flughafenallee 10, 28199 Bremen (&#169; Sven Stolzenwald)</figcaption>
+  </figure>
 
   
  
