@@ -72,7 +72,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   Some more details and further information, including my teaching activities, can be found below.
  
-![alt text](/images/ZIMT_med.jpg "ZIMT")
+  Text ![alt text](/images/ZIMT_med.jpg "ZIMT")
  
 
   
