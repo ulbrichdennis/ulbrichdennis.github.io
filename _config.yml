@@ -73,9 +73,9 @@ about_content: | # this will include new lines to allow paragraphs
 
   Some more details and further information, including my teaching activities, can be found below. 
 
-  <figure style="margin-top:15px">
+  <figure style="margin-top:30px">
   <img src="/images/ZIMT-small.jpg" alt="my alt text"/>
-  <figcaption>Hochschule Bremen, ZIMT, Flughafenallee 10, 28199 Bremen (&#169; Sven Stolzenwald)</figcaption>
+  <figcaption>Hochschule Bremen, ZIMT, Flughafenallee 10, 28199 Bremen (*Foto:* &#169; Sven Stolzenwald)</figcaption>
   </figure>
 
   
