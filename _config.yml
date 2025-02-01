@@ -73,15 +73,6 @@ about_content: | # this will include new lines to allow paragraphs
 
   Some more details and further information, including my teaching activities, can be found below. 
 
-  <figure style="margin-top:25px">
-  <img src="/images/ZIMT-small.jpg" alt="my alt text"/>
-  <figcaption style="margin-top:10px">Hochschule Bremen, ZIMT, Flughafenallee 10, 28199 Bremen (&#169; Sven Stolzenwald)</figcaption>
-  </figure>
-
-  
- 
-
-  
 
 content:
   - title: Research interests # Title for the section
@@ -283,6 +274,10 @@ content:
               ## [Email](mailto:dennis.ulbrich@hs-bremen.de)
 
               
+              <figure style="margin-top:25px">
+              <img src="/images/ZIMT-small.jpg" alt="my alt text"/>
+              <figcaption style="margin-top:5px">Hochschule Bremen: ZIMT (&#169; Sven Stolzenwald)</figcaption>
+              </figure>
 
          
 
