@@ -73,7 +73,7 @@ about_content: | # this will include new lines to allow paragraphs
   Some more details and further information, including my teaching activities, can be found below.
  
   <figure>
- <img src="/images/ZIMT-pic.jpg" width="200px" height="100px">
+ <img src="/images/ZIMT-pic.jpg" style="width:"200px;height:100px">
  <figcaption>ZIMT Bremen</figcaption>
  </figure>
  
