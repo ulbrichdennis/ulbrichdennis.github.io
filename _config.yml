@@ -75,7 +75,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   <figure style="margin-top:25px">
   <img src="/images/ZIMT-small.jpg" alt="my alt text"/>
-  <figcaption><h3>Hochschule Bremen, ZIMT, Flughafenallee 10, 28199 Bremen (&#169; Sven Stolzenwald)</h3></figcaption>
+  <figcaption><h6>Hochschule Bremen, ZIMT, Flughafenallee 10, 28199 Bremen (&#169; Sven Stolzenwald)</h6></figcaption>
   </figure>
 
   
