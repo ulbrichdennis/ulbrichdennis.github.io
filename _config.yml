@@ -74,7 +74,7 @@ about_content: | # this will include new lines to allow paragraphs
   Some more details and further information, including my teaching activities, can be found below. 
 
   <figure>
-  <img src="{{site.url}}/images/ZIMT-small.jpg" alt="my alt text"/>
+  <img src="/images/ZIMT-small.jpg" alt="my alt text"/>
   <figcaption>This is my caption text.</figcaption>
   </figure>
  
