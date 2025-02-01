@@ -65,7 +65,7 @@ about_title: About Me
 about_profile_image: images/UD.jpeg 
 about_content: | # this will include new lines to allow paragraphs
 
-<figure>
+  <figure>
   <img src="/images/ZIMT-small.jpg" alt="my alt text"/>
   <figcaption>Hochschule Bremen, ZIMT, Flughafenallee 10, 28199 Bremen (&#169; Sven Stolzenwald)</figcaption>
   </figure>
