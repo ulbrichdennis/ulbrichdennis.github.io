@@ -239,13 +239,7 @@ content:
           + *Finite Mathematics*
              + Undergraduate lecture
           + *Introduction to Dynamical Systems*
-             + proseminar
-         
-              <figure style="margin-top:25px">
-              <img src="/images/ZIMT-small.jpg" alt="my alt text"/>
-              <figcaption style="margin-top:5px">Hochschule Bremen: ZIMT (&#169; Sven Stolzenwald)</figcaption>
-              </figure>
-      
+             + proseminar   
   - title: Other 
     layout: text
     content: | # this will include new lines to allow paragraphs
