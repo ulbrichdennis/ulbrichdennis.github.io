@@ -71,8 +71,11 @@ about_content: | # this will include new lines to allow paragraphs
   I earned my PhD degree in Mathematics (*Dr. rer. nat.* in Mathematics) at the [University of Bremen](https://www.uni-bremen.de/en/), cf. [MGP](https://www.mathgenealogy.org/id.php?id=277103). 
 
   Some more details and further information, including my teaching activities, can be found below.
-  
- # <img src="/images/logo.svg" width="200px" height="100px">
+ 
+  <figure>
+ <img src="/images/ZIMT-pic.jpg" width="200px" height="100px">
+ <figcaption>ZIMT Bremen</figcaption>
+ </figure>
  
 
   
