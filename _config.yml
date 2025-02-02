@@ -62,7 +62,7 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: About Me
+about_title: About
 about_profile_image: images/UD.jpeg 
 about_content: | # this will include new lines to allow paragraphs
 
@@ -290,7 +290,7 @@ content:
 
       
 footer_show_references: true
-references_title: Last modified Jan 30, 2025 
+references_title: Last modified Feb 2, 2025 
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
