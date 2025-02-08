@@ -1,0 +1,53 @@
+---
+title: "Teaching"
+subtitle: "Undergraduate courses"
+description-meta: "Basic analysis, linear algebra and stochastics"
+title-block-banner: false
+---
+
+## Current
+### Winter semester 2024/25
+
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+![](/files/images/HSB_Logo_Farbe_sRGB.png)
+
+:::
+
+::: {.g-col-12 .g-col-md-10}
+
+[Hochschule Bremen](https://www.hs-bremen.de/en/)
+
+### Mathematik 1
+
+Basic mathematical methods of engineering sciences, including some linear algebra and analysis; more information can be found [here](https://m-server.fk5.hs-bremen.de/modul/beschreibung.aspx?modul_id=8a6da1b9-3e77-40a7-a166-e031ed86d9fc).
+
+:::
+
+:::
+
+## Past
+### Spring semester 2022
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-2}
+
+:::
+
+::: {.g-col-12 .g-col-md-10}
+
+[Jacobs University Bremen](https://constructor.university/)<br>
+(now Constructor University Bremen)
+
+- Finite Mathematics
+- Introduction to Dynamical Systems
+
+:::
+
+:::
+
+
+
