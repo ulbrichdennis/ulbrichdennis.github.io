@@ -65,7 +65,7 @@ website:
 
   draft-mode: unlinked
   
-  repo-url: https://github.com/dulbrich24/dulbrich24.github.io
+  repo-url: https://github.com/ulbrichdennis/ulbrichdennis.github.io
 #  repo-actions: [edit, issue, source]
   
   open-graph: true
@@ -73,7 +73,7 @@ website:
   twitter-card: true 
 #  card-style: summary      
   
-  site-url: "https://dulbrich24.github.io"
+  site-url: "https://ulbrichdennis.github.io"
   
   
 
