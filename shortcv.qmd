@@ -1,8 +1,8 @@
 ---
 title: "Short CV"
-subtitle: "Very short"
+subtitle: "Very short CV"
 description-meta: "Some positions"
 title-block-banner: false
 ---
 
-to be added later! on!
+to be added 
