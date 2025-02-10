@@ -18,7 +18,7 @@ about:
       href: mailto:dennis.ulbrich@hs-bremen.de
     - icon: telephone
       text: Phone
-      href: tel:+49
+      href: tel:+49042159055405
 ---
 
 :::{#hero-heading}
