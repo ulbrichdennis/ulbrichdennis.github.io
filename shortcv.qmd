@@ -1,8 +1,41 @@
 ---
 title: "Short CV"
-subtitle: "DU"
-description-meta: "Some positions"
+subtitle: "Experience and education"
+description-meta: "Professional activities"
 title-block-banner: false
 ---
 
-to be added later . . .
+## Experience
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+[Hochschule Bremen](https://www.hs-bremen.de/en/)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+- Mathematik 1
+
+:::
+
+:::
+
+## Education
+
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+[Jacobs University Bremen](https://constructor.university/)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+- Finite Mathematics
+- Introduction to Dynamical Systems
+
+:::
+
+:::
+
