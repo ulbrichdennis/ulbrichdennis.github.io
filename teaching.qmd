@@ -12,14 +12,12 @@ title-block-banner: false
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-2}
-
+[Hochschule Bremen](https://www.hs-bremen.de/en/)
 :::
 
 ::: {.g-col-12 .g-col-md-10}
 
-[Hochschule Bremen](https://www.hs-bremen.de/en/)
-
-### Mathematik 1
+- Mathematik 1
 
 Basic mathematical methods of engineering sciences, including some linear algebra and analysis; more information can be found [here](https://m-server.fk5.hs-bremen.de/modul/beschreibung.aspx?modul_id=8a6da1b9-3e77-40a7-a166-e031ed86d9fc).
 
@@ -33,13 +31,10 @@ Basic mathematical methods of engineering sciences, including some linear algebr
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-2}
-
+[Jacobs U Bremen](https://constructor.university/)
 :::
 
 ::: {.g-col-12 .g-col-md-10}
-
-[Jacobs University Bremen](https://constructor.university/)<br>
-(now Constructor University Bremen)
 
 - Finite Mathematics
 - Introduction to Dynamical Systems
