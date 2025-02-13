@@ -54,7 +54,7 @@ website:
   
   page-footer: 
     left: "D. Ulbrich &copy; <script>document.write(new Date().getFullYear())</script>" 
-    right:  "Last modified: Feb 8, 2025"
+    right:  "Last modified: Feb 13, 2025"
         
   
   search:

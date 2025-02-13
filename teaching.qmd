@@ -12,7 +12,6 @@ title-block-banner: false
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-2}
-![](/files/images/HSB_Logo_Farbe_sRGB.png)
 
 :::
 
