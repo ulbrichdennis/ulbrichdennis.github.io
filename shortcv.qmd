@@ -1,12 +1,12 @@
 ---
 title: "Short CV"
-subtitle: "Experience and education"
+subtitle: "Professional career"
 description-meta: "Professional activities"
 title-block-banner: false
 ---
 
 ## Experience
-
+### Current
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
@@ -21,8 +21,11 @@ title-block-banner: false
 
 :::
 
+###Past
+
 ## Education
 
+### Promotion
 
 ::: {.grid}
 
@@ -38,4 +41,6 @@ title-block-banner: false
 :::
 
 :::
+
+### Bachelor/ Master
 
