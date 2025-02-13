@@ -11,11 +11,11 @@ title-block-banner: false
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-2}
+::: {.g-col-12 .g-col-md-6}
 [Hochschule Bremen](https://www.hs-bremen.de/en/)
 :::
 
-::: {.g-col-12 .g-col-md-10}
+::: {.g-col-12 .g-col-md-6}
 
 - Mathematik 1
 
@@ -30,11 +30,11 @@ Basic mathematical methods of engineering sciences, including some linear algebr
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-2}
-[Jacobs U Bremen](https://constructor.university/)
+::: {.g-col-12 .g-col-md-6}
+[Jacobs University Bremen](https://constructor.university/)
 :::
 
-::: {.g-col-12 .g-col-md-10}
+::: {.g-col-12 .g-col-md-6}
 
 - Finite Mathematics
 - Introduction to Dynamical Systems
