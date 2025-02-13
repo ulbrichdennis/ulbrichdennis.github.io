@@ -21,11 +21,11 @@ title-block-banner: false
 
 :::
 
-###Past
+### Past
 
 ## Education
 
-### Promotion
+
 
 ::: {.grid}
 
@@ -42,5 +42,5 @@ title-block-banner: false
 
 :::
 
-### Bachelor/ Master
+
 

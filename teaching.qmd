@@ -12,7 +12,7 @@ title-block-banner: false
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-[Hochschule Bremen](https://www.hs-bremen.de/en/)
+Hochschule Bremen
 :::
 
 ::: {.g-col-12 .g-col-md-6}
@@ -29,7 +29,7 @@ title-block-banner: false
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-[Jacobs University Bremen](https://constructor.university/)
+Jacobs University Bremen
 :::
 
 ::: {.g-col-12 .g-col-md-6}
