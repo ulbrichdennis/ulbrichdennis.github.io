@@ -1,6 +1,6 @@
 ---
 title: "Short CV"
-subtitle: "Professional activities and education"
+subtitle: "Professional activities, education and other"
 description-meta: "Professional activities"
 title-block-banner: false
 ---
@@ -127,6 +127,29 @@ Master and Bachelor degree (M.Sc. and B.Sc.)
     + *Referees:* Prof. J. Rademacher, Dr. T. Samuel (University of Exeter)
 + B.Sc. thesis: *Unerwartete Fehler bei bedingten Erwartungswerten und Wahrscheinlichkeiten*
     + *Referees:* Prof. W. Brannath (University of Bremen), Dr. K. Falk (University of Kiel)
+
+:::
+
+:::
+
+
+## Other
+### Grants
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+*2.2025 -- today*<br>
+Hochschule Bremen<br>
+Faculty 4
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+*Postdoctoral researcher*
+
++ Conception and development of <mark>deep learning</mark> approaches to <mark>text recognition</mark> and <mark>text extraction</mark> within project [Lector4Teachers](https://www.dulbrich.de/research_projects.html)
++ Development of a modern application for the usage of the developed deep learning approaches
++ Supervision: Prof. P. Draheim
 
 :::
 
