@@ -31,7 +31,7 @@ Faculty 4
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-*5.2023 -- 6.2024*<br>
+*6.2023 -- 6.2024*<br>
 University of Münster<br>
 Department of Mathematics<br>
 Institute for Analysis and Numerics
@@ -49,6 +49,39 @@ Institute for Analysis and Numerics
     + <mark>Chemical reactions</mark>
     + <mark>Entropy methods</mark>
 + Supervision: Prof. M. Pirner
+
+:::
+
+:::
+
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+*4.2016 -- 9.2021*<br>
+University of Bremen<br>
+Department of Mathematics<br>
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+*Postdoctoral researcher*
+
+Research groups: Nonlinear Analysis and Applied Analysis,<br>
+Stochastics and Dynamical Systems<br>
+
++ Research within DFG project number 384027439
++ PhD thesis: *Ergodic theory of nonlinear waves in discrete and continuous excitable media*:
+    + *Advisors:* [Prof. J. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html), [Prof. M. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer)
+    + *Referees:* Prof. J. Rademacher (University of Bremen), [Prof. I. Melbourne](https://warwick.ac.uk/fac/sci/maths/people/staff/ian_melbourne/) (Warwick University)
++ Keywords:
+    + <mark>Nonlinear analysis</mark>
+    + <mark>Ergodic Theory</mark>
+    + <mark>PDE</mark>
+    + <mark>Excitable media</mark> 
+    + <mark>Cellular automata</mark>
+    + <mark>Dynamical Systems</mark>
 
 :::
 
