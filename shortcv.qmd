@@ -19,7 +19,7 @@ Faculty 4
 
 *Postdoctoral researcher*
 
-+ Conception and development of deep learning approaches to text recognition and extraction
++ Conception and development of <mark>deep learning</mark> approaches to <mark>text recognition</mark> and <mark>text extraction</mark>
 + Development of a modern application for the usage of the developed deep learning approaches
 + Supervision: Prof. P. Draheim
 
@@ -43,11 +43,11 @@ Institute for Analysis and Numerics
 
 + Research on discrete hypocoercivity within DFG project 456849348:
 + Keywords:
-            + <mark>Hypocoercivity</mark>
-            + <mark>Kinetic equations</mark>
-            + <mark>BGK-type approximations</mark>
-            + <mark>Chemical reactions</mark>
-            + <mark>Entropy methods</mark>
+    + <mark>Hypocoercivity</mark>
+    + <mark>Kinetic equations</mark>
+    + <mark>BGK-type approximations</mark>
+    + <mark>Chemical reactions</mark>
+    + <mark>Entropy methods</mark>
 + Supervision: Prof. M. Pirner
 
 :::
