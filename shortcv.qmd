@@ -17,12 +17,11 @@ Faculty 4
 
 ::: {.g-col-12 .g-col-md-6}
 
-**Postdoctoral researcher**
+#### Postdoctoral researcher
 
 + Conception and development of deep learning approaches to text recognition and extraction
 + Development of a modern application for the usage of the developed deep learning approaches
-
-*Supervision:* Prof. P. Draheim
++ *Supervision:* Prof. P. Draheim
 
 :::
 
