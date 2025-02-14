@@ -19,7 +19,7 @@ Faculty 4
 
 *Postdoctoral researcher*
 
-+ Conception and development of <mark>deep learning</mark> approaches to <mark>text recognition</mark> and <mark>text extraction</mark>
++ Conception and development of <mark>deep learning</mark> approaches to <mark>text recognition</mark> and <mark>text extraction</mark> within project [Lector4Teachers](https://www.dulbrich.de/research_projects.html)
 + Development of a modern application for the usage of the developed deep learning approaches
 + Supervision: Prof. P. Draheim
 
@@ -41,7 +41,7 @@ Institute for Analysis and Numerics
 
 *Postdoctoral researcher*
 
-+ Research on discrete hypocoercivity within DFG project 456849348:
++ Research on discrete hypocoercivity within [DFG project 456849348](https://www.dulbrich.de/research_projects.html):
 + Keywords:
     + <mark>Hypocoercivity</mark>
     + <mark>Kinetic equations</mark>
