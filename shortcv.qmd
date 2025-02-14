@@ -95,7 +95,7 @@ Stochastics and Dynamical Systems<br>
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-*4.2016 -- 9.2021*<br>
+*4.2017 -- 9.2021*<br>
 University of Bremen<br>
 Department of Mathematics<br>
 :::
@@ -111,6 +111,24 @@ Dr. rer. nat. in Mathematics
 
 :::
 
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+*4.2016 -- 4.2017*<br>
+University of Bremen<br>
+Department of Mathematics<br>
+:::
+
+::: {.g-col-12 .g-col-md-6}
+Further studies of Mathematics within *Brückenstipendium* of the University of Bremen
+
++ Promising extensions of the results of the Master's thesis
++ Successful acquisition of third-party funding (DFG) for PhD project 
+
+
+:::
+
+:::
 
 ::: {.grid}
 
@@ -130,6 +148,7 @@ Master and Bachelor degree (M.Sc. and B.Sc.)<br>
 + B.Sc. thesis: *Unerwartete Fehler bei bedingten Erwartungswerten und Wahrscheinlichkeiten*
     + *Referees:* Prof. W. Brannath (University of Bremen), Dr. K. Falk (University of Kiel)
 
+
 :::
 
 :::
@@ -140,7 +159,7 @@ Master and Bachelor degree (M.Sc. and B.Sc.)<br>
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-*2016 -- 2017*<br>
+*4.2016 -- 4.2017*<br>
 University of Bremen<br>
 Department of Mathematics
 :::
