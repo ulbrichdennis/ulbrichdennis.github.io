@@ -122,8 +122,8 @@ Department of Mathematics<br>
 ::: {.g-col-12 .g-col-md-6}
 Further studies of Mathematics within *Brückenstipendium* of the University of Bremen
 
-+ Promising extensions of the results of the Master's thesis
-+ Successful acquisition of third-party funding (DFG) for PhD project 
++ Extensions of the results of my Master's thesis
++ Successful acquisition of third-party funding (DFG) for my PhD project 
 
 
 :::
