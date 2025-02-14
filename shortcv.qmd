@@ -10,14 +10,14 @@ title-block-banner: false
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-*Since 2.2025*<br>
+*2.2025 -- today*<br>
 Hochschule Bremen<br>
 Faculty 4
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 
-<b>Postdoctoral researcher</b>
+**Postdoctoral researcher**
 
 + Conception and development of deep learning approaches to text recognition and extraction
 + Development of a modern application for the usage of the developed deep learning approaches
