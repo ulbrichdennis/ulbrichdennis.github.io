@@ -1,6 +1,6 @@
 ---
 title: "Short CV"
-subtitle: "(Very short...)"
+subtitle: "Professional activities and education"
 description-meta: "Professional activities"
 title-block-banner: false
 ---
@@ -17,7 +17,7 @@ Faculty 4
 
 ::: {.g-col-12 .g-col-md-6}
 
-#### Postdoctoral researcher
+<b>Postdoctoral researcher</b>
 
 + Conception and development of deep learning approaches to text recognition and extraction
 + Development of a modern application for the usage of the developed deep learning approaches
