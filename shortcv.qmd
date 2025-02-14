@@ -138,22 +138,57 @@ Master and Bachelor degree (M.Sc. and B.Sc.)
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-*2.2025 -- today*<br>
-Hochschule Bremen<br>
-Faculty 4
+*2016 -- 2017*<br>
+University of Bremen<br>
+Department of Mathematics
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 
-*Postdoctoral researcher*
-
-+ Conception and development of <mark>deep learning</mark> approaches to <mark>text recognition</mark> and <mark>text extraction</mark> within project [Lector4Teachers](https://www.dulbrich.de/research_projects.html)
-+ Development of a modern application for the usage of the developed deep learning approaches
-+ Supervision: Prof. P. Draheim
++ [Brückenstipendium](https://www.uni-bremen.de/fileadmin/user_upload/forschung/Anlage/Stipendium/Merkblatt_Brueckenstip.pdf)
 
 :::
 
 :::
+
+### Supervision
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+*2021 -- 2022*<br>
+University of Bremen<br>
+Department of Mathematics
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
++ Student Research Project<br>
+  *Wave patterns in cellular automata for excitable media*
+
+:::
+
+:::
+
+### Organisation etc.
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+*2016 -- 2021*<br>
+University of Bremen<br>
+Department of Mathematics
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
++ Supporting several [summer and winter schools](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems)
++ Maintaining the Mathematical Collection and creating its [website](https://www.uni-bremen.de/appanalysis/mathematical-collection/)  
+:::
+
+:::
+
+
+
+
 
 
 
