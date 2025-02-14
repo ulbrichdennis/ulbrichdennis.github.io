@@ -68,7 +68,7 @@ Department of Mathematics<br>
 
 *Postdoctoral researcher*
 
-Research groups: Nonlinear Analysis and Applied Analysis,<br>
+Research groups: Nonlinear Analysis and Applied Analysis,
 Stochastics and Dynamical Systems<br>
 
 + Research within DFG project number 384027439
@@ -95,13 +95,38 @@ Stochastics and Dynamical Systems<br>
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-[Jacobs University Bremen](https://constructor.university/)
+*4.2016 -- 9.2021*
+University of Bremen<br>
+Department of Mathematics<br>
 :::
 
 ::: {.g-col-12 .g-col-md-6}
+Dr. rer. nat. in Mathematics
 
-- Finite Mathematics
-- Introduction to Dynamical Systems
++ PhD thesis: *Ergodic theory of nonlinear waves in discrete and continuous excitable media*:
+    + *Advisors:* [Prof. J. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html), [Prof. M. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer)
+    + *Referees:* Prof. J. Rademacher (University of Bremen), [Prof. I. Melbourne](https://warwick.ac.uk/fac/sci/maths/people/staff/ian_melbourne/) (Warwick University)
+
+:::
+
+:::
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+*until 4.2016*
+University of Bremen<br>
+Department of Mathematics<br>
+:::
+
+::: {.g-col-12 .g-col-md-6}
+Study of Mathematics<br>
+Master and Bachelor degree (M.Sc. and B.Sc.)
+
++ M.Sc. thesis: *Dynamics of the three-state 1D Greenberg-Hastings cellular automaton*
+    + *Referees:* Prof. J. Rademacher, Dr. T. Samuel (University of Exeter)
++ B.Sc. thesis: *Unerwartete Fehler bei bedingten Erwartungswerten und Wahrscheinlichkeiten*
+    + *Referees:* Prof. W. Brannath (University of Bremen), Dr. K. Falk (University of Kiel)
 
 :::
 
