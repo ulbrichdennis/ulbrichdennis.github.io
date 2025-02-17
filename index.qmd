@@ -1,6 +1,6 @@
 ---
-title: "Dr. Dennis Ulbrich"
-description-meta: "Gang He is an energy scholar, researcher, and teacher. He studies and teaches energy systems, energy and climate policy, and clean energy transition."
+title: "Home"
+description-meta: "Postdoctoral researcher"
 image: files/profile/UD.jpeg
 page-navigation: false
 toc: true  
