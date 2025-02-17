@@ -20,8 +20,8 @@ website:
   
 
     left:
-      - text: Home
-        href: index.qmd
+  #    - text: Home
+  #      href: index.qmd
       - text: Research
         menu:
           - text: Interests & Publications
