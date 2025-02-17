@@ -2,9 +2,9 @@
 title: "Dr. Dennis Ulbrich"
 description-meta: "Postdoctoral researcher"
 image: files/profile/UD.jpeg
-page-navigation: true
+page-navigation: false
 toc: true  
-#sidebar: true
+#sidebar: false
 page-layout: full
 
 
