@@ -23,35 +23,6 @@ about:
 
 :::{#hero-heading}
 
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Contact address
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-Hochschule Bremen<br>
-Fakultät 4 <br>
-Flughafenallee 10<br>
-28199 Bremen
-
-[ZIMT, Office 236](https://www.hs-bremen.de/raumfinder/)
-
-Phone: +49 (0) 421 5905 5405
-
-<figure style="margin-top:25px">
-<img src="/files/images/ZIMT-small.jpg" style="width:60%;height:60%" alt="my alt text"/>
-<figcaption style="margin-top:5px">Hochschule Bremen, ZIMT (&#169; Sven Stolzenwald)</figcaption>
-</figure>
-
-      </div>
-    </div>
-  </div>
-
-
-
 ::: {.callout-note appearance="minimal" collapse=true}
 
 ## Contact address
