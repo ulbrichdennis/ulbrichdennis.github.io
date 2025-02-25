@@ -10,6 +10,7 @@ website:
   favicon: /files/images/favicon.ico
   title: "Dr. D. Ulbrich"
   image: "/files/profile/UD.jpeg"
+  image-alt: "&copy; D. Ulbrich"
   description: "Postdoctoral researcher"
   back-to-top-navigation: true
   
@@ -81,7 +82,7 @@ website:
 
 format:
   html:
-    theme: cosmo #lux #cosmo 
+    theme: lux #cosmo 
     css: styles.css
     toc: true
     toc-expand: 3
