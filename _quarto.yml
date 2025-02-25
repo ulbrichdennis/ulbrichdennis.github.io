@@ -55,6 +55,7 @@ website:
   page-footer: 
     left: "D. Ulbrich &copy; <script>document.write(new Date().getFullYear())</script>" 
     right:  "Last modified: Feb 14, 2025"
+    middle: "Made with Quarto"
         
   
   search:
