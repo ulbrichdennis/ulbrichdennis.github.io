@@ -81,7 +81,7 @@ website:
 
 format:
   html:
-    theme: lux   #cosmo #lux
+    theme: journal #lux   #cosmo #lux
     css: styles.css
     toc: true
     toc-expand: 3
