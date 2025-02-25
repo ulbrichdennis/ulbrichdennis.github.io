@@ -81,7 +81,7 @@ website:
 
 format:
   html:
-    theme: flatly #lux   #cosmo #lux
+    theme: litera #lux #cosmo 
     css: styles.css
     toc: true
     toc-expand: 3
