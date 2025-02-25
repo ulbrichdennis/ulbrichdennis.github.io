@@ -82,7 +82,7 @@ website:
 
 format:
   html:
-    theme: spacelab #lux # cosmo is also nice
+    theme: lux 
     css: styles.css
     toc: true
     toc-expand: 3
