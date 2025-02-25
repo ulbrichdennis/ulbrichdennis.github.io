@@ -25,19 +25,19 @@ about:
 accordion:
   - simple:
     - header: Contact address
-      body: Hochschule Bremen<br>
+      body: <p>Hochschule Bremen<br>
             Fakultät 4 <br>
             Flughafenallee 10<br>
-            28199 Bremen
+            28199 Bremen</p>
 
-            [ZIMT, Office 236](https://www.hs-bremen.de/raumfinder/)
+            <p>[ZIMT, Office 236](https://www.hs-bremen.de/raumfinder/)</p>
 
-            Phone +49 (0) 421 5905 5405
+            <p>Phone +49 (0) 421 5905 5405</p>
 
-            <figure style="margin-top:25px">
+            <p><figure style="margin-top:25px">
             <img src="/files/images/ZIMT-small.jpg" style="width:60%;height:60%" alt="my alt text"/>
             <figcaption style="margin-top:5px">Hochschule Bremen, ZIMT (&#169; Sven Stolzenwald)</figcaption>
-            </figure>
+            </figure></p>
 filters:
   - accordion
 ---
