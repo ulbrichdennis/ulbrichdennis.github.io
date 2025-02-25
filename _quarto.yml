@@ -81,7 +81,7 @@ website:
 
 format:
   html:
-    theme: morph #lux   #cosmo #lux
+    theme: flatly #lux   #cosmo #lux
     css: styles.css
     toc: true
     toc-expand: 3
