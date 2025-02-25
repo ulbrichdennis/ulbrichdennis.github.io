@@ -21,9 +21,18 @@ about:
     - icon: telephone
       text: Phone
       href: tel:+49042159055405
+
+accordion:
+  - simple:
+    - header: Click here to view contents
+      body: This is the body content
+filters:
+  - accordion
 ---
 
 :::{#hero-heading}
+
+{{< accordion simple >}}
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
