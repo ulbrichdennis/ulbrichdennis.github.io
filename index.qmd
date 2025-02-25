@@ -44,7 +44,7 @@ filters:
 
 :::{#hero-heading}
 
-{{< accordion simple >}}
+{{{< accordion simple >}}}
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
