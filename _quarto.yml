@@ -53,9 +53,10 @@ website:
   page-navigation: true
   
   page-footer: 
-    left: "D. Ulbrich &copy; <script>document.write(new Date().getFullYear())</script>" 
-    right:  "Last modified: Feb 14, 2025"
-    middle: "Made with Quarto"
+    left:   "Made with [Quarto](https://quarto.org/)"
+    right:  "Last modified: Feb 25, 2025"
+    center: "D. Ulbrich &copy; <script>document.write(new Date().getFullYear())</script>"
+    
         
   
   search:
