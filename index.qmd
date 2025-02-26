@@ -24,7 +24,7 @@ about:
 custom-callout:
   address-details:
     title: "Contact details"
-    color:  None  
+    color:  "#00003B"  
     icon: false
     icon-symbol: None
     collapse: true
