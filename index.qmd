@@ -22,7 +22,7 @@ about:
       href: tel:+49042159055405
 
 custom-callout:
-  adress-details:
+  address-details:
     title: "Address details"
     color: "#008000"
 filters:
