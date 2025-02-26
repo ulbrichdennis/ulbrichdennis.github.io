@@ -26,6 +26,7 @@ custom-callout:
     title: "Address details"
     color: "#00003B"
     icon: false
+    collapse: true
 filters:
 - custom-callout      
 ---
