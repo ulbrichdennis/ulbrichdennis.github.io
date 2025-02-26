@@ -89,7 +89,6 @@ format:
     footnotes-hover: true
     code-copy: true
     code-link: true
-    css: bootstrap.css
     code-overflow: wrap
     fig-align: center
     link-external-icon: false
