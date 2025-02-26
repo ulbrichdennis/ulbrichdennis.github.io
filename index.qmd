@@ -56,6 +56,19 @@ You can also find me on [LinkedIn](https://de.linkedin.com/in/ulbrichdennis).
 </figure>
 :::
 
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">About</h4>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+
+
+
+
+
 ## About 
 
 Since February 2025, I am working as a postdoctoral researcher at [Faculty 4 (ZIMT)](https://www.hs-bremen.de/en/hsb/faculties/school-of-electrical-engineering-and-computer-science/#c1325) of the [Bremen University of Applied Sciences](https://www.hs-bremen.de/en/) within the research group of [Prof. Patrick Draheim](https://www.hs-bremen.de/person/pdraheim/). 
