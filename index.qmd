@@ -28,12 +28,6 @@ custom-callout:
     icon: false
     collapse: true
     appearance: minimal
-  about:
-    title: "About"
-    color: None
-    icon: false
-    collapse: false
-    appearance: minimal
 filters:
 - custom-callout      
 ---
