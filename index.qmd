@@ -9,7 +9,6 @@ toc: true
 #sidebar: false
 page-layout: full
 
-
 about:
   id: hero-heading
   template: trestles
@@ -21,9 +20,23 @@ about:
     - icon: telephone
       text: Phone
       href: tel:+49042159055405
+
+custom-callout:
+  adress-details:
+    title: "Address details"
+    color: "#008000"
+filters:
+- custom-callout      
 ---
 
 :::{#hero-heading}
+
+::: address-details
+Hochschule Bremen<br>
+Fakultät 4 <br>
+Flughafenallee 10<br>
+28199 Bremen
+:::
 
 ::: {.callout-note appearance="minimal" collapse=true}
 
