@@ -82,7 +82,9 @@ website:
 
 format:
   html:
-    theme: lux 
+    theme:
+     - lux
+     - custom.scss 
     css: styles.css
     toc: true
     toc-expand: 3
