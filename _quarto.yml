@@ -82,7 +82,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: lux
     # css: styles.css
     toc: true
     toc-expand: 3
