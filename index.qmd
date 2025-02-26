@@ -24,9 +24,9 @@ about:
 custom-callout:
   address-details:
     title: "Contact details"
-    color:  "#00003B"  
-    icon: false
-    icon-symbol: None
+    color:  None  
+    icon: true
+    icon-symbol: "fa address-card"
     collapse: true
     appearance: minimal 
 filters:
