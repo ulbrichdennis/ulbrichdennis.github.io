@@ -82,7 +82,7 @@ website:
 
 format:
   html:
-    theme: simplex #zephyr
+    theme: pulse #zephyr
     toc: true
     toc-expand: 3
     footnotes-hover: true
