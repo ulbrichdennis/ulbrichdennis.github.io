@@ -21,6 +21,8 @@ about:
       text: Phone
       href: tel:+49042159055405
 
+callout-icon: false
+
 custom-callout:
   address-details:
     title: "Contact details"
@@ -56,7 +58,9 @@ You can also find me on [LinkedIn](https://de.linkedin.com/in/ulbrichdennis).
 </figure>
 :::
 
-::: {.callout-note appearance="simple"}
+::: {.callout-note collapse="true" appearance="minimal"}
+## Contact details
+
 **Postal address:**<br>
 Hochschule Bremen<br>
 Fakultät 4 <br>
