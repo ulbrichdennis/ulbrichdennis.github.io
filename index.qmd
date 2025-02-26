@@ -27,7 +27,7 @@ custom-callout:
     color:  None  
     icon: false
     collapse: true
-    appearance: simple
+    appearance: minimal
 filters:
 - custom-callout      
 ---
