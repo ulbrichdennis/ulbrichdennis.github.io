@@ -82,7 +82,9 @@ website:
 
 format:
   html:
-    theme: zephyr
+    theme: 
+       - zephyr
+       - custom.scss
     toc: true
     toc-expand: 3
     footnotes-hover: true
