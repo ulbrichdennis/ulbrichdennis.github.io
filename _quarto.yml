@@ -82,10 +82,8 @@ website:
 
 format:
   html:
-    theme:
-     - lux
-     - custom.scss 
-    css: styles.css
+    theme: cosmo
+    # css: styles.css
     toc: true
     toc-expand: 3
     footnotes-hover: true
