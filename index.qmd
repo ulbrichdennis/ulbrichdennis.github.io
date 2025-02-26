@@ -35,6 +35,7 @@ filters:
 :::{#hero-heading}
 
 ::: address-details
+**Postal address:**<br>
 Hochschule Bremen<br>
 Fakultät 4 <br>
 Flughafenallee 10<br>
@@ -42,11 +43,11 @@ Flughafenallee 10<br>
 
 [ZIMT, Office 236](https://www.hs-bremen.de/raumfinder/)
 
-Email: dennis.ulbrich@hs-bremen.de 
+**Email:** dennis.ulbrich@hs-bremen.de 
 
-Phone: +49 (0) 421 5905 5405
+**Phone:** +49 (0) 421 5905 5405
 
-You can also find me on [LinkedIn](https://de.linkedin.com/in/ulbrichdennis).
+*Find me on [LinkedIn](https://de.linkedin.com/in/ulbrichdennis)*
               
 
 <figure style="margin-top:25px">
