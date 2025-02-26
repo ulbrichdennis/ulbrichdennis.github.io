@@ -31,7 +31,6 @@ custom-callout:
 filters:
 - custom-callout      
 ---
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
 :::{#hero-heading}
 
@@ -43,9 +42,11 @@ Flughafenallee 10<br>
 
 [ZIMT, Office 236](https://www.hs-bremen.de/raumfinder/)
 
+Email: dennis.ulbrich@hs-bremen.de 
+
 Phone: +49 (0) 421 5905 5405
 
-<div class="badge-base LI-profile-badge" data-locale="de_DE" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ulbrichdennis" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://de.linkedin.com/in/ulbrichdennis?trk=profile-badge">Dr. Dennis Ulbrich</a></div>
+You can also find me on [LinkedIn](https://de.linkedin.com/in/ulbrichdennis).
               
 
 <figure style="margin-top:25px">
