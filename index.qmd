@@ -23,8 +23,8 @@ about:
 
 custom-callout:
   address-details:
-    title: "Address details"
-    color: "#00003B"
+    title: "Contact details"
+    color:  None  
     icon: false
     icon-symbol: None
     collapse: true
@@ -49,26 +49,6 @@ Phone: +49 (0) 421 5905 5405
 <img src="/files/images/ZIMT-small.jpg" style="width:60%;height:60%" alt="my alt text"/>
 <figcaption style="margin-top:5px">Hochschule Bremen, ZIMT (&#169; Sven Stolzenwald)</figcaption>
 </figure>
-:::
-
-::: {.callout-note appearance="minimal" collapse=true}
-
-## Contact address
-
-Hochschule Bremen<br>
-Fakultät 4 <br>
-Flughafenallee 10<br>
-28199 Bremen
-
-[ZIMT, Office 236](https://www.hs-bremen.de/raumfinder/)
-
-Phone: +49 (0) 421 5905 5405
-
-<figure style="margin-top:25px">
-<img src="/files/images/ZIMT-small.jpg" style="width:60%;height:60%" alt="my alt text"/>
-<figcaption style="margin-top:5px">Hochschule Bremen, ZIMT (&#169; Sven Stolzenwald)</figcaption>
-</figure>
-
 :::
 
 ## About 
