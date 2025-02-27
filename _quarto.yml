@@ -8,7 +8,7 @@ author-meta: "Dennis Ulbrich"
 
 website:
   favicon: /files/images/favicon.ico
-  title: "DU"
+  title: "Dr. D. Ulbrich"
   image: "/files/profile/UD.jpeg"
   image-alt: "&copy; D. Ulbrich"
   description: "Postdoctoral researcher"
@@ -17,7 +17,7 @@ website:
  
   navbar:
     background: light
-    logo: /files/images/HSB_Logo_Black.png
+    
 
   
 
