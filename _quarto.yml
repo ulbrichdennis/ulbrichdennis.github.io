@@ -14,8 +14,8 @@ website:
   description: "Postdoctoral researcher"
   back-to-top-navigation: true
   
-  margin-header: |
-     ![](/files/images/HSB_Logo_Colour)
+  #margin-header: |
+    
  
   navbar:
     background: light
