@@ -14,6 +14,12 @@ website:
   description: "Postdoctoral researcher"
   back-to-top-navigation: true
   
+
+  body-header: | 
+      This page brought to you by <https://example.com>
+
+  margin-header: |
+     ![Logo image](/files/images/HSB_Logo_Black)
  
   navbar:
     background: light
