@@ -17,12 +17,14 @@ website:
  
   navbar:
     background: light
+    logo: /files/images/HSB_logo_black.svg
 
   
 
     left:
       #- text: Home
       # href: index.qmd
+      
       - text: Research
         menu:
           - text: Interests & Publications
@@ -32,7 +34,8 @@ website:
       - text: Teaching
         href: teaching.qmd
       - text: Short CV
-        href: shortcv.qmd                                            
+        href: shortcv.qmd  
+          
       
     right: 
       - text: "{{< ai arxiv size=Large >}}" 
