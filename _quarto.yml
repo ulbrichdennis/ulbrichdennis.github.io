@@ -14,9 +14,6 @@ website:
   description: "Postdoctoral researcher"
   back-to-top-navigation: true
   
-  #margin-header: |
-    
- 
   navbar:
     background: light
     
