@@ -90,7 +90,7 @@ format:
          - custom.scss
       dark: 
          - darkly
-         - customdark.css
+         - customdark.scss
     toc: true
     toc-expand: 3
     footnotes-hover: true
