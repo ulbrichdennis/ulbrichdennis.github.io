@@ -88,7 +88,9 @@ format:
       light:
          - zephyr
          - custom.scss
-      dark: zephyr
+      dark: 
+         - darkly
+         - customdark.css
     toc: true
     toc-expand: 3
     footnotes-hover: true
