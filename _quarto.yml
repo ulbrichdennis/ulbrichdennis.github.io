@@ -85,8 +85,10 @@ website:
 format:
   html:
     theme: 
-       - zephyr
-       - custom.scss
+      light:
+         - zephyr
+         - custom.scss
+      dark: darkly
     toc: true
     toc-expand: 3
     footnotes-hover: true
