@@ -28,7 +28,7 @@ callout-icon: false
 :::{#hero-heading}
 
 ::: {.callout-note appearance="simple" collapse=true}
-## Contact details
+<h2>Contact details</h2>
 
 Hochschule Bremen<br>
 Fakultät 4 <br>
