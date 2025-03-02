@@ -36,7 +36,7 @@ filters:
 
 :::{#hero-heading}
 
-::: {.callout-note}
+::: {.callout-note appearance="simple" icon=false collapse=true}
 ## Contact details
 
 Hochschule Bremen<br>
