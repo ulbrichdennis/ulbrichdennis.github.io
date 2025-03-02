@@ -57,7 +57,7 @@ website:
   
   page-footer: 
     left:   "Made with [Quarto](https://quarto.org/)"
-    right:  "Last modified: Feb 26, 2025"
+    right:  "Last modified: Mar 2, 2025"
     center: "D. Ulbrich &copy; <script>document.write(new Date().getFullYear())</script>"
     
         
