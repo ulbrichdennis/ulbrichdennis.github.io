@@ -2,8 +2,6 @@
 title: "Dr. Dennis Ulbrich"
 description-meta: "Postdoctoral researcher"
 image: files/profile/UD.jpeg
-image-title: "&copy; D. Ulbrich"
-image-alt: "Dennis Ulbrich"
 page-navigation: false
 toc: true  
 #sidebar: false
@@ -13,7 +11,9 @@ about:
   id: hero-heading
   template: trestles
   image-width: 70%
-  image-shape: rounded
+  image-shape: round
+  image-title: "&copy; D. Ulbrich"
+  image-alt: "Dennis Ulbrich"
   links:
     - icon: envelope
       text: Email
