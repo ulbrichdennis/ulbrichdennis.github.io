@@ -10,7 +10,7 @@ page-layout: full
 about:
   id: hero-heading
   template: trestles
-  image-width: 70%
+  image-width: 50%
   image-shape: rectangle
   image-title: "&copy; D. Ulbrich"
   image-alt: "Dennis Ulbrich"
