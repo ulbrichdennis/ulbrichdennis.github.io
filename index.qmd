@@ -34,7 +34,7 @@ Fakultät 4 <br>
 Flughafenallee 10<br>
 28199 Bremen
 
-[ZIMT, Office 236](https://www.hs-bremen.de/raumfinder/)
+**Office:** [ZIMT, Room 236](https://www.hs-bremen.de/raumfinder/)
 
 **Email:** <a href="mailto:dennis.ulbrich@hs-bremen.de">dennis.ulbrich@hs-bremen.de</a>
 
