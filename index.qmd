@@ -21,6 +21,9 @@ about:
     - icon: telephone
       text: Phone
       href: tel:+49042159055405
+    - icon: linkedin 
+      text: LinkedIn
+      href: https://de.linkedin.com/in/ulbrichdennis  
 
 callout-icon: false
 
