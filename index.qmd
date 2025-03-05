@@ -31,7 +31,7 @@ callout-icon: false
 
 :::{#hero-heading}
 
-::: {.callout-note appearance="simple" collapse=true title="Further contact details"}
+::: {.callout-note appearance="simple" collapse=true title="Contact address"}
 
 Hochschule Bremen<br>
 Fakultät 4 <br>
@@ -45,6 +45,15 @@ Flughafenallee 10<br>
 <figcaption style="margin-top:5px">Hochschule Bremen, ZIMT (&#169; Sven Stolzenwald)</figcaption>
 </figure>
 :::
+
+<p style="font-size:0.8rem">
+Hochschule Bremen<br>
+Fakultät 4 <br>
+Flughafenallee 10<br>
+28199 Bremen
+
+[ZIMT, Office 236](https://www.hs-bremen.de/raumfinder/)
+</p>
 
 #### About me
 
