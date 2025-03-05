@@ -11,7 +11,7 @@ about:
   id: hero-heading
   template: trestles
   image-width: 70%
-  image-shape: round
+  image-shape: rectangle
   image-title: "&copy; D. Ulbrich"
   image-alt: "Dennis Ulbrich"
   links:
