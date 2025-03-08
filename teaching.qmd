@@ -4,6 +4,26 @@ subtitle: "Undergraduate courses"
 description-meta: "Basic analysis, linear algebra and stochastics"
 title-block-banner: false
 ---
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 20px;
+        }
+
+        th {
+            text-align: left;
+        }
+    </style>
+</head>
+
 
 ## Current
 ### Winter semester 2024/25
@@ -26,7 +46,7 @@ Hochschule Bremen
 <table style="font-size:0.6rem">
 <tr><td></td><th>Klausur</th> <th> Klausureinsicht</th> <th>Nachklausur</th></tr>
 <tr><td>Datum</td><td>10.2.2025</td> <td>11.3.2025</td> <td>24.3.2025</td></tr>
-<tr><td>Uhrzeit</td><td>14:00 - 16:00</td> <td>13:45 - 14:45</td> <td>14:00 - 16:00</td></tr>
+<tr><td>Zeit</td><td>14:00 - 16:00</td> <td>13:45 - 14:45</td> <td>14:00 - 16:00</td></tr>
 </table>
 :::
 
