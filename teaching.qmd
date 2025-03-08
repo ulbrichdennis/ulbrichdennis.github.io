@@ -19,7 +19,7 @@ Hochschule Bremen
 
 - [Mathematik 1](https://aulis.hs-bremen.de/goto.php/crs/2112916)
     
-Klausureinsicht: 11.3., 13<sup>45</sup> - 14<sup>45</sup>, 236 (ZIMT) 
+Klausureinsicht: 11.3., 13<sup><u>45</u></sup> - 14<sup><u>45</u></sup>, 236 (ZIMT) 
 
 Nachklausur: 24.3., 14:00 - 16:00, M 26a
 :::
