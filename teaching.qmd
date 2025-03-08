@@ -13,14 +13,16 @@ title-block-banner: false
 
 ::: {.g-col-12 .g-col-md-6}
 Hochschule Bremen
+
+- Klausur: 10.2.2025, 14:00 - 16:00, M 26a
+   - Klausureinsicht: 11.3.2025, 13:45 - 14:45, ZIMT 236
+- Nachklausur: 24.3.2025, 14:00 - 16:00, M 26a
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 
 - [Mathematik 1](https://aulis.hs-bremen.de/goto.php/crs/2112916)
-   - Klausur: 10.2.2025, 14:00 - 16:00, M 26a
-   - Klausureinsicht: 11.3.2025, 13:45 - 14:45, ZIMT 236
-   - Nachklausur: 24.3.2025, 14:00 - 16:00, M 26a
+   
 
 :::
 
