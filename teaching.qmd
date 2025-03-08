@@ -17,11 +17,10 @@ Hochschule Bremen
 
 ::: {.g-col-12 .g-col-md-6}
 
-- [Mathematik 1](https://aulis.hs-bremen.de/goto.php/crs/2112916)
-   
-Klausur: 10.2.2025, 14:00 - 16:00, M 26a
+- Mathematik 1
+  - [AULIS](https://aulis.hs-bremen.de/goto.php/crs/2112916)
+  - [Prüfungstermine](https://m-server.fk5.hs-bremen.de/iplan/pruefungen.aspx?semester=ws_24&art=verband&code=M_1)   
 
-Nachklausur: 24.3.2025, Zeit/ Raum identisch
 :::
 
 :::
