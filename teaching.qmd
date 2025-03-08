@@ -25,6 +25,7 @@ title-block-banner: false
 </head>
 
 
+
 ## Current
 ### Winter semester 2024/25
 
@@ -39,14 +40,11 @@ Hochschule Bremen
 
 - [Mathematik 1](https://aulis.hs-bremen.de/goto.php/crs/2112916)
     
-<p style="font-size:0.8rem">Klausureinsicht: 11.3.2025, 13:45 - 14:45, Raum 236 (ZIMT)</p>
-
-<p style="font-size:0.8rem">Nachklausur: 24.3.2025, 14:00 - 16:00, Raum M 26a</p>
-
 <table style="font-size:0.6rem">
 <tr><td></td><th>Klausur</th> <th> Klausureinsicht</th> <th>Nachklausur</th></tr>
 <tr><td>Datum</td><td>10.2.2025</td> <td>11.3.2025</td> <td>24.3.2025</td></tr>
-<tr><td>Zeit</td><td>14:00 - 16:00</td> <td>13:45 - 14:45</td> <td>14:00 - 16:00</td></tr>
+<tr><td>Zeit</td><td>14-16</td> <td>13:45-14:45</td> <td>14-16</td></tr>
+<tr><td>Raum</td> <td>M 26a</td> <td>ZIMT 236</td> <td>M 26a</td></tr>
 </table>
 :::
 
