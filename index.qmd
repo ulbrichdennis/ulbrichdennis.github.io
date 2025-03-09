@@ -42,8 +42,11 @@ Flughafenallee 10<br>
 
 You can also find me on [LinkedIn](https://de.linkedin.com/in/ulbrichdennis). 
 
-[{{< ai arxiv size=Large >}}](https://arxiv.org/search/math?searchtype=author&query=Ulbrich,+D)
-        
+links:
+    - icon: envelope
+      text: Email
+      href: mailto:dennis.ulbrich@hs-bremen.de
+
 
 <figure style="margin-top:25px">
 <img src="/files/images/ZIMT-small.jpg" style="width:60%;height:60%" alt="my alt text"/>
