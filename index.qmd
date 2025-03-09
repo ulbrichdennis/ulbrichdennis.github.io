@@ -42,9 +42,8 @@ Flughafenallee 10<br>
 
 You can also find me on [LinkedIn](https://de.linkedin.com/in/ulbrichdennis). 
 
-- text: "{{< ai arxiv size=Large >}}" 
-        href: https://arxiv.org/search/math?searchtype=author&query=Ulbrich,+D
-        target: _blank
+{{< ai arxiv size=Large >}}
+        
 
 <figure style="margin-top:25px">
 <img src="/files/images/ZIMT-small.jpg" style="width:60%;height:60%" alt="my alt text"/>
