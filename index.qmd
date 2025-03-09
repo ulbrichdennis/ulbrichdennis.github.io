@@ -40,7 +40,9 @@ Flughafenallee 10<br>
 
 **Phone:** <a href="tel:+4942159055405">+49 (0) 421 5905 5405</a>
 
-{{< fa brands twitter size=2xl >}}
+{{< fa brands twitter>}} 
+
+{{< fa brands linkedin>}}
 
 
 <figure style="margin-top:25px">
