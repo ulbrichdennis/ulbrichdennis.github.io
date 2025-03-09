@@ -76,9 +76,8 @@ website:
   open-graph: true
   
   twitter-card: true
-#  card-style: summary      
-  
-  site-url: "https://ulbrichdennis.github.io"
+      #card-style: summary      
+      # site-url: "https://www.dulbrich.de"
   
   
 
