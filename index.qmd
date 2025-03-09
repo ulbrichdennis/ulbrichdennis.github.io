@@ -40,9 +40,7 @@ Flughafenallee 10<br>
 
 **Phone:** <a href="tel:+4942159055405">+49 (0) 421 5905 5405</a>
 
-[<i class="fa-brands fa-linkedin"></i>](https://de.linkedin.com/in/ulbrichdennis).
-
-
+{{< fa brands twitter size=2xl >}}
 
 
 <figure style="margin-top:25px">
