@@ -27,7 +27,12 @@ callout-icon: false
 
 :::{#hero-heading}
 
-jjj
+### Contact
+
+Hochschule Bremen<br>
+Fakultät 4 <br>
+Flughafenallee 10<br>
+28199 Bremen
 
 ::: {.callout-note appearance="simple" collapse=true title="Contact details"}
 
