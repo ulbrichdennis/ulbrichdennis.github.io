@@ -5,7 +5,7 @@ image: files/profile/UD.jpeg
 image-title: "&copy; D. Ulbrich"
 image-alt: "Dennis Ulbrich"
 page-navigation: false
-toc: true  
+toc: false  
 #sidebar: false
 page-layout: full
 
@@ -24,9 +24,10 @@ about:
 callout-icon: false
 
 ---
-### About 
 
 :::{#hero-heading} 
+
+## About
 
 I am a postdoctoral researcher at HSB ([Contact data](https://www.hs-bremen.de/person/deulbrich/)). 
 
