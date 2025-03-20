@@ -27,17 +27,9 @@ callout-icon: false
 
 :::{#hero-heading}
 
-#### Contact
+## About 
 
-Hochschule Bremen<br>
-Fakultät 4 <br>
-Flughafenallee 10<br>
-28199 Bremen<br>
-Office: 236
-
-### About 
-
-I am a postdoctoral researcher at [HSB](https://www.hs-bremen.de/en/). 
+I am a postdoctoral researcher at HSB ([Contact data](https://www.hs-bremen.de/person/deulbrich/)). 
 
 Beforehand, I was a postdoctoral researcher at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/institute.shtml) at the [University of Münster](https://www.uni-muenster.de/en/); I was supervised by [Prof. Marlies Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml). 
   
