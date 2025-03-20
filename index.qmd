@@ -29,7 +29,7 @@ callout-icon: false
 
 ## About
 
-I am a postdoctoral researcher at HSB ([Contact data](https://www.hs-bremen.de/person/deulbrich/)). 
+I am currently working as a postdoctoral researcher at HSB ([Contact data](https://www.hs-bremen.de/person/deulbrich/)). 
 
 Beforehand, I was a postdoctoral researcher at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/institute.shtml) at the [University of Münster](https://www.uni-muenster.de/en/); I was supervised by [Prof. Marlies Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml). 
   
