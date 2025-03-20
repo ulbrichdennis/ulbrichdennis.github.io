@@ -24,10 +24,9 @@ about:
 callout-icon: false
 
 ---
-
-:::{#hero-heading}
-
 ### About 
+
+:::{#hero-heading} 
 
 I am a postdoctoral researcher at HSB ([Contact data](https://www.hs-bremen.de/person/deulbrich/)). 
 
