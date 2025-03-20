@@ -27,34 +27,13 @@ callout-icon: false
 
 :::{#hero-heading}
 
-### Contact
+#### Contact
 
 Hochschule Bremen<br>
 Fakultät 4 <br>
 Flughafenallee 10<br>
-28199 Bremen
-
-::: {.callout-note appearance="simple" collapse=true title="Contact details"}
-
-Hochschule Bremen<br>
-Fakultät 4 <br>
-Flughafenallee 10<br>
-28199 Bremen
-
-**Office:** [ZIMT, Room 236](https://www.hs-bremen.de/raumfinder/)
-
-**Email:** <a href="mailto:dennis.ulbrich@hs-bremen.de">dennis.ulbrich@hs-bremen.de</a>
-
-**Phone:** <a href="tel:+4942159055405">+49 (0) 421 5905 5405</a>
-
-[{{< fa brands linkedin size=Large >}}](https://www.linkedin.com/in/ulbrichdennis/)
-
-
-<figure style="margin-top:25px">
-<img src="/files/images/ZIMT-small.jpg" style="width:60%;height:60%" alt="my alt text"/>
-<figcaption style="margin-top:5px">Hochschule Bremen, ZIMT (&#169; Sven Stolzenwald)</figcaption>
-</figure>
-:::
+28199 Bremen<br>
+Office: 236
 
 ## About 
 
