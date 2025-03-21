@@ -17,10 +17,10 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:dennis.ulbrich@hs-bremen.de
-    - icon: telephone
-      text: Phone
-      href: tel:+49042159055405
+      href: mailto:ulbrich@magenta.de
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/ulbrichdennis/
 callout-icon: false
 
 ---
