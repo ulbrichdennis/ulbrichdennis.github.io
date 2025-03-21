@@ -17,11 +17,6 @@ Faculty 4
 
 ::: {.g-col-12 .g-col-md-6}
 
-*Postdoctoral researcher*
-
-+ Conception and development of <mark>deep learning</mark> approaches to <mark>text recognition</mark> and <mark>text extraction</mark> within project [Lector4Teachers](https://www.dulbrich.de/research_projects.html)
-+ Development of a modern application for the usage of the developed deep learning approaches
-+ Supervision: Prof. P. Draheim
 
 :::
 
