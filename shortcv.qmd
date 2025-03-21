@@ -11,8 +11,7 @@ title-block-banner: false
 
 ::: {.g-col-12 .g-col-md-6}
 *2.2025 -- today*<br>
-Hochschule Bremen<br>
-Faculty 4
+HSB
 :::
 
 ::: {.g-col-12 .g-col-md-6}
