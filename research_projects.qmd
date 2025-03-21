@@ -6,24 +6,6 @@ title-block-banner: false
 ---
 
 ## Current projects
-### DATIPilot - Sprint - Lector4Teachers
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-Hochschule Bremen<br>
-Fakultät 4<br>
-
-+ Term 12.2024 - 5.2026
-+ Participation since 2.2025 
-:::
-
-::: {.g-col-12 .g-col-md-6}
-AI-based transfer, analysis and review of handwritten documents to relieve teachers<br>
-(More information: [link to project](https://www.hs-bremen.de/forschen/forschungs-und-transferprofil/forschungsprojekt/datipilot-sprint-lector4teachers-ki-basierte-uebertragung-analyse-und-pruefung-handgeschriebener-dokumente-zur-entlastung-von-lehrerinnen-tp-a/))
-:::
-
-:::
 
 ### DFG 456849348
 
