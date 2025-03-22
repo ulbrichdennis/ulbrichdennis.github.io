@@ -17,7 +17,7 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:ulbrich@magenta.de
+      href: mailto:dennis.ulbrich@hs-bremen.de
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/ulbrichdennis/
@@ -25,11 +25,18 @@ callout-icon: false
 
 ---
 
-:::{#hero-heading} 
+:::{#hero-heading}
+
+#### Contact
+
+Hochschule Bremen (HSB)<br>
+Flughafenallee 10<br>
+28199 Bremen<br>
+Office: 236
 
 ## About
 
-I am currently working at HSB. 
+I am currently working at HSB.
 
 Beforehand, I was a postdoctoral researcher at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/institute.shtml) at the [University of Münster](https://www.uni-muenster.de/en/); I was supervised by [Prof. Marlies Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml). 
   

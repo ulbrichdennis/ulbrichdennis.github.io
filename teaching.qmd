@@ -17,9 +17,8 @@ Hochschule Bremen
 
 ::: {.g-col-12 .g-col-md-6}
 
-- [Mathematik 1](https://aulis.hs-bremen.de/goto.php/crs/2112916)
+- Mathematik 1
 
-Nachklausur: 24.03.2025, 14:00, Raum M26a
 :::
 
 :::
