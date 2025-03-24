@@ -6,20 +6,6 @@ title-block-banner: false
 ---
 
 ## Professional activities
-### Current
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-*2.2025 -- today*<br>
-HSB
-:::
-
-::: {.g-col-12 .g-col-md-6}
-
-
-:::
-
-:::
 
 ### Past
 ::: {.grid}
