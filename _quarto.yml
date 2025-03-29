@@ -56,7 +56,7 @@ website:
   page-navigation: true
   
   page-footer: 
-    left:   "&copy; D. Ulbrich, <script>document.write(new Date().getFullYear())</script>"
+    center:   "&copy; D. Ulbrich, <script>document.write(new Date().getFullYear())</script>"
     right:  "Last modified: 3/29/2025"
     
     
