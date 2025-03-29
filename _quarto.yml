@@ -6,7 +6,7 @@ project:
 description-meta: "Postdoc"
 author-meta: "Dennis Ulbrich"
 
-date: last-modified
+
 
 website:
   favicon: /files/images/favicon.ico
@@ -51,12 +51,12 @@ website:
       - text: "{{< ai orcid size=Large >}}"
         href: https://orcid.org/0000-0001-5541-011X
         target: _blank
+
+            
    
-             
-      
   
   page-navigation: true
-  
+
   page-footer: 
     center:   "&copy; D. Ulbrich, <script>document.write(new Date().getFullYear())</script>"
     right: "Last modified: {{< meta date >}}"
@@ -100,3 +100,4 @@ format:
     email-obfuscation: javascript
     include-in-header: "files/includes/_academic.qmd"
 
+date: last-modfied   
