@@ -27,14 +27,14 @@ callout-icon: true
 
 :::{#hero-heading}
 
-## About
-
 ::: {.callout-important}
 ## Open to job offers
 
 I am currently looking for a position as a postdoc (research and/or teaching) or research assistant in mathematics.
 
 :::
+
+## About
 
 Until June 2024, I was a postdoctoral researcher at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/institute.shtml) at the [University of Münster](https://www.uni-muenster.de/en/); I was supervised by [Prof. Marlies Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml). 
   
