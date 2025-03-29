@@ -30,9 +30,9 @@ callout-icon: true
 ## About
 
 ::: {.callout-important}
-## OPEN TO WORK!
+## Open to job offers
 
-I am currently looking for a position as a postdoc or research assistant in mathematics, both in research and/or teaching.
+I am currently looking for a position as a postdoc or research assistant in mathematics (research and/or teaching).
 
 :::
 
