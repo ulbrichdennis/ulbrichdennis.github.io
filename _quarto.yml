@@ -6,6 +6,8 @@ project:
 description-meta: "Postdoc"
 author-meta: "Dennis Ulbrich"
 
+date: last-modified
+
 website:
   favicon: /files/images/favicon.ico
   title: "Dr. Dennis Ulbrich"
@@ -56,8 +58,8 @@ website:
   page-navigation: true
   
   page-footer: 
-    center:   "&copy; D. Ulbrich, <script>document.write(new Date().getFullYear())</script> <br> Last modified 3-23-2025"
-    
+    center:   "&copy; D. Ulbrich, <script>document.write(new Date().getFullYear())</script>"
+    right: "Last modified: {{< meta date >}}"
     
     
         
