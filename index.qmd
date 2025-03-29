@@ -21,7 +21,7 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/ulbrichdennis/
-callout-icon: false
+callout-icon: true
 
 ---
 
