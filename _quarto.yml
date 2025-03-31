@@ -9,8 +9,6 @@ author-meta: "Dennis Ulbrich"
 
 
 website:
-  body-header: |
-          Currently
   announcement: 
     icon: info-circle
     dismissable: true
