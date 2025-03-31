@@ -13,8 +13,8 @@ website:
   announcement: 
     icon: info-circle
     dismissable: true
-    content: "**Alert** - this is some information that you should pay attention to"
-    type: primary
+    content: "Currently, I am looking for a position as a *postdoc* or *research assistant* in Mathematics. Please feel free to contact me for details."
+    type: info
     position: below-navbar
   favicon: /files/images/favicon.ico
   title: "Dr. Dennis Ulbrich"
