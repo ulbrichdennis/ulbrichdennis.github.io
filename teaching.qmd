@@ -20,7 +20,10 @@ Hochschule Bremen
 - Mathematik 1
 
 ::: {.callout-note}
-## Klausureinsicht: 28.04.2025, 14:30 Uhr, vor dem Raum M 26a
+## Klausureinsicht
+
+28.04.2025, 14:30 Uhr<br>
+Treffpunkt: vor dem Raum M 26a
 
 :::
 
