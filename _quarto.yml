@@ -48,9 +48,6 @@ website:
       - text: "{{< ai arxiv size=Large >}}" 
         href: https://arxiv.org/search/math?searchtype=author&query=Ulbrich,+D
         target: _blank
-      - text: "{{< ai researchgate size=Large >}}"
-        href: https://www.researchgate.net/profile/Dennis-Ulbrich-2
-        target: _blank
       - text: "{{< ai google-scholar size=Large >}}"
         href: https://scholar.google.com/citations?user=b1u5plUAAAAJ
         target: _blank
