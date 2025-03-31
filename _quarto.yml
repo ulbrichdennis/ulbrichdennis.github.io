@@ -9,6 +9,13 @@ author-meta: "Dennis Ulbrich"
 
 
 website:
+
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "**Alert** - this is some information that you should pay attention to"
+    type: primary
+    position: below-navbar
   favicon: /files/images/favicon.ico
   title: "Dr. Dennis Ulbrich"
   image: "/files/profile/UD.jpeg"
