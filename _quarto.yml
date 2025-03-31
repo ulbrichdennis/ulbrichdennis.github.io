@@ -13,7 +13,7 @@ website:
   announcement: 
     icon: info-circle
     dismissable: true
-    content: "Currently, I am looking for a position as a *postdoc* or *research assistant* in Mathematics. Please feel free to contact me for details."
+    content: "Currently, I am looking for a position as a *Postdoc* or *Research Assistant* in Mathematics. Please feel free to contact me for details."
     type: info
     position: below-navbar
   favicon: /files/images/favicon.ico
