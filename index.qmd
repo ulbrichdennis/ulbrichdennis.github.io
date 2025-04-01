@@ -27,7 +27,7 @@ callout-icon: true
 
 :::{#hero-heading}
 
-## Open to job offers!
+## NEW: Open to job offers!
 
 I am currently looking for a position as a postdoc or research assistant in mathematics. Please contact me if you have a position available or would like to get more details. Any suggestions are highly appreciated.
 
