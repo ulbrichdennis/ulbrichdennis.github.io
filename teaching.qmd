@@ -5,7 +5,7 @@ description-meta: "Basic analysis, linear algebra and stochastics"
 title-block-banner: false
 ---
 
-## Current
+## Past
 ### Winter semester 2024/25
 
 
@@ -22,8 +22,6 @@ Hochschule Bremen
 :::
 
 :::
-
-## Past
 ### Spring semester 2022 (1<sup>st</sup> half)
 
 ::: {.grid}
