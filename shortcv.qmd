@@ -170,7 +170,7 @@ Department of Mathematics
 
 :::
 
-### Organisation etc.
+### Organisation
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
