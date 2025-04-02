@@ -134,7 +134,7 @@ Master and Bachelor degree (M.Sc. and B.Sc.)<br>
 :::
 
 
-## Other
+## Miscellanea
 ### Grants
 ::: {.grid}
 
