@@ -28,7 +28,7 @@ Institute for Analysis and Numerics
     + <mark>BGK-type approximations</mark>
     + <mark>Chemical reactions</mark>
     + <mark>Entropy methods</mark>
-+ Supervision: Prof. M. Pirner
++ Supervision: [Prof. M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)
 
 :::
 
