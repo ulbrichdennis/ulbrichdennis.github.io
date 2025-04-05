@@ -17,7 +17,7 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:ulbrich@magenta.de
+      href: mailto:ulbrich.dennis@icloud.com
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/ulbrichdennis/
