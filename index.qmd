@@ -27,6 +27,10 @@ callout-icon: true
 
 :::{#hero-heading}
 
+## Open to job offers
+
+I am currently looking for a postdoc position in mathematical research and/or teaching, ideally in line with my [research interests](https://www.dulbrich.de/research_interests_publications.html#research-interests). Please let me know if you have a suitable position to offer.
+
 ## About me
 
 Until June 2024, I was a postdoctoral researcher at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/institute.shtml) of the [University of Münster](https://www.uni-muenster.de/en/); I was supervised by [Prof. Marlies Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml). 
