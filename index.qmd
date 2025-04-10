@@ -27,6 +27,14 @@ callout-icon: true
 
 :::{#hero-heading}
 
+::: {.callout-note}
+## Open to job offers
+
+I am currently looking for a postdoc position in Mathematics (research and/or teaching), ideally in line with my [research interests](https://www.dulbrich.de/research_interests_publications.html), and would be delighted to receive any suitable offers or suggestions.
+
+:::
+
+
 ## Open to job offers
 
 I am currently looking for a postdoc position in Mathematics (research and/or teaching), ideally in line with my [research interests](https://www.dulbrich.de/research_interests_publications.html), and would be delighted to receive any suitable offers or suggestions.
