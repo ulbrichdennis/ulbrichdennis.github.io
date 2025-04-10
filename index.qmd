@@ -13,7 +13,7 @@ about:
   id: hero-heading
   template: trestles
   image-width: 50%
-  image-shape: rectangle
+  image-shape: round
   links:
     - icon: envelope
       text: Email
