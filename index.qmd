@@ -11,7 +11,7 @@ page-layout: full
 
 about:
   id: hero-heading
-  template: broadside #marquee #solana #trestles
+  template: solana #broadside #marquee  #trestles
   image-width: 70%
   image-shape: rectangle
   links:
