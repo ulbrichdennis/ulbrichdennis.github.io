@@ -12,12 +12,12 @@ page-layout: full
 about:
   id: hero-heading
   template: trestles
-  image-width: 50%
+  image-width: 55%
   image-shape: rectangle
   links:
     - icon: envelope
       text: Email
-      href: mailto:ulbrich.dennis@icloud.com
+      href: mailto:ulbrich@magenta.de
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/ulbrichdennis/
