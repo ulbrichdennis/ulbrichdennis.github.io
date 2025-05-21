@@ -1,7 +1,7 @@
 ---
 title: "Dr. Dennis Ulbrich"
 description-meta: "Postdoctoral researcher"
-image: files/profile/Raps.jpeg
+image: files/profile/coffee.jpg
 image-title: "&copy; D. Ulbrich"
 #image-alt: "Dennis Ulbrich"
 page-navigation: false
