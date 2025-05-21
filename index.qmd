@@ -12,7 +12,7 @@ page-layout: full
 about:
   id: hero-heading
   template: trestles
-  image-width: 70%
+  image-width: 50%
   image-shape: rectangle
   links:
     - icon: envelope
