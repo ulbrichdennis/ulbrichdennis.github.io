@@ -13,7 +13,7 @@ title-block-banner: false
 
 ::: {.g-col-12 .g-col-md-6}
 University of Münster<br>
-Department of Mathematics
+Department of Mathematics<br>
 Institute for Analysis and Numerics<br>
 
 + Term 2021 - 2025
