@@ -1,9 +1,9 @@
 ---
 title: "Dr. Dennis Ulbrich"
 description-meta: "Postdoctoral researcher"
-image: files/profile/UD.jpeg
-image-title: "&copy; D. Ulbrich"
-image-alt: "Dennis Ulbrich"
+#image: files/profile/UD.jpeg
+#image-title: "&copy; D. Ulbrich"
+#image-alt: "Dennis Ulbrich"
 page-navigation: false
 toc: false  
 #sidebar: false
