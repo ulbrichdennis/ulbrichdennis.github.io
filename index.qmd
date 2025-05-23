@@ -11,8 +11,8 @@ page-layout: full
 
 about:
   id: hero-heading
-  template: jolla #trestles
-  image-width: 10%
+  template: solana #jolla #trestles
+  image-width: 60%
   image-shape: rectangle
   links:
     - icon: envelope
