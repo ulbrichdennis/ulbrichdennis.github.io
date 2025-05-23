@@ -182,7 +182,7 @@ Department of Mathematics
 ::: {.g-col-12 .g-col-md-6}
 
 + Supporting several [summer and winter schools](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems)
-+ Maintaining the Mathematical Collection and creating its [website](https://www.uni-bremen.de/appanalysis/mathematical-collection/)  
++ Maintaining the Mathematical Collection of the University of Bremen and creating its website  
 :::
 
 :::
