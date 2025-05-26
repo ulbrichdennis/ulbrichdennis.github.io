@@ -31,8 +31,8 @@ callout-icon: false
 
 In the winter semester 2024/25, I was a lecturer at Hochschule Bremen.
 
-Beforehand, I was a postdoc at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/institute.shtml) of the [University of Münster](https://www.uni-muenster.de/en/).  
-  
+Beforehand, I was a postdoc at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/institute.shtml) of the [University of Münster](https://www.uni-muenster.de/en/).
+
 I earned my PhD degree in Mathematics (*Dr. rer. nat.* in Mathematics) at the [University of Bremen](https://www.uni-bremen.de/en/), cf. [MGP](https://www.mathgenealogy.org/id.php?id=277103). 
 
 For more details, see [Short CV](https://www.dulbrich.de/shortcv.html).
