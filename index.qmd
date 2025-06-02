@@ -29,13 +29,13 @@ callout-icon: false
 
 ## About me
 
-Former lecturer (Hochschule Bremen), see [Teaching](https://www.dulbrich.de/teaching.html)
+- Former lecturer (Hochschule Bremen)
 
-Former postdoc ([Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/institute.shtml), [University of Münster](https://www.uni-muenster.de/en/))
+- Former postdoc ([Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/institute.shtml), [University of Münster](https://www.uni-muenster.de/en/))
 
-*Dr. rer. nat.* in Mathematics ([University of Bremen](https://www.uni-bremen.de/en/)) 
+- *Dr. rer. nat.* in Mathematics ([University of Bremen](https://www.uni-bremen.de/en/)) 
 
-For more details, see [Short CV](https://www.dulbrich.de/shortcv.html).
+
 
 
 :::
