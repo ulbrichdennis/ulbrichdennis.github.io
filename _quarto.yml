@@ -60,9 +60,8 @@ website:
   page-navigation: true
 
   page-footer: 
-    left: <a href="mailto:ulbrich.dennis@ewe.net">ulbrich.dennis@ewe.net</a>
     center:   "&copy; D. Ulbrich, 2025"
-    right: "Last modified: June 6, 2025"
+    right: "Last updated: 2025-06-07 13:30"
     
     
         
