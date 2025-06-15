@@ -126,9 +126,9 @@ Master and Bachelor degree (M.Sc. and B.Sc.)<br>
   
 
 + M.Sc. thesis: *Dynamics of the three-state 1D Greenberg-Hastings cellular automaton*
-    + *Referees:* Prof. J. Rademacher, Dr. T. Samuel (University of Exeter)
+    + *Referees:* Prof. J. Rademacher, [Dr. T. Samuel](https://experts.exeter.ac.uk/43201-tony-samuel/) (University of Exeter)
 + B.Sc. thesis: *Unerwartete Fehler bei bedingten Erwartungswerten und Wahrscheinlichkeiten*
-    + *Referees:* Prof. W. Brannath (University of Bremen), Dr. K. Falk (University of Kiel)
+    + *Referees:* [Prof. W. Brannath](https://www.uni-bremen.de/kksb/biometrie/team/mitglieder/prof-dr-werner-brannath) (University of Bremen), [Dr. K. Falk](https://www.math.uni-kiel.de/de/dr-kurt-falk/dr-kurt-falk) (University of Kiel)
 
 
 :::
@@ -166,7 +166,7 @@ Department of Mathematics
 ::: {.g-col-12 .g-col-md-6}
 
 + Student Research Project<br>
-  *Wave patterns in cellular automata for excitable media*
+  *Wave patterns in cellular automata for excitable media*, see [here](https://www.uni-bremen.de/en/fb3/studium-lehre/studentische-projekte/student-research-projects-in-mathematics/assigned-and-completed-projects/wave-patterns-in-cellular-automata-for-excitable-media)
 
 :::
 
