@@ -5,9 +5,9 @@ description-meta: "Professional activities"
 title-block-banner: false
 ---
 
-## Professional activities[^*]
+## Professional activities[^1]
 
-[^*]: except for [Teaching](https://www.dulbrich.de/teaching.html) and non-academic professional activities  
+[^1]: except for [Teaching](https://www.dulbrich.de/teaching.html) and non-academic professional activities  
 
 ### Past
 ::: {.grid}
