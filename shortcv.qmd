@@ -1,11 +1,13 @@
 ---
 title: "Short CV"
-subtitle: "Professional activities (except teaching), education and other"
+subtitle: "Professional activities, education and other"
 description-meta: "Professional activities"
 title-block-banner: false
 ---
 
-## Professional activities (except teaching)
+## Academic professional activities[^1]
+
+[^1]: excdd 
 
 ### Past
 ::: {.grid}
