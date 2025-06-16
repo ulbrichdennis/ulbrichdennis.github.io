@@ -29,13 +29,17 @@ callout-icon: false
 
 ## About me
 
-In the winter semester 2024/2025, I worked as a lecturer at the [School of Nature and Engineering](https://www.hs-bremen.de/en/hsb/faculties/school-of-nature-and-engineering/) of the [Hochschule Bremen](https://www.hs-bremen.de/en/).
+In the winter semester 2024/2025, I worked as a lecturer at the [School of Nature and Engineering](https://www.hs-bremen.de/en/hsb/faculties/school-of-nature-and-engineering/) of the [Hochschule Bremen](https://www.hs-bremen.de/en/).[^1]
 
-Beforehand, I was a postdoctoral researcher at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/institute.shtml) of the [University of Münster](https://www.uni-muenster.de/en/).
+Beforehand, I was a postdoctoral researcher at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/institute.shtml) of the [University of Münster](https://www.uni-muenster.de/en/).[^2]
 
-I earned my PhD (*Dr. rer. nat.* in Mathematics) at the [University of Bremen](https://www.uni-bremen.de/en/).
+I earned my PhD (*Dr. rer. nat.* in Mathematics) at the [University of Bremen](https://www.uni-bremen.de/en/).[^3]
 
-<p style="font-size:13px">For further information, see the subpages above.</p>
+[^1]: cf. Teaching
+
+[^2]: cf. Research
+
+[^3]: cf. Short CV
 
 
 :::
