@@ -35,7 +35,7 @@ Beforehand, I was a postdoctoral researcher at the [Institute for Analysis and N
 
 I earned my PhD (*Dr. rer. nat.* in Mathematics) at the [University of Bremen](https://www.uni-bremen.de/en/).
 
-Further information can be found on the subpages above.
+<p style="text-size:8px">For further information, see the subpages above.</p>
 
 
 :::
