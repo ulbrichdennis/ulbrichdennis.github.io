@@ -41,6 +41,8 @@ website:
         href: teaching.qmd
       - text: Short CV
         href: shortcv.qmd  
+      - text: News
+        href: news.qmd
           
       
     right: 
