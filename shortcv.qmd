@@ -2,7 +2,7 @@
 title: "Short CV"
 subtitle: "Professional activities, education and other"
 description-meta: "Professional activities"
-title-block-banner: false
+title-block-banner: true
 ---
 
 ## Professional activities[^1]
