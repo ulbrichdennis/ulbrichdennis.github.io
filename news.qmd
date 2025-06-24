@@ -2,7 +2,8 @@
 title: "News"
 subtitle: ""
 description-meta: "What is new"
-title-block-banner: false
+title-block-banner: true
+date: 2025-24-06
 ---
 
 ## Open to work!
