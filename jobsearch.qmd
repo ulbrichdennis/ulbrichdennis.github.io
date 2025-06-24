@@ -1,6 +1,5 @@
 ---
-title: "Open to work"
-subtitle: "Looking for a job"
+title: "Open to work" 
 description-meta: "job search"
 title-block-banner: true
 date: 2025-06-24
