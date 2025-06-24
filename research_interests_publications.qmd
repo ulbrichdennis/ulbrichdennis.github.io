@@ -2,7 +2,7 @@
 title: "Research"
 subtitle: "Interests and publications"
 description-meta: "What I am interested in and what I have published so far"
-title-block-banner: false
+title-block-banner: true
 ---
 
 ## Research interests

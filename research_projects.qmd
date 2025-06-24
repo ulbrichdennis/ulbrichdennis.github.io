@@ -2,7 +2,7 @@
 title: "Research"
 subtitle: "Project participation"
 description-meta: "Projects in which I participate(d)"
-title-block-banner: false
+title-block-banner: true
 ---
 
 ## Current projects

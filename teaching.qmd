@@ -2,7 +2,7 @@
 title: "Teaching"
 subtitle: "Undergraduate courses"
 description-meta: "Basic analysis, linear algebra and stochastics"
-title-block-banner: false
+title-block-banner: true
 ---
 
 ## Past
