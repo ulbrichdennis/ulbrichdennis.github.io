@@ -5,7 +5,7 @@ title-block-banner: true
 date: 2025-06-24
 ---
 
-I am currently looking for a job, preferably full time and in one of the following categories:
+I am currently looking for a job (preferably full time) in one of the following categories:
 
 - Scientific employee in Mathematics or a related field, e.g.,  
   - Postdoctoral Researcher
@@ -13,7 +13,7 @@ I am currently looking for a job, preferably full time and in one of the followi
 - Lecturer in Mathematics
 - Study organization, study advice 
 
-I would be happy to receive suitable offers or other suggestions that I may not have thought of.
+I would be happy to receive suitable offers or other suggestions that do not fit into the categories above (and that I may not have thought of yet).
 
 Please feel free to send me an [Email](mailto:ulbrich@magenta.de).
 
