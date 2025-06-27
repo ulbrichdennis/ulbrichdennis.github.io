@@ -62,9 +62,9 @@ website:
   page-navigation: true
 
   page-footer: 
-    center:   "&copy; D. Ulbrich, 2025"
-    right: "Last updated: 2025-06-24 11:40"
-    left: "Send an [Email](mailto:ulbrich@magenta.de)"
+    center:   "&copy; D. Ulbrich, 2025 | [Email](mailto:ulbrich@magenta.de)"
+    right: "Last updated: 2025-06-27 13:51"
+    
     
     
         
