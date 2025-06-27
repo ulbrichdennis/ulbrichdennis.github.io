@@ -27,7 +27,7 @@ callout-icon: false
 
 :::{#hero-heading}
 
-## About me
+## About
 
 In the winter semester 2024/2025, I worked as a lecturer at the [School of Nature and Engineering](https://www.hs-bremen.de/en/hsb/faculties/school-of-nature-and-engineering/) of the [Hochschule Bremen](https://www.hs-bremen.de/en/).
 
