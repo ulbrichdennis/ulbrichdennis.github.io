@@ -16,7 +16,6 @@ title-block-banner: true
 ::: {.g-col-12 .g-col-md-6}
 *2.2025 -- 5.2025*<br>
 Hochschule Bremen<br>
-City Univewrsity of Applied Sciences<br>
 School of Electrical Engineering and Computer Science
 :::
 
@@ -24,8 +23,7 @@ School of Electrical Engineering and Computer Science
 
 *Postdoctoral researcher*
 
-+ Research in the AI-project [DATIPilot - Sprint - Lector4Teachers](https://www.hs-bremen.de/forschen/forschungs-und-transferprofil/forschungsprojekt/datipilot-sprint-lector4teachers-ki-basierte-uebertragung-analyse-und-pruefung-handgeschriebener-dokumente-zur-entlastung-von-lehrerinnen-tp-a/)
-
++ Research in AI-project
 :::
 
 :::
