@@ -16,8 +16,8 @@ title-block-banner: true
 ::: {.g-col-12 .g-col-md-6}
 *2.2025 -- 5.2024*<br>
 Hochschule Bremen<br>
-Department of Mathematics<br>
-Institute for Analysis and Numerics
+City Univewrsity of Applied Sciences<br>
+School of Electrical Engineering and Computer Science
 :::
 
 ::: {.g-col-12 .g-col-md-6}
