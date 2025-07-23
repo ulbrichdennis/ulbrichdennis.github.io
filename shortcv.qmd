@@ -14,7 +14,7 @@ title-block-banner: true
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-*2.2025 -- 5.2024*<br>
+*2.2025 -- 5.2025*<br>
 Hochschule Bremen<br>
 City Univewrsity of Applied Sciences<br>
 School of Electrical Engineering and Computer Science
@@ -24,14 +24,7 @@ School of Electrical Engineering and Computer Science
 
 *Postdoctoral researcher*
 
-+ Research on discrete hypocoercivity within [DFG project 456849348](https://www.dulbrich.de/research_projects.html)
-+ Keywords:
-    + <mark>Hypocoercivity</mark>
-    + <mark>Kinetic equations</mark>
-    + <mark>BGK-type approximations</mark>
-    + <mark>Chemical reactions</mark>
-    + <mark>Entropy methods</mark>
-+ Supervision: [Prof. M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)
++ Research in the project [DATIPilot - Sprint - Lector4Teachers](https://www.hs-bremen.de/forschen/forschungs-und-transferprofil/forschungsprojekt/datipilot-sprint-lector4teachers-ki-basierte-uebertragung-analyse-und-pruefung-handgeschriebener-dokumente-zur-entlastung-von-lehrerinnen-tp-a/)
 
 :::
 
