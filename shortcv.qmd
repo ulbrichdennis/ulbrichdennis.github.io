@@ -16,15 +16,14 @@ title-block-banner: true
 ::: {.g-col-12 .g-col-md-6}
 *2.2025 -- 5.2025*<br>
 Hochschule Bremen<br>
-School of Electrical Engineering and Computer Science
+Electrical Engineering and Computer Science
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 
 *Postdoctoral researcher*
 
-+ Research in AI-project
-:::
++ AI-based transmission, analysis and verification of handwritten documents
 
 :::
 
