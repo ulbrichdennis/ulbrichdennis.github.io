@@ -24,7 +24,7 @@ School of Electrical Engineering and Computer Science
 
 *Postdoctoral researcher*
 
-+ Research in the project [DATIPilot - Sprint - Lector4Teachers](https://www.hs-bremen.de/forschen/forschungs-und-transferprofil/forschungsprojekt/datipilot-sprint-lector4teachers-ki-basierte-uebertragung-analyse-und-pruefung-handgeschriebener-dokumente-zur-entlastung-von-lehrerinnen-tp-a/)
++ Research in the AI-project [DATIPilot - Sprint - Lector4Teachers](https://www.hs-bremen.de/forschen/forschungs-und-transferprofil/forschungsprojekt/datipilot-sprint-lector4teachers-ki-basierte-uebertragung-analyse-und-pruefung-handgeschriebener-dokumente-zur-entlastung-von-lehrerinnen-tp-a/)
 
 :::
 
