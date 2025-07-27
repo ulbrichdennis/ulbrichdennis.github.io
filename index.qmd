@@ -13,7 +13,7 @@ about:
   id: hero-heading
   template: trestles #solana #marquee #broadside #jolla    
   image-width: 45%
-  image-shape: round #rectangle
+  image-shape: rounded #rectangle
   links:
     - icon: envelope
       text: Email
