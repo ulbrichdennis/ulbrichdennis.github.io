@@ -1,7 +1,7 @@
 ---
 title: "Dr. Dennis Ulbrich"
 description-meta: "Postdoctoral researcher"
-image: files/profile/DU725.jpg
+
 page-navigation: false
 toc: false  
 #sidebar: false
@@ -9,7 +9,7 @@ page-layout: full
 
 about:
   id: hero-heading
-  template: marquee #trestles #solana #broadside #jolla    
+  template: broadside #marquee #trestles #solana #broadside #jolla    
   image-width: 15%
   image-shape: rounded #rectangle
   links:
