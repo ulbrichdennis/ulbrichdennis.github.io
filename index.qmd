@@ -1,11 +1,10 @@
 ---
 title: "Dr. Dennis Ulbrich"
 description-meta: "Postdoctoral researcher"
-
 page-navigation: false
 toc: false  
 #sidebar: false
-page-layout: full
+#page-layout: full
 
 about:
   id: hero-heading
