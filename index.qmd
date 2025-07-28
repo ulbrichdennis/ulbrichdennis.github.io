@@ -5,13 +5,13 @@ image: files/profile/DU725.jpg
 page-navigation: false
 toc: false  
 #sidebar: false
-#page-layout: full
+page-layout: full
 
 about:
   id: hero-heading
   template: broadside #marquee #trestles #solana #broadside #jolla    
-  image-width: 15%
-  image-shape: rounded #rectangle
+  image-width: 45%
+  image-shape: rectangle
   links:
     - icon: envelope
       text: Email
