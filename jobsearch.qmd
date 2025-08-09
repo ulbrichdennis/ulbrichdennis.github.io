@@ -4,6 +4,7 @@ description-meta: "job search"
 title-block-banner: true
 #date: 2025-06-27
 date-modified: 2025-08-09
+date-format: iso
 ---
 
 I am currently looking for a job in one of the following categories:
