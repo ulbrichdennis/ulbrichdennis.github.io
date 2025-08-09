@@ -63,7 +63,8 @@ website:
 
   page-footer: 
     center:   "&copy; D. Ulbrich, 2025"
-    right: "Last updated: 08-08-2025"
+    right: "Last updated: 08-09-2025"
+    left: "Made with [Quarto](https://quarto.org/)"
     
     
     
