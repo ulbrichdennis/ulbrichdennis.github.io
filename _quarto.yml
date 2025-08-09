@@ -62,9 +62,7 @@ website:
   page-navigation: true
 
   page-footer: 
-     date: today
-     date-format: medium
-     center:   "&copy; {{< meta author-meta >}}, {{< meta date >}}"
+      center:   "&copy; {{< meta author-meta >}}, 2025"
     
     
     
