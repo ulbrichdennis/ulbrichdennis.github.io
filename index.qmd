@@ -22,6 +22,11 @@ about:
       href: https://www.linkedin.com/in/ulbrichdennis/
 callout-icon: false
 
+
+page-footer: 
+    center:   "&copy; D. Ulbrich, 2025"
+    right: "{{< meta date-modified >}}"
+    left: "Made with [Quarto](https://quarto.org/)"
 ---
 
 :::{#hero-heading}
@@ -38,5 +43,5 @@ More details can be found on the subpages above.
 
 :::
 
-"{{< meta date-modified >}}"
+
 
