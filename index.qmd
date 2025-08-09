@@ -25,7 +25,7 @@ callout-icon: false
 
 :::{#hero-heading}
 
-## About me
+## About 
 
 Most recently, I worked as a lecturer and researcher at [HS Bremen](https://www.hs-bremen.de/en/).
 
