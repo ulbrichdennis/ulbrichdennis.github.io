@@ -93,7 +93,7 @@ format:
     theme: 
        light: [zephyr, theme.scss]
        dark: [zephyr, theme-dark.scss]
-    page-layout: full
+    page-layout: article
     toc: true
     toc-expand: 3
     footnotes-hover: true
