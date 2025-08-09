@@ -3,6 +3,7 @@ title: "Short CV"
 subtitle: "Professional activities, education and other"
 description-meta: "Professional activities"
 title-block-banner: true
+date-modified: 2025-07-23
 ---
 
 ## Professional activities[^1]

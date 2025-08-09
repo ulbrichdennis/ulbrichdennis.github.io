@@ -4,7 +4,6 @@ description-meta: "Postdoctoral researcher"
 image: files/profile/UD.JPG
 page-navigation: false
 toc: false  
-date-modified: 2025-08-09
 #sidebar: false
 page-layout: full
 
@@ -22,8 +21,7 @@ about:
       href: https://www.linkedin.com/in/ulbrichdennis/
 callout-icon: false
 
-page-footer:
-    center: "Hi!"
+
       
 
 
