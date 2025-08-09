@@ -5,6 +5,8 @@ project:
 # Meta
 description-meta: "Postdoc"
 author-meta: "Dennis Ulbrich"
+date: today
+date-format: medium
 
 
 
@@ -21,7 +23,6 @@ website:
   #image-alt: "&copy; D. Ulbrich"
   description: "Postdoctoral researcher"
   back-to-top-navigation: true
-  
   navbar:
     background: light
     
@@ -62,7 +63,7 @@ website:
   page-navigation: true
 
   page-footer: 
-    center:   "&copy; D. Ulbrich, 2025"
+    center:   "&copy; {{< meta author-meta >}}, {{< meta date >}}"
     
     
     
