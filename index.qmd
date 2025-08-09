@@ -10,7 +10,7 @@ page-layout: full
 about:
   id: hero-heading
   template: broadside #solana #jolla #marquee #jolla #solana #broadside #marquee #trestles #solana #broadside #jolla    
-  image-width: 15%
+  image-width: 10%
   image-shape: rectangle
   links:
     - icon: envelope
