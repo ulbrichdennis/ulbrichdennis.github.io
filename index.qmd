@@ -4,7 +4,8 @@ description-meta: "Postdoctoral researcher"
 image: files/profile/UD.JPG
 page-navigation: false
 toc: false  
-#sidebar: false
+date-modified: 2025-08-08
+sidebar: true
 page-layout: full
 
 about:
