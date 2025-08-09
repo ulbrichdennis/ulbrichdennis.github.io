@@ -4,9 +4,8 @@ project:
 
 # Meta
 description-meta: "Postdoc"
-author-meta: "Dennis Ulbrich"
-date: today
-date-format: medium
+author-meta: "D. Ulbrich"
+
 
 
 
@@ -63,7 +62,9 @@ website:
   page-navigation: true
 
   page-footer: 
-    center:   "&copy; {{< meta author-meta >}}, {{< meta date >}}"
+     date: today
+     date-format: medium
+     center:   "&copy; {{< meta author-meta >}}, {{< meta date >}}"
     
     
     
