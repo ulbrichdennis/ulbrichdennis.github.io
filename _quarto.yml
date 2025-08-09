@@ -15,7 +15,7 @@ website:
    # content: "Currently, I am looking for a position as a **Postdoc** or **Research Assistant** in Mathematics. Please feel free to contact me for details, any suggestion is highly appreciated!"
    # type: info
    # position: below-navbar
-  # favicon: /files/images/favicon.ico
+  favicon: /files/images/favicon.ico
   title: "Dr. Dennis Ulbrich"
   #image: "/files/profile/UlbrichDennis.jpg"
   #image-alt: "&copy; D. Ulbrich"

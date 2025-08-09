@@ -11,7 +11,7 @@ about:
   id: hero-heading
   template: marquee #broadside #solana #jolla #marquee #jolla #solana #broadside #marquee #trestles #solana #broadside #jolla    
   image-width: 25%
-  image-shape: rounded
+  image-shape: round
   links:
     - icon: envelope
       text: Email
