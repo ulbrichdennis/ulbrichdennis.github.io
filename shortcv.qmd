@@ -4,7 +4,7 @@ subtitle: "Professional activities, education and other"
 description-meta: "Professional activities"
 title-block-banner: true
 date-modified: last-modified
-date-format: full
+date-format: iso
 
    
 ---

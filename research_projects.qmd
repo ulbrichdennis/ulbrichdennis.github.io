@@ -3,6 +3,8 @@ title: "Research"
 subtitle: "Project participation"
 description-meta: "Projects in which I participate(d)"
 title-block-banner: true
+date-modified: last-modified
+date-format: iso
 ---
 
 ## Current projects
