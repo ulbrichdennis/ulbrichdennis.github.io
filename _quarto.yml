@@ -6,6 +6,8 @@ project:
 description-meta: "Postdoc"
 author-meta: "D. Ulbrich"
 
+pre-render: generate-gallery.ts
+
 
 
 
