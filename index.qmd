@@ -40,7 +40,7 @@ More details can be found on the subpages above.
 
 :::
 
-![Elephant](Sommer.JPEG)
+![Elephant](Sommer.JPEG){.lightbox}
 
 
 
