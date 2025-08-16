@@ -40,7 +40,7 @@ More details can be found on the subpages above.
 
 :::
 
-![Elephant](Sommer.JPEG){.lightbox width=40%}
+![](Sommer.JPEG){.lightbox width=10%}
 
 
 
