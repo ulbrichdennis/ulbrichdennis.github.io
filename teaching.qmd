@@ -7,7 +7,7 @@ date-modified: last-modified
 date-format: iso
 ---
 
-![](Teaching.jpg){.lightbox}
+![](Teaching.jpg){.lightbox width=60%}
 
 ## Past
 ### Winter semester 2024/25
