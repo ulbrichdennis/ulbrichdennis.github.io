@@ -66,6 +66,7 @@ website:
   page-footer: 
       center:   "&copy; {{< meta author-meta >}}, 2025"
       left: "Made with [Quarto](https://quarto.org/)"
+      right: "[Email](mailto:ulbrich@magenta.de)"
     
     
     
