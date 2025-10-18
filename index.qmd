@@ -13,6 +13,7 @@ about:
   template:  trestles #jolla #marquee #broadside #solana #jolla #marquee #jolla #solana #broadside #marquee #trestles #solana #broadside #jolla    
   image-width: 60%
   image-shape: rectangle #rounded #round 
+  image-title: blabla
   links:
     - icon: envelope
       text: Email
