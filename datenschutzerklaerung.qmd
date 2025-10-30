@@ -1,5 +1,5 @@
 ---
- 
+title:  ""
 description-meta: "data privacy"
 title-block-banner: true
 #date: 2025-06-27
