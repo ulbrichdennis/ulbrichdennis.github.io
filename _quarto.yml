@@ -64,7 +64,7 @@ website:
 
   page-footer: 
       center:   "&copy; {{< meta author-meta >}}, 2025"
-      right: "Contact: [Email](mailto:ulbrich.dennis@icloud.com)"
+      right: "[Data privacy](datenschutzerklaerung.qmd)"
     
     
     
