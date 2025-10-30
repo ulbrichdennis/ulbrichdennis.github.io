@@ -64,7 +64,7 @@ website:
 
   page-footer: 
       center:   "&copy; {{< meta author-meta >}}, 2025"
-      right: "[Data privacy](datenschutzerklaerung.qmd)"
+      #right: "[Data privacy](datenschutzerklaerung.qmd)"
     
     
     
