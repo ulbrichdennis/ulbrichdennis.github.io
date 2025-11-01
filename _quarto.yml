@@ -92,7 +92,7 @@ website:
 
 format:
   html:
-    theme: lux
+    theme: spacelab
        #light: [zephyr, theme.scss]
        #dark: [zephyr, theme-dark.scss]
     toc: true
