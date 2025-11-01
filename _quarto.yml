@@ -92,9 +92,9 @@ website:
 
 format:
   html:
-    theme: spacelab
-       #light: [zephyr, theme.scss]
-       #dark: [zephyr, theme-dark.scss]
+    theme: 
+       light: [zephyr, theme.scss]
+       dark: [zephyr, theme-dark.scss]
     toc: true
     toc-expand: 3
     footnotes-hover: true
@@ -102,7 +102,7 @@ format:
     code-link: true
     code-overflow: wrap
     fig-align: center
-    link-external-icon: false
+    link-external-icon: true
     link-external-newwindow: true
     email-obfuscation: javascript
     include-in-header: "files/includes/_academic.qmd"
