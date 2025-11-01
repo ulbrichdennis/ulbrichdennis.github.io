@@ -84,7 +84,7 @@ website:
 #  repo-actions: [edit, issue, source]
   
   
-  twitter-card: true
+  #twitter-card: true
       #card-style: summary      
       # site-url: "https://www.dulbrich.de"
   
