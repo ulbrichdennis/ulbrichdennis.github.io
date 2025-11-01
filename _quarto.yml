@@ -92,7 +92,7 @@ website:
 
 format:
   html:
-    theme: litera
+    theme: lux
        #light: [zephyr, theme.scss]
        #dark: [zephyr, theme-dark.scss]
     toc: true
