@@ -7,7 +7,7 @@ date-modified: last-modified
 date-format: iso
 ---
 
-## Current projects
+## Ongoing projects
 
 ### DFG 456849348
 
