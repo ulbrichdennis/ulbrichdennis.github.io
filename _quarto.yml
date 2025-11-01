@@ -92,9 +92,9 @@ website:
 
 format:
   html:
-    theme: 
-       light: [zephyr, theme.scss]
-       dark: [zephyr, theme-dark.scss]
+    theme: slate
+       #light: [zephyr, theme.scss]
+       #dark: [zephyr, theme-dark.scss]
     toc: true
     toc-expand: 3
     footnotes-hover: true
