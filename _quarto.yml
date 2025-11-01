@@ -19,6 +19,7 @@ website:
    # type: info
    # position: below-navbar
   favicon: /files/images/favicon.ico
+  open-graph: true
   title: "Dr. Dennis Ulbrich"
   #image: "/files/profile/UlbrichDennis.jpg"
   #image-alt: "&copy; D. Ulbrich"
@@ -64,7 +65,7 @@ website:
 
   page-footer: 
       center:   "&copy; {{< meta author-meta >}}, 2025"
-      #right: "[Data privacy](datenschutzerklaerung.qmd)"
+      
     
     
     
@@ -82,7 +83,6 @@ website:
   repo-url: https://github.com/ulbrichdennis/ulbrichdennis.github.io
 #  repo-actions: [edit, issue, source]
   
-  open-graph: true
   
   twitter-card: true
       #card-style: summary      
