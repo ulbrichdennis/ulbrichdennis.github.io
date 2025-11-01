@@ -103,6 +103,7 @@ format:
     code-overflow: wrap
     fig-align: center
     link-external-icon: true
+    link-internal-icon: true
     link-external-newwindow: true
     email-obfuscation: javascript
     include-in-header: "files/includes/_academic.qmd"
