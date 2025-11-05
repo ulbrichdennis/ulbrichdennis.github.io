@@ -29,7 +29,7 @@ callout-icon: false
 
 :::{#hero-heading}
 
-![Happy autumn!](files/images/autumn.jpeg){.lightbox}
+!(files/images/autumn.jpeg){.lightbox}
 
 ## About me
 
