@@ -29,6 +29,8 @@ callout-icon: false
 
 :::{#hero-heading}
 
+![](autumn.jpeg)
+
 ## About me
 
 Most recently, I worked as a lecturer and researcher at [HS Bremen](https://www.hs-bremen.de/en/).
