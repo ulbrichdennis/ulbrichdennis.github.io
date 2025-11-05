@@ -1,5 +1,5 @@
 ---
-title: "Dennis Ulbrich"
+title: "Dr. Dennis Ulbrich"
 description-meta: "Postdoctoral researcher"
 image: files/profile/UD.JPG
 image-title: "&copy; D. Ulbrich" 
