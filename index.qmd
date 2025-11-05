@@ -26,10 +26,9 @@ callout-icon: false
 
 ---
 
+![](files/images/autumn.jpeg){.lightbox}
 
 :::{#hero-heading}
-
-!(files/images/autumn.jpeg){.lightbox}
 
 ## About me
 
