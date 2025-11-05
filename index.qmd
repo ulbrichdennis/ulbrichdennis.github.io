@@ -29,7 +29,7 @@ callout-icon: false
 
 :::{#hero-heading}
 
-![](autumn.jpeg)
+![](files/images/autumn.jpeg)
 
 ## About me
 
