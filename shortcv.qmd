@@ -9,7 +9,7 @@ date-format: iso
    
 ---
 
-## Professional activities
+## Professional activities (except (teaching)[https://www.dulbrich.de/teaching.html])
 
 ### Past
 
