@@ -1,6 +1,6 @@
 ---
 title: "Short CV"
-subtitle: "D. Ulbrich"
+subtitle: "Academic activities, education etc."
 description-meta: "Professional activities"
 title-block-banner: true
 date-modified: last-modified
@@ -9,7 +9,7 @@ date-format: iso
    
 ---
 
-## Professional academic activities[^1]
+## Professional activities[^1]
 
 [^1]: except [teaching](https://www.dulbrich.de/teaching.html)
 
