@@ -64,7 +64,7 @@ website:
   page-navigation: true
 
   page-footer: 
-      left: "Made with (Quarto)[https://quarto.org/]"
+      left: "Made with [Quarto](https://quarto.org/)"
       center:   "&copy; {{< meta author-meta >}}, 2025"
       
     
