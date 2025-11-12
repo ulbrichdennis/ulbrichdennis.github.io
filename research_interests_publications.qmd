@@ -7,6 +7,8 @@ date-modified: last-modified
 date-format: iso
 ---
 
+My Erdös number is 4: D. Ulbrich -> M. Keßeböhmer -> M. Denker -> R.D. Mauldin -> P. Erdös
+
 ## Research interests
 
 * Ordinary and partial differential equations and their dynamics
