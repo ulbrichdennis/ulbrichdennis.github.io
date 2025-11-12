@@ -7,9 +7,8 @@ date-modified: last-modified
 date-format: iso
 ---
 
-Erd&#337;s number: 4
-
-Path: D. Ulbrich -> M. Keßeböhmer -> M. Denker -> R.D. Mauldin -> P. Erdös
+Erd&#337;s number: 4\\
+Path: D. Ulbrich -> M. Keßeböhmer -> M. Denker -> R.D. Mauldin -> P. Erd&#337;s
 
 ## Research interests
 
