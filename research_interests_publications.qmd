@@ -7,11 +7,7 @@ date-modified: last-modified
 date-format: iso
 ---
 
-Erd&#337;s number: 4  
-(Path: D. Ulbrich -> M. Keßeböhmer -> M. Denker -> R.D. Mauldin -> P. Erd&#337;s)  
-
-
-## Research interests
+ ## Research interests
 
 * Ordinary and partial differential equations and their dynamics
 * Dynamical Systems and Ergodic Theory
@@ -46,3 +42,7 @@ close-to-equilibrium assumption.* (working title) <br>
 *Ergodic theory of nonlinear waves in discrete and continuous excitable media.*<br>
  Dissertation, 2021 [[DOI]](https://media.suub.uni-bremen.de/handle/elib/5257)
 
+### Other
+
+My Erd&#337;s number is 4 and the path is:  
+D. Ulbrich -> M. Keßeböhmer -> M. Denker -> R.D. Mauldin -> P. Erd&#337;s 
