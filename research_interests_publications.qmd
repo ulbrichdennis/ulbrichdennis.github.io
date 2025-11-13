@@ -45,4 +45,4 @@ close-to-equilibrium assumption.* (working title) <br>
 ## Other
 
 My Erd&#337;s number is 4 and the path is:  
-D. Ulbrich -> M. Keßeböhmer -> M. Denker -> R.D. Mauldin -> P. Erd&#337;s 
+D. Ulbrich -> M. Keßeböhmer -> M. Denker -> R. D. Mauldin -> P. Erd&#337;s 
