@@ -7,7 +7,7 @@ date-modified: last-modified
 date-format: iso
 ---
 
- ## Research interests
+## Research interests
 
 * Ordinary and partial differential equations and their dynamics
 * Dynamical Systems and Ergodic Theory
