@@ -11,7 +11,7 @@ date-format: iso
 
 ## Professional activities[^1]
 
-[^1]: except my teaching activities which you can find [here](https://www.dulbrich.de/teaching.html)
+[^1]: except my teaching activities which can be found [here](https://www.dulbrich.de/teaching.html)
 
 ### Past
 
