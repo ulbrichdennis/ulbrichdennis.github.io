@@ -1,6 +1,6 @@
 ---
 title: "Dennis Ulbrich"
-subtitle: "Mathematician | Dr. rer. nat."
+subtitle: "Mathematics | Dr. rer. nat."
 description-meta: "Postdoctoral researcher"
 image: files/profile/UD.JPG
 image-title: "&copy; D. Ulbrich" 
