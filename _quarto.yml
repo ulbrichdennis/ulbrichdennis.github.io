@@ -15,7 +15,7 @@ website:
   announcement: 
     icon: info-circle
     dismissable: true
-    content: "Currently, I am looking for a position as a postdoc, research assistant and/ or lecturer in Mathematics. Please feel free to contact me for details, any suggestion is highly appreciated!"
+    content: "Currently, I am looking for a position as a postdoc, research assistant or lecturer in Mathematics. Please feel free to contact me, any suggestion is highly appreciated!"
     type: info
     position: below-navbar
   favicon: /files/images/favicon.ico
