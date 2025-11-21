@@ -1,6 +1,6 @@
 ---
 title: "Academic CV"
-subtitle: "Professional activities, education etc."
+subtitle: "Professional activities, education and other"
 description-meta: "Professional activities"
 title-block-banner: true
 date-modified: last-modified
