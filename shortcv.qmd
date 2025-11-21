@@ -9,9 +9,7 @@ date-format: iso
    
 ---
 
-## Professional activities[^1]
-
-[^1]: except my teaching activities which can be found [here](https://www.dulbrich.de/teaching.html)
+## Professional activities
 
 ### Past
 
@@ -43,9 +41,9 @@ School of Nature and Engineering
 
 ::: {.g-col-12 .g-col-md-6}
 
-*Lecturer*
+*Lecturer* (winter semester 2024/25)
 
-+ Mathematik 1 (winter semester 2024/25) 
++ Mathematik 1  
 
 :::
 
@@ -73,6 +71,25 @@ Institute for Analysis and Numerics
     + <mark>Chemical reactions</mark>
     + <mark>Entropy methods</mark>
 + Supervision: [Prof. M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)
+
+:::
+
+:::
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+*1.2022 -- 6.2022*<br>
+Jacobs University Bremen<br>
+Mathematical Sciences
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+*Lecturer* (spring semester 2022, 1<sup>st</sup> half)
+
++ Finite Mathematics
++ Introduction to Dynamical Systems 
 
 :::
 
