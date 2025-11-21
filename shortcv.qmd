@@ -36,6 +36,25 @@ Electrical Engineering and Computer Science
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
+*10.2024 -- 3.2025*<br>
+Hochschule Bremen<br>
+School of Nature and Engineering
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+*Lecturer*
+
++ Mathematik 1 (winter semester 2024/25) 
+
+:::
+
+:::
+
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
 *6.2023 -- 6.2024*<br>
 University of Münster<br>
 Department of Mathematics<br>
