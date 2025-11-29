@@ -29,7 +29,7 @@ Electrical Engineering and Computer Science
 
 :::
 
-<hr style="border-style: dashed; size: 1px;">
+<hr style="border-style: dotted; size: 2px;">
 
 ::: {.grid}
 
@@ -49,7 +49,7 @@ School of Nature and Engineering
 
 :::
 
----
+<hr style="border-style: dotted; size: 2px;">
 
 ::: {.grid}
 
@@ -77,6 +77,8 @@ Institute for Analysis and Numerics
 
 :::
 
+<hr style="border-style: dotted; size: 2px;">
+
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
@@ -96,6 +98,7 @@ Mathematical Sciences
 
 :::
 
+<hr style="border-style: dotted; size: 2px;">
 
 ::: {.grid}
 
@@ -153,6 +156,8 @@ Dr. rer. nat. in Mathematics
 
 :::
 
+<hr style="border-style: dotted; size: 2px;">
+
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
@@ -171,6 +176,8 @@ Further studies of Mathematics within *Brückenstipendium* of the University of 
 :::
 
 :::
+
+<hr style="border-style: dotted; size: 2px;">
 
 ::: {.grid}
 
