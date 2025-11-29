@@ -14,7 +14,7 @@ date-format: iso
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-*2.2025 -- 5.2025*<br>
++ *2.2025 -- 5.2025*<br>
 Hochschule Bremen<br>
 Electrical Engineering and Computer Science
 :::
@@ -49,7 +49,7 @@ School of Nature and Engineering
 
 :::
 
-<hr style="border-style: dashed; size: 8px;">
+<hr style="border-style: dashed; size: 3px;">
 
 ::: {.grid}
 
