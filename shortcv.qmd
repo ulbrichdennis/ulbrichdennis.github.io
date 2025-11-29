@@ -9,7 +9,7 @@ date-format: iso
    
 ---
 
-==I am looking for a position as a postdoc (research or teaching) in Mathematics.==
+<mark>I am looking for a position as a postdoc (research or teaching) in Mathematics.</mark>
 
 Please feel free to [contact me](mailto:ulbrich.dennis@icloud.com), any serious suggestion is highly appreciated. 
 
@@ -72,11 +72,11 @@ Institute for Analysis and Numerics
 
 + Research on discrete hypocoercivity within [DFG project 456849348](https://www.dulbrich.de/research_projects.html)
 + Keywords:
-    + <mark>Hypocoercivity</mark>
-    + <mark>Kinetic equations</mark>
-    + <mark>BGK-type approximations</mark>
-    + <mark>Chemical reactions</mark>
-    + <mark>Entropy methods</mark>
+    + Hypocoercivity
+    + Kinetic equations
+    + BGK-type approximations
+    + Chemical reactions
+    + Entropy methods
 + Supervision: [Prof. M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)
 
 :::
@@ -146,12 +146,12 @@ Stochastics and Dynamical Systems<br>
     + *Advisors:* [Prof. J. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html), [Prof. M. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer)
     + *Referees:* Prof. J. Rademacher (University of Bremen), [Prof. I. Melbourne](https://warwick.ac.uk/fac/sci/maths/people/staff/ian_melbourne/) (Warwick University)
 + Keywords:
-    + <mark>Nonlinear analysis</mark>
-    + <mark>Ergodic Theory</mark>
-    + <mark>PDE</mark>
-    + <mark>Excitable media</mark> 
-    + <mark>Cellular automata</mark>
-    + <mark>Dynamical Systems</mark>
+    + Nonlinear analysis
+    + Ergodic Theory
+    + PDE
+    + Excitable media 
+    + Cellular automata
+    + Dynamical Systems
 
 :::
 
