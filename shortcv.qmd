@@ -9,7 +9,7 @@ date-format: iso
    
 ---
 
-<mark>I am looking for a position as a postdoc (research or teaching) in Mathematics.</mark>
+<mark>I am currently looking for a postdoctoral position in Mathematics, for example as a research or teaching assistant.</mark>
 
 Please feel free to [contact me](mailto:ulbrich.dennis@icloud.com), any serious suggestion is highly appreciated. 
 
