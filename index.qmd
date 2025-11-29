@@ -31,9 +31,7 @@ callout-icon: false
 
 # <mark>News</mark>
 
-<mark>Currently, I am looking for a position as a postdoc, research assistant or lecturer in Mathematics.<br>
-Please feel free to [contact me](mailto:ulbrich.dennis@icloud.com), any serious suggestion is highly appreciated. Thank you!</mark>
-
+Currently, I am looking for a position as a postdoc, research assistant or lecturer in Mathematics. Please feel free to contact me.
 
 
 ## About me
