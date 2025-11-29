@@ -113,7 +113,7 @@ Department of Mathematics<br>
 
 ::: {.g-col-12 .g-col-md-6}
 
-**PhD student/research assistant**
+**Research assistant (PhD student)**
 
 Research groups: Nonlinear Analysis and Applied Analysis,
 Stochastics and Dynamical Systems<br>
@@ -169,7 +169,7 @@ Department of Mathematics<br>
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-**Brückenstipendium of the University of Bremen**<br>
+**Brückenstipendium, University of Bremen**<br>
 
 + Further studies
 + Extensions of the results of my Master's thesis
