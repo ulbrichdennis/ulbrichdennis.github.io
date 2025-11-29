@@ -9,10 +9,32 @@ date-format: iso
    
 ---
 
-I am looking for a position as a postdoc, research assistant or lecturer in Mathematics. Please feel free to [contact me](mailto:ulbrich.dennis@icloud.com), any suggestion is highly appreciated!"
+*I am looking for a position as a postdoc, research assistant or lecturer in Mathematics.* 
 
 
 ## Professional activities
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
++ **since 5.2025**
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+**Searching for a postdoc position in Mathematics**
+
+In the meantime:
+
++ Helping students with their Math problems
++ Continue working on [DFG project 456849348](https://www.dulbrich.de/research_projects.html)
+  
+
+:::
+
+:::
+
+<hr style="border-style: dashed; size: 3px;">
 
 ::: {.grid}
 
