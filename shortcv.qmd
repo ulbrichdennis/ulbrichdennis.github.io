@@ -29,7 +29,7 @@ Electrical Engineering and Computer Science
 
 :::
 
-<hr style="border: dashed rgb(0,255,0) 1.0px;background-color: rgb(170,0,0);height: 15.0px;"/>
+<hr style="dashed"/>
 
 ::: {.grid}
 
