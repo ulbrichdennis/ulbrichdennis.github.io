@@ -11,8 +11,6 @@ date-format: iso
 
 ## Professional activities
 
-### Past
-
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
@@ -31,7 +29,7 @@ Electrical Engineering and Computer Science
 
 :::
 
----
+<hr style="border: dashed rgb(0,255,0) 1.0px;background-color: rgb(170,0,0);height: 15.0px;"/>
 
 ::: {.grid}
 
