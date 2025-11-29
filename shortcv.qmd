@@ -49,7 +49,7 @@ School of Nature and Engineering
 
 :::
 
-<hr style="border-style: dashed; size: 3px;">
+<hr style="border-style: dashed; size: 8px;">
 
 ::: {.grid}
 
