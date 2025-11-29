@@ -29,7 +29,7 @@ Electrical Engineering and Computer Science
 
 :::
 
-<hr style="dashed"/>
+<hr style="dotted"/>
 
 ::: {.grid}
 
