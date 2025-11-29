@@ -9,9 +9,9 @@ date-format: iso
    
 ---
 
-<mark>I am currently looking for a postdoctoral position in Mathematics, for example as a research or teaching assistant.</mark>
+<mark>Currently looking for a postdoctoral position in Mathematics (e.g. research or teaching assistant)!</mark>
 
-Please feel free to [contact me](mailto:ulbrich.dennis@icloud.com), any serious suggestion is highly appreciated. 
+Please feel free to [contact me](mailto:ulbrich.dennis@icloud.com), any serious suggestion is highly appreciated. Thank you! 
 
 
 ## Professional activities
