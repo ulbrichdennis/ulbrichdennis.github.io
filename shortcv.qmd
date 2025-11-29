@@ -84,8 +84,7 @@ Institute for Analysis and Numerics
 
 ::: {.g-col-12 .g-col-md-6}
 + **9.2022 -- 2.2023**<br>
-affinis AG<br>
-Bremen
+affinis AG Bremen
 
 :::
 
