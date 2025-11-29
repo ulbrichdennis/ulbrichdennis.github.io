@@ -1,5 +1,5 @@
 ---
-title: "Academic CV"
+title: "Short CV"
 subtitle: "Professional activities, education and other"
 description-meta: "Professional activities"
 title-block-banner: true
@@ -73,6 +73,25 @@ Institute for Analysis and Numerics
     + <mark>Chemical reactions</mark>
     + <mark>Entropy methods</mark>
 + Supervision: [Prof. M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)
+
+:::
+
+:::
+
+<hr style="border-style: dashed; size: 3px;">
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
++ **9.2022 -- 2.2023**<br>
+affinis AG<br>
+Bremen
+
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+**IT Consulting Internship** 
 
 :::
 
