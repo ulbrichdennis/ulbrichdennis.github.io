@@ -31,6 +31,8 @@ Electrical Engineering and Computer Science
 
 :::
 
+---
+
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
@@ -49,6 +51,7 @@ School of Nature and Engineering
 
 :::
 
+---
 
 ::: {.grid}
 
