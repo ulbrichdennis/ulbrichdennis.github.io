@@ -29,7 +29,8 @@ Hochschule Bremen
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-Jacobs University Bremen
+Jacobs University Bremen<br>
+(now: Constructor University Bremen)
 :::
 
 ::: {.g-col-12 .g-col-md-6}
