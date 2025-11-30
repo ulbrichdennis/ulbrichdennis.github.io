@@ -21,7 +21,7 @@ about:
       href: mailto:ulbrich.dennis@icloud.com
     - icon: linkedin
       text: LinkedIn
-      href: <div class="badge-base LI-profile-badge" data-locale="de_DE" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ulbrichdennis" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://de.linkedin.com/in/ulbrichdennis?trk=profile-badge">Dennis Ulbrich</a></div>
+      href: https://www.linkedin.com/in/ulbrichdennis/
 callout-icon: false
 
 
@@ -38,10 +38,13 @@ Beforehand, I was a postdoctoral researcher at the [Institute for Analysis and N
 I earned my PhD (*Dr. rer. nat.* in Mathematics) at the [University of Bremen](https://www.uni-bremen.de/en/).
 
 More details can be found on the subpages above.
+
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
+
 :::
 
 
 
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-<div class="badge-base LI-profile-badge" data-locale="de_DE" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ulbrichdennis" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://de.linkedin.com/in/ulbrichdennis?trk=profile-badge">Dennis Ulbrich</a></div>
+
               
