@@ -7,9 +7,8 @@ date-modified: last-modified
 date-format: iso
 ---
 
-## Past
-### Winter semester 2024/25
 
+## Winter semester 2024/25
 
 ::: {.grid}
 
@@ -24,7 +23,8 @@ Hochschule Bremen
 :::
 
 :::
-### Spring semester 2022 (1<sup>st</sup> half)
+
+## Spring semester 2022 
 
 ::: {.grid}
 
