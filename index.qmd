@@ -29,11 +29,6 @@ callout-icon: false
 
 :::{#hero-heading}
 
-# <mark>News</mark>
-
-Currently, I am looking for a position as a postdoc, research assistant or lecturer in Mathematics. Please feel free to contact me.
-
-
 ## About me
 
 Most recently, I worked as a lecturer and researcher at [HS Bremen](https://www.hs-bremen.de/en/).

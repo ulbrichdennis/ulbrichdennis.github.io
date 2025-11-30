@@ -9,11 +9,6 @@ date-format: iso
    
 ---
 
-<mark>Currently, I am looking for a position as a postdoc, research assistant or lecturer in Mathematics.</mark>
-
-Please feel free to [contact me](mailto:ulbrich.dennis@icloud.com), any serious suggestion is highly appreciated. Thank you! 
-
-
 ## Professional activities
 
 ::: {.grid}
