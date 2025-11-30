@@ -30,7 +30,7 @@ Hochschule Bremen
 
 ::: {.g-col-12 .g-col-md-6}
 Jacobs University Bremen<br>
-(now: Constructor University Bremen)
+(renamed to: Constructor University Bremen)
 :::
 
 ::: {.g-col-12 .g-col-md-6}
