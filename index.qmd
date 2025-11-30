@@ -19,9 +19,9 @@ about:
     - icon: envelope
       text: Email
       href: mailto:ulbrich.dennis@icloud.com
-    #- icon: linkedin
-      #text: LinkedIn
-      #href: https://www.linkedin.com/in/ulbrichdennis/
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/ulbrichdennis/
 callout-icon: false
 
 
@@ -39,7 +39,7 @@ I earned my PhD (*Dr. rer. nat.* in Mathematics) at the [University of Bremen](h
 
 More details can be found on the subpages above.
 
-Please feel free to contact me via Email or LinkedIn:
+
 
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 <div class="badge-base LI-profile-badge" data-locale="de_DE" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="ulbrichdennis" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://de.linkedin.com/in/ulbrichdennis?trk=profile-badge">Dennis Ulbrich</a></div>
