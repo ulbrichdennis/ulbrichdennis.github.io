@@ -23,7 +23,7 @@ Electrical Engineering and Computer Science
 
 **Postdoctoral researcher**
 
-+ Project work: AI-based transmission, analysis and verification of handwritten documents 
+- Project work: AI-based transmission, analysis and verification of handwritten documents 
 
 :::
 
