@@ -7,10 +7,6 @@ description-meta: "Postdoc"
 author-meta: "D. Ulbrich"
 
 
-
-
-
-
 website:
   #announcement: 
     #icon: info-circle
@@ -66,7 +62,7 @@ website:
   page-footer: 
       left: "Made with [Quarto](https://quarto.org/)"
       center:   "&copy; {{< meta author-meta >}}, 2025"
-      right: "Contact: [Email](mailto:ulbrich.dennis@icloud.com)"
+      right: "Contact: [Email](mailto:ulbrich.dennis@icloud.com)" 
       
     
     
@@ -93,7 +89,7 @@ website:
   
 
 format:
-  html:
+  html: 
     theme: 
        light: [zephyr, theme.scss]
        dark: [zephyr, theme-dark.scss]

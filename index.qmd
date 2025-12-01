@@ -39,9 +39,11 @@ Beforehand, I was a postdoctoral researcher at the [Institute for Analysis and N
 I earned my PhD (*Dr. rer. nat.* in Mathematics) at the [University of Bremen](https://www.uni-bremen.de/en/).
 
 More details can be found on the subpages above. 
-
-<a rel="me" href="https://mastodon.de/@DUlbrich"></a>
 :::
+
+
+<a rel="me"  link-external-icon="false" href="https://mastodon.de/@DUlbrich">Mastodon</a>
+
 
 
 
