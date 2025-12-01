@@ -22,10 +22,14 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/ulbrichdennis/
+    - icon: mastodon
+      text: mastodon
+      href: <a rel="me" href="https://mastodon.de/@DUlbrich">Mastodon</a>
 callout-icon: false
 
 
 ---
+
 
 :::{#hero-heading}
 
