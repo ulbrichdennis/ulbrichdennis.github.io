@@ -22,9 +22,6 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/ulbrichdennis/
-    - icon: mastodon
-      text: mastodon
-      href: <a rel="me" href="https://mastodon.de/@DUlbrich">Mastodon</a>
 callout-icon: false
 
 
@@ -43,6 +40,7 @@ I earned my PhD (*Dr. rer. nat.* in Mathematics) at the [University of Bremen](h
 
 More details can be found on the subpages above. 
 
+<a rel="me" href="https://mastodon.de/@DUlbrich"></a>
 :::
 
 
