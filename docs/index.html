@@ -45,9 +45,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-dark-0de6a0b59a5fcd6b950ffd5d1c792c3b.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -220,12 +217,7 @@ https://badge.dimensions.ai/
 </div>
   </div>
   <div class="about-contents"><div id="hero-heading">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="files/images/Xmas2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Bruchhausen-Vilsen, Engelbergplatz"><img src="files/images/Xmas2.jpg" style="height:60.0%" alt="Bruchhausen-Vilsen, Engelbergplatz" class="figure-img"></a></p>
-<figcaption>Bruchhausen-Vilsen, Engelbergplatz</figcaption>
-</figure>
-</div>
+<p><img src="files/images/Xmas2.jpg" class="img-fluid" alt="Bruchhausen-Vilsen, Engelbergplatz">{width= 60% height=60% .lightbox}</p>
 <section id="about-me" class="level2">
 <h2 data-anchor-id="about-me">About me</h2>
 <p>Most recently, I worked as a lecturer and researcher at <a href="https://www.hs-bremen.de/en/">HS Bremen</a>.</p>
@@ -820,38 +812,6 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 
