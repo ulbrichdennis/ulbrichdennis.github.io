@@ -30,7 +30,7 @@ callout-icon: false
 
 :::{#hero-heading}
 
-![Merry Xmas!](images/Xmas2.jpg)
+![Merry Xmas!](files/images/Xmas2.jpg)
 
 ## About me
 
