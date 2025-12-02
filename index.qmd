@@ -23,8 +23,8 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/ulbrichdennis/
     - icon: mastodon
-      text: mastodon
-      href: www
+      text: Mastodon
+      href: https://mastodon.de/@DUlbrich
 callout-icon: false
 
 
