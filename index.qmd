@@ -30,7 +30,7 @@ callout-icon: false
 
 :::{#hero-heading}
 
-![Bruchhausen-Vilsen, Engelbergplatz](files/images/Xmas2.jpg){width=50%,height=50%}
+![Bruchhausen-Vilsen, Engelbergplatz](files/images/Xmas2.jpg){width=80% height=80%}{.lightbox}
 
 ## About me
 
