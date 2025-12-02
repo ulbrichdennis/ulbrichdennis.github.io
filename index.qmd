@@ -30,6 +30,8 @@ callout-icon: false
 
 :::{#hero-heading}
 
+![Merry Xmas!](images/Xmas2.jpg)
+
 ## About me
 
 Most recently, I worked as a lecturer and researcher at [HS Bremen](https://www.hs-bremen.de/en/).
