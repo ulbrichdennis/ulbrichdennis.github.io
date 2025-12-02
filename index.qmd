@@ -30,7 +30,7 @@ callout-icon: false
 
 :::{#hero-heading}
 
-![](files/images/Xmas2.jpg){width=40% height=60%}{.lightbox}
+![](files/images/Xmas.jpg)
 
 ## About me
 
