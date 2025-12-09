@@ -193,3 +193,51 @@ tr td:first-child{
 tr td{
   padding-top: 20px;
 }
+
+table.CV {
+    background: #fff !important;
+    border: 0 !important;
+    width: auto !important
+}
+
+table.CV * {
+    border: 0 !important;
+    font-size: 19px !important
+}
+
+table.CV th {
+    background: #f6f8fa;
+    font-family: TheSansUHHBoldCaps,sans-serif !important;
+    font-size: 22px !important
+}
+
+table.CV th,table.CV td {
+    padding-left: 35px !important
+}
+
+.s table.CV td:first-child {
+    width: 120px !important;
+    padding-right: 10px
+}
+
+table.CV tbody tr:nth-child(odd) {
+    background: #fff
+}
+
+table.CV tbody tr:nth-child(even) {
+    background: #f1f8ff
+}
+
+.design-2025 .klappbox .inhalt:has(table.CV) {
+    padding-left: 29px !important;
+    padding-right: 13px !important
+}
+
+.s .design-2025 .klappbox .inhalt table.CV {
+    margin-left: -29px !important;
+    margin-right: -13px !important
+}
+
+.design-2025 .klappbox .inhalt table.CV {
+    max-width: 750px
+}
