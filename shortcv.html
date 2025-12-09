@@ -187,10 +187,9 @@
 
   
 
-    <div class="footer" style="font-size:10px;">
-         <p><a href="https://arxiv.org/search/math?searchtype=author&query=Ulbrich,+D">arXiv</a> | <a href="https://orcid.org/0000-0001-5541-011X">ORCID</a> | <a href="https://scholar.google.com/citations?user=b1u5plUAAAAJ">Google Scholar</a></p>
-         <p>&copy; 2025 D. Ulbrich</p>
-         <p><script LANGUAGE="JavaScript">
+<div class="footer" style="font-size:10px;">
+        <p><a href="https://arxiv.org/search/math?searchtype=author&query=Ulbrich,+D">arXiv</a> | <a href="https://orcid.org/0000-0001-5541-011X">ORCID</a> | <a href="https://scholar.google.com/citations?user=b1u5plUAAAAJ">Google Scholar</a> </p>
+        <p><script LANGUAGE="JavaScript">
         const month = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
         const day = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
         update = new Date(document.lastModified)
@@ -200,7 +199,12 @@
         theYear = update.getFullYear()
         theHours = update.getHours()
         theMinutes = update.getMinutes()
-        document.write("Last modified: " +  month[theMonth] + " " + theDate + ", " + theYear)
+        document.write("Last modified: " +  month[theMonth] + " " + theDate + ", " + theYear) 
+        </script> 
+        </p>
+        <p><script LANGUAGE="JavaScript">
+        theYear = update.getFullYear()
+        document.write("&copy; " +  theYear + " D. Ulbrich") 
         </script> 
         </p>
        </div>
