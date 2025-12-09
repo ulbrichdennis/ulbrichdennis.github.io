@@ -220,13 +220,9 @@ table.CV th,table.CV td {
     padding-right: 10px
 }
 
-table.CV tbody tr:nth-child(odd) {
-    background: #fff
-}
 
-table.CV tbody tr:nth-child(even) {
-    background: #f1f8ff
-}
+
+
 
 .design-2025 .klappbox .inhalt:has(table.CV) {
     padding-left: 29px !important;
