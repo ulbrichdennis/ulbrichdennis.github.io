@@ -13,7 +13,9 @@
     font-family: Arial, Helvetica, sans-serif;
   }
  
- 
+ .container {
+  position: relative;
+}
  .hero-image {
     background-image:  url("headcopy.svg");
     height: 31%;
@@ -31,6 +33,14 @@
   transform: translate(-50%, -50%);
   font-size: 10px;
   }
+
+  .bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 12px;
+  font-size: 20px;
+}
+
 
  .sub-text {
   text-align: left;
@@ -81,10 +91,10 @@
        <!-- <img src="UD.JPG" width="184px" height="171px"> -->  
         
        
-       <figure>
+  <div class="container">  
   <img src="UD.JPG" width="349px" height="326px">
-  <figcaption style="align:right"><address class>Caption goes here</address></figcaption>
-</figure>
+  <div class="bottomright"><small>Bottom Right Text</small></div>
+  </div>
 
       <!-- <img src="UD.JPG" width="349px" height="326px">  -->      
       <!-- <img src="UD.JPG" style="width:20%; height:20%" alt="&copy; D. Ulbrich">  -->
