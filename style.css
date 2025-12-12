@@ -96,7 +96,7 @@ a:active {
   text-align: left;
   background: #f1f1f1;
   margin-top: 20px;
-  
+  position: sticky;
   left: 0;
   bottom: 0;
   width: 100%;
