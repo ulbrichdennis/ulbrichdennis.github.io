@@ -96,15 +96,21 @@ a:active {
   text-align: left;
   background: #f1f1f1;
   margin-top: 20px;
-  position: sticky;
+  }
+
+
+
+.footer-shortpage {
+
+ padding: 10px;
+  text-align: left;
+  background: #f1f1f1;
+  margin-top: 20px;
+  position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 100%; 
 }
-
-
-
-
 
 
 /* Container holding the image and the text */
