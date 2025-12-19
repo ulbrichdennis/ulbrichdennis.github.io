@@ -8,12 +8,12 @@ author-meta: "D. Ulbrich"
 
 
 website:
-  #announcement: 
-    #icon: info-circle
-    #dismissable: true
-    #content: "**Nov 20, 2025:** I am looking for a position as a postdoc, research assistant or lecturer in Mathematics. Please feel free to [contact me](mailto:ulbrich.dennis@icloud.com), any suggestion is highly appreciated!"
-    #type: info
-    #position: below-navbar
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "I am looking for a position as a postdoc, research assistant or lecturer in Mathematics. Please feel free to [contact me](mailto:ulbrich.dennis@icloud.com), any suggestion is highly appreciated!"
+    type: info
+    position: below-navbar
   favicon: /files/images/favicon.ico
   open-graph: true
   title: "Dr. Dennis Ulbrich"
@@ -60,7 +60,6 @@ website:
   page-navigation: true
 
   page-footer: 
-      left: "Made with [Quarto](https://quarto.org/)"
       center:   "&copy; {{< meta author-meta >}}, 2025"
       right: "Contact: [Email](mailto:ulbrich.dennis@icloud.com)" 
       
