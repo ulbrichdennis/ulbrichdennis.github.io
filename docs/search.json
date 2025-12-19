@@ -88,28 +88,28 @@
     "href": "shortcv.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "cynthia.huang@monash.edu"
+    "text": "ulbrich.dennis@icloud.com"
   },
   {
     "objectID": "shortcv.html#education",
     "href": "shortcv.html#education",
     "title": "Curriculum Vitae",
-    "section": "EDUCATION",
-    "text": "EDUCATION\nDoctor of Philosophy – Econometrics and Business Statistics  Monash University Aug 2021 — Present\n\nNew principles and methods for complex data preparation and integration, with applications to official statistics, web-scrapped data and satellite raster images\nMonash Data Futures Institute PhD Top-Up Scholarship (2021-2024)\nExpected submission date: Nov 2024"
+    "section": "Education",
+    "text": "Education\nDoctor of Philosophy – Econometrics and Business Statistics  Monash University Aug 2021 — Present\n\nNew principles and methods for complex data preparation and integration, with applications to official statistics, web-scrapped data and satellite raster images\nMonash Data Futures Institute PhD Top-Up Scholarship (2021-2024)\nExpected submission date: Nov 2024"
   },
   {
-    "objectID": "shortcv.html#work-experience",
-    "href": "shortcv.html#work-experience",
+    "objectID": "shortcv.html#employment",
+    "href": "shortcv.html#employment",
     "title": "Curriculum Vitae",
-    "section": "WORK EXPERIENCE",
-    "text": "WORK EXPERIENCE\n\nData Scientist\nFreelance, Multiple Clients Jan 2020 – June 2021\nProviding data collection, pre-processing, exploratory analysis and modelling services to clients in the early R&D stages of developing data driven products. Projects include:\n\nData description and preliminary product feasibility insights for a start-up real estate bond platform; including assessing suitability of various property transaction databases for use in initial product prototype.\nDevelopment of statistical anomaly detection regimes and key historical insights from internet quality time-series data for use in parametric insurance products, including documenting analysis tools in an R package."
+    "section": "Employment",
+    "text": "Employment\n\nData Scientist\nFreelance, Multiple Clients Jan 2020 – June 2021\nProviding data collection, pre-processing, exploratory analysis and modelling services to clients in the early R&D stages of developing data driven products. Projects include:\n\nData description and preliminary product feasibility insights for a start-up real estate bond platform; including assessing suitability of various property transaction databases for use in initial product prototype.\nDevelopment of statistical anomaly detection regimes and key historical insights from internet quality time-series data for use in parametric insurance products, including documenting analysis tools in an R package."
   },
   {
-    "objectID": "shortcv.html#presentations-and-workshops",
-    "href": "shortcv.html#presentations-and-workshops",
+    "objectID": "shortcv.html#other",
+    "href": "shortcv.html#other",
     "title": "Curriculum Vitae",
-    "section": "PRESENTATIONS AND WORKSHOPS",
-    "text": "PRESENTATIONS AND WORKSHOPS\n\nTalk: Misadventures with Reproducibility in R (30 Nov 2022, R Ladies Melbourne Meetup)\nTalk: Designing R Packages (4 Oct 2022, Monash EBS Data Science Research Software Study Group)\nTalk: Quarto Websites as Research Compendiums (16 Aug 2022, Monash EBS Data Science Research Software Study Group)\nWorkshop: Writing academic papers with Rmarkdown and friends (9 Aug 2022, Monash University)"
+    "section": "Other",
+    "text": "Other\n\nTalk: Misadventures with Reproducibility in R (30 Nov 2022, R Ladies Melbourne Meetup)\nTalk: Designing R Packages (4 Oct 2022, Monash EBS Data Science Research Software Study Group)\nTalk: Quarto Websites as Research Compendiums (16 Aug 2022, Monash EBS Data Science Research Software Study Group)\nWorkshop: Writing academic papers with Rmarkdown and friends (9 Aug 2022, Monash University)"
   },
   {
     "objectID": "shortcv.html#references",
