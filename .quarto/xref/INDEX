@@ -1,0 +1,218 @@
+{
+  "404.qmd": {
+    "404.html": "fad55c86"
+  },
+  "cn.qmd": {
+    "cn.html": "ab70ab2b"
+  },
+  "contact.qmd": {
+    "contact.html": "a96c17ab"
+  },
+  "index.qmd": {
+    "index.html": "40fa5c81"
+  },
+  "letters.qmd": {
+    "letters.html": "42ccaa76"
+  },
+  "media.qmd": {
+    "media.html": "f14f517e"
+  },
+  "notable-policy-citations.qmd": {
+    "notable-policy-citations.html": "fe08ae39"
+  },
+  "notes/cuny-baruch-visiting-scholar-paperwork-guide.qmd": {
+    "cuny-baruch-visiting-scholar-paperwork-guide.html": "08fe4288"
+  },
+  "notes/new-york-state-climate-policy.qmd": {
+    "new-york-state-climate-policy.html": "1e0ddaea"
+  },
+  "notes.qmd": {
+    "notes.html": "d5ce12c0"
+  },
+  "now.qmd": {
+    "now.html": "d5dc3c10"
+  },
+  "posts/2013-ep-carbon-offsetters-paradox/index.qmd": {
+    "index.html": "7917af74"
+  },
+  "posts/2014-ep-china-provincial-wind-resource-assessment/index.qmd": {
+    "index.html": "41a0902f"
+  },
+  "posts/2015-ei-elite-cities-low-carbon-eco-city-evaluation-tool/index.qmd": {
+    "index.html": "0b691759"
+  },
+  "posts/2016-est-switch-china/index.qmd": {
+    "index.html": "ec3c99a0"
+  },
+  "posts/2016-re-china-provincial-solar-resource-assessment/index.qmd": {
+    "index.html": "1380922d"
+  },
+  "posts/2017-china-electricity-for-all/index.qmd": {
+    "index.html": "0990d502"
+  },
+  "posts/2017-china-electricity-for-all-summary/index.qmd": {
+    "index.html": "f208b010"
+  },
+  "posts/2019-nyclcpa-testimony/index.qmd": {
+    "index.html": "a9aa24c0"
+  },
+  "posts/2020-01-nsf-workshop/index.qmd": {
+    "index.html": "760d71d0"
+  },
+  "posts/2020-05-ncomms-rapid-re-cost/index.qmd": {
+    "index.html": "f4914833"
+  },
+  "posts/2020-06-ncomms-paper-summary/index.qmd": {
+    "index.html": "0bf79f1c"
+  },
+  "posts/2020-08-oneearth-coal-just-transition/index.qmd": {
+    "index.html": "8642604b"
+  },
+  "posts/2020-10-nature-news-carbon-neutrality/index.qmd": {
+    "index.html": "ff891754"
+  },
+  "posts/2021-01-nys-waste/index.qmd": {
+    "index.html": "96000357"
+  },
+  "posts/2021-05-jcp-ai-energy/index.qmd": {
+    "index.html": "1a00c316"
+  },
+  "posts/2021-12-jcp-power-water-carbon/index.qmd": {
+    "index.html": "e4e40f3a"
+  },
+  "posts/2021-12-nysclcpa-scoping-plan-draft/index.qmd": {
+    "index.html": "fd05248f"
+  },
+  "posts/2022-01-iscience-renewable-flexibility/index.qmd": {
+    "index.html": "c587e0b1"
+  },
+  "posts/2022-03-ccci-power-sector-coal-decarbonization/index.qmd": {
+    "index.html": "3e883479"
+  },
+  "posts/2022-03-harvard-growth-lab-talk/index.qmd": {
+    "index.html": "c3de2cf0"
+  },
+  "posts/2022-03-nree-china-carbon-neutrality/index.qmd": {
+    "index.html": "5d0da8cd"
+  },
+  "posts/2022-04-ieeetia-hydrogen-integrated-power-and-transport/index.qmd": {
+    "index.html": "3c82acca"
+  },
+  "posts/2022-04-nikkei-nuclear-delemma/index.qmd": {
+    "index.html": "309caec4"
+  },
+  "posts/2022-10-nature-cost-savings-of-global-solar-pv-value-chains/index.qmd": {
+    "index.html": "f8361693"
+  },
+  "posts/2022-11-nature-solar-paper-summary/index.qmd": {
+    "index.html": "2e58a0e7"
+  },
+  "posts/2022-12-energy-systems-analysis-open-course/index.qmd": {
+    "index.html": "bc1af91e"
+  },
+  "posts/2022-12-iamc-2022-best-poster-award/index.qmd": {
+    "index.html": "37e695f4"
+  },
+  "posts/2023-04-12-mit-energy-conference-us-china-energy-transition/index.qmd": {
+    "index.html": "b6305576"
+  },
+  "posts/2023-05-post-doc-supply-chain-power-system-environment-human-health/index.qmd": {
+    "index.html": "c4cf3d9b"
+  },
+  "posts/2023-07-nenergy-climate-change-impacts-supply-demand-match/index.qmd": {
+    "index.html": "4fb65cf1"
+  },
+  "posts/2023-08-joining-marxe-school-baruch-college-cuny/index.qmd": {
+    "index.html": "80503b57"
+  },
+  "posts/2023-08-naturewater-global-assessment-of-the-carbon-water-tradeoff-of-dry-cooling/index.qmd": {
+    "index.html": "4201042f"
+  },
+  "posts/2023-08-ncomms-heterogeneous-effects-of-battery-storage-deployment-strategies/index.qmd": {
+    "index.html": "4cc50e51"
+  },
+  "posts/2023-10-commsee-deploying-solar-pv-first-in-carbon-intensive-regions/index.qmd": {
+    "index.html": "767f8bd5"
+  },
+  "posts/2023-11-switch-china-open-model/index.qmd": {
+    "index.html": "ec3e297d"
+  },
+  "posts/2023-11-unep-production-gap-report-2023/index.qmd": {
+    "index.html": "006a6e7a"
+  },
+  "posts/2023-12-just-resilient-sustainable-clean-energy-supply-chains/index.qmd": {
+    "index.html": "cc26c710"
+  },
+  "posts/2024-02-22-baruch-climate-conference/index.qmd": {
+    "index.html": "7c27f501"
+  },
+  "posts/2024-03-22-baruch-faculty-research-award/index.qmd": {
+    "index.html": "0b1b8490"
+  },
+  "posts/2024-03-27-pku-lecture-role-of-global-clean-energy-supply-chains/index.qmd": {
+    "index.html": "892c9935"
+  },
+  "posts/2024-05-06-webinar-accelerating-offshore-wind-promotes-carbon-neutrality/index.qmd": {
+    "index.html": "6b435fe9"
+  },
+  "posts/2024-05-teaching-program-evaluation/index.qmd": {
+    "index.html": "87d4ffe2"
+  },
+  "posts/2024-06-us-china-working-group-on-enhancing-climate-action/index.qmd": {
+    "index.html": "9e1dad2a"
+  },
+  "posts/2024-09-03-icae-key-note-speech-clean-energy-global-supply-chains/index.qmd": {
+    "index.html": "ef3a6834"
+  },
+  "posts/2024-09-16-stanford-elsevier-top-2percent-scientists/index.qmd": {
+    "index.html": "2094b6ee"
+  },
+  "posts/2024-10-24-pku-lecture-power-systems-decarbonization/index.qmd": {
+    "index.html": "227b2e20"
+  },
+  "posts/2024-10-china-needs-to-optimise-pumped-hydro-and-battery-storage-mix/index.qmd": {
+    "index.html": "bd871458"
+  },
+  "posts/2024-11-appam-climate-change-impacts-and-responses-assessment-politics-and-policy/index.qmd": {
+    "index.html": "e992c03b"
+  },
+  "posts/2024-11-oneearth-coal-power-workers-shift-green-jobs/index.qmd": {
+    "index.html": "2d5ac50d"
+  },
+  "posts/2025-01-joining-doctoral-faculty-ees-graduate-center/index.qmd": {
+    "index.html": "5aeedf53"
+  },
+  "posts.qmd": {
+    "posts.html": "4b605534"
+  },
+  "quarto-academic-site-examples.qmd": {
+    "quarto-academic-site-examples.html": "153170b1"
+  },
+  "teaching.qmd": {
+    "teaching.html": "a34e4efd"
+  },
+  "research_interests_publications.qmd": {
+    "research_interests_publications.html": "ea8ba350"
+  },
+  "research_projects.qmd": {
+    "research_projects.html": "1c8ee021"
+  },
+  "shortcv.qmd": {
+    "shortcv.html": "46dc24c4"
+  },
+  "news.qmd": {
+    "news.html": "ed8fe7b2"
+  },
+  "jobsearch.qmd": {
+    "jobsearch.html": "f4537e79"
+  },
+  "gallery/galleries/my-gallery/index.qmd": {
+    "index.html": "76adcd85"
+  },
+  "gallery/galleries.qmd": {
+    "galleries.html": "f1085286"
+  },
+  "datenschutzerklaerung.qmd": {
+    "datenschutzerklaerung.html": "bf2ece1c"
+  }
+}
