@@ -9,7 +9,7 @@ date-format: iso
    
 ---
 
-## Professional activities
+## Employment
 
 
 ::: {.grid}
@@ -85,13 +85,13 @@ Institute for Analysis and Numerics
 
 ::: {.g-col-12 .g-col-md-6}
 + **9.2022 -- 2.2023**<br>
-affinis AG Bremen
+
 
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 
-**IT Consulting Internship** 
+**Non-academic professional activities** 
 
 :::
 
