@@ -8,26 +8,24 @@ date-format: iso
 format:
   html:
     toc: true
-  pdf:
-    author: Dr. Dennis Ulbrich
-    pdf-engine: weasyprint
 css: cv.css
 
 ---
 
 ## Ongoing projects
 
-**DFG 456849348** <br> *University of Münster, Department of Mathematics, Institute for Analysis and Numerics* [*2021 --- 2025*]{.cvdate}
+**DFG 456849348** <br> *University of Münster, Department of Mathematics* [*2021 --- 2025*]{.cvdate}
 
-+ Title: Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation
-([more details](https://gepris.dfg.de/gepris/projekt/456849348?bundesland=DEU%23&fachgebiet=%23&findButton=historyCall&ggsHunderter=0&hitsPerPage=25&index=128925&language=en&lis=%23&nurProjekteMitAB=false&oldGgsHunderter=0&teilprojekte=true))
++ *Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation*
 + Participation since 6.2023
++ [More details](https://gepris.dfg.de/gepris/projekt/456849348?bundesland=DEU%23&fachgebiet=%23&findButton=historyCall&ggsHunderter=0&hitsPerPage=25&index=128925&language=en&lis=%23&nurProjekteMitAB=false&oldGgsHunderter=0&teilprojekte=true)
 
 
 ## Past projects
 
 **DFG 384027439** <br> *University of Bremen, Department of Mathematics* [*2017 --- 2021*]{.cvdate}
 
-+ Title: Ergodic theory of nonlinear waves in discrete and continuous excitable media ([more details](https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2))
++ *Ergodic theory of nonlinear waves in discrete and continuous excitable media* ([more details](https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2))
 + Participation 2017 - 2021
++ [More details](https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2)
 
