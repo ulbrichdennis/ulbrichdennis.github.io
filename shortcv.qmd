@@ -62,7 +62,7 @@ ulbrich.dennis@icloud.com
     + Entropy methods
 + Supervision: [Prof. M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)
 
-**Non-academic professional activities** [*9.2022 --- 2.2023*]{.cvdate}
+**Non-academic professional activities** <br> *Bremen, Köln* [*9.2022 --- 2.2023*]{.cvdate}
 
 **Lecturer in Mathematics** <br> *Jacobs University Bremen, Mathematical Sciences* [*1.2022 --- 6.2022*]{.cvdate}
 
