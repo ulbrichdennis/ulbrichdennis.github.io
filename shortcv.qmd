@@ -42,14 +42,9 @@ ulbrich.dennis@icloud.com
 
 ## Employment
 
-### Data Scientist
+**Postdoctoral researcher** <br> *Hochschule Bremen, School of Electrical Engineering and Computer Science* [*2.2025 --- 5.2025*]{.cvdate}
 
-***Freelance, Multiple Clients*** [Jan 2020 -- June 2021]{.cvdate}
-
-Providing data collection, pre-processing, exploratory analysis and modelling services to clients in the early R&D stages of developing data driven products. Projects include:
-
--   Data description and preliminary product feasibility insights for a start-up real estate bond platform; including assessing suitability of various property transaction databases for use in initial product prototype.
--   Development of statistical anomaly detection regimes and key historical insights from internet quality time-series data for use in parametric insurance products, including documenting analysis tools in an R package.
++ Project work: AI-based transmission, analysis and verification of handwritten documents
 
 ## Other
 
