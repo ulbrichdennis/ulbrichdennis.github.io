@@ -2,6 +2,7 @@
 ---
 title: "Short CV"
 title-block-banner: true
+date-modified: last-modified
 format:
   html:
     toc: true
@@ -89,19 +90,19 @@ Stochastics and Dynamical Systems<br>
 
 ### Grants
 
-**Brückenstipendium** <br>*University of Bremen, Department of Mathematics* [*4.2016 --- 4.2017*]{.cvdate}
+**Brückenstipendium** <br> *University of Bremen, Department of Mathematics* [*4.2016 --- 4.2017*]{.cvdate}
 
 + For more details, see [here](https://www.uni-bremen.de/fileadmin/user_upload/forschung/Anlage/Stipendium/Merkblatt_Brueckenstip.pdf) 
 
 ### Supervision
 
-**Student Research Project** <br>University of Bremen, Department of Mathematics* [*2021 --- 2022*]{.cvdate}
+**Student Research Project** <br> *University of Bremen, Department of Mathematics* [*2021 --- 2022*]{.cvdate}
 
 + *Wave patterns in cellular automata for excitable media*, see [here](https://www.uni-bremen.de/en/fb3/studium-lehre/studentische-projekte/student-research-projects-in-mathematics/assigned-and-completed-projects/wave-patterns-in-cellular-automata-for-excitable-media)
 
 ### Organisation
 
-**Administrational tasks** <br>University of Bremen, Department of Mathematics* [*2016 -- 2021*]{.cvdate}
+**Administrational tasks** <br> *University of Bremen, Department of Mathematics* [*2016 -- 2021*]{.cvdate}
 
 + Supporting several [summer and winter schools](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems)
 + Maintaining the Mathematical Collection of the University of Bremen and creating its website  
