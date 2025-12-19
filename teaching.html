@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/style.css">
+<title>Dr. Dennis Ulbrich - Teaching</title>
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ figcaption {
+  text-align: right;
+  font-size: 10px;
+}
+ 
+ .hero-image {
+    background-image:  url("headcopy.svg");
+    height: 31%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+ .hero-text {
+  text-align: left;
+  position: absolute;
+  top: 95.5%;
+  left: 96%;
+  transform: translate(-50%, -50%);
+  font-size: 10px;
+  }
+
+ .sub-text {
+  text-align: left;
+  position: absolute;
+  top: 87.5%;
+  left: 96%;
+  transform: translate(-50%, -50%);
+  font-size: 10px;
+  }
+
+ @media screen and (max-width: 1300px) {
+  .hero-text {
+  text-align: left;
+  position: absolute;
+  top: 95.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8px;
+  }
+}
+
+ @media screen and (max-width: 1300px) {
+  .sub-text {
+  display:none
+  }
+}
+</style>
+</head>
+
+<body>
+ <!--
+ <div id="hero" class="hero-image">  
+ <div class="hero-text">&copy; D. Ulbrich</div>
+ </div>
+ -->
+<div class="topnav">
+  <a href="/index.html">Home</a>
+  <a href="/research.html">Research</a>
+  <a href="/teaching.html">Teaching</a>
+  <a href="/shortcv.html">Short CV</a>
+  <!-- <a href="#Other">Other</a>  -->
+ </div> 
+  
+<button onclick="topFunction()" id="myBtn" title="Jump to top">&uarr;</button>
+ <div class="row">
+            <div class="leftcolumn">
+              <div class="card">
+              <h1>Teaching</h1>
+                
+            <h2>Winter semester 2024/2025</h2>
+            Hochschule Bremen:
+                <ul><li>Mathematik 1 (undergraduate lecture)</li></ul>
+            <h2>Spring semester 2022</h2>
+                Jacobs University Bremen:
+                <ul><li>Finite Mathematics (undergraduate lecture)</li>
+                <li>Introduction to Dynamical Systems (proseminar)</li></ul>
+            
+             </div>
+              
+          </div>
+
+           <div class="rightcolumn">
+            
+            
+           
+                   
+                
+                
+                <script>
+                let mybutton = document.getElementById("myBtn");
+                window.onscroll = function() {scrollFunction()};
+                function scrollFunction() {
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                mybutton.style.display = "block";
+                } else {
+                mybutton.style.display = "none";
+                }
+                }
+                function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+                }
+                </script>
+    
+                </div>
+    </div>
+
+
+  
+
+    <div class="footer" style="font-size:10px;">
+        <p><a href="mailto:ulbrich.dennis@icloud.com">Email</a> | <a href="https://www.linkedin.com/in/ulbrichdennis/" target="_blank">LinkedIn</a> | <a href="https://arxiv.org/search/math?searchtype=author&query=Ulbrich,+D" target="_blank">arXiv</a> | <a href="https://orcid.org/0000-0001-5541-011X" target="_blank">ORCID</a> | <a href="https://scholar.google.com/citations?user=b1u5plUAAAAJ" target="_blank">Google Scholar</a> </p>
+        <p><script LANGUAGE="JavaScript">
+        const month = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+        const day = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        update = new Date(document.lastModified)
+        theDay = update.getDay()
+        theMonth = update.getMonth() 
+        theDate = update.getDate()
+        theYear = update.getFullYear()
+        theHours = update.getHours()
+        theMinutes = update.getMinutes()
+        document.write("Last modified: " +  month[theMonth] + " " + theDate + ", " + theYear) 
+        </script> 
+        </p>
+        <p><script LANGUAGE="JavaScript">
+        theYear = update.getFullYear()
+        document.write("&copy; " +  theYear + " D. Ulbrich") 
+        </script> 
+        </p>
+       </div>
+</body>
+</html>
+
+
+
+ 

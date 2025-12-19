@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/style.css">
+<title>Dr. Dennis Ulbrich - Home</title>
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+ .hero-image {
+    background-image:  url("headcopy.svg");
+    height: 31%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+ .hero-text {
+  text-align: left;
+  position: absolute;
+  top: 95.5%;
+  left: 96%;
+  transform: translate(-50%, -50%);
+  font-size: 10px;
+  }
+
+ 
+ .sub-text {
+  text-align: left;
+  position: absolute;
+  top: 87.5%;
+  left: 96%;
+  transform: translate(-50%, -50%);
+  font-size: 10px;
+  }
+
+ @media screen and (max-width: 1300px) {
+  .hero-text {
+  text-align: left;
+  position: absolute;
+  top: 95.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8px;
+  }
+}
+
+ @media screen and (max-width: 1300px) {
+  .sub-text {
+  display:none
+  }
+}
+</style>
+</head>
+
+<body>
+<!--
+ <div id="hero" class="hero-image">  
+ <img src="headimg.jpg">
+ </div>
+-->
+<div class="topnav">
+  <a href="/index.html">Home</a>
+  <a href="/research.html">Research</a>
+  <a href="/teaching.html">Teaching</a>
+  <a href="/shortcv.html" >Short CV</a>
+</div> 
+  
+<button onclick="topFunction()" id="myBtn" title="Jump to top">&uarr;</button>
+ <div class="row">
+            <div class="leftcolumn">
+              <div class="card">
+              <h1>Dr. Dennis Ulbrich</h1>
+  <img src="/images/ulbrichdennis.jpeg" width="338x" height="225px"> 
+ 
+  
+  <h2>About</h2>
+  <p>I am a mathematician and recently worked as a lecturer and researcher at <a href="https://www.hs-bremen.de/en/" target="_blank">HS Bremen</a>.</p>
+  <p>Beforehand, I was a postdoctoral researcher at the <a href="https://www.uni-muenster.de/AMM/en/institute.shtml" target="_blank">Institute for Analysis and Numerics</a> of the <a href="https://www.uni-muenster.de/en/" target="_blank">University of Münster</a>.</p>
+  <p>I earned my PhD (<i>Dr. rer. nat.</i> in Mathematics) at the <a href="https://www.uni-bremen.de/en/" target="_blank">University of Bremen</a>.</p>
+  <p><mark>I am currently looking for a position in mathematical teaching or research (preferably full-time).</mark></p>
+  <h2>Contact</h2>
+<p><a href="mailto:ulbrich.dennis@icloud.com">Email</a> <a rel="me" href="https://mastodon.de/@DUlbrich"></a></p>
+<p><a href="https://www.linkedin.com/in/ulbrichdennis/" target="_blank">LinkedIn</a></p>
+
+
+ </div>
+     
+  </div>
+
+<div class="rightcolumn">
+            
+  <script>
+                let mybutton = document.getElementById("myBtn");
+                window.onscroll = function() {scrollFunction()};
+                function scrollFunction() {
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                mybutton.style.display = "block";
+                } else {
+                mybutton.style.display = "none";
+                }
+                }
+                function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+                }
+                </script>
+    
+                </div>
+    </div>
+
+
+  
+
+    <div class="footer" style="font-size:10px;">
+    <p><a href="https://arxiv.org/search/math?searchtype=author&query=Ulbrich,+D" target="_blank">arXiv</a> | <a href="https://orcid.org/0000-0001-5541-011X" target="_blank">ORCID</a> | <a href="https://scholar.google.com/citations?user=b1u5plUAAAAJ" target="_blank">Google Scholar</a></p> 
+        <p><script LANGUAGE="JavaScript">
+        const month = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+        const day = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        update = new Date(document.lastModified)
+        theDay = update.getDay()
+        theMonth = update.getMonth() 
+        theDate = update.getDate()
+        theYear = update.getFullYear()
+        theHours = update.getHours()
+        theMinutes = update.getMinutes()
+        document.write("Last modified: " +  month[theMonth] + " " + theDate + ", " + theYear) 
+        </script> 
+        </p>
+        <p><script LANGUAGE="JavaScript">
+        theYear = update.getFullYear()
+        document.write("&copy; " +  theYear + " D. Ulbrich") 
+        </script> 
+        </p>
+       </div>
+</body>
+</html>
+
+
+
+ 
