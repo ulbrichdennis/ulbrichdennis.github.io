@@ -197,6 +197,6 @@ tr td{
 }
 
 mark { 
-  background-color: #333;
-  color: white;
+  background-color: lightgrey;
+  color: black;
 }
