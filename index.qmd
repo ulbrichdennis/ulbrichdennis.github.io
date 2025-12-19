@@ -32,7 +32,7 @@ callout-icon: false
 
 ## About me
 
-Most recently,I worked as a lecturer and researcher at [HS Bremen](https://www.hs-bremen.de/en/).
+Most recently, I worked as a lecturer and researcher at [HS Bremen](https://www.hs-bremen.de/en/).
 
 Beforehand, I was a postdoctoral researcher at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/institute.shtml) of the [University of Münster](https://www.uni-muenster.de/en/).
 
