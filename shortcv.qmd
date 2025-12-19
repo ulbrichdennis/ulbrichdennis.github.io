@@ -1,0 +1,96 @@
+---
+title: "Short CV"
+subtitle: "Professional activities, education and other"
+description-meta: "Professional activities"
+title-block-banner: true
+date-modified: last-modified
+date-format: iso
+
+   
+---
+
+## Professional activities
+
+
+<table>
+    
+    <tbody>
+        <tr>
+            <td>02.2025 - 05.2025</td>
+            <td>Postdoc, Hochschule Bremen, School of Electrical Engineering and Computer Science</td>
+        </tr>
+        <tr>
+            <td>10.2024 - 03.2025</td>
+            <td>Lecturer, Hochschule Bremen, School of Nature and Engineering</td>
+        </tr>
+        <tr>
+            <td>06.2023 - 06.2024</td>
+            <td>Postdoc, University of Münster, Department of Mathematics, Institute for Analysis and Numerics (supervision: <a href="https://www.uni-muenster.de/AMM/Pirner/index.shtml" target="_blank">Prof. Dr. M. Pirner</a>)</td>
+        </tr>
+        <tr>
+            <td>09.2022 - 02.2023</td>
+            <td>Non-academic professional activities</td>
+        </tr>
+        <tr>
+            <td>01.2022 - 06.2022</td>
+            <td>Lecturer, Jacobs University Bremen</td>
+        </tr>
+        <tr>
+            <td>04.2017 - 09.2021</td>
+            <td>Research assistant (PhD student), University of Bremen, Department of Mathematics</td>
+        </tr>
+    </tbody>
+</table>
+
+
+## Education
+
+
+
+<table>
+    
+    <tbody>
+        <tr>
+            <td>04.2017 - 09.2021</td>
+            <td>Dr. rer. nat. in Mathematics, University of Bremen, Department of Mathematics (advisors: <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html" target="_blank">Prof. Dr. J. Rademacher</a>, <a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer" target="_blank">Prof. Dr. M. Ke&szlig;eb&ouml;hmer</a>)</td>
+        </tr>
+        <tr>
+            <td>04.2016 - 04.2017</td>
+            <td>Further studies (Brückenstipendium, University of Bremen, Department of Mathematics)</td>
+        </tr>
+        <tr>
+            <td>until 04.2016</td>
+            <td>M.Sc. and B.Sc. in Mathematics, University of Bremen, Department of Mathematics</td>
+        </tr>
+      </tbody>
+</table>
+
+
+## Miscellanea
+  <table>
+    
+    <tbody>
+        <tr>
+            <td>04.2016 - 04.2017</td>
+            <td><a href="https://www.uni-bremen.de/fileadmin/user_upload/forschung/Anlage/Stipendium/Merkblatt_Brueckenstip.pdf" target="_blank">Brückenstipendium</a>, University of Bremen, Department of Mathematics</td>
+        </tr>
+        <tr>
+            <td>2020 - 2021</td>
+            <td>Supervision of a <a href="https://www.uni-bremen.de/en/fb3/studium-lehre/studentische-projekte/student-research-projects-in-mathematics/assigned-and-completed-projects/wave-patterns-in-cellular-automata-for-excitable-media" target="_blank">Student Research Project</a>, University of Bremen, Department of Mathematics</td>
+        </tr>
+        <tr>
+            <td>2016 - 2021</td>
+            <td>Supporting several <a href="https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems" target="_blank">summer and winter schools</a>, University of Bremen</td>
+        </tr>
+        <tr>
+            <td>2016 - 2021</td>
+            <td>Maintaining the Mathematical Collection of the University of Bremen and creating its website</td>
+        </tr>
+      </tbody>
+</table>
+
+
+
+
+
+

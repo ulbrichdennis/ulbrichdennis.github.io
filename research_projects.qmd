@@ -1,0 +1,49 @@
+---
+title: "Research"
+subtitle: "Project participation"
+description-meta: "Projects in which I participate(d)"
+title-block-banner: true
+date-modified: last-modified
+date-format: iso
+---
+
+## Ongoing projects
+
+### DFG 456849348
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+University of Münster<br>
+Department of Mathematics<br>
+Institute for Analysis and Numerics<br>
+
++ Term 2021 - 2025
++ Participation since 6.2023 
+:::
+
+::: {.g-col-12 .g-col-md-6}
+Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation
+([more details](https://gepris.dfg.de/gepris/projekt/456849348?bundesland=DEU%23&fachgebiet=%23&findButton=historyCall&ggsHunderter=0&hitsPerPage=25&index=128925&language=en&lis=%23&nurProjekteMitAB=false&oldGgsHunderter=0&teilprojekte=true))
+:::
+
+:::
+
+## Past projects
+### DFG 384027439
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+University of Bremen<br>
+Department of Mathematics<br>
+
++ Term 2017 - 2021
++ Participation 2017 - 2021
+:::
+
+::: {.g-col-12 .g-col-md-6}
+Ergodic theory of nonlinear waves in discrete and continuous excitable media ([more details](https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2))
+:::
+
+:::

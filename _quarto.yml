@@ -1,0 +1,107 @@
+project:
+  type: website
+  output-dir: docs
+
+# Meta
+description-meta: "Postdoc"
+author-meta: "D. Ulbrich"
+
+
+website:
+  #announcement: 
+    #icon: info-circle
+    #dismissable: true
+    #content: "**Nov 20, 2025:** I am looking for a position as a postdoc, research assistant or lecturer in Mathematics. Please feel free to [contact me](mailto:ulbrich.dennis@icloud.com), any suggestion is highly appreciated!"
+    #type: info
+    #position: below-navbar
+  favicon: /files/images/favicon.ico
+  open-graph: true
+  title: "Dr. Dennis Ulbrich"
+  #image: "/files/profile/UlbrichDennis.jpg"
+  #image-alt: "&copy; D. Ulbrich"
+  description: "Postdoctoral researcher"
+  back-to-top-navigation: true
+  navbar:
+    background: light
+    
+
+  
+
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Research
+        menu:
+          - text: Interests & Publications
+            href: research_interests_publications.qmd
+          - text: Projects
+            href: research_projects.qmd                                  
+      - text: Teaching
+        href: teaching.qmd
+      - text: Short CV
+        href: shortcv.qmd  
+      
+          
+      
+    right: 
+      - text: "{{< ai arxiv size=Large >}}" 
+        href: https://arxiv.org/search/math?searchtype=author&query=Ulbrich,+D
+        target: _blank
+      - text: "{{< ai google-scholar size=Large >}}"
+        href: https://scholar.google.com/citations?user=b1u5plUAAAAJ
+        target: _blank
+      - text: "{{< ai orcid size=Large >}}"
+        href: https://orcid.org/0000-0001-5541-011X
+        target: _blank
+
+            
+   
+  
+  page-navigation: true
+
+  page-footer: 
+      left: "Made with [Quarto](https://quarto.org/)"
+      center:   "&copy; {{< meta author-meta >}}, 2025"
+      right: "Contact: [Email](mailto:ulbrich.dennis@icloud.com)" 
+      
+    
+    
+    
+    
+        
+  
+  search:
+    location: navbar
+    type: textbox
+  
+  reader-mode: false
+
+  draft-mode: unlinked
+  
+  repo-url: https://github.com/ulbrichdennis/ulbrichdennis.github.io
+#  repo-actions: [edit, issue, source]
+  
+  
+  #twitter-card: true
+      #card-style: summary      
+      # site-url: "https://www.dulbrich.de"
+  
+  
+
+format:
+  html: 
+    theme: 
+       light: [zephyr, theme.scss]
+       dark: [zephyr, theme-dark.scss]
+    toc: true
+    toc-expand: 3
+    footnotes-hover: true
+    code-copy: true
+    code-link: true
+    code-overflow: wrap
+    fig-align: center
+    link-external-icon: false
+    link-external-newwindow: true
+    email-obfuscation: javascript
+    include-in-header: "files/includes/_academic.qmd"
+
