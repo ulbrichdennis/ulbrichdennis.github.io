@@ -12,272 +12,82 @@ date-format: iso
 ## Professional activities
 
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-+ **2.2025 -- 5.2025**<br>
-Hochschule Bremen<br>
-Electrical Engineering and Computer Science
-:::
-
-::: {.g-col-12 .g-col-md-6}
-
-**Postdoctoral researcher**
-
-+ Project work: AI-based transmission, analysis and verification of handwritten documents 
-
-:::
-
-:::
-
-<hr style="border-style: dashed; size: 3px;">
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-+ **10.2024 -- 3.2025**<br>
-Winter semester 2024/25<br>
-Hochschule Bremen<br>
-School of Nature and Engineering
-:::
-
-::: {.g-col-12 .g-col-md-6}
-
-**Lecturer** 
-
-+ Mathematik 1  
-
-:::
-
-:::
-
-<hr style="border-style: dashed; size: 3px;">
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-+ **6.2023 -- 6.2024**<br>
-University of Münster<br>
-Department of Mathematics<br>
-Institute for Analysis and Numerics
-:::
-
-::: {.g-col-12 .g-col-md-6}
-
-**Postdoctoral researcher**
-
-+ Research on discrete hypocoercivity within [DFG project 456849348](https://www.dulbrich.de/research_projects.html)
-+ Keywords:
-    + Hypocoercivity
-    + Kinetic equations
-    + BGK-type approximations
-    + Chemical reactions
-    + Entropy methods
-+ Supervision: [Prof. M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)
-
-:::
-
-:::
-
-<hr style="border-style: dashed; size: 3px;">
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-+ **9.2022 -- 2.2023**<br>
-affinis AG Bremen
-
-:::
-
-::: {.g-col-12 .g-col-md-6}
-
-**IT Consulting Internship** 
-
-:::
-
-:::
-
-<hr style="border-style: dashed; size: 3px;">
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-+ **1.2022 -- 6.2022**<br>
-Spring semester 2022<br>
-Jacobs University Bremen<br>
-Mathematical Sciences
-:::
-
-::: {.g-col-12 .g-col-md-6}
-
-**Lecturer** 
-
-+ Finite Mathematics
-+ Introduction to Dynamical Systems 
-
-:::
-
-:::
-
-<hr style="border-style: dashed; size: 3px;">
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-+ **4.2017 -- 9.2021**<br>
-University of Bremen<br>
-Department of Mathematics<br>
-
-:::
-
-::: {.g-col-12 .g-col-md-6}
-
-**Research assistant (PhD student)**
-
-Research groups: Nonlinear Analysis and Applied Analysis,
-Stochastics and Dynamical Systems<br>
-
-+ Research within [DFG project number 384027439](https://www.dulbrich.de/research_projects.html)
-+ PhD thesis: *Ergodic theory of nonlinear waves in discrete and continuous excitable media*:
-    + *Advisors:* [Prof. J. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html), [Prof. M. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer)
-    + *Referees:* Prof. J. Rademacher (University of Bremen), [Prof. I. Melbourne](https://warwick.ac.uk/fac/sci/maths/people/staff/ian_melbourne/) (Warwick University)
-+ Keywords:
-    + Nonlinear analysis
-    + Ergodic Theory
-    + PDE
-    + Excitable media 
-    + Cellular automata
-    + Dynamical Systems
-
-:::
-
-:::
+<table>
+    
+    <tbody>
+        <tr>
+            <td>02.2025 - 05.2025</td>
+            <td>Postdoc, Hochschule Bremen, School of Electrical Engineering and Computer Science</td>
+        </tr>
+        <tr>
+            <td>10.2024 - 03.2025</td>
+            <td>Lecturer, Hochschule Bremen, School of Nature and Engineering</td>
+        </tr>
+        <tr>
+            <td>06.2023 - 06.2024</td>
+            <td>Postdoc, University of Münster, Department of Mathematics, Institute for Analysis and Numerics (supervision: <a href="https://www.uni-muenster.de/AMM/Pirner/index.shtml" target="_blank">Prof. Dr. M. Pirner</a>)</td>
+        </tr>
+        <tr>
+            <td>09.2022 - 02.2023</td>
+            <td>Non-academic professional activities</td>
+        </tr>
+        <tr>
+            <td>01.2022 - 06.2022</td>
+            <td>Lecturer, Jacobs University Bremen</td>
+        </tr>
+        <tr>
+            <td>04.2017 - 09.2021</td>
+            <td>Research assistant (PhD student), University of Bremen, Department of Mathematics</td>
+        </tr>
+    </tbody>
+</table>
 
 
 ## Education
 
 
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-+ **4.2017 -- 9.2021**<br>
-University of Bremen<br>
-Department of Mathematics<br>
-:::
-
-::: {.g-col-12 .g-col-md-6}
-**Dr. rer. nat. in Mathematics**
-
-+ PhD thesis: *Ergodic theory of nonlinear waves in discrete and continuous excitable media*:
-    + *Advisors:* [Prof. J. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html), [Prof. M. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer)
-    + *Referees:* Prof. J. Rademacher (University of Bremen), [Prof. I. Melbourne](https://warwick.ac.uk/fac/sci/maths/people/staff/ian_melbourne/) (Warwick University)
-+ cf. [MGP](https://www.mathgenealogy.org/id.php?id=277103)
-:::
-
-:::
-
-<hr style="border-style: dashed; size: 3px;">
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-+ **4.2016 -- 4.2017**<br>
-University of Bremen<br>
-Department of Mathematics<br>
-:::
-
-::: {.g-col-12 .g-col-md-6}
-**Brückenstipendium, University of Bremen**<br>
-
-+ Further studies
-+ Extensions of the results of my Master's thesis
-+ Successful acquisition of third-party funding (DFG) for my PhD project 
-
-
-:::
-
-:::
-
-<hr style="border-style: dashed; size: 3px;">
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-+ **until 4.2016**<br>
-University of Bremen<br>
-Department of Mathematics<br>
-:::
-
-::: {.g-col-12 .g-col-md-6}
-**Study of Mathematics**<br>
-Master and Bachelor degree (M.Sc. and B.Sc.)<br>
-  
-
-+ M.Sc. thesis: *Dynamics of the three-state 1D Greenberg-Hastings cellular automaton*
-    + *Referees:* Prof. J. Rademacher, [Dr. T. Samuel](https://experts.exeter.ac.uk/43201-tony-samuel/) (University of Exeter)
-+ B.Sc. thesis: *Unerwartete Fehler bei bedingten Erwartungswerten und Wahrscheinlichkeiten*
-    + *Referees:* [Prof. W. Brannath](https://www.uni-bremen.de/kksb/biometrie/team/mitglieder/prof-dr-werner-brannath) (University of Bremen), [Dr. K. Falk](https://www.math.uni-kiel.de/de/dr-kurt-falk/dr-kurt-falk) (University of Kiel)
-
-
-:::
-
-:::
+<table>
+    
+    <tbody>
+        <tr>
+            <td>04.2017 - 09.2021</td>
+            <td>Dr. rer. nat. in Mathematics, University of Bremen, Department of Mathematics (advisors: <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html" target="_blank">Prof. Dr. J. Rademacher</a>, <a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer" target="_blank">Prof. Dr. M. Ke&szlig;eb&ouml;hmer</a>)</td>
+        </tr>
+        <tr>
+            <td>04.2016 - 04.2017</td>
+            <td>Further studies (Brückenstipendium, University of Bremen, Department of Mathematics)</td>
+        </tr>
+        <tr>
+            <td>until 04.2016</td>
+            <td>M.Sc. and B.Sc. in Mathematics, University of Bremen, Department of Mathematics</td>
+        </tr>
+      </tbody>
+</table>
 
 
 ## Miscellanea
-### Grants
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-+ **4.2016 -- 4.2017**<br>
-University of Bremen<br>
-Department of Mathematics
-:::
-
-::: {.g-col-12 .g-col-md-6}
-
-+ **[Brückenstipendium](https://www.uni-bremen.de/fileadmin/user_upload/forschung/Anlage/Stipendium/Merkblatt_Brueckenstip.pdf)**
-
-:::
-
-:::
-
-### Supervision
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-+ **2021 -- 2022**<br>
-University of Bremen<br>
-Department of Mathematics
-:::
-
-::: {.g-col-12 .g-col-md-6}
-
-+ Student Research Project<br>
-  *Wave patterns in cellular automata for excitable media*, see [here](https://www.uni-bremen.de/en/fb3/studium-lehre/studentische-projekte/student-research-projects-in-mathematics/assigned-and-completed-projects/wave-patterns-in-cellular-automata-for-excitable-media)
-
-:::
-
-:::
-
-### Organisation
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-+ **2016 -- 2021**<br>
-University of Bremen<br>
-Department of Mathematics
-:::
-
-::: {.g-col-12 .g-col-md-6}
-
-+ Supporting several [summer and winter schools](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems)
-+ Maintaining the Mathematical Collection of the University of Bremen and creating its website  
-:::
-
-:::
-
+  <table>
+    
+    <tbody>
+        <tr>
+            <td>04.2016 - 04.2017</td>
+            <td><a href="https://www.uni-bremen.de/fileadmin/user_upload/forschung/Anlage/Stipendium/Merkblatt_Brueckenstip.pdf" target="_blank">Brückenstipendium</a>, University of Bremen, Department of Mathematics</td>
+        </tr>
+        <tr>
+            <td>2020 - 2021</td>
+            <td>Supervision of a <a href="https://www.uni-bremen.de/en/fb3/studium-lehre/studentische-projekte/student-research-projects-in-mathematics/assigned-and-completed-projects/wave-patterns-in-cellular-automata-for-excitable-media" target="_blank">Student Research Project</a>, University of Bremen, Department of Mathematics</td>
+        </tr>
+        <tr>
+            <td>2016 - 2021</td>
+            <td>Supporting several <a href="https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems" target="_blank">summer and winter schools</a>, University of Bremen</td>
+        </tr>
+        <tr>
+            <td>2016 - 2021</td>
+            <td>Maintaining the Mathematical Collection of the University of Bremen and creating its website</td>
+        </tr>
+      </tbody>
+</table>
 
 
 
