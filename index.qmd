@@ -32,13 +32,15 @@ callout-icon: false
 
 ## About me
 
-Most recently, I worked as a lecturer and researcher at [HS Bremen](https://www.hs-bremen.de/en/).
+I am a mathematician and recently worked as a lecturer and researcher at [HS Bremen](https://www.hs-bremen.de/en/).
 
 Beforehand, I was a postdoctoral researcher at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/institute.shtml) of the [University of Münster](https://www.uni-muenster.de/en/).
 
 I earned my PhD (*Dr. rer. nat.* in Mathematics) at the [University of Bremen](https://www.uni-bremen.de/en/).
 
-More details can be found on the subpages above. 
+<mark>Currently, I am looking for a position in mathematical teaching or research.</mark>
+
+
 
 <a rel="me"  href="https://mastodon.de/@DUlbrich"></a>
 
