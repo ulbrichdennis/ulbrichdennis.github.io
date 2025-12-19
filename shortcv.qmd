@@ -18,7 +18,7 @@ ulbrich.dennis@icloud.com
 
 ## Education
 
-**Dr. rer. nat. in Mathematics** <br> *University of Bremen, Department of Mathematics* [*4.2017 --- 9.2021*]{.cvdate}
+**(1) Dr. rer. nat. in Mathematics** <br> *University of Bremen, Department of Mathematics* [*4.2017 --- 9.2021*]{.cvdate}
 
 +   PhD thesis: *Ergodic theory of nonlinear waves in discrete and continuous excitable media*
     + *Advisors:* [Prof. J. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html), [Prof. M. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer)
@@ -87,13 +87,16 @@ Stochastics and Dynamical Systems<br>
 
 ## Other
 
--   Talk: [Misadventures with Reproducibility in R](https://github.com/cynthiahqy/rladies-2022-11) (30 Nov 2022, R Ladies Melbourne Meetup)
--   Talk: [Designing R Packages](https://github.com/cynthiahqy/design-r-magic_2022-10) (4 Oct 2022, Monash EBS Data Science Research Software Study Group)
--   Talk: [Quarto Websites as Research Compendiums](https://github.com/cynthiahqy/quarto-wiki-template) (16 Aug 2022, Monash EBS Data Science Research Software Study Group)
--   Workshop: [Writing academic papers with Rmarkdown and friends](https://www.cynthiahqy.com/posts/r-markdown-and-friends/) (9 Aug 2022, Monash University)
+### Grants
 
+**Brückenstipendium** <br>*University of Bremen, Department of Mathematics* [*4.2016 --- 4.2017*]{.cvdate}
 
-::: {.print-only}
-## References
-Available upon request
-:::
++ More details, see[here](https://www.uni-bremen.de/fileadmin/user_upload/forschung/Anlage/Stipendium/Merkblatt_Brueckenstip.pdf) 
+
+### Supervision
+
+**Student Research Project** <br>University of Bremen, Department of Mathematics* [*2021 --- 2022*]{.cvdate}
+
++ *Wave patterns in cellular automata for excitable media*, see [here](https://www.uni-bremen.de/en/fb3/studium-lehre/studentische-projekte/student-research-projects-in-mathematics/assigned-and-completed-projects/wave-patterns-in-cellular-automata-for-excitable-media)
+
+### Organisation
