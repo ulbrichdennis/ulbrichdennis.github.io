@@ -15,7 +15,7 @@ format-links: [pdf]
 ---
 
 ::: {.print-only}
-![DU](files/profile/UD.JPG){fig-align="right" width=10% height=10%}
+![](files/profile/UD.JPG){fig-align="right" width=30% height=30%}
 :::
 
 ::: {.print-only .contact-block}  
