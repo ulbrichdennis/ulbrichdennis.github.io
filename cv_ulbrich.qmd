@@ -115,7 +115,7 @@ Stochastics and Dynamical Systems<br>
     + Cellular automata
     + Dynamical Systems
 
-::: {.print-only .unlisted}
+::: {.print-only .content-visible when-format="pdf"}
 ## Publications
 ### In progress
 
