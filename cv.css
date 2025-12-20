@@ -85,6 +85,10 @@ from: https://github.com/quarto-dev/quarto-cli/discussions/2538#discussioncommen
   a {
     text-decoration: none;
     font-weight: 700;
-    color: #36a7e9;
+    color: black;
   }
+}
+
+hr.new {
+  border-top: 1px dashed;
 }
