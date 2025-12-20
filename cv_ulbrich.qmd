@@ -1,6 +1,7 @@
 
 ---
-title: "CV"
+title: "Curriculum Vitae"
+subtitle: "Dennis Ulbrich"
 title-block-banner: true
 date-modified: last-modified
 date-format: iso
