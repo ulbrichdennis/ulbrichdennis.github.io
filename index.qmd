@@ -30,6 +30,10 @@ callout-icon: false
 
 :::{#hero-heading}
 
+## First of all...
+
+Currently, I am looking for a position as a postdoc, research assistant or lecturer in Mathematics. Please feel free to contact me!
+
 ## About me
 
 Most recently, I worked as a lecturer and researcher at [HS Bremen](https://www.hs-bremen.de/en/).
@@ -38,7 +42,7 @@ Beforehand, I was a postdoctoral researcher at the [Institute for Analysis and N
 
 I earned my PhD (*Dr. rer. nat.* in Mathematics) at the [University of Bremen](https://www.uni-bremen.de/en/).
 
-Currently, I am looking for a position as a postdoc, research assistant or lecturer in Mathematics. Please feel free to contact me.
+
 
 
 
