@@ -30,7 +30,7 @@ callout-icon: false
 
 :::{#hero-heading}
 
-## First of all...
+## News
 
 Currently, I am looking for a position as a postdoc, research assistant or lecturer in Mathematics. Please feel free to contact me!
 
