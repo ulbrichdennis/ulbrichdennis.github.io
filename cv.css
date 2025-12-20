@@ -39,7 +39,7 @@ from: https://github.com/quarto-dev/quarto-cli/discussions/2538#discussioncommen
 
   .contact-block {
       margin-top: 0%;
-      text-align: center;
+      text-align: right;
   }
 
   html {
