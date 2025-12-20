@@ -14,7 +14,7 @@ css: cv.css
 format-links: [pdf]
 ---
 
-::: {.print-only .contact-block .border}  
+::: {.print-only .contact-block}  
 ![](files/profile/UD.JPG){width=30% height=30%}
 
 [Email](mailto:ulbrich.dennis@icloud.com)
@@ -28,6 +28,8 @@ format-links: [pdf]
     + *Advisors:* [Prof. J. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html), [Prof. M. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer)
     + *Referees:* Prof. J. Rademacher (University of Bremen), [Prof. I. Melbourne](https://warwick.ac.uk/fac/sci/maths/people/staff/ian_melbourne/) (Warwick University)
 +   cf. [MGP](https://www.mathgenealogy.org/id.php?id=277103)
+
+***
 
 **Brückenstipendium of the University of Bremen** <br> *University of Bremen, Department of Mathematics* [*4.2016 --- 4.2017*]{.cvdate}
 
