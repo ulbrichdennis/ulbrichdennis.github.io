@@ -174,3 +174,8 @@ close-to-equilibrium assumption.* (working title) <br>
 + **German:** mother tongue
 + **English:** C1  
 
+::: {.print-only}
+## References {.unnumbered .unlisted}
+
+On request
+:::
