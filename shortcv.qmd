@@ -17,8 +17,6 @@ format-links: [pdf]
 ::: {.print-only .contact-block}  
 ![](files/profile/UD.JPG){width=30% height=30%}
 
-Harmisser Str. 7<br>
-27305 Bruchhausen-Vilsen<br>
 [Email](mailto:ulbrich.dennis@icloud.com)
 :::
 
@@ -35,7 +33,7 @@ Harmisser Str. 7<br>
 <hr class="new"></hr>
 :::
 
-[**Brückenstipendium of the University of Bremen**]{.border} <br> *University of Bremen, Department of Mathematics* [*4.2016 --- 4.2017*]{.cvdate}
+**Brückenstipendium of the University of Bremen** <br> *University of Bremen, Department of Mathematics* [*4.2016 --- 4.2017*]{.cvdate}
 
 + Further studies
 + Extensions of the results of my Master's thesis
