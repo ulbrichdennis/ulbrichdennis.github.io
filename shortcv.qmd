@@ -14,7 +14,7 @@ css: cv.css
 format-links: [pdf]
 ---
 
-::: {.print-only .contact-block}  
+::: {.print-only .contact-block .border}  
 ![](files/profile/UD.JPG){width=30% height=30%}
 
 [Email](mailto:ulbrich.dennis@icloud.com)
