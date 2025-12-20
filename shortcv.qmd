@@ -22,7 +22,7 @@ format-links: [pdf]
 
 ## Education
 
-[**Dr. rer. nat. -- Mathematics**]{.border} <br> *University of Bremen, Department of Mathematics* [*4.2017 --- 9.2021*]{.cvdate }
+[**Dr. rer. nat. -- Mathematics** <br> *University of Bremen, Department of Mathematics* [*4.2017 --- 9.2021*]{.cvdate }]{.border}
 
 +   PhD thesis: *Ergodic theory of nonlinear waves in discrete and continuous excitable media*
     + *Advisors:* [Prof. J. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html), [Prof. M. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer)
