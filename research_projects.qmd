@@ -25,7 +25,7 @@ css: cv.css
 
 **DFG 384027439** <br> *University of Bremen, Department of Mathematics* [*2017 --- 2021*]{.cvdate}
 
-+ *Ergodic theory of nonlinear waves in discrete and continuous excitable media* ([more details](https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2))
++ *Ergodic theory of nonlinear waves in discrete and continuous excitable media* 
 + Participation 2017 - 2021
 + [More details](https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2)
 
