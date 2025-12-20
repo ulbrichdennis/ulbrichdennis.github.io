@@ -164,9 +164,9 @@ close-to-equilibrium assumption.* (working title) <br>
 + Maintaining the Mathematical Collection of the University of Bremen and creating its website  
 
 ### IT skills 
-+ **LaTeX:** advanced knowledge
-+ **Matlab, Mathematica, Java, C++, Oracle PL/SQL:** basic knowledge
-   + Oracle PL/SQL Fundamentals vol. I & II (*Udemy*, 2022)
++ **LaTeX:** *advanced knowledge*
++ **Matlab, Mathematica, Java, C++, Python, HTML, CSS, GitHub, Oracle PL/SQL:** *basic knowledge*
+   + Oracle PL/SQL Fundamentals vol. I & II (Udemy, 2022)
 
 ### Languages 
 + **German:** mother tongue
