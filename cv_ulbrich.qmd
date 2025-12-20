@@ -115,8 +115,8 @@ Stochastics and Dynamical Systems<br>
     + Cellular automata
     + Dynamical Systems
 
-::: {.print-only .unnumbered .unlisted}
-## Publications
+::: {.print-only}
+## Publications {.unnumbered .unlisted}
 ### In progress
 
 - *Discrete hypocoercivity for a nonlinear kinetic
