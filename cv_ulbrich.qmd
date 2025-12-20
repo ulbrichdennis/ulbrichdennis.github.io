@@ -165,11 +165,11 @@ close-to-equilibrium assumption.* (working title) <br>
 
 ::: {.print-only}
 ### Software and Programming {.unnumbered .unlisted}
-+ LaTeX: advanced 
-+ Matlab, Mathematica, Java, C++, Oracle PL/SQL: basics
++ **LaTeX:* advanced knowledge
++ **Matlab, Mathematica, Java, C++, Oracle PL/SQL:** basic knowledge
    + Oracle PL/SQL Fundamentals vol. I & II (*Udemy*, 2022)
 
 ### Languages {.unnumbered .unlisted}
-+ German: mother tongue
-+ English: C1 
++ **German:** mother tongue
++ **English:** C1 level 
 :::
