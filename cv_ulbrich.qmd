@@ -17,7 +17,9 @@ format-links: [pdf]
 ::: {.print-only .contact-block}  
 ![](files/profile/UD.JPG){width=30% height=30%}
 
-[Email](mailto:ulbrich.dennis@icloud.com)
+[Website](httos://www.dulbrich.de) | [Email](mailto:ulbrich.dennis@icloud.com) | [LinkedIn](https://www.linkedin.com/in/ulbrichdennis/)
+
+Further contact data: on request
 :::
 
 ## Education
