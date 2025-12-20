@@ -39,7 +39,7 @@ website:
       - text: Teaching
         href: teaching.qmd
       - text: CV
-        href: shortcv.qmd  
+        href: cv_ulbrich.qmd  
       
           
       
