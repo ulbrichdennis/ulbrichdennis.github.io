@@ -64,13 +64,13 @@ from: https://github.com/quarto-dev/quarto-cli/discussions/2538#discussioncommen
 
   h2 {
     font-weight: 900;
-    text-transform: uppercase;
+    
     /* color: blueviolet; */
   }
 
   h3 {
     font-weight: 700;
-    text-transform: uppercase;
+    
     /* color: green; */
   }
 
@@ -83,8 +83,8 @@ from: https://github.com/quarto-dev/quarto-cli/discussions/2538#discussioncommen
   }
 
   a {
-    text-decoration: none;
-    font-weight: 700;
+    text-decoration: underline;
+    
     color: black;
   }
 }
