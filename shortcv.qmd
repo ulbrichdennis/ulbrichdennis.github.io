@@ -14,8 +14,11 @@ css: cv.css
 format-links: [pdf]
 ---
 
+::: {.print-only}
+<img src="files/profile/UD.JPG" width="266px" height="248px" style="align:right">
+:::
+
 ::: {.print-only .contact-block}  
-![](files/profile/UD.JPG) 
 ulbrich.dennis@icloud.com
 :::
 
