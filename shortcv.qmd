@@ -17,7 +17,7 @@ format-links: [pdf]
 ::: {.print-only .contact-block}  
 ![](files/profile/UD.JPG){width=30% height=30%}
 
-ulbrich.dennis@icloud.com
+[Email](mailto:ulbrich.dennis@icloud.com)
 :::
 
 ## Education
