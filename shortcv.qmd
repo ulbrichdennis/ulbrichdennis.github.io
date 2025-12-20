@@ -17,12 +17,14 @@ format-links: [pdf]
 ::: {.print-only .contact-block}  
 ![](files/profile/UD.JPG){width=30% height=30%}
 
+Harmisser Str. 7<br>
+27305 Bruchhausen-Vilsen<br>
 [Email](mailto:ulbrich.dennis@icloud.com)
 :::
 
 ## Education
 
-[**Dr. rer. nat. -- Mathematics** <br> *University of Bremen, Department of Mathematics* [*4.2017 --- 9.2021*]{.cvdate }]{.border}
+**Dr. rer. nat. -- Mathematics** <br> *University of Bremen, Department of Mathematics* [*4.2017 --- 9.2021*]{.cvdate }
 
 +   PhD thesis: *Ergodic theory of nonlinear waves in discrete and continuous excitable media*
     + *Advisors:* [Prof. J. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html), [Prof. M. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer)
@@ -114,6 +116,33 @@ Stochastics and Dynamical Systems<br>
     + Excitable media 
     + Cellular automata
     + Dynamical Systems
+
+::: {.print-only}
+## Publications
+### In progress
+
+- *Discrete hypocoercivity for a nonlinear kinetic
+reaction model without initial
+close-to-equilibrium assumption.* (working title) <br>
+  joint work with [L. Liu](https://www.math.cuhk.edu.hk/~lliu/) and [M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)
+
+### Refereed journal articles
+
+* A. Pauthier, J.D.M. Rademacher, D. Ulbrich.<br>
+  *Weak and strong interaction of excitation kinks in scalar parabolic equations.*<br>
+   J Dyn Diff Equat. Published 30 July 2021; Volume 35, pages 2199-2235, (2023) [[DOI]](https://link.springer.com/article/10.1007/s10884-021-10040-2) [[arXiv]](https://arxiv.org/abs/2012.00309)
+* M. Keßeböhmer, J.D.M. Rademacher, D. Ulbrich.<br>
+  *Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata.*<br>
+   Ergodic Theory and Dynamical Systems. 2021;41(5):1397-1430 [[DOI]](https://www.cambridge.org/core/journals/ergodic-theory-and-dynamical-systems/article/dynamics-and-topological-entropy-of-1d-greenberghastings-cellular-automata/1DBE1EC4EC7BE9F216E9E35C214F2F3C) [[arXiv]](https://arxiv.org/abs/1903.02459)
+
+
+### Theses
+
+* D. Ulbrich.<br>
+*Ergodic theory of nonlinear waves in discrete and continuous excitable media.*<br>
+ Dissertation, 2021 [[DOI]](https://media.suub.uni-bremen.de/handle/elib/5257)
+:::
+
 
 ## Other
 
