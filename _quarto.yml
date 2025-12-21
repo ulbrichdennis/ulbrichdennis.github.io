@@ -89,7 +89,7 @@ website:
 
 format:
   html: 
-    theme: simplex
+    theme: sketchy
        #light: [zephyr, theme.scss]
        #dark: [zephyr, theme-dark.scss]
     toc: true
@@ -99,7 +99,7 @@ format:
     code-link: true
     code-overflow: wrap
     fig-align: right
-    link-external-icon: false
+    link-external-icon: true
     link-external-newwindow: true
     email-obfuscation: javascript
     include-in-header: "files/includes/_academic.qmd"
