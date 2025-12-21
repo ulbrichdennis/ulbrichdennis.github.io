@@ -13,24 +13,21 @@ css: cv.css
 
 ## Winter semester 2024/2025
 
-**Mathematik 1** <br> *Hochschule Bremen, School of Nature and Engineering* [*10.2024 --- 3.2025*]{.cvdate}
+**Mathematik 1** (Vorlesung) <br> *Hochschule Bremen, School of Nature and Engineering* [*10.2024 --- 3.2025*]{.cvdate}
 
-details
-
++ Basics from linear algebra, real analysis, and related subjects (with applications)
 
 ## Spring semester 2022
 
-**Finite Mathematics** <br> *Jacobs University Bremen, Mathematical Sciences* [*1.2022 --- 6.2022*]{.cvdate}
+**Finite Mathematics** (lecture) <br> *Jacobs University Bremen, Mathematical Sciences* [*1.2022 --- 6.2022*]{.cvdate}
 
-details to be added 
+ + Basics from matrix algebra, probability, and related subjects (with applications)
 
-<hr class="new"></hr>
+ <hr class="new"></hr>
 
-**Introduction to Dynamical Systems** <br> *Jacobs University Bremen, Mathematical Sciences* [*1.2022 --- 6.2022*]{.cvdate}
+**Introduction to dynamical systems** (proseminar) <br> *Jacobs University Bremen, Mathematical Sciences* [*1.2022 --- 6.2022*]{.cvdate}
 
-details to be added
-
-
++ Basic concepts of dynamical systems 
 
 
 
@@ -41,38 +38,9 @@ details to be added
 
 
 
-## Winter semester 2024/25
 
-::: {.grid}
 
-::: {.g-col-12 .g-col-md-6}
-Hochschule Bremen
-:::
 
-::: {.g-col-12 .g-col-md-6}
-
-- Mathematik 1
-
-:::
-
-:::
-
-## Spring semester 2022 
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-Jacobs University Bremen<br>
-:::
-
-::: {.g-col-12 .g-col-md-6}
-
-- Finite Mathematics
-- Introduction to Dynamical Systems
-
-:::
-
-:::
 
 
 
