@@ -89,7 +89,7 @@ website:
 
 format:
   html: 
-    theme: simplex 
+    theme: sandstone 
     linkcolor: black 
        #light: [zephyr, theme.scss]
        #dark: [zephyr, theme-dark.scss]
