@@ -13,7 +13,7 @@ page-layout: full
 about:
   id: hero-heading
   template:  broadside #solana #jolla #solana #marquee #jolla #marquee #broadside #solana #jolla #marquee #jolla #solana #broadside #marquee #trestles #solana #broadside #jolla    
-  image-width: 60%
+  image-width: 40%
   image-shape: rectangle #rounded #round 
   links:
     - icon: envelope
@@ -29,21 +29,6 @@ callout-icon: false
 
 
 :::{#hero-heading}
-
-```{=html}  
-<div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="toast-header">
-    <strong class="me-auto">News</strong>
-    <small>Dec 21, 2025</small>
-    <button type="button" class="btn-close ms-2 mb-1" data-bs-dismiss="toast" aria-label="Close">
-      <span aria-hidden="true"></span>
-    </button>
-  </div>
-  <div class="toast-body">
-    Currently, I am looking for a position in mathematical teaching or research. Please feel free to contact me!
-  </div>
-</div>
-```
 
 ## About me
 
