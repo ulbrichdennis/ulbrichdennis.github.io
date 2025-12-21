@@ -1,11 +1,44 @@
 ---
 title: "Teaching"
 subtitle: "Undergraduate courses"
-description-meta: "Basic analysis, linear algebra and stochastics"
 title-block-banner: true
 date-modified: last-modified
 date-format: iso
+format:
+  html:
+    toc: true
+css: cv.css
+
 ---
+
+## Winter semester 2024/2025
+
+**Mathematik 1** <br> *Hochschule Bremen, School of Nature and Engineering* [*10.2024 --- 3.2025*]{.cvdate}
+
+details
+
+
+## Spring semester 2022
+
+**Finite Mathematics** <br> *Jacobs University Bremen, Mathematical Sciences* [*1.2022 --- 6.2022*]{.cvdate}
+
+details to be added 
+
+<hr class="new"></hr>
+
+**Introduction to Dynamical Systems** <br> *Jacobs University Bremen, Mathematical Sciences* [*1.2022 --- 6.2022*]{.cvdate}
+
+details to be added
+
+
+
+
+
+
+
+
+
+
 
 
 ## Winter semester 2024/25
