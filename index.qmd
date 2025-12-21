@@ -33,6 +33,7 @@ callout-icon: false
 
 :::{#hero-heading}
 
+```{=html}  
 <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="toast-header">
     <strong class="me-auto">News</strong>
@@ -45,6 +46,7 @@ callout-icon: false
     Currently, I am looking for a position in mathematical teaching or research. Please feel free to contact me!
   </div>
 </div>
+```
 
 ## About me
 
