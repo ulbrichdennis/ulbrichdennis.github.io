@@ -19,12 +19,6 @@ about:
     - icon: envelope
       text: Email
       href: mailto:ulbrich.dennis@icloud.com
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/ulbrichdennis/
-    - icon: mastodon
-      text: Mastodon
-      href: https://mastodon.de/@DUlbrich 
 callout-icon: false
 
 
