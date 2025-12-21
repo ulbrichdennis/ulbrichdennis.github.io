@@ -89,16 +89,16 @@ website:
 
 format:
   html: 
-    theme: 
-       light: [zephyr, theme.scss]
-       dark: [zephyr, theme-dark.scss]
+    theme: lux
+       #light: [zephyr, theme.scss]
+       #dark: [zephyr, theme-dark.scss]
     toc: true
     toc-expand: 3
     footnotes-hover: true
     code-copy: true
     code-link: true
     code-overflow: wrap
-    fig-align: center
+    fig-align: right
     link-external-icon: false
     link-external-newwindow: true
     email-obfuscation: javascript
