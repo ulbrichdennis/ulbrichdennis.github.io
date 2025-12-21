@@ -89,9 +89,9 @@ website:
 
 format:
   html: 
-    theme: zephyr 
-       #light: [zephyr, theme.scss]
-       #dark: [zephyr, theme-dark.scss]
+    theme:  
+       light: [zephyr, theme.scss]
+       dark: [zephyr, theme-dark.scss]
     toc: true
     toc-expand: 3
     footnotes-hover: true
