@@ -5,6 +5,7 @@ description-meta: "What I am interested in and what I have published so far"
 title-block-banner: true
 date-modified: last-modified
 date-format: iso
+css: bootstrap.css
 ---
 
 ## Research interests
