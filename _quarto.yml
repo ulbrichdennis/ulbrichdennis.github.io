@@ -89,7 +89,7 @@ website:
 
 format:
   html: 
-    theme: journal
+    theme: quartz
        #light: [zephyr, theme.scss]
        #dark: [zephyr, theme-dark.scss]
     toc: true
