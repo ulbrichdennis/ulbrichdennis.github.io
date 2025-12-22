@@ -10,6 +10,7 @@ sidebar: true
 page-layout: full
 
 
+
 about:
   id: hero-heading
   template: trestles #broadside #solana #jolla #solana #marquee #jolla #marquee #broadside #solana #jolla #marquee #jolla #solana #broadside #marquee #trestles #solana #broadside #jolla    

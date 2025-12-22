@@ -95,9 +95,9 @@ website:
 
 format:
   html: 
-    theme:  
-       light: [zephyr, theme.scss]
-       dark: [zephyr, theme-dark.scss]
+    theme:
+     - zephyr
+     - theme.scss
     toc: true
     toc-expand: 3
     footnotes-hover: true
@@ -110,3 +110,7 @@ format:
     email-obfuscation: javascript
     include-in-header: "files/includes/_academic.qmd"
 
+
+#theme:  
+      # light: [zephyr, theme.scss]
+     #  dark: [zephyr, theme-dark.scss]
