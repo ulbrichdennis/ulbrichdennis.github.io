@@ -21,7 +21,7 @@ about:
       text: Email
       href: mailto:ulbrich.dennis@icloud.com
     - icon: linkedin
-      text: linkedin
+      text: Linkedin
       href: https://www.linkedin.com/in/ulbrichdennis/
     - icon: mastodon
       text: Mastodon
