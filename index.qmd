@@ -15,9 +15,9 @@ format:
 
 about:
   id: hero-heading
-  template: solana #trestles #broadside #solana #jolla #solana #marquee #jolla #marquee #broadside #solana #jolla #marquee #jolla #solana #broadside #marquee #trestles #solana #broadside #jolla    
+  template: trestles #broadside #solana #jolla #marquee #jolla     
   image-width: 60%
-  image-shape: rounded #rectangle #rounded #round 
+  image-shape: rectangle #rounded #round 
   links:
     - text: Email
       href: mailto:ulbrich.dennis@icloud.com
