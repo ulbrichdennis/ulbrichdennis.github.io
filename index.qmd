@@ -8,9 +8,7 @@ toc: false
 #date-modified: 2025-08-08
 sidebar: true
 page-layout: full
-format:
-  html: 
-    theme: [zephyr, theme.scss]
+
 
 
 about:
@@ -21,7 +19,7 @@ about:
   links:
     - text: Email
       href: mailto:ulbrich.dennis@icloud.com
-callout-icon: false
+
 
 
 ---
