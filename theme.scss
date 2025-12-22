@@ -22,7 +22,6 @@ $callout-color-note:  #6c757d;
     .quarto-about-trestles .about-entity .about-links {
         flex-direction:column;
         row-gap: 1em;
-        
         padding-bottom: 1.5em
     }
 }
@@ -35,7 +34,7 @@ $callout-color-note:  #6c757d;
 
 @media(min-width: 992px) {
     .quarto-about-trestles .about-entity .about-link {
-        font-size:.8em;
+        font-size: 1em;
         padding: .25em .5em;
         border-radius: 4px
     }
