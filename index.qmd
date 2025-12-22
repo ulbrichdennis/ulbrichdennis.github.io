@@ -24,7 +24,7 @@ about:
       text: Linkedin
       href: https://www.linkedin.com/in/ulbrichdennis/
     - icon: mastodon
-      text: mastodon
+      text: Mastodon
       href: https://mastodon.de/@DUlbrich 
 
 
