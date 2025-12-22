@@ -15,7 +15,7 @@ format:
 
 about:
   id: hero-heading
-  template: trestles #broadside #solana #jolla #solana #marquee #jolla #marquee #broadside #solana #jolla #marquee #jolla #solana #broadside #marquee #trestles #solana #broadside #jolla    
+  template: solana #trestles #broadside #solana #jolla #solana #marquee #jolla #marquee #broadside #solana #jolla #marquee #jolla #solana #broadside #marquee #trestles #solana #broadside #jolla    
   image-width: 60%
   image-shape: rounded #rectangle #rounded #round 
   links:
