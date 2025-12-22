@@ -53,6 +53,9 @@ website:
       - text: "{{< ai orcid size=Large >}}"
         href: https://orcid.org/0000-0001-5541-011X
         target: _blank
+      - text: "{{< ai linkedin size=Large >}}"
+        href: https://www.linkedin.com/in/ulbrichdennis/ 
+        target: _blank 
 
             
    
