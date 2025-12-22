@@ -17,8 +17,16 @@ about:
   image-width: 60%
   image-shape: rectangle #rounded #round 
   links:
-    - text: Email
+    - icon: envelope
+      text: Email
       href: mailto:ulbrich.dennis@icloud.com
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/ulbrichdennis/
+    - icon: mastodon
+      text: Mastodon
+      href: https://mastodon.de/@DUlbrich
+
 
 
 

@@ -25,7 +25,7 @@ div.quarto-about-trestles .about-entity .about-links {
     div.quarto-about-trestles .about-entity .about-links {
         flex-direction:column;
         row-gap: 1em;
-        width: 10%; 
+        width: 25%; 
         padding-bottom: 1.5em
     }
 }
@@ -38,7 +38,7 @@ div.quarto-about-trestles .about-entity .about-link {
 
 @media(min-width: 992px) {
     div.quarto-about-trestles .about-entity .about-link {
-        font-size: 1em;
+        font-size: 0.8em;
         padding: .25em .5em;
         border-radius: 2px
     }
@@ -46,7 +46,7 @@ div.quarto-about-trestles .about-entity .about-link {
 
 @media(max-width: 991.98px) {
     div.quarto-about-trestles .about-entity .about-link {
-        font-size:1em;
+        font-size:0.8em;
         padding: .5em .5em;
         text-align: center;
         border-radius: 2px
