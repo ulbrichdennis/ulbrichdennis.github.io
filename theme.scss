@@ -4,4 +4,20 @@ $callout-color-note:  #6c757d;
 
 /*-- scss:rules --*/
 
+@media(min-width: 992px) {
+    div.quarto-about-trestles .about-entity .about-links {
+        flex-direction:row;
+        column-gap: 1em;
+        row-gap: 15px;
+        flex-wrap: wrap
+    }
+}
 
+@media(max-width: 991.98px) {
+    div.quarto-about-trestles .about-entity .about-links {
+        flex-direction:column;
+        row-gap: 1em;
+        
+        padding-bottom: 1.5em
+    }
+}
