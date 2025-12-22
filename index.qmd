@@ -7,7 +7,7 @@ page-navigation: false
 toc: false  
 #date-modified: 2025-08-08
 sidebar: true
-#page-layout: full
+page-layout: full
 
 
 about:
