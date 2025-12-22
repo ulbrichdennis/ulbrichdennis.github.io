@@ -35,14 +35,6 @@ about:
 
 :::{#hero-heading}
 
-```{=html}
-<div class="alert alert-dismissible alert-secondary">
-  <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-  <strong>News: </strong> Currently, I am looking for a position in mathematical teaching or research. Please feel free to <a href="mailto:ulbrich.dennis@icloud.com">contact me</a>!</a>
-</div>
-```
-
-
 ## About me
 
 Most recently, I worked as a lecturer and researcher at [HS Bremen](https://www.hs-bremen.de/en/).
@@ -51,12 +43,7 @@ Beforehand, I was a postdoctoral researcher at the [Institute for Analysis and N
 
 I earned my PhD (*Dr. rer. nat.* in Mathematics) at the [University of Bremen](https://www.uni-bremen.de/en/).
 
-More details can be found on the subpages above.
-
-
-
-
-
+Further details can be found on the subpages above.
 
 <a rel="me"  href="https://mastodon.de/@DUlbrich"></a>
 
