@@ -38,7 +38,7 @@ about:
 ```{=html}
 <div class="alert alert-dismissible alert-secondary">
   <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-  <strong>News: </strong> Currently, I am looking for a position in mathematical teaching and research. Please feel free to contact me!</a>.
+  <strong>News: </strong> Currently, I am looking for a position in mathematical teaching or research. Please feel free to contact me!</a>
 </div>
 ```
 
