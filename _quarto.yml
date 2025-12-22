@@ -53,13 +53,7 @@ website:
       - text: "{{< ai orcid size=Large >}}"
         href: https://orcid.org/0000-0001-5541-011X
         target: _blank
-      - icon: linkedin
-        href: https://www.linkedin.com/in/ulbrichdennis/ 
-        target: _blank 
-      - icon: mastodon
-        href: https://mastodon.de/@DUlbrich
-        target: _blank
-
+      
             
    
   
