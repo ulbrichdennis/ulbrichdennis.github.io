@@ -1,6 +1,15 @@
 /*-- scss:defaults --*/
 $link-color: black;
 
+@media(min-width: 992px) {
+    div.quarto-about-trestles .about-entity .about-links {
+        flex-direction:row;
+        column-gap: 1em;
+        row-gap: 15px;
+        flex-wrap: wrap
+    }
+}
+
 @media(max-width: 991.98px) {
     div.quarto-about-trestles .about-entity .about-links {
         flex-direction:column;
