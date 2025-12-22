@@ -7,10 +7,15 @@ $callout-color-note:  #6c757d;
 /*-- scss:rules --*/
 
 
+div.quarto-about-trestles .about-entity .about-links {
+    display: flex;
+    justify-content: center
+}
+
 @media(min-width: 992px) {
     div.quarto-about-trestles .about-entity .about-links {
         flex-direction:row;
-        column-gap: 1em;
+        column-gap: .8em;
         row-gap: 15px;
         flex-wrap: wrap
     }
@@ -20,13 +25,20 @@ $callout-color-note:  #6c757d;
     div.quarto-about-trestles .about-entity .about-links {
         flex-direction:column;
         row-gap: 1em;
+        /* width: 100%; */
         padding-bottom: 1.5em
     }
 }
 
+div.quarto-about-trestles .about-entity .about-link {
+    color: #78838e;
+    text-decoration: none;
+    /* border:solid 1px; */
+}
+
 @media(min-width: 992px) {
     div.quarto-about-trestles .about-entity .about-link {
-        font-size: 1em;
+        font-size:.8em;
         padding: .25em .5em;
         border-radius: 4px
     }
@@ -41,19 +53,12 @@ $callout-color-note:  #6c757d;
     }
 }
 
-
-
-div.quarto-about-trestles .about-entity .about-links {
-    display: flex;
-    justify-content: center
+div.quarto-about-trestles .about-entity .about-link:hover {
+    color: #242424
 }
 
-
-
-div.quarto-about-trestles .about-entity .about-link {
-    color: #78838e;
-    text-decoration: none;
-    
+div.quarto-about-trestles .about-entity .about-link i.bi {
+    margin-right: .15em
 }
 
 
