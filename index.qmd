@@ -18,9 +18,6 @@ about:
     - icon: envelope
       text: Email
       href: mailto:ulbrich.dennis@icloud.com
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/ulbrichdennis/
 callout-icon: false
 
 
