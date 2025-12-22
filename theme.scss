@@ -1,13 +1,11 @@
 /*-- scss:defaults --*/
+
 $link-color: #242424;
 $callout-color-note:  #6c757d;
 
-/*-- scss:rules --*/
 
-.quarto-about-trestles .about-entity .about-links {
-    display: flex;
-    justify-content: center
-}
+
+/*-- scss:mixins --*/
 
 @media(min-width: 992px) {
     .quarto-about-trestles .about-entity .about-links {
@@ -26,12 +24,6 @@ $callout-color-note:  #6c757d;
     }
 }
 
-.quarto-about-trestles .about-entity .about-link {
-    color: #78838e;
-    text-decoration: none;
-    
-}
-
 @media(min-width: 992px) {
     .quarto-about-trestles .about-entity .about-link {
         font-size: 1em;
@@ -48,3 +40,20 @@ $callout-color-note:  #6c757d;
         border-radius: 6px
     }
 }
+
+/*-- scss:rules --*/
+
+.quarto-about-trestles .about-entity .about-links {
+    display: flex;
+    justify-content: center
+}
+
+
+
+.quarto-about-trestles .about-entity .about-link {
+    color: #78838e;
+    text-decoration: none;
+    
+}
+
+
