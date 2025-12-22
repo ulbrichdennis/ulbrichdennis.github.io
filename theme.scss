@@ -4,13 +4,13 @@ $callout-color-note:  #6c757d;
 
 /*-- scss:rules --*/
 
-div.quarto-about-trestles .about-entity .about-links {
+.quarto-about-trestles .about-entity .about-links {
     display: flex;
     justify-content: center
 }
 
 @media(min-width: 992px) {
-    div.quarto-about-trestles .about-entity .about-links {
+    .quarto-about-trestles .about-entity .about-links {
         flex-direction:row;
         column-gap: 1em;
         row-gap: 15px;
@@ -19,7 +19,7 @@ div.quarto-about-trestles .about-entity .about-links {
 }
 
 @media(max-width: 991.98px) {
-    div.quarto-about-trestles .about-entity .about-links {
+    .quarto-about-trestles .about-entity .about-links {
         flex-direction:column;
         row-gap: 1em;
         
@@ -27,14 +27,14 @@ div.quarto-about-trestles .about-entity .about-links {
     }
 }
 
-div.quarto-about-trestles .about-entity .about-link {
+.quarto-about-trestles .about-entity .about-link {
     color: #78838e;
     text-decoration: none;
     
 }
 
 @media(min-width: 992px) {
-    div.quarto-about-trestles .about-entity .about-link {
+    .quarto-about-trestles .about-entity .about-link {
         font-size:.8em;
         padding: .25em .5em;
         border-radius: 4px
