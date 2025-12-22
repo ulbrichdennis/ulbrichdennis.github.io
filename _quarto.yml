@@ -44,9 +44,6 @@ website:
           
       
     right: 
-      - icon: linkedin
-        href: https://www.linkedin.com/in/ulbrichdennis/ 
-        target: _blank 
       - text: "{{< ai arxiv size=Large >}}" 
         href: https://arxiv.org/search/math?searchtype=author&query=Ulbrich,+D
         target: _blank
@@ -56,7 +53,12 @@ website:
       - text: "{{< ai orcid size=Large >}}"
         href: https://orcid.org/0000-0001-5541-011X
         target: _blank
-      
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ulbrichdennis/ 
+        target: _blank 
+      - icon: mastodon
+        href: https://mastodon.de/@DUlbrich
+        target: _blank
 
             
    
