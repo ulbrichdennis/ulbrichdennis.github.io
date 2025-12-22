@@ -33,7 +33,7 @@ $callout-color-note:  #6c757d;
 }
 
 @media(max-width: 991.98px) {
-    .quarto-about-trestles .about-entity .about-link {
+    div.quarto-about-trestles .about-entity .about-link {
         font-size:1.1em;
         padding: .5em .5em;
         text-align: center;
@@ -43,14 +43,14 @@ $callout-color-note:  #6c757d;
 
 
 
-.quarto-about-trestles .about-entity .about-links {
+div.quarto-about-trestles .about-entity .about-links {
     display: flex;
     justify-content: center
 }
 
 
 
-.quarto-about-trestles .about-entity .about-link {
+div.quarto-about-trestles .about-entity .about-link {
     color: #78838e;
     text-decoration: none;
     
