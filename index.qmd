@@ -7,23 +7,8 @@ page-navigation: false
 toc: false  
 #date-modified: 2025-08-08
 sidebar: true
-page-layout: full
-format:
-  html: 
-    theme:  
-       light: [zephyr, theme.scss]
-       dark: [zephyr, theme-dark.scss]
-    toc: true
-    toc-expand: 3
-    footnotes-hover: true
-    code-copy: true
-    code-link: true
-    code-overflow: wrap
-    fig-align: right
-    link-external-icon: false
-    link-external-newwindow: true
-    email-obfuscation: javascript
-    include-in-header: "files/includes/_academic.qmd"
+#page-layout: full
+
 
 about:
   id: hero-heading
