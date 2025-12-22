@@ -15,7 +15,8 @@ about:
   image-width: 60%
   image-shape: rounded #rectangle #rounded #round 
   links:
-    - text: Email
+    - icon: envelope
+      text: Email
       href: mailto:ulbrich.dennis@icloud.com
 callout-icon: false
 
@@ -32,6 +33,8 @@ Most recently, I worked as a lecturer and researcher at [HS Bremen](https://www.
 Beforehand, I was a postdoctoral researcher at the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/institute.shtml) of the [University of Münster](https://www.uni-muenster.de/en/).
 
 I earned my PhD (*Dr. rer. nat.* in Mathematics) at the [University of Bremen](https://www.uni-bremen.de/en/).
+
+
 
 
 
