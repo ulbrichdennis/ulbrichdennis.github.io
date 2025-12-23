@@ -51,10 +51,10 @@ about:
   </div>
   <ul class="list-group list-group-flush">
     <li class="list-group-item"><strong>Research positions:</strong> Postdoc (University of Münster, Institute of Analysis and Numerics, until 6/24), research assistant (University of Bremen, until 9/21), research assistant (Hochschule Bremen, until 5/25)</li>
-    <li class="list-group-item"><strong>Teaching:</strong> Lecturer (Hochschule Bremen, WiSe 24/25 and Jacobs University Bremen, until 5/22)</li>
+    <li class="list-group-item"><strong>Teaching:</strong> Lecturer (Hochschule Bremen, winter 24/25, and Jacobs University Bremen, spring 22)</li>
     </ul>
   <div class="card-body">
-  <p><strong>Further details:</strong></p>
+  <strong>Further details:</strong>
     <a href="#" class="card-link">Interests & Publications</a>
     <a href="#" class="card-link">Projects</a>
     <a href="#" class="card-link">Teaching</a>
