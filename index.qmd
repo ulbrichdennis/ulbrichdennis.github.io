@@ -35,10 +35,6 @@ about:
 
 :::{#hero-heading}
 
-## About me
-
-I earned my PhD (*Dr. rer. nat.* in Mathematics) at the University of Bremen. Roughly speaking, my research touches the fields of analysis, ergodic theory and dynamical systems.
-
 ```{=html}
 <div class="card mb-3">
   <!-- <h3 class="card-header">Card header</h3> -->
@@ -54,7 +50,7 @@ I earned my PhD (*Dr. rer. nat.* in Mathematics) at the University of Bremen. Ro
     </p>
   </div>
   <ul class="card-body">
-    <li class="list-group-item"><strong>Research positions:</strong> Postdoc (University of Münster, Institute of Analysis and Numerics, until 6/24), research assistant (University of Bremen, until 9/21), research assistant (Hochschule Bremen, until 5/25)</li>
+    <li class="list-group-item"><strong>Research positions:</strong> Postdoc (University of Münster, Institute of Analysis and Numerics, until 6/24), research assistant (University of Bremen, until 9/21), research assistant (Hochschule Bremen, until 5/25)<br></li>
     <li class="list-group-item"><strong>Teaching:</strong> Lecturer (Hochschule Bremen, winter 24/25, and Jacobs University Bremen, spring 22)</li>
     </ul>
   <div class="card-body">
