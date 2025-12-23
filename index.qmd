@@ -50,15 +50,16 @@ about:
     </p>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">I was a postdoc at the University of Münster (Institute of Analysis and Numerics).</li>
-    <li class="list-group-item">Among others, I worked as a lecture at HS Bremen.</li>
+    <li class="list-group-item">Former postdoc at the University of Münster (Institute of Analysis and Numerics)</li>
+    <li class="list-group-item">Former lecturer at HS Bremen and JUB</li>
     </ul>
   <div class="card-body">
   Further details:
     <a href="#" class="card-link">Card link</a>
     <a href="#" class="card-link">Another link</a>
   </div>
-  </div>
+  
+</div>
 ```
 
 
