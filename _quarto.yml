@@ -104,6 +104,3 @@ format:
     include-in-header: "files/includes/_academic.qmd"
 
 
-#theme:  
-      # light: [zephyr, theme.scss]
-     #  dark: [zephyr, theme-dark.scss]
