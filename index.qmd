@@ -37,7 +37,15 @@ about:
 
 ## About me
 
-I earned my PhD (*Dr. rer. nat.* in Mathematics) at the University of Bremen. Roughly speaking, my research touches the fields of analysis, ergodic theory and dynamical systems.
+I earned my PhD (*Dr. rer. nat.* in Mathematics) at the University of Bremen.<br>
+Roughly speaking, my research touches the fields of analysis, ergodic theory and dynamical systems.
+
+#### Research positions
+
+
+#### Teaching
+
+##### Further details
 
 ```{=html}
 <div class="card mb-3">
