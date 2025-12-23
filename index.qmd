@@ -39,7 +39,7 @@ about:
 
 ## About me
 
-I am interested in different topics of pure and applied mathematics, including analysis, ergodic theory and dynamical systems.
+I am interested in different topics of pure and applied mathematics, touching the broad fields of analysis, ergodic theory and dynamical systems.
 
 Most recently, I worked as a lecturer and research assistant at the [HS Bremen](https://www.hs-bremen.de/en/).
 
