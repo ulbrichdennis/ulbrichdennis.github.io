@@ -36,22 +36,22 @@ about:
 :::{#hero-heading}
 
 
-###### About me
+## About me
 
 I earned my PhD (*Dr. rer. nat.* in Mathematics) at the University of Bremen.<br>
 Roughly speaking, my research touches the fields of analysis, ergodic theory and dynamical systems.
 
-###### Research positions
+### Research positions
 <p>Research assistant (Hochschule Bremen, until 5/25)</p>
 <p>Postdoc (University of Münster, Institute of Analysis and Numerics, until 6/24) </p>
 <p>Research assistant (University of Bremen, until 9/21)</p>
 
-###### Teaching
+### Teaching
 <p>Lecturer (Hochschule Bremen, winter semester 2024/25)</p>
 <p>Jacobs University Bremen, spring semester 2022</p>
 
 
-<p style="margin-top:2 cm">For more details, see the subpages above.</p> 
+<p style="margin-top:2cm">For more details, see the subpages above.</p> 
 
 ```{=html}
 <div class="card mb-3">
