@@ -50,44 +50,19 @@ about:
     </p>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item"><strong>Research:</strong> Former postdoc at U of Münster, research assistant at U of Bremen</li>
-    <li class="list-group-item"><strong>Teaching:</strong> Former lecturer at HS Bremen and JUB</li>
+    <li class="list-group-item"><strong>Research positions:</strong> Former postdoc at University of Münster (Institute of Analysis and Numerics), research assistant at University of Bremen and Hochschule Bremen</li>
+    <li class="list-group-item"><strong>Teaching:</strong> Former lecturer at Hochschule Bremen and Jacobs University Bremen</li>
     </ul>
   <div class="card-body">
   <p><strong>Further details:</strong></p>
     <a href="#" class="card-link">Interests & Publications</a>
     <a href="#" class="card-link">Projects</a>
     <a href="#" class="card-link">Teaching</a>
-    <a href="#" class= card-link">CV</a>
+    <a href="#" class="card-link">CV</a>
   </div>
   
 </div>
 ```
-
-
-
-
-
-
-```{=html}
-<div class="card">
-  <div class="card-body">
-    <h4 class="card-title">Welcome!</h4>
-    <h6 class="card-subtitle mb-2 text-muted">About me</h6>
-    <p class="card-text">I earned my PhD in Mathematics at the University of Bremen. Among other activities, I worked as a postdoc at the University of Münster.
-    <p>For further details, see:</p>
-    </p>
-    <a href="#" class="card-link">Research</a>
-    <a href="#" class="card-link">Teaching</a>
-    <a href="#" class="card-link">CV</a>
-  </div>
-</div>
-```
-
-
-
-
-
 
 <a rel="me"  href="https://mastodon.de/@DUlbrich"></a>
 
