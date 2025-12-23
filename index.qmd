@@ -46,15 +46,15 @@ about:
     <rect width="100%" height="100%" fill="#868e96"></rect>
     </svg>
   <div class="card-body">
-    <p class="card-text"><strong>Research:</strong> I earned my PhD in Mathematics at the University of Bremen. Roughly speaking, my research touches the fields of analysis, ergodic theory and dynamical systems.
+    <p class="card-text">I earned my PhD in Mathematics at the University of Bremen. Roughly speaking, my research touches the fields of analysis, ergodic theory and dynamical systems.
     </p>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item"><strong>Employment:</strong> Former postdoc at the University of Münster </li>
-    <li class="list-group-item">Former lecturer at HS Bremen and JUB</li>
+    <li class="list-group-item"><strong>Research:</strong> Former postdoc at the University of Münster </li>
+    <li class="list-group-item"><strong>Teaching:</strong> Former lecturer at HS Bremen and JUB</li>
     </ul>
   <div class="card-body">
-  Further details:
+  <p><strong>Further details:</strong></p>
     <a href="#" class="card-link">Card link</a>
     <a href="#" class="card-link">Another link</a>
   </div>
