@@ -54,7 +54,7 @@ about:
     <li class="list-group-item"><strong>Teaching:</strong> Lecturer (Hochschule Bremen, winter 24/25, and Jacobs University Bremen, spring 22)</li>
     </ul>
   <div class="card-body">
-    <a href="#" class="card-link">Interests & Publications</a>
+    <a href="#" class="card-link">Research</a>
     <a href="#" class="card-link">Projects</a>
     <a href="#" class="card-link">Teaching</a>
     <a href="#" class="card-link">CV</a>
