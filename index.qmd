@@ -39,13 +39,13 @@ about:
 
 ## About me
 
-I am interested in different topics in pure and applied mathematics, including analysis, ergodic theory and dynamical systems.
+I am interested in different topics of pure and applied mathematics, including analysis, ergodic theory and dynamical systems.
 
-Most recently, I worked as a lecturer and research assistant at the Hochschule Bremen.
+Most recently, I worked as a lecturer and research assistant at the HS Bremen.
 
-From 2023-2024, I was a postdoctoral researcher at the Institute of Analysis and Numerics of the University of Münster where I was supervised by Prof. Marlies Pirner.
+Beforehand, I was a postdoctoral researcher at the Institute of Analysis and Numerics of the University of Münster supervised by [Prof. Marlies Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml).
 
-I obtained my PhD (Dr. rer. nat. in Mathematics) at the University of Bremen under the supervison of Prof. J. Rademacher and Prof. M. Keßeböhmer.
+I obtained my PhD (Dr. rer. nat.) in Mathematics at the University of Bremen under the supervison of [Prof. J. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html) and [Prof. M. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer).
 
 Moreoever, I did some teaching at the Jacobs University Bremen.
 
