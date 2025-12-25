@@ -61,7 +61,7 @@ website:
 
   page-footer: 
       center:   "&copy; {{< meta author-meta >}}, 2025"
-      
+      right: "[Disclosure](/disclosure.qmd)"
       
     
     

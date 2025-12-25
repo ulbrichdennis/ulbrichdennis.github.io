@@ -220,5 +220,8 @@
   "cv_ulbrich.qmd": {
     "cv_ulbrich.html": "b31d7a53",
     "cv_ulbrich.pdf": "0d6fd35e"
+  },
+  "disclosure.qmd": {
+    "disclosure.html": "4d45777a"
   }
 }
