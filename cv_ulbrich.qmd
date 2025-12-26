@@ -54,7 +54,7 @@ Further contact data: on request
 
 ## Employment
 
-**Postdoctoral researcher** <br> *Hochschule Bremen, School of Electrical Engineering and Computer Science* [*2.2025 --- 5.2025*]{.cvdate}
+**Research assistant** <br> *Hochschule Bremen, School of Electrical Engineering and Computer Science* [*2.2025 --- 5.2025*]{.cvdate}
 
 + Project work: AI-based transmission, analysis and verification of handwritten documents
 
