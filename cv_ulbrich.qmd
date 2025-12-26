@@ -154,7 +154,7 @@ close-to-equilibrium assumption.* (working title) <br>
 
 ### Supervision
 
-**Student Research Project** <br> *University of Bremen, Department of Mathematics* [*2021 --- 2022*]{.cvdate}
+**Student research project** <br> *University of Bremen, Department of Mathematics* [*2021 --- 2022*]{.cvdate}
 
 + *Wave patterns in cellular automata for excitable media*, see [here](https://www.uni-bremen.de/en/fb3/studium-lehre/studentische-projekte/student-research-projects-in-mathematics/assigned-and-completed-projects/wave-patterns-in-cellular-automata-for-excitable-media)
 
