@@ -70,7 +70,7 @@ Further contact data: on request
 <hr class="new"></hr>
 :::
 
-**Postdoctoral Researcher** <br> *University of Münster, Department of Mathematics, Institute for Analysis and Numerics* [*6.2023 --- 6.2024*]{.cvdate}
+**Postdoctoral researcher** <br> *University of Münster, Department of Mathematics, Institute for Analysis and Numerics* [*6.2023 --- 6.2024*]{.cvdate}
 
 + Research on discrete hypocoercivity within [DFG project 456849348](https://www.dulbrich.de/research_projects.html)
 + Keywords:
