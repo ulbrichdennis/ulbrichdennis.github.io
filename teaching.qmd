@@ -11,13 +11,13 @@ css: cv.css
 
 ---
 
-## Winter semester '24/'25
+## Winter semester 2024/25
 
 **Mathematik 1** (Vorlesung) <br> *Hochschule Bremen, School of Nature and Engineering* [*10.2024 --- 3.2025*]{.cvdate}
 
 + Basics from linear algebra, real analysis, and related subjects (with applications)
 
-## Spring semester '22
+## Spring semester 2022
 
 **Finite Mathematics** (lecture) <br> *Jacobs University Bremen, Mathematical Sciences* [*1.2022 --- 6.2022*]{.cvdate}
 
