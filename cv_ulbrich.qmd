@@ -156,7 +156,7 @@ close-to-equilibrium assumption.* (working title) <br>
 
 **Student research project** <br> *University of Bremen, Department of Mathematics* [*2021 --- 2022*]{.cvdate}
 
-+ Co-supervision of a FEB-project (*ForschungsErfahrungen im Bachelorstudium*), together with Prof. Dr. J. Rademacher
++ Co-supervision together with Prof. Dr. J. Rademacher
 + Title: *Wave patterns in cellular automata for excitable media*, see [here](https://www.uni-bremen.de/en/fb3/studium-lehre/studentische-projekte/student-research-projects-in-mathematics/assigned-and-completed-projects/wave-patterns-in-cellular-automata-for-excitable-media)
 
 ### Organisation
