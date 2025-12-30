@@ -27,8 +27,8 @@ Further contact data: on request
 **Dr. rer. nat. -- Mathematics** <br> *University of Bremen, Department of Mathematics* [*4.2017 --- 9.2021*]{.cvdate }
 
 +   PhD thesis: *Ergodic theory of nonlinear waves in discrete and continuous excitable media*
-    + *Advisors:* [Prof. J. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html), [Prof. M. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer)
-    + *Referees:* Prof. J. Rademacher (University of Bremen), [Prof. I. Melbourne](https://warwick.ac.uk/fac/sci/maths/people/staff/ian_melbourne/) (Warwick University)
+    + *Advisors:* [Prof. Dr. J. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html), [Prof. Dr. M. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer)
+    + *Referees:* Prof. Dr. J. Rademacher (University of Bremen), [Prof. Dr. I. Melbourne](https://warwick.ac.uk/fac/sci/maths/people/staff/ian_melbourne/) (Warwick University)
 +   cf. [MGP](https://www.mathgenealogy.org/id.php?id=277103)
 
 ::: {.no-print}
@@ -48,9 +48,9 @@ Further contact data: on request
 **M.Sc. and B.Sc. in Mathematics** <br> *University of Bremen* [*until 4.2016*]{.cvdate}
 
 + M.Sc. thesis: *Dynamics of the three-state 1D Greenberg-Hastings cellular automaton*
-    + *Referees:* Prof. J. Rademacher, [Dr. T. Samuel](https://experts.exeter.ac.uk/43201-tony-samuel/) (University of Exeter)
+    + *Referees:* Prof. Dr. J. Rademacher, [Dr. T. Samuel](https://experts.exeter.ac.uk/43201-tony-samuel/) (University of Exeter)
 + B.Sc. thesis: *Unerwartete Fehler bei bedingten Erwartungswerten und Wahrscheinlichkeiten*
-    + *Referees:* [Prof. W. Brannath](https://www.uni-bremen.de/kksb/biometrie/team/mitglieder/prof-dr-werner-brannath) (University of Bremen), [Dr. K. Falk](https://www.math.uni-kiel.de/de/dr-kurt-falk/dr-kurt-falk) (University of Kiel)
+    + *Referees:* [Prof. Dr. W. Brannath](https://www.uni-bremen.de/kksb/biometrie/team/mitglieder/prof-dr-werner-brannath) (University of Bremen), [Dr. K. Falk](https://www.math.uni-kiel.de/de/dr-kurt-falk/dr-kurt-falk) (University of Kiel)
 
 ## Employment
 
@@ -79,7 +79,7 @@ Further contact data: on request
     + BGK-type approximations
     + Chemical reactions
     + Entropy methods
-+ Supervision: [Prof. M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)
++ Supervision: [Prof. Dr. M. Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)
 
 ::: {.no-print}
 <hr class="new"></hr>
@@ -107,8 +107,8 @@ Stochastics and Dynamical Systems<br>
 
 + Research within [DFG project number 384027439](https://www.dulbrich.de/research_projects.html)
 + PhD thesis: *Ergodic theory of nonlinear waves in discrete and continuous excitable media*:
-    + *Advisors:* [Prof. J. Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html), [Prof. M. Keßeböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer)
-    + *Referees:* Prof. J. Rademacher (University of Bremen), [Prof. I. Melbourne](https://warwick.ac.uk/fac/sci/maths/people/staff/ian_melbourne/) (Warwick University)
+    + *Advisors:* Prof. Dr. J. Rademacher, Prof. Dr. M. Keßeböhmer
+    + *Referees:* Prof. Dr. J. Rademacher (University of Bremen), Prof. Dr. I. Melbourne (Warwick University)
 + Keywords:
     + Nonlinear analysis
     + Ergodic Theory
