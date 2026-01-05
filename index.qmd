@@ -24,11 +24,10 @@ about:
     - icon: linkedin
       text: Linkedin
       href: https://www.linkedin.com/in/ulbrichdennis/
+    - icon: mastodon
+      text: Mastodon
+      href: https://mastodon.de/@DUlbrich 
     
-
-
-
-
 ---
 
 
