@@ -60,7 +60,7 @@ website:
   page-navigation: true
 
   page-footer: 
-      center:   "&copy; {{< meta author-meta >}}, 2025"
+      center:   "&copy; {{< meta author-meta >}}, 2026"
       right: "[Email](mailto:ulbrich.dennis@icloud.com)"
       
     
