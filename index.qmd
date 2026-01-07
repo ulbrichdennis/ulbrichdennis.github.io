@@ -3,8 +3,7 @@ title: "Dr. Dennis Ulbrich"
 #subtitle: "Mathematician"
 description-meta: "Postdoctoral researcher"
 image: files/profile/UD.JPG
-image-title: "&copy; D. Ulbrich"
-image-caption: "D. Ulbrich" 
+image-title: "&copy; D. Ulbrich" 
 page-navigation: false
 toc: false  
 #date-modified: 2025-08-08
