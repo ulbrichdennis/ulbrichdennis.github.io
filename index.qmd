@@ -22,7 +22,7 @@ about:
       text: Email
       href: mailto:ulbrich.dennis@icloud.com
     - icon: phone
-      text: phone
+      text: Phone
       href: tel:+491704577817
     
 ---
