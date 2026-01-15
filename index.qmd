@@ -19,7 +19,7 @@ about:
   image-shape: rectangle #rounded #round 
   links:
     - icon: envelope
-      text: Email
+      text: Send an Email
       href: mailto:ulbrich.dennis@icloud.com
     
     
