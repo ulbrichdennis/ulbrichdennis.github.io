@@ -18,8 +18,8 @@ about:
   image-width: 60%
   image-shape: rectangle #rounded #round 
   links:
-    - icon: envelope
-      text: e-mail
+    - icon: envelope-open
+      text: Email 
       href: mailto:ulbrich.dennis@icloud.com
     
     
