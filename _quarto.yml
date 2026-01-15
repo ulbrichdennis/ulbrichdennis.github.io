@@ -61,7 +61,7 @@ website:
 
   page-footer: 
       center:   "&copy; {{< meta author-meta >}}, 2026"
-      right: "[Email](mailto:ulbrich.dennis@icloud.com) | [Phone](tel:+491704577817)"
+      right: "[Email](mailto:ulbrich.dennis@icloud.com)"
       
     
     
