@@ -21,7 +21,7 @@ about:
     - icon: envelope
       text: Email  
       href: mailto:ulbrich.dennis@icloud.com
-    - icon: phone
+    - icon: telephone
       text: Phone
       href: tel:+491704577817
     
