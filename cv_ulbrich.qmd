@@ -17,7 +17,7 @@ format-links: [pdf]
 ::: {.print-only .contact-block}  
 ![](files/profile/UD.JPG){width=30% height=30%}
 
-[Website](https://www.dulbrich.de) | [Email](mailto:ulbrich.dennis@icloud.com) 
+[Website](https://www.dulbrich.de) | [E-Mail](mailto:ulbrich.dennis@icloud.com) 
 
 Further contact data: on request
 :::
