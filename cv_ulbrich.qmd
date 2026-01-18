@@ -166,6 +166,15 @@ close-to-equilibrium assumption.* (working title) <br>
 + Supporting several [summer and winter schools](https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems)
 + Maintaining the Mathematical Collection of the University of Bremen and creating its website  
 
+### IT skills
+
++ *LaTeX*: advanced
++ *Matlab, Mathematica, Java, C++, Oracle PL/SQL*: basic
+
+### Languages
+
++ *German*: mother tongue
++ *English*: C1
 
 ::: {.print-only}
 ## References {.unnumbered .unlisted}
