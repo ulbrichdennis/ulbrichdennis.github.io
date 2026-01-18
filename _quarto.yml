@@ -38,8 +38,7 @@ website:
             href: research_projects.qmd                                  
       - text: Teaching
         href: teaching.qmd
-      - text: Short CV
-        href: cv_ulbrich.qmd  
+       
       
           
       
