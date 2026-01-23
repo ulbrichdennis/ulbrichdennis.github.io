@@ -98,7 +98,7 @@ format:
     code-link: true
     code-overflow: wrap
     fig-align: right
-    link-external-icon: true
+    link-external-icon: false
     link-external-newwindow: true
     include-in-header: "files/includes/_academic.qmd"
 
