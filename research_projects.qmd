@@ -14,7 +14,7 @@ css: cv.css
 
 ## Ongoing projects
 
-**DFG 456849348** <br> *University of Münster, Department of Mathematics* [*2021 --- 2025*]{.cvdate}
+**DFG 456849348** <br> *University of Münster, Department of Mathematics* [*2021 --- 2026*]{.cvdate}
 
 Title: *Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation*
 
