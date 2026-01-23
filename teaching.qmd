@@ -25,11 +25,11 @@ css: cv.css
 
  <hr class="new"></hr>
 
-**Introduction to dynamical systems** (proseminar) <br> *Jacobs University Bremen, Mathematical Sciences* [*1.2022 --- 6.2022*]{.cvdate}
+**Introduction to dynamical systems** (proseminar) <br> *Jacobs University Bremen[^1], Mathematical Sciences* [*1.2022 --- 6.2022*]{.cvdate}
 
 + Basic concepts of dynamical systems
 
-
+[^1] now: Constructor University Bremen
 
 
 
