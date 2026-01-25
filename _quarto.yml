@@ -100,6 +100,7 @@ format:
     fig-align: right
     link-external-icon: false
     link-external-newwindow: true
+    link-internal-newwindow: true
     include-in-header: "files/includes/_academic.qmd"
 
 
