@@ -102,5 +102,5 @@ format:
     link-external-newwindow: true
     link-internal-newwindow: true
     include-in-header: "files/includes/_academic.qmd"
-    link-document-newwindow: true
+    link-pdf-newwindow: true
 
