@@ -13,23 +13,19 @@ css: cv.css
 
 ## Winter semester 2024/25
 
-**Mathematik 1** (Vorlesung) <br> *Hochschule Bremen, School of Nature and Engineering* [*10.2024 --- 3.2025*]{.cvdate}
+Hochschule Bremen<br>School of Nature and Engineering [10.2024 --- 3.2025]{.cvdate}
 
-+ Basics from linear algebra, real analysis, and related subjects (with applications)
++ Mathematik 1 (Vorlesung)
 
 ## Spring semester 2022
 
-**Finite Mathematics** (lecture) <br> *Jacobs University Bremen, Mathematical Sciences* [*1.2022 --- 6.2022*]{.cvdate}
+Jacobs University Bremen<br>Mathematical Sciences [1.2022 --- 6.2022]{.cvdate}
 
- + Basics from matrix algebra, probability, and related subjects (with applications)
+ + Finite Mathematics (lecture)
+ + Introduction to dynamical systems (proseminar)
 
- <hr class="new"></hr>
+ 
 
-**Introduction to dynamical systems** (proseminar) <br> *Jacobs University Bremen [^1], Mathematical Sciences* [*1.2022 --- 6.2022*]{.cvdate}
-
-+ Basic concepts of dynamical systems
-
-[^1]: now: Constructor University Bremen
 
 
 
