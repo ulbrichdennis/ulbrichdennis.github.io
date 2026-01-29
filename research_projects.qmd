@@ -14,7 +14,7 @@ css: cv.css
 
 ## Ongoing projects
 
-**DFG 456849348** <br> *University of Münster, Department of Mathematics*, 2021 --- 2026
+**DFG 456849348** <br> *University of Münster, Department of Mathematics*, 2021 -- 2026
 
 Title: *Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation*
 
@@ -24,7 +24,7 @@ Title: *Modeling and mathematical description of concrete physical applications 
 
 ## Past projects
 
-**DFG 384027439** <br> *University of Bremen, Department of Mathematics*, 2017 --- 2021
+**DFG 384027439** <br> *University of Bremen, Department of Mathematics*, 2017 -- 2021
 
 Title: *Ergodic theory of nonlinear waves in discrete and continuous excitable media* 
 
