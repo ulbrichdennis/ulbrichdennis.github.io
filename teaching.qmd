@@ -11,7 +11,7 @@ css: cv.css
 
 ---
 
-## Winter 2024/2025
+## Winter 2024/25
 
 **Hochschule Bremen**, *School of Nature and Engineering*
 
