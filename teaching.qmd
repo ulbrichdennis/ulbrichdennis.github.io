@@ -13,13 +13,13 @@ css: cv.css
 
 ## Winter 2024/2025
 
-**Hochschule Bremen**<br>*School of Nature and Engineering* [10.2024 --- 3.2025]{.cvdate}
+**Hochschule Bremen**<br>*School of Nature and Engineering*
 
 + Mathematik 1 (Vorlesung)
 
 ## Spring 2022
 
-**Jacobs University Bremen**<br>*Mathematical Sciences* [1.2022 --- 6.2022]{.cvdate}
+**Jacobs University Bremen**<br>*Mathematical Sciences*
 
  + Finite Mathematics (lecture)
  + Introduction to dynamical systems (proseminar)
