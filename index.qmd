@@ -6,7 +6,8 @@ image: files/profile/UD.JPG
 image-title: "&copy; D. Ulbrich" 
 page-navigation: false
 toc: false  
-#date-modified: 2025-08-08
+date-modified: last-modified
+date-format: iso
 sidebar: true
 page-layout: full
 
