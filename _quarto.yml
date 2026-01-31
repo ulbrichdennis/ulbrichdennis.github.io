@@ -31,11 +31,7 @@ website:
       - text: Home
         href: index.qmd
       - text: Research
-        menu:
-          - text: Interests & Publications
-            href: research_interests_publications.qmd
-          - text: Projects
-            href: research_projects.qmd                                  
+        href: research.qmd                                 
       - text: Teaching
         href: teaching.qmd
       
