@@ -1,7 +1,7 @@
 ---
 title: "Research"
-subtitle: "Interests and publications"
-description-meta: "What I am interested in and what I have published so far"
+#subtitle: "Interests and publications"
+#description-meta: "What I am interested in and what I have published so far"
 title-block-banner: true
 date-modified: last-modified
 date-format: iso
@@ -42,3 +42,23 @@ close-to-equilibrium assumption.* (working title) <br>
 *Ergodic theory of nonlinear waves in discrete and continuous excitable media.*<br>
  Dissertation, 2021 [[DOI]](https://media.suub.uni-bremen.de/handle/elib/5257)
 
+## Project participation
+
+### Ongoing 
+
+**DFG 456849348** <br> *University of Münster, Department of Mathematics*, 2021 -- 2026
+
+Title: *Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation*
+
++ Participation since 6.2023
++ [More details](https://gepris.dfg.de/gepris/projekt/456849348?bundesland=DEU%23&fachgebiet=%23&findButton=historyCall&ggsHunderter=0&hitsPerPage=25&index=128925&language=en&lis=%23&nurProjekteMitAB=false&oldGgsHunderter=0&teilprojekte=true)
+
+
+### Past 
+
+**DFG 384027439** <br> *University of Bremen, Department of Mathematics*, 2017 -- 2021
+
+Title: *Ergodic theory of nonlinear waves in discrete and continuous excitable media* 
+
++ Participation 2017 -- 2021
++ [More details](https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2)
