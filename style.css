@@ -19,12 +19,7 @@
   clear: both;
 }
 
-body {
-	
-	background-color: #ffffff;
-	color: #000000;
-	font-family: 'Myriad Pro','DejaVu Sans','Bitstream Vera Sans','sans';
-}
+
 
 .markdown-body .octicon {
   display: inline-block;
@@ -1025,7 +1020,7 @@ body {
 
 a:link {
     color: #7777aa;
-    text-decoration: none;
+    text-decoration: underline;
 }
 a:visited { color: #555588; text-decoration:none; }
 a:hover { color: #aaaaee; text-decoration:none; }
