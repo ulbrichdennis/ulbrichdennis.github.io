@@ -1019,12 +1019,12 @@
 }
 
 a:link {
-    color: #aaaaee;
+    color:  #555588;
     text-decoration: none;
 }
-a:visited { color: #555588; text-decoration:none; }
-a:hover { color:#555588; text-decoration:none; }
-a:active { color: #aaaaee; text-decoration:none; }
+
+a:hover { color: #aaaaee; text-decoration:none; }
+
 
 
 #footer {
