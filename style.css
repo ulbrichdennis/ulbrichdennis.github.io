@@ -19,6 +19,13 @@
   clear: both;
 }
 
+body {
+	
+	background-color: #ffffff;
+	color: #000000;
+	font-family: 'Myriad Pro','DejaVu Sans','Bitstream Vera Sans','sans';
+}
+
 .markdown-body .octicon {
   display: inline-block;
   fill: currentColor;
