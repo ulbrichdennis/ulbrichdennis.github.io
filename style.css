@@ -1016,6 +1016,15 @@
   width: 175px;
 }
 
+a:link {
+    color: #7777aa;
+    text-decoration: none;
+}
+a:visited { color: #555588; text-decoration:none; }
+a:hover { color: #aaaaee; text-decoration:none; }
+a:active { color: #aaaaee; text-decoration:none; }
+
+
 #footer {
 	  text-align: center;
 	   top: 3px; 
