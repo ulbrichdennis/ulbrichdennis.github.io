@@ -719,14 +719,7 @@
   font-size: 1.5em;
 }
 
-.markdown-body h3::before { 
-  display: block; 
-  content: " "; 
-  margin-top: -285px; 
-  height: 285px; 
-  visibility: hidden; 
-  pointer-events: none;
-}
+
 
 .markdown-body h3 {
   font-size: 1.25em;
