@@ -782,7 +782,7 @@
   display: table;
   width: 100%;
   overflow: auto;
-  font-size: 0.7em;
+  
 }
 
 .markdown-body table th {
@@ -792,7 +792,7 @@
 .markdown-body table td,
 .markdown-body table th {
   padding: 6px 13px;
-  font-size: 0.9em;
+  
   border: 1px solid #dfe2e5;
 }
 
