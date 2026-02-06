@@ -787,13 +787,14 @@
 
 .markdown-body table th {
   font-weight: 600;
+
 }
 
 .markdown-body table td,
 .markdown-body table th {
   padding: 6px 13px;
   
-  border: 1px solid #dfe2e5;
+  /*border: 1px solid #dfe2e5; */
 }
 
 .markdown-body table tr {
