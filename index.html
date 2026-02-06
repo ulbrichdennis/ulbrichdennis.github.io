@@ -38,6 +38,12 @@
 			  overflow-x: hidden;
 			}
 
+           @media only screen and (max-width: 767x) {
+    #navbar {
+        display: none;
+    }
+}
+
             a:link {color:#36648B;}   
 	        a:visited {color:#36648B;}
 	   
@@ -47,7 +53,7 @@
 <body class="markdown-body">
 <div class="row">
 
-	<table><tr><td><a href="#interests">Research interests</a></td><td><a href="#publications">Publications</a></td><td><a href="#projects">Projects</a></td><td><a href="#teaching">Teaching</a></td><td><a href="#supervision">Supervision</a></td></tr></table><br>
+	<table id="navbar"><tr><td><a href="#interests">Research interests</a></td><td><a href="#publications">Publications</a></td><td><a href="#projects">Projects</a></td><td><a href="#teaching">Teaching</a></td><td><a href="#supervision">Supervision</a></td></tr></table><br>
 	<div class="column-picture left">
 		<img class="portrait" src="/images/portrait_ulbrich.JPG" title="&copy; D. Ulbrich">
 	</div>
