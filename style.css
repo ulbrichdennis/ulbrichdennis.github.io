@@ -719,7 +719,7 @@
   font-size: 1.5em;
 }
 
-.markdown-body h2::before { 
+.markdown-body h3::before { 
   display: block; 
   content: " "; 
   margin-top: -285px; 
