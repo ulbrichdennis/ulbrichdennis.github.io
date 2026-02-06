@@ -1028,16 +1028,3 @@
 	   font-size: 1.2em; 
 }
 
-tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    unicode-bidi: isolate;
-    border-color: inherit;
-}
-
-
-table {
-    border-collapse: separate;
-    text-indent: initial;
-    border-spacing: 2px;
-}
