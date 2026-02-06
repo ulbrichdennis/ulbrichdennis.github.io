@@ -15,6 +15,36 @@
 				margin: 0 auto;
 				padding: 45px;
 			}
+
+			.markdown-body2 {
+				float: left;
+                padding: 20px;
+                width: 70%;
+                background-color: #f1f1f1;
+				margin: 0 auto;
+				padding: 45 px;
+			}
+
+			nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+			
 			@media (max-width: 767px) {
 				.markdown-body {
 					padding: 15px;
@@ -44,8 +74,25 @@
 
         </style>
 	</head>
-	
-<body class="markdown-body">
+<body>
+	<section>
+<nav>
+    <ul>
+      <li><a href="#">London</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  </nav>
+
+
+<nav>
+    <ul>
+      <li><a href="#">London</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  
+<markdown-body>
 
 		
 
@@ -180,7 +227,8 @@
 	</div>
 
 	<!-- FOOTER -->
-
+</markdown-body>
+</section>
  <footer style="margin-top:30px; text-align:center; font-size:0.8em">
 <p style="text-align:left;font-size:x-small">Last modified: Fri 06 Feb 2026, 14:17</p>
 	&copy; D. Ulbrich, 2026
