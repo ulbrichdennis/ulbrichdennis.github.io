@@ -1028,3 +1028,63 @@
 	   font-size: 1.2em; 
 }
 
+.onyx-revised .icon-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: inherit;
+  padding: 1rem;  
+  transition: all 0.25s ease-in-out;
+}
+
+.onyx-revised .icon-circle:hover {
+  background: rgb(52, 58, 64);
+  color: white;
+}
+
+.onyx-revised .icon-circle .fa-icon {
+/*   background: red; */
+}
+
+/* demo styling */
+* {
+  /* resetting the box model for all elements */
+  box-sizing: border-box;
+}
+
+.demo-frame {
+  /* making a nice frame/layout for examples */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -1rem;
+  padding: 3rem;
+  min-height: 100vh;
+  color: rgb(52, 58, 64);
+}
+
+.demo-example {
+  /* individual demo example styling */
+  margin-bottom: 1rem;
+}
+
+.demo-icon-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.demo-icon {
+  margin: 0;
+  padding: 1.5rem 1rem;
+}
