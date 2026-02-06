@@ -791,8 +791,8 @@
 
 .markdown-body table td,
 .markdown-body table th {
-  /*padding: 6px 13px;*/
-  font-size: 0.7em;
+  padding: 6px 13px;
+  font-size: 0.9em;
   border: 1px solid #dfe2e5;
 }
 
