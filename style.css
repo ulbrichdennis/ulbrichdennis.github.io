@@ -793,6 +793,7 @@
 .markdown-body table td,
 .markdown-body table th {
   padding: 6px 13px;
+  text-align:center;
   
   border: 1px solid #dfe2e5; 
 }
