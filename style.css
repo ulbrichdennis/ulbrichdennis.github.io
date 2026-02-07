@@ -1043,6 +1043,7 @@
 .topnav {
   overflow: hidden;
   background-color: #e1e4e8;
+  margin-bottom: 1.5em;
 }
 
 .topnav a {
