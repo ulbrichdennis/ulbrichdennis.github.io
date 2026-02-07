@@ -1118,7 +1118,7 @@
 
 
 @media screen and (max-width: 600px) {
- .topnav a:not(:nth-child(-n+3)){
+ .topnav a:not(:nth-child(-n+3))  {
     display: none;
   }
   .topnav a.icon {
@@ -1127,7 +1127,7 @@
   }
 }
 
-//* @media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
  .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -1136,7 +1136,7 @@
     display: block;
   }
 } 
-*//
+*/
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
