@@ -1036,7 +1036,7 @@
 
 .navbar {
   overflow: hidden;
-  background-color: #f3f3f3;
+  background-color: #e1e4e8;
   margin-bottom: 1em;
 }
 
@@ -1066,7 +1066,7 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #e1e1e1;
 }
 
 .dropdown-content {
