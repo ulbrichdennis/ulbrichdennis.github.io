@@ -1117,7 +1117,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a, .dropdown .dropbtn {
+ .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
   .topnav a.icon {
