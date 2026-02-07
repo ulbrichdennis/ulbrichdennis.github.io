@@ -1119,7 +1119,7 @@
 
 
 @media screen and (max-width: 600px) {
- .topnav a:not(:nth-child(-n+3))  {
+ .topnav a:not(:nth-child(-n+2))  {
     display: none;
   
   }
@@ -1128,12 +1128,7 @@
     display: block;
   }
 }
-@media screen and (max-width: 600px) {
-.topnav a, .dropdown, .dropdown-content, .dropbtn{
-  font-size: 0.9em;
-}
 
-}
 
 /* @media screen and (max-width: 600px) {
  .topnav a:not(:first-child), .dropdown .dropbtn {
