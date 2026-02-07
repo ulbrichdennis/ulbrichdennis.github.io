@@ -1119,7 +1119,7 @@
 
 
 @media screen and (max-width: 600px) {
- .topnav a:not(:nth-child(-n+2))  {
+ .topnav a:not(:nth-child(-n+2)), .dropdown-content a:not(:nth-child(-n+3))  {
     display: none;
   
   }
@@ -1129,12 +1129,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .dropdown a:not(:nth-child(-n+3)) {
-    display: none;
-  }
-  
-}
+
 
 
 
