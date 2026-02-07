@@ -1119,7 +1119,7 @@
 
 
 @media screen and (max-width: 600px) {
- .dropdown a:not(:nth-child(-n+3)), .topnav a  {
+ .dropdown a:not(:nth-child(-n+3)), .topnav a:not(:nth-child(-n+5))  {
     display: none;
   
   }
