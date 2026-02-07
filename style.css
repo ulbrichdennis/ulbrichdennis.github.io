@@ -1094,3 +1094,8 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
+.topnav-right {
+  float: right;
+}
