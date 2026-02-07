@@ -1118,7 +1118,7 @@
 
 
 @media screen and (max-width: 600px) {
- .topnav a:not(:nth-child(-n+3))  {
+ .topnav a:not(:nth-child(-n+2))  {
     display: none;
   }
   .topnav a.icon {
