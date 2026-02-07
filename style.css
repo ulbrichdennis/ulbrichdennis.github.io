@@ -186,7 +186,7 @@
 }
 
 .markdown-body hr:after {
-  /*clear: both; */
+  clear: both; 
 }
 
 .markdown-body table {
@@ -635,7 +635,7 @@
 }
 
 .markdown-body:after {
-  /* clear: both;*/
+   clear: both;
 }
 
 .markdown-body>:first-child {
