@@ -1128,6 +1128,12 @@
     display: block;
   }
 }
+@media screen and (max-width: 600px) {
+.topnav .dropdown .dropdown-content .dropbtn{
+  font-size: 0.8em;
+}
+
+}
 
 /* @media screen and (max-width: 600px) {
  .topnav a:not(:first-child), .dropdown .dropbtn {
