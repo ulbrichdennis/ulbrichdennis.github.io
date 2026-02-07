@@ -1054,7 +1054,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1em;
 }
 
 .active {
@@ -1121,7 +1121,7 @@
 @media screen and (max-width: 600px) {
  .topnav a:not(:nth-child(-n+3))  {
     display: none;
-    font-size: 0.8em;
+  
   }
   .topnav a.icon {
     float: right;
@@ -1130,7 +1130,7 @@
 }
 @media screen and (max-width: 600px) {
 .topnav .dropdown .dropdown-content .dropbtn{
-  font-size: 0.8em;
+  font-size: small;
 }
 
 }
