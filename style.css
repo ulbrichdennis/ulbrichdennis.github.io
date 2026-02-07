@@ -1036,7 +1036,7 @@
 
 .navbar {
   overflow: hidden;
-  background-color: #f3f3f3;
+  background-color: none;
 }
 
 .navbar a {
@@ -1057,7 +1057,7 @@
   font-size: 16px;  
   border: none;
   outline: none;
-  color: white;
+  color: green;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
