@@ -1037,6 +1037,7 @@
 .navbar {
   overflow: hidden;
   background-color: #333;
+  margin-bottom: 1em;
 }
 
 .navbar a {
