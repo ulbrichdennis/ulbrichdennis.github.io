@@ -1117,7 +1117,7 @@
 }
 
 @media screen and (max-width: 600px) {
- .topnav a:not(:nth-child(-n + 3 of a.important)), .dropdown .dropbtn {
+ .topnav a:not(:nth-child(-n + 3)), .dropdown .dropbtn {
     display: none;
   }
   .topnav a.icon {
