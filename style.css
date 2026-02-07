@@ -1130,7 +1130,7 @@
 }
 @media screen and (max-width: 600px) {
 .topnav a, .dropdown, .dropdown-content, .dropbtn{
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 }
