@@ -1121,6 +1121,7 @@
 @media screen and (max-width: 600px) {
  .topnav a:not(:nth-child(-n+3))  {
     display: none;
+    font-size: 0.8em;
   }
   .topnav a.icon {
     float: right;
