@@ -1113,10 +1113,7 @@
   display: block;
 }
 
-.smallbar {
-   font-size: 0.6em;
-  
-}
+.smallbar {/*font-style: oblique; */}
 .notsmallbar{/*font-style: oblique; */}
 
 @media screen and (max-width: 600px) {
