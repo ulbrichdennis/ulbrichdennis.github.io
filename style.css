@@ -1034,12 +1034,6 @@
 	   font-size: 1.2em; 
 }
 
-
-
-
-
-
-
 .topnav {
   overflow: hidden;
   background-color: #e1e4e8;
@@ -1121,7 +1115,7 @@
   /* font-style: oblique; */
   
 }
-.notsmallbar{font-style: oblique;}
+.notsmallbar{/*font-style: oblique; */}
 
 @media screen and (max-width: 600px) {
 .smallbar div:not(:nth-child(-n+3)), .notsmallbar{display: none;}
