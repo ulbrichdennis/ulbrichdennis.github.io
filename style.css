@@ -1139,13 +1139,14 @@
 */
 
 @media screen and (max-width: 600px) {
+
   .topnav.responsive, .notsmallbar.responsive {position: relative;}
   .topnav.responsive .icon, .notsmallbar.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  .topnav.responsive a, .notsmallbar.responsive a. {
+  .topnav.responsive a, .notsmallbar.responsive a {
     float: none;
     display: block;
     text-align: left;
