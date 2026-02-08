@@ -1123,7 +1123,7 @@
 
 
 @media screen and (max-width: 600px) {
-.smallbar:nth-child(-n+3){display: block;}
+div.smallbar:nth-child(-n+3){display: block;}
 }
 
 
