@@ -1121,10 +1121,11 @@
   color: green;
 }
 
+/*
 @media screen and (max-width: 600px) {
 .smallbar:nth-child(-n+3){display: block;}
 }
-
+*/
 
 /*
 @media screen and (max-width: 600px) {
