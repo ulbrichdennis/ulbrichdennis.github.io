@@ -1120,7 +1120,7 @@
 .notsmallbar{/*font-style: oblique; */}
 
 @media screen and (max-width: 600px) {
-.smallbar div:not(:nth-child(-n+3)), .notsmallbar a { display: none;}
+.smallbar div:not(:nth-child(-n+3)), .notsmallbar a { display: none; float:left;}
 .topnav a.icon {
     float: right;
     display: block;}
