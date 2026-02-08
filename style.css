@@ -1117,10 +1117,18 @@
   display: block;
 }
 
-
+.smallbar {
+  color: green;
+}
 
 @media screen and (max-width: 600px) {
- .dropdown-content a:not(:first-child) {
+.smallbar:nth-child(-n+3){display: block;}
+}
+
+
+/*
+@media screen and (max-width: 600px) {
+ .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
   .topnav a.icon {
@@ -1128,7 +1136,7 @@
     display: block;
   }
 } 
-
+*/
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
