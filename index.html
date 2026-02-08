@@ -249,10 +249,11 @@ body {
 	<!-- FOOTER -->
 
  <footer style="margin-top:30px; text-align:center; font-size:0.8em">
-<p style="font-size:x-small">Last modified: Sun 08 Feb 2026, 14:00</p>
+<p style="font-size:x-small">Last modified: Sun 08 Feb 2026, 15:00</p>
 	&copy; D. Ulbrich, 2026
 </footer>
-	
+
+<!-- Needed for responsive navbar with dropdown -->
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -270,28 +271,23 @@ function myFunction() {
 }
 </script>
 
+<!-- back to top arrow -->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-
-	// Der Button wird mit JavaScript erzeugt und vor dem Ende des body eingebunden.
-	var back_to_top_button = ['<a href="#top" class="back-to-top"><i class="fa-solid fa-chevron-up fa-xl"></i></a>'].join("");
-	$("body").append(back_to_top_button)
-
-	// Der Button wird ausgeblendet
-	$(".back-to-top").hide();
-
-	// Funktion für das Scroll-Verhalten
-	$(function () {
+var back_to_top_button = ['<a href="#top" class="back-to-top"><i class="fa-solid fa-chevron-up fa-xl"></i></a>'].join("");
+$("body").append(back_to_top_button)
+$(".back-to-top").hide();
+$(function () {
 		$(window).scroll(function () {
-			if ($(this).scrollTop() > 100) { // Wenn 100 Pixel gescrolled wurde
+			if ($(this).scrollTop() > 100) { 
 				$('.back-to-top').fadeIn();
 			} else {
 				$('.back-to-top').fadeOut();
 			}
 		});
 
-		$('.back-to-top').click(function () { // Klick auf den Button
+		$('.back-to-top').click(function () { 
 			$('body,html').animate({
 				scrollTop: 0
 			}, 800);
