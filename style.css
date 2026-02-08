@@ -1121,7 +1121,7 @@
 
 @media screen and (max-width: 600px) {
 .smallbar div:not(:nth-child(-n+3)), .notsmallbar { display: none;}
-.topnav a.icon, .notmsallbar.icon {
+.topnav a.icon, .notsmallbar a.icon {
     float: right;
     display: block;
   }
