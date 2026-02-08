@@ -1119,11 +1119,12 @@
 
 .smallbar {
   font-style: oblique;
+  
 }
 
 
 @media screen and (max-width: 600px) {
-div.smallbar:nth-child(-n+3){display: block;}
+.smallbar div:not(:nth-child(-n+3)){display: none;}
 }
 
 
