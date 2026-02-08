@@ -1120,7 +1120,7 @@
 
 
 @media screen and (max-width: 600px) {
- .dropdown a:not(:first-child) {
+ .dropdown-content a:not(:first-child) {
     display: none;
   }
   .topnav a.icon {
