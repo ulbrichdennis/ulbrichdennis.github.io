@@ -5,9 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Dr. Dennis Ulbrich</title>
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -21,7 +21,6 @@
 				margin: 0 auto;
 				padding: 45px;
 				 
-				
 			}
              
 			@media (max-width: 767px) {
@@ -40,89 +39,58 @@
 			 #navigation { float: none;} 
 			}
 
-	html {
-			  width: 100vw;
-			  
-			}
+	        html {width: 100vw;}
 
-.back-to-top {
-  
-  position: fixed;
-  bottom: 20px;
-  right: 1px;
-  padding: 1em;
-  z-index: 100;
-}
+          .back-to-top {
+    			position: fixed;
+  				bottom: 20px;
+  				right: 1px;
+  				padding: 1em;
+  				z-index: 100;
+            }
 
-
-
-body {
-			  overflow-x: hidden;
-			}
+           body {overflow-x: hidden;}
 
           a:link {color:#36648B;}   
-	    a:visited {color:#36648B;}
+	      a:visited {color:#36648B;}
    
-
-
 	</style>
 		
 	</head>
 
-<body class="markdown-body" id="top">
+		<body class="markdown-body" id="top">
+
+		<!-- responsive navigation bar with dropdown -->
+ 		<div class="topnav" id="myTopnav">
+		<div class="dropdown smallbar">
+    	<button class="dropbtn smallbar">Research 
+      	<i class="fa fa-caret-down"></i>
+    	</button>
+    	<div class="dropdown-content smallbar">
+      	<a href="#interests" >Research interests</a>
+      	<a href="#publications" >Publications</a>
+      	<a href="#projects" >Projects participation</a>
+    	</div>
+  		</div>
+  		<div class="smallbar">
+  		<a href="#teaching">Teaching</a>
+  		</div>
+  		<div class="notsmallbar">
+  		<a href="#supervision">Supervision</a>
+  		</div>
+ 		 <div class="notsmallbar" id="myIcons">
+  		<a href="https://scholar.google.com/citations?user=b1u5plUAAAAJ" style="float:right" ><i class="ai ai-google-scholar ai-lg"></i></a>
+  		<a href="https://orcid.org/0000-0001-5541-011X" style="float:right" ><i class="ai ai-orcid ai-lg"></i></a>
+  		<a href="https://arxiv.org/search/math?searchtype=author&query=Ulbrich,+D" style="float:right" ><i class="ai ai-arxiv ai-lg"></i></a>
+ 		 </div>
+  		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
 
 
-
- <div class="topnav" id="myTopnav">
-	<div class="dropdown smallbar">
-    <button class="dropbtn smallbar">Research 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content smallbar">
-      <a href="#interests" >Research interests</a>
-      <a href="#publications" >Publications</a>
-      <a href="#projects" >Projects participation</a>
-    </div>
-  </div>
-  <div class="smallbar">
-  <a href="#teaching">Teaching</a>
-  </div>
-  <div class="notsmallbar">
-  <a href="#supervision">Supervision</a>
-  </div>
-  <div class="notsmallbar" id="myIcons">
-  <a href="https://scholar.google.com/citations?user=b1u5plUAAAAJ" style="float:right" ><i class="ai ai-google-scholar ai-lg"></i></a>
-  <a href="https://orcid.org/0000-0001-5541-011X" style="float:right" ><i class="ai ai-orcid ai-lg"></i></a>
-  <a href="https://arxiv.org/search/math?searchtype=author&query=Ulbrich,+D" style="float:right" ><i class="ai ai-arxiv ai-lg"></i></a>
-  </div>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-
-<!--<div id="navigation">    &#9776;
-<div class="navbar">
-  <div class="dropdown">
-    <button class="dropbtn">Research 
-     <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#interests">Research interests</a>
-      <a href="#publications">Publications</a>
-      <a href="#projects">Projects participation</a>
-    </div>
-  </div> 
-  <a href="#teaching">Teaching</a>
-  <a href="#supervision">Supervision</a>
-  <div class="topnav-right">
-  <a href="https://arxiv.org/search/math?searchtype=author&query=Ulbrich,+D"><i class="ai ai-arxiv ai-lg"></i></a>
-  <a href="https://scholar.google.com/citations?user=b1u5plUAAAAJ"><i class="ai ai-google-scholar ai-lg"></i></a>
-  <a href="https://orcid.org/0000-0001-5541-011X"><i class="ai ai-orcid ai-lg"></i></a>
-  </div>
-</div>
-</div>   -->
-<div class="column-picture left">
+		<div class="column-picture left">
 		<img class="portrait" src="/images/portrait_ulbrich.JPG" title="&copy; D. Ulbrich">
-</div>
-	<div class="column-picture right">
+		</div>
+		<div class="column-picture right">
 		<h2>Dr. Dennis Ulbrich</h2>
 			<p>
 			Postdoctoral researcher
@@ -133,12 +101,10 @@ body {
 			<br>
 			<br>
 			</p>
+		</div>
 	</div>
-</div>
 			<!-- INTRODUCTION (ABOUT ME) -->
 
-			<!-- <p><a href="https://arxiv.org/search/math?searchtype=author&query=Ulbrich,+D">arXiv</a> &nbsp; &nbsp; | &nbsp; &nbsp; <a href="https://scholar.google.com/citations?user=b1u5plUAAAAJ">Google Scholar</a> &nbsp; &nbsp; | &nbsp; &nbsp; <a href="https://orcid.org/0000-0001-5541-011X">ORCID</a></p> <br> -->
-    		<!-- <p style="font-size:0.8em"><a href="https://arxiv.org/search/math?searchtype=author&query=Ulbrich,+D"><i class="ai ai-arxiv ai-2x"></i></a> &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://scholar.google.com/citations?user=b1u5plUAAAAJ"><i class="ai ai-google-scholar ai-2x"></i></a> &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://orcid.org/0000-0001-5541-011X"><i class="ai ai-orcid ai-2x"></i></a></p> <br/> -->			
 			<p>My research deals with different topics of pure and applied mathematics, touching the broad fields of analysis, ergodic theory and dynamical systems. Moreover, I enjoy teaching and have taught some Math courses for undergraduates.</p>
 			<p>I was a postdoc at the <a href="https://www.uni-muenster.de/AMM/en/">Institute for Analysis and Numerics</a> of the <a href="https://www.uni-muenster.de/en/">University of Münster</a> supervised by <a href="https://www.uni-muenster.de/AMM/en/Pirner/index.shtml">Prof. Dr. Marlies Pirner</a> and obtained my PhD (Dr. rer. nat.) in Mathematics at the <a href="https://www.uni-bremen.de/en/">University of Bremen</a> under the supervison of <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html">Prof. Dr. Jens Rademacher</a> and <a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer">Prof. Dr. Marc Keßeböhmer</a>. Most recently, I worked as a lecturer and research assistant at <a href="https://www.hs-bremen.de/en/">HS Bremen</a>.</p>
 			<p>Further details and additional information can be found in my <a href="/files/CV_UlbrichDennis.pdf">CV</a>.</p>
@@ -247,14 +213,15 @@ body {
 		</ul>
 	</div>
 
-	<!-- FOOTER -->
+<!-- FOOTER -->
 
- <footer style="margin-top:30px; text-align:center; font-size:0.8em">
-<p style="font-size:x-small">Last modified: Mon 09 Feb 2026, 11:40</p>
+<footer style="margin-top:30px; text-align:center; font-size:0.8em">
+<!-- last modified -->
+<p style="font-size:x-small">Last modified: Mon 09 Feb 2026, 12:01</p>
 	&copy; D. Ulbrich, 2026
 </footer>
 
-<!-- Needed for responsive navbar with dropdown -->
+<!-- script for responsive navbar with dropdown -->
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -272,7 +239,7 @@ function myFunction() {
 }
 </script>
 
-<!-- back to top arrow -->
+<!-- script for back to top arrow -->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -299,9 +266,6 @@ $(function () {
 });
 </script>
 
-
-
 </body>
 
-	
 </html>
