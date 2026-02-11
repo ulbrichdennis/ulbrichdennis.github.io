@@ -1123,28 +1123,6 @@
     display: block;}
 }
 
-/*
-@media screen and (max-width: 600px) {
-.smallbar div:not(:nth-child(-n+3)), .notsmallbar a { display: none;}
-.topnav a.icon, .notsmallbar a.icon {
-    float: right;
-    display: block;
-  }
-}
-*/
-
-/*
-@media screen and (max-width: 600px) {
- .topnav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-} 
-*/
-
 @media screen and (max-width: 600px) {
 
   .topnav.responsive, .notsmallbar.responsive {position: relative;}
