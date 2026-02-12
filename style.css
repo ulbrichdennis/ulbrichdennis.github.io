@@ -1048,7 +1048,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1em; /* 17px; */
 }
 
 .active {
@@ -1068,7 +1068,7 @@
 }
 
 .dropdown .dropbtn {
-  font-size: 17px;    
+  font-size: 1em; /* 17px; */    
   border: none;
   outline: none;
   color: #36648B;
