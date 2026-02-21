@@ -8,12 +8,12 @@
  float: left;
 }
 .left {
-  /* width: calc(175px + 1.5em); */
-  width: calc(275px + 1.5em);
+   width: calc(175px + 1.5em); 
+  
 }
 .right {
-  /* width: calc(100% - 175px - 1.5em);  */
-  width: calc(100% - 275px - 1.5em);
+  width: calc(100% - 175px - 1.5em);  
+ 
 }
 .row:after {
   content: "";
