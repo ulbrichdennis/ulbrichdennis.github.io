@@ -8,10 +8,12 @@
  float: left;
 }
 .left {
-  width: calc(175px + 1.5em);
+  /* width: calc(175px + 1.5em); */
+  width: calc(375px + 1.5em);
 }
 .right {
-  width: calc(100% - 175px - 1.5em);
+  /* width: calc(100% - 175px - 1.5em);  */
+  width: calc(100% - 375px - 1.5em);
 }
 .row:after {
   content: "";
@@ -1023,7 +1025,8 @@
 }
 .portrait {
   padding: 0px;
-  width: 275px;
+  /* width: 175px;   */
+  width: 375px;
 }
 
 #footer {
