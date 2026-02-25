@@ -1048,8 +1048,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: black;
- /* color: #36648B; */
+  color: #36648B; 
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -1058,8 +1057,7 @@
 
 .active {
   background-color: #04AA6D;
-  color: black;
-  /* color: #36648B; */
+  color: #36648B; 
 }
 
 .topnav .icon {
