@@ -1039,7 +1039,7 @@
 
 .topnav {
   overflow: hidden;
-  background-color: #C2B6B6;
+  background-color: linear-gradient(115deg, #0d0d0d, #757575, #828282);
   /*background-color: #f0f0f0; */ 
   margin-bottom: 1.5em;
   
