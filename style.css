@@ -1039,7 +1039,7 @@
 
 .topnav {
   overflow: hidden;
-  background: linear-gradient(115deg, #ffffff, #d4d4d4);
+  background: radial-gradient(circle,rgba(199, 209, 209, 1) 0%, rgba(240, 245, 242, 1) 50%, rgba(83, 150, 237, 1) 100%);
   /*background-color: #f0f0f0; */ 
   margin-bottom: 1.5em;
   
