@@ -1058,7 +1058,8 @@
 
 .active {
   background-color: #04AA6D;
-  color: #36648B;
+  color: black;
+  /* color: #36648B; */
 }
 
 .topnav .icon {
