@@ -1052,7 +1052,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1em; /* 17px; */
+  font-size: 1em; 
 }
 
 .active {
@@ -1076,7 +1076,7 @@
   border: none;
   outline: none;
   color: #36648B;
-  padding: 12px 16px; /*was 14px 16px */
+  padding: 14px 16px; 
   background-color: inherit;
   font-family: inherit;
   margin: 0;
