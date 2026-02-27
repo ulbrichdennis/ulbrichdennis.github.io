@@ -1074,6 +1074,7 @@
 .dropdown .dropbtn {
   font-size: 1em; /* 17px; */    
   /*border: none; */
+  border: 1px solid #e1e4e8!important;
   outline: none;
   color: #36648B;
   padding: 14px 16px; 
