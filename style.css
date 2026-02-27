@@ -1068,12 +1068,12 @@
 
 .dropdown {
   float: left;
-  /*overflow: hidden; */
+  overflow: hidden; 
 }
 
 .dropdown .dropbtn {
   font-size: 1em; /* 17px; */    
-  border: none;
+  /*border: none; */
   outline: none;
   color: #36648B;
   padding: 14px 16px; 
