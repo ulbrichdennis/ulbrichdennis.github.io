@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ulbrichdennis.github.io/sitemap.xml
+Sitemap: https://dulbrich24.github.io/sitemap.xml
