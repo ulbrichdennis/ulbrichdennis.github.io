@@ -17,11 +17,11 @@ cv:
     #  username: example
 
   address:
-    street: Harmisser Str. 7
-    city: Bruchh.-Vilsen
+    #street:
+   # city: 
     region: Niedersachsen, Germany
-    postalCode: 27305
-    countryCode: GER
+   # postalCode: 
+   # countryCode: 
 
   sections:
     Education:
