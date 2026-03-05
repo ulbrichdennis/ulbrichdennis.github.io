@@ -1,146 +1,194 @@
 cv:
   name: Dennis Ulbrich
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  label: Mathematician
+  email: ulbrich.dennis@icloud.com
+  phone: +49 (0) 4240 952139
+  location: Niedersachsen, Germany
+  website: www.dulbrich.de
+  photo: prof_pic.jpg
+  summary: I am a postdoctoral mathematician with experience in research and teaching. <br> Currently, I am looking for a position in mathematical research or teaching at a university, preferably full-time.
 
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+ # social_networks:
+  #  - network: X
+   #   username: AlbertEinstein
+   # - network: GitHub
+   #   username: example
+   # - network: LinkedIn
+    #  username: example
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    #street: on request
+    #city: on request
+    region: Niedersachsen, Germany
+    #postalCode: on request
+    #countryCode: GER
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
+      - institution: University of Bremen, Department of Mathematics
+        location: Bremen, Germany
+        # url: https://www.uni-bremen.de/en/
+        area: Mathematics
+        studyType: PhD (Dr. rer. nat.)
+        start_date: "2017-04"
+        end_date: "2021-09"
         score: ""
-        courses: "Theory of Relativity"
+        courses: "PhD thesis: Ergodic theory of nonlinear waves in discrete and continuous excitable media"
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+          - "Advisors: [Prof. Dr. Jens Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html) (University of Hamburg), [Prof. Dr. Marc Kesseböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer) (University of Bremen)"
+          - "Referees: Prof. Dr. Jens Rademacher, [Prof. Dr. Ian Melbourne](https://warwick.ac.uk/fac/sci/maths/people/staff/ian_melbourne/) (Warwick University)"
+          - cf. [MGP](https://www.mathgenealogy.org/id.php?id=277103)
+      - institution: University of Bremen, Department of Mathematics
+        location: Bremen, Germany
+        area: Mathematics
+        studyType: Brückenstipendium
+        start_date: "2016-04"
+        end_date: "2017-04"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Further studies
+          - Extensions of the results of my Master thesis
+          - Successful acquisition of third-party funding (DFG) for PhD project
+      - institution: University of Bremen, Department of Mathematics
+        location: Bremen, Germany
+        area: Mathematics
+        degree: M.Sc. and B.Sc.
+        start_date: "2011-10"
+        end_date: "2016-04"
+        highlights:
+          - "M.Sc. thesis: Dynamics of the three-state 1D Greenberg-Hastings cellular automaton"
+          - "Referees: Prof. Dr. Jens Rademacher, [Dr. Tony Samuel](https://experts.exeter.ac.uk/43201-tony-samuel/) (University of Exeter)"
+          - "B.Sc. thesis: Unerwartete Fehler bei bedingten Erwartungswerten und Wahrscheinlichkeiten"
+          - "Referees: [Prof. Dr. Werner Brannath](https://www.uni-bremen.de/kksb/biometrie/team/mitglieder/prof-dr-werner-brannath) (University of Bremen), [Dr. Kurt Falk](https://www.math.uni-kiel.de/de/dr-kurt-falk/dr-kurt-falk) (University of Kiel)"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Hochschule Bremen, School of Electrical Engineering and Computer Science
+        position: Research assistant
+        location: Bremen, Germany
+        start_date: "2025-02"
+        end_date: "2025-05"
         highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+          - Project work on AI-based transmission, analysis, verification of handwritten documents
+          
+      - company: Hochschule Bremen, School of Nature and Engineering
+        position: Lecturer in Mathematics
+        location: Bremen, Germany
+        start_date: "2024-10"
+        end_date: "2025-03"
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+          - "[Mathematik 1](https://www.dulbrich.de/teachings/math1/)"
+       
+      - company: University of Münster, Department of Mathematics, Institute for Analysis and Numerics
+        position: Postdoctoral researcher
+        location: Münster, Germany
+        start_date: "2023-06"
+        end_date: "2024-06"
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Research on discrete hypocoercivity within [DFG project 456849348](https://www.dulbrich.de/projects/1_project/)
+          - "Supervision: [Prof. Dr. Marlies Pirner](https://www.uni-muenster.de/AMM/en/Pirner/index.shtml)"
+          - "Keywords: Hypocoercivity, Kinetic equations, BGK-type approximations, Chemical reactions, Entropy methods"
+  
+      - company: affinis AG
+        position: IT consultant
+        location: Bremen, Germany
+        start_date: "2022-09"
+        end_date: "2023-02"
+        
+          
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: "Jacobs University Bremen (now: Constructor University Bremen)"
+        position: Lecturer in Mathematics
+        location: Bremen, Germany
+        start_date: "2022-01"
+        end_date: "2022-06"
+        highlights:
+          - "[Finite Mathematics](https://www.dulbrich.de/teachings/finitemath/)"
+          - "[Introduction to Dynamical Systems](https://www.dulbrich.de/teachings/dynsys/)"
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
+      - company: University of Bremen, Department of Mathematics
+        position: Research assistant (PhD student)
+        location: Bremen, Germany
+        start_date: "2017-04"
+        end_date: "2021-09"
+        highlights:
+          - Research within [DFG project 384027439](https://www.dulbrich.de/projects/2_project/)
+          - "Research groups: Nonlinear Analysis and Applied Analysis, Stochastics and Dynamical Systems"
+          - "PhD thesis: Ergodic theory of nonlinear waves in discrete and continuous excitable media"
+          - "Advisors: [Prof. Dr. Jens Rademacher](https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html) (University of Hamburg), [Prof. Dr. Marc Kesseböhmer](https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer) (University of Bremen)"
+          - "Referees: Prof. Dr. Jens Rademacher, [Prof. Dr. Ian Melbourne](https://warwick.ac.uk/fac/sci/maths/people/staff/ian_melbourne/) (Warwick University)"
+          - "Keywords: Nonlinear analysis, Ergodic Theory, PDE, Excitable media, Cellular automata, Dynamical Systems"
+          
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Weak and strong interaction of excitation kinks in scalar parabolic equations
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - A. Pauthier, J. Rademacher, D. Ulbrich
+        publisher: Journal of Dynamics and Differential Equations
+        releaseDate: "2023-01"
+        url: https://link.springer.com/article/10.1007/s10884-021-10040-2
+        summary: "Published: 30 July 2021; Volume 35, pages 2199-2235, (2023) <br>A. Pauthier, J. Rademacher, D. Ulbrich"
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - M. Kesseböhmer, J. Rademacher, D. Ulbrich
+        publisher: Ergodic Theory and Dynamical Systems
+        releaseDate: "2021-05"
+        url: https://www.cambridge.org/core/journals/ergodic-theory-and-dynamical-systems/article/dynamics-and-topological-entropy-of-1d-greenberghastings-cellular-automata/1DBE1EC4EC7BE9F216E9E35C214F2F3C
+        summary: "Published: May 2021, Volume 41, Issue 5, pages 1397 - 1430 <br>M. Kesseböhmer, J. Rademacher, D. Ulbrich"
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: Ergodic theory of nonlinear waves in discrete and continuous excitable media
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - D. Ulbrich
+        publisher: 
+        releaseDate: "2021-08"
+        url: https://media.suub.uni-bremen.de/entities/publication/f6d1f31c-f9e0-4fcf-9d86-0ee66235e4d4
+        summary: Diss., D. Ulbrich
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: Discrete hypocoercivity for a nonlinear kinetic reaction model without initial close-to-equilibrium assumption (working title)
+        authors:
+          - L. Liu, M. Pirner, D. Ulbrich
+        publisher: 
+        releaseDate: "present"
+        url: 
+        summary: Ongoing work, together with L. Liu and M. Pirner
+
+    Grants:
+      - title: Brückenstipendium (funding period 12 months)
+        authors:
+          - "University of Bremen"
+        date: "2016-04"
+        awarder: University of Bremen
+        url: https://www.uni-bremen.de/fileadmin/user_upload/forschung/Anlage/Stipendium/Merkblatt_Brueckenstip.pdf
+        summary: The purpose of the bridging scholarship is to prepare for a doctoral project to be carried out at the University of Bremen and to secure the necessary external funding a scholarship/position - for example from one of the talent promotion organizations or through collaboration on a third-party funding application by the future supervisor.
+    
+    Academic Interests:
+      - name: Mathematics
+        icon: fa-solid fa-tag
+        keywords: "ODE and PDE and their dynamics, dynamical systems, ergodic theory, kinetic theory and entropy methods, Boltzmann equation and its BGK-type approximations, long-time behavior of solutions (hypocoercivity), physical applications, models of chemical reactions"
+
+    Projects participation:
+      - name: DFG 456849348
+        summary: Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation
+        highlights:
+          - "[Project details](https://www.dulbrich.de/projects/1_project/)"
+        start_date: "2021-01"
+        end_date: "2026-12"
+
+      - name: DFG 384027439
+        summary: Ergodic theory of nonlinear waves in discrete and continuous excitable media
+        highlights:
+          - "[Project details](https://www.dulbrich.de/projects/2_project/)" 
+        start_date: "2017-01"
+        end_date: "2021-12"  
+
+    IT-skills:
+      - name: LaTeX
+        #level: advanced
+        icon: fa-solid fa-tag
+        keywords: advanced
+
+      - name: Matlab, Mathematica, Java, C++, Oracle PL/SQL
+        #level: all basic
+        icon: fa-solid fa-tag
+        keywords: basic
 
     Languages:
       - name: German
@@ -148,42 +196,21 @@ cv:
 
       - name: English
         summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
+    
+    Other activities:
+      - name: Supervision
+        #date: 2021-01-01
+        issuer: <a href="https://www.uni-bremen.de/en/fb3/studium-lehre/studentische-projekte/student-research-projects-in-mathematics/assigned-and-completed-projects/wave-patterns-in-cellular-automata-for-excitable-media">Student research project</a>, University of Bremen, Department of Mathematics, 2021 - 2022, together with J. Rademacher
         icon: fa-solid fa-tag
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: Organisation
+        #issuer: 2018-01-01
+        issuer: Supporting several <a href="https://www.uni-bremen.de/dynamical-systems/past-events/bremen-summer-and-winter-schools-on-dynamical-systems">summer and winter schools</a>, University of Bremen, Department of Mathematics, 2016 - 2021
+        icon: fa-solid fa-tag
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: Mathematical Collection
+        #date: 2018-01-01
+        issuer: Maintaining the Mathematical Collection of the University of Bremen, creating its website, 2016 - 2021
+        icon: fa-solid fa-tag
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    

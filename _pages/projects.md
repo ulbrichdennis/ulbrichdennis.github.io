@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects participation
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: true
+description: A list of projects in which I participate(d)
+nav: false
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Ongoing, Past]
 horizontal: false
 ---
 

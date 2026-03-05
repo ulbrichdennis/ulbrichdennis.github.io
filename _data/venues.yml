@@ -1,9 +1,10 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"J Dyn Diff Equat":
+  url: https://link.springer.com/journal/10884
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ETDS":
+  url: https://www.cambridge.org/core/journals/ergodic-theory-and-dynamical-systems
+  color: "#8b008b"
 
-"Vision":
-  color: "#009f36"
+"Dissertation":
+   color: "#787878"

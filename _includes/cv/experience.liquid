@@ -6,31 +6,33 @@
 {% endcomment %}
 
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% for entry in entries %}
+  {%- for entry in entries -%}
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
-          {% capture start_date %}
-            {% if entry.start_date %}{{ entry.start_date }}{% elsif entry.startDate %}{{ entry.startDate }}{% endif %}
-          {% endcapture %}
-          {% capture end_date %}
-            {% if entry.end_date %}{{ entry.end_date }}{% elsif entry.endDate %}{{ entry.endDate }}{% endif %}
-          {% endcapture %}
+          {%- capture start_date -%}
+            {%- if entry.start_date -%}{{ entry.start_date }}{%- elsif entry.startDate -%}{{ entry.startDate }}{%- endif -%}
+          {%- endcapture -%}
+          {%- capture end_date -%}
+            {%- if entry.end_date -%}{{ entry.end_date }}{%- elsif entry.endDate -%}{{ entry.endDate }}{%- endif -%}
+          {%- endcapture -%}
 
-          {% if start_date != '' %}
-            {% comment %} Extract year only from dates like "1933-01-01" or just use "1933" as is {% endcomment %}
-            {% assign startDate = start_date | split: '-' | first %}
-            {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' | append: endDate %}
-          {% else %}
-            {% assign date = '' %}
+          {%- if start_date != '' -%}
+            {% comment %} Extract month and year from dates like "1933-01" {% endcomment %}
+            {%- assign startDateMonth = start_date | split: '-' | last -%}
+            {%- assign startDateYear = start_date | split: '-' | first -%}
+           {%- assign endDateMonth = end_date | split: '-' | last -%}
+            {%- assign endDateYear = end_date | split: '-' | first -%}
+            {%- assign date = startDateMonth | append: '.' | append: startDateYear | append: ' - ' | append: endDateMonth | append: '.' | append: endDateYear -%}
+          {%- else -%}
+            {%- assign date = '' -%}
           {% endif %}
 
           <table class="table-cv">
             <tbody>
               <tr>
                 <td>
-                  <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
+                  <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{- date -}}</span>
                 </td>
               </tr>
               {% capture location %}

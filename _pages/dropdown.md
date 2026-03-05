@@ -1,13 +1,14 @@
 ---
 layout: page
-title: submenus
+title: Research
 nav: true
-nav_order: 8
+nav_order: 1
 dropdown: true
 children:
-  - title: bookshelf
-    permalink: /books/
-  - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: Research interests
+    permalink: /interests
+  - title: Publications
+    permalink: /publications/
+  - title: Projects participation
+    permalink: /projects/
 ---
