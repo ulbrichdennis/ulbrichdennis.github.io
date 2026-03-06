@@ -412,8 +412,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-am-currently-looking-for-a-job-preferably-in-mathematical-teaching-or-research-at-a-university",
-          title: 'I am currently looking for a job, preferably in mathematical teaching or research...',
+            },},{id: "news-i-am-currently-looking-for-a-job-in-mathematical-teaching-or-research-at-a-university",
+          title: 'I am currently looking for a job in mathematical teaching or research at...',
           description: "",
           section: "News",},{id: "projects-dfg-456849348",
           title: 'DFG 456849348',
