@@ -15,7 +15,7 @@ E-Mail: ulbrich.dennis@icloud.com
 
 Responsible for content according to § 18 Abs. 2 MStV: Dennis Ulbrich
 
-Powered by Jekyll with al-folio theme. Hosted by GitHub Pages.
+Powered by Jekyll with al-folio theme. Hosted by GitHub Pages and Squarespace.
 
 
 
