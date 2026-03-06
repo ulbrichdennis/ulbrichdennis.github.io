@@ -31,7 +31,7 @@ I was a postdoc at the <a href="https://www.uni-muenster.de/AMM/en/" target="_bl
 
 Most recently, I worked as a lecturer and research assistant at <a href="https://www.hs-bremen.de/en/" target="_blank">Hochschule Bremen</a>.
 
-Currently, I am looking for a new position in mathematical research or teaching at a university.
+
 
 
 
