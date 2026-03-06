@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am currently looking for a job, preferably in mathematical teaching or research at a university.
+I am currently looking for a job in mathematical teaching or research at a university.
