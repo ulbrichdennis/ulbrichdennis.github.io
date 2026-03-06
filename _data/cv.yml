@@ -19,9 +19,9 @@ cv:
   address:
     #street:
    # city: 
-    region: Niedersachsen, Germany
-    postalCode: 27305
-    countryCode: GER
+    region: 
+    postalCode: 
+    countryCode: 
 
   sections:
     Education:
