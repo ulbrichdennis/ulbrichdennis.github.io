@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false # includes a list of news items
+  enabled: true # includes a list of news items
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   limit: 4 # leave blank to include all the news in the `_news` folder
 
@@ -31,7 +31,7 @@ I was a postdoc at the <a href="https://www.uni-muenster.de/AMM/en/" target="_bl
 
 Most recently, I worked as a lecturer and research assistant at <a href="https://www.hs-bremen.de/en/" target="_blank">Hochschule Bremen</a>.
 
-I am currently looking for a job, preferably in mathematical teaching or research at a university.
+
 
 
 
