@@ -29,7 +29,7 @@ My research deals with different topics of pure and applied mathematics, touchin
 
 I was a postdoc at the <a href="https://www.uni-muenster.de/AMM/en/" target="_blank">Institute for Analysis and Numerics</a> of the <a href="https://www.uni-muenster.de/en/" target="_blank">University of Münster</a> supervised by <a href="https://www.uni-muenster.de/AMM/en/Pirner/index.shtml" target="_blank">Prof. Dr. Marlies Pirner</a> and obtained my PhD (Dr. rer. nat.) in Mathematics at the <a href="https://www.uni-bremen.de/en/" target="_blank">University of Bremen</a> under the supervison of <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html" target="_blank">Prof. Dr. Jens Rademacher</a> and <a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer" target="_blank">Prof. Dr. Marc Keßeböhmer</a>. Most recently, I worked as a lecturer and research assistant at <a href="https://www.hs-bremen.de/en/" target="_blank">Hochschule Bremen</a>.
 
-Currently, I am lokking for a position in mathematical research or teaching. 
+Currently, I am looking for a position in mathematical research or teaching. 
 
 
 
