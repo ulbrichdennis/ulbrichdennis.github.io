@@ -1,6 +1,6 @@
 ---
 layout: post
-date: "present"
+date: present
 inline: true
 related_posts: false
 ---
