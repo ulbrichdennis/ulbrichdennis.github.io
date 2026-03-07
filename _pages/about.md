@@ -31,6 +31,8 @@ I was a postdoc at the <a href="https://www.uni-muenster.de/AMM/en/" target="_bl
 
 Most recently, I worked as a lecturer and research assistant at <a href="https://www.hs-bremen.de/en/" target="_blank">Hochschule Bremen</a>.
 
+For more details and further information, see my [CV](/cv).
+
 
 
 
