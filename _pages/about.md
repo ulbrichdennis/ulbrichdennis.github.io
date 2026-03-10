@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Mathematics
+subtitle: Mathematics <p style="font-size:small">looking for a job </p>
 
 profile:
   align: right
