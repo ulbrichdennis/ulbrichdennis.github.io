@@ -31,7 +31,6 @@ I was a postdoc at the <a href="https://www.uni-muenster.de/AMM/en/" target="_bl
 
 I obtained my PhD (Dr. rer. nat.) in Mathematics at the <a href="https://www.uni-bremen.de/en/" target="_blank">University of Bremen</a> under the supervison of <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html" target="_blank">Prof. Dr. Jens Rademacher</a> and <a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer" target="_blank">Prof. Dr. Marc Keßeböhmer</a>. 
 
-You can find more details on this as well as my further professional experience in my [CV](/cv). Alternatively, just feel free to drop me a line. 
 
 
 
