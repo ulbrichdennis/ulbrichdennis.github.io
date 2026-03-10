@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <section style="font-size:x-small">Mathematics</section>
+subtitle: <section style="font-size:small">Mathematician - looking for a job in mathematical research or teaching</section>
 
 profile:
   align: right
