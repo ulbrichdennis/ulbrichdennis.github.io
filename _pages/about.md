@@ -29,7 +29,7 @@ My research deals with different topics of pure and applied mathematics, touchin
 
 I was a postdoc at the <a href="https://www.uni-muenster.de/AMM/en/" target="_blank">Institute for Analysis and Numerics</a> of the <a href="https://www.uni-muenster.de/en/" target="_blank">University of Münster</a> and obtained my PhD (Dr. rer. nat.) in Mathematics at the <a href="https://www.uni-bremen.de/en/" target="_blank">University of Bremen</a>. 
 
-More details on this as well as further professional experiences can be found in my [CV](/cv). 
+For more details and further information, see my [CV](/cv). 
 
 
 
