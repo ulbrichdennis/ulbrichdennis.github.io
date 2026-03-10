@@ -29,6 +29,19 @@ My research deals with different topics of pure and applied mathematics, touchin
 
 I was a postdoc at the <a href="https://www.uni-muenster.de/AMM/en/" target="_blank">Institute for Analysis and Numerics</a> of the <a href="https://www.uni-muenster.de/en/" target="_blank">University of Münster</a> and obtained my PhD (Dr. rer. nat.) in Mathematics at the <a href="https://www.uni-bremen.de/en/" target="_blank">University of Bremen</a>. 
 
+##Research interests
+
+<ul>
+			<li>Ordinary and partial differential equations and their dynamics</li>
+			<li>Dynamical systems and ergodic theory</li>
+			<li>Kinetic theory and entropy methods</li>
+			<li>Boltzmann equation and its BGK-type approximations</li>
+			<li>Long-time behavior of solutions (hypocoercivity)</li>
+			<li>Physical applications</li>
+			<li>Models of chemical reactions</li>
+</ul>
+
+
 
 
 
