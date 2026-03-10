@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <section style="font-size:small">Mathematics</section>
+subtitle: <section style="font-size:small"><i>Mathematics</i></section>
 
 profile:
   align: right
