@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <i>Mathematics</i>
+# subtitle: <i>Mathematics</i>
 
 profile:
   align: right
@@ -29,7 +29,7 @@ I was a postdoctoral researcher at the <a href="https://www.uni-muenster.de/AMM/
 
 My research deals with different topics of pure and applied mathematics, touching the broad fields of analysis, ergodic theory and dynamical systems. Moreover, I have taught Mathematics courses for undergraduates.
 
-<h5>Research areas/ interests</h5>
+<b>Research areas/ interests</b>
 
 <ul>
 			<li>Ordinary and partial differential equations and their dynamics</li>
