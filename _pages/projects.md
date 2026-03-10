@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Projects participation
+title: Projects
 permalink: /projects/
-description: A list of projects in which I participate(d)
-nav: false
+description: A list of projects in which I participated or still participate
+nav: true
 nav_order: 3
 display_categories: [Ongoing, Past]
 horizontal: false
