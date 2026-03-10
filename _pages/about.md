@@ -27,9 +27,9 @@ latest_posts:
 
 My research deals with different topics of pure and applied mathematics, touching the broad fields of analysis, ergodic theory and dynamical systems. Moreover, I have taught Mathematics courses for undergraduates.
 
-I was a postdoc at the <a href="https://www.uni-muenster.de/AMM/en/" target="_blank">Institute for Analysis and Numerics</a> of the <a href="https://www.uni-muenster.de/en/" target="_blank">University of Münster</a> supervised by <a href="https://www.uni-muenster.de/AMM/en/Pirner/index.shtml" target="_blank">Prof. Dr. Marlies Pirner</a> and obtained my PhD (Dr. rer. nat.) in Mathematics at the <a href="https://www.uni-bremen.de/en/" target="_blank">University of Bremen</a> under the supervison of <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html" target="_blank">Prof. Dr. Jens Rademacher</a> and <a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer" target="_blank">Prof. Dr. Marc Keßeböhmer</a>. 
+I was a postdoc at the <a href="https://www.uni-muenster.de/AMM/en/" target="_blank">Institute for Analysis and Numerics</a> of the <a href="https://www.uni-muenster.de/en/" target="_blank">University of Münster</a> and obtained my PhD (Dr. rer. nat.) in Mathematics at the <a href="https://www.uni-bremen.de/en/" target="_blank">University of Bremen</a>. 
 
-Some more details and further information can be found in my [CV](/cv). 
+More details on this as well as further professional experiences can be found in my [CV](/cv). 
 
 
 
