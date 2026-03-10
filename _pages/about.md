@@ -35,7 +35,7 @@ I was a postdoctoral researcher at the <a href="https://www.uni-muenster.de/AMM/
 
 My research deals with different topics of pure and applied mathematics, touching the broad fields of analysis, ergodic theory and dynamical systems. Moreover, I have taught Mathematics courses for undergraduates.
 
-<h6>Research areas/ interests</h6>
+<h6>Research areas/ interests:</h6>
 
 <ul>
 			<li>Ordinary and partial differential equations and their dynamics</li>
