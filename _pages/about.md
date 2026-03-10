@@ -33,7 +33,7 @@ I was a postdoctoral researcher at the <a href="https://www.uni-muenster.de/AMM/
 
 ----
 
-My research deals with different topics of pure and applied mathematics, touching the broad fields of analysis, ergodic theory and dynamical systems. Moreover, I have taught Mathematics courses for undergraduates.
+My research deals with different topics of pure and applied mathematics, touching the broad fields of analysis, ergodic theory and dynamical systems. 
 
 <h6>Research areas/ interests:</h6>
 
@@ -46,6 +46,8 @@ My research deals with different topics of pure and applied mathematics, touchin
 			<li>Physical applications</li>
 			<li>Models of chemical reactions</li>
 </ul>
+
+Moreover, I have taught Mathematics courses for undergraduates.
 
 
 
