@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My research deals with different topics of pure and applied mathematics, touching the broad fields of analysis, ergodic theory and dynamical systems. Moreover, I have taught some Mathematics courses for undergraduates.
+My research deals with different topics of pure and applied mathematics, touching the broad fields of analysis, ergodic theory and dynamical systems. Moreover, I have taught some Mathematics courses for undergraduates from several disciplines.
 
 I was a postdoc at the <a href="https://www.uni-muenster.de/AMM/en/" target="_blank">Institute for Analysis and Numerics</a> of the <a href="https://www.uni-muenster.de/en/" target="_blank">University of Münster</a> supervised by <a href="https://www.uni-muenster.de/AMM/en/Pirner/index.shtml" target="_blank">Prof. Dr. Marlies Pirner</a>.
 
