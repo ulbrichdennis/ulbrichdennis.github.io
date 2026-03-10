@@ -31,7 +31,7 @@ Currently, I am looking for a job in mathematical research or teaching at a univ
 
 My research deals with different topics of pure and applied mathematics, touching the broad fields of analysis, ergodic theory and dynamical systems. Moreover, I have taught Mathematics courses for undergraduates.
 
-<strong>Research interests:</strong>
+<h6>Research interests</h6>
 
 <ul>
 			<li>Ordinary and partial differential equations and their dynamics</li>
