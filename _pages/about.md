@@ -9,13 +9,13 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
-  #  <p>Send an <a href="mailto:ulbrich.dennis@icloud.com">E-Mail</a></p>
+  # <p>Send an <a href="mailto:ulbrich.dennis@icloud.com">E-Mail</a></p>
       
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   limit: 4 # leave blank to include all the news in the `_news` folder
 
@@ -27,9 +27,11 @@ latest_posts:
 
 My research deals with different topics of pure and applied mathematics, touching the broad fields of analysis, ergodic theory and dynamical systems. Moreover, I have taught Mathematics courses for undergraduates.
 
+Currently, I am looking for a job in mathematical research or teaching. 
+
 I was a postdoctoral researcher at the <a href="https://www.uni-muenster.de/AMM/en/" target="_blank">Institute for Analysis and Numerics</a> of the <a href="https://www.uni-muenster.de/en/" target="_blank">University of Münster</a> and obtained my PhD (Dr. rer. nat.) in Mathematics at the <a href="https://www.uni-bremen.de/en/" target="_blank">University of Bremen</a>. 
 
-<b>Research areas/ interests:</b>
+<h5>Research areas/ interests:</h5>
 
 <ul>
 			<li>Ordinary and partial differential equations and their dynamics</li>
