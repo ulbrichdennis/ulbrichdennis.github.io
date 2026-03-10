@@ -25,6 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+----
+
 Currently, I am looking for a job in mathematical research or teaching at a university.
 
 ----
