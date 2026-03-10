@@ -26,12 +26,10 @@ latest_posts:
 ---
 
 I was a postdoc at the <a href="https://www.uni-muenster.de/AMM/en/" target="_blank">Institute for Analysis and Numerics</a> of the <a href="https://www.uni-muenster.de/en/" target="_blank">University of Münster</a> and obtained my PhD (Dr. rer. nat.) in Mathematics at the <a href="https://www.uni-bremen.de/en/" target="_blank">University of Bremen</a>. 
-
-Currently, I am looking for a job in mathematical research or teaching at a university.
-
+<p class=border">Currently, I am looking for a job in mathematical research or teaching at a university.</p>
 My research deals with different topics of pure and applied mathematics, touching the broad fields of analysis, ergodic theory and dynamical systems. Moreover, I have taught Mathematics courses for undergraduates.
 
-<h6>Research interests</h6>
+<h5>Research interests</h5>
 
 <ul>
 			<li>Ordinary and partial differential equations and their dynamics</li>
