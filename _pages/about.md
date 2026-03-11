@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <i>Mathematician looking for a job</i>
+subtitle: Mathematics
 
 profile:
   align: right
