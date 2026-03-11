@@ -504,6 +504,13 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=b1u5plUAAAAJ", "_blank");
         },
       },{
+        id: 'social-whatsapp',
+        title: 'whatsapp',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://wa.me/491704577817", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
