@@ -412,8 +412,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-currently-i-am-looking-for-a-job-i-would-like-to-return-to-research-or-teaching-at-a-university-in-case-you-have-any-suggestions-please-contact-me-maybe-i-ll-find-something-before-the-summer-semester-26-starts",
-          title: 'Currently, I am looking for a job: I would like to return to...',
+            },},{id: "news-unfortunately-i-am-still-looking-for-a-job-i-would-like-to-return-to-research-or-teaching-at-a-university-in-case-you-have-any-suggestions-please-contact-me-maybe-i-ll-find-something-before-the-summer-semester-26-starts",
+          title: 'Unfortunately, I am still looking for a job: I would like to return...',
           description: "",
           section: "News",},{id: "projects-dfg-456849348",
           title: 'DFG 456849348',
