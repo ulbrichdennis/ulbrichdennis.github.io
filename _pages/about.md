@@ -30,7 +30,7 @@ I was a postdoctoral researcher at the Institute for Analysis and Numerics of th
 
 I obtained my PhD (Dr. rer. nat.) in Mathematics at the University of Bremen under the supervision of Prof. Dr. J. Rademacher and Prof. Dr. M. Keßeböhmer. 
 
-Currently, I am looking for a job in mathematical research or teaching.
+
 
 
 
