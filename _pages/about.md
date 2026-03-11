@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-# subtitle: Former postdoc looking for a job
+subtitle: <i>Mathematician looking for a job</i>
 
 profile:
   align: right
@@ -26,9 +26,7 @@ latest_posts:
 ---
 My research deals with different topics of pure and applied mathematics, touching the broad fields of analysis, ergodic theory and dynamical systems. Moreover, I enjoy teaching and have taught Mathematics courses for undergraduates. 
 
-I was a postdoctoral researcher at  the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/) of the [University of Münster](https://www.uni-muenster.de/en/).
-
-I obtained my PhD (Dr. rer. nat.) in Mathematics at the [University of Bremen](https://www.uni-bremen.de/en/fb3/). 
+I was a postdoctoral researcher at  the [Institute for Analysis and Numerics](https://www.uni-muenster.de/AMM/en/) of the [University of Münster](https://www.uni-muenster.de/en/) and obtained my PhD (Dr. rer. nat.) in Mathematics at the [University of Bremen](https://www.uni-bremen.de/en/fb3/). 
 
 Currently, I am looking for a job in mathematical research or teaching.
 
