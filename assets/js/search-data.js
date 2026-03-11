@@ -483,6 +483,13 @@ ninja.data = [{
           window.open("mailto:%75%6C%62%72%69%63%68.%64%65%6E%6E%69%73@%69%63%6C%6F%75%64.%63%6F%6D", "_blank");
         },
       },{
+        id: 'social-whatsapp',
+        title: 'whatsapp',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://wa.me/491704577817", "_blank");
+        },
+      },{
         id: 'social-arxiv',
         title: 'arXiv',
         section: 'Socials',
@@ -502,13 +509,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=b1u5plUAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-whatsapp',
-        title: 'whatsapp',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://wa.me/491704577817", "_blank");
         },
       },{
       id: 'light-theme',
