@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Looking for a job! I would like to return to university research or teaching. Any offers or suggestions are highly appreciated.
+Looking for a job in university research or teaching. Any suggestions are highly appreciated. 
