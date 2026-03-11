@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <i>Former postdoc at <a href="https://www.uni-muenster.de/MathematicsMuenster/" target="_blank">Mathematics Münster</a></i>
+subtitle: Former postdoc now looking for a job
 
 profile:
   align: right
@@ -26,10 +26,11 @@ latest_posts:
 ---
 My research deals with different topics of pure and applied mathematics, touching the broad fields of analysis, ergodic theory and dynamical systems. Moreover, I enjoy teaching and have taught Mathematics courses for undergraduates. 
 
-I was a postdoctoral researcher at the <a href="https://www.uni-muenster.de/AMM/en/" target="_blank">Institute for Analysis and Numerics</a> of the <a href="https://www.uni-muenster.de/en/" target="_blank">University of Münster</a> supervised by Prof. Dr. M. Pirner.
+I was a postdoctoral researcher at the Institute for Analysis and Numerics of the University of Münster supervised by Prof. Dr. M. Pirner.
 
-I obtained my PhD (Dr. rer. nat.) in Mathematics at the <a href="https://www.uni-bremen.de/en/" target="_blank">University of Bremen</a> under the supervision of Prof. Dr. J. Rademacher and Prof. Dr. M. Keßeböhmer. 
+I obtained my PhD (Dr. rer. nat.) in Mathematics at the University of Bremen under the supervision of Prof. Dr. J. Rademacher and Prof. Dr. M. Keßeböhmer. 
 
+Currently, I am looking for a job in mathematical research or teaching.
 
 
 
