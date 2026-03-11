@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Mathematics; former postdoc at <a href="https://www.uni-muenster.de/MathematicsMuenster/">Mathematics Münster</a>
+subtitle: <i>Former postdoc at <a href="https://www.uni-muenster.de/MathematicsMuenster/">Mathematics Münster</a></i>
 
 profile:
   align: right
