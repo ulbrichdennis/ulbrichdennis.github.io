@@ -18,9 +18,7 @@
 @use "themes";
 @use "layout";
 
-.social .contact-icons {
-    font-size: 2rem
-}
+
 
 // Core styles organized by usage
 @use "typography";
@@ -41,3 +39,7 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+.social .contact-icons {
+    font-size: 2rem
+}
