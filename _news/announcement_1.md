@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Unfortunately, I am still looking for a job: I would like to return to research or teaching at a university, preferably full-time. In case you have any suggestions, please let me know. Thanks!
+Unfortunately, I am still looking for a job: I would like to return to research or teaching at a university, preferably full-time. In case you have any offers or suggestions, please let me know. Thanks!
