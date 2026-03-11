@@ -18,6 +18,10 @@
 @use "themes";
 @use "layout";
 
+.social .contact-icons {
+    font-size: 2rem
+}
+
 // Core styles organized by usage
 @use "typography";
 @use "navbar";
