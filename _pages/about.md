@@ -30,6 +30,8 @@ I was a postdoc at the [Institute for Analysis and Numerics](https://www.uni-mue
 
 More details and further professional experiences can be found in my [Curriculum Vitae](/cv). 
 
+Currently, I am looking for a job in university research or teaching. 
+
 
 
 
