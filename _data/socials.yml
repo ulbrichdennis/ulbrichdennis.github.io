@@ -3,7 +3,7 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 # cv_pdf: /assets/pdf/CV_UlbrichDennis.pdf # path to your CV PDF file
 email: ulbrich.dennis@icloud.com   # your email address
-whatsapp_number: +491704577817 # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+# whatsapp_number: your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 # orcid_userid: 0000-0001-5541-011X # Inspire HEP author ID
 # rss_icon: false # comment this line to hide the RSS icon
 arxiv_id: ulbrich_d_1
