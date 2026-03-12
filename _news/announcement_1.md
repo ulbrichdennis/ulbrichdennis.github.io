@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Looking for a job in university research or teaching. Any suggestions are highly appreciated. 
+I am looking for a job in university research or teaching. Any suggestions are highly appreciated! 
