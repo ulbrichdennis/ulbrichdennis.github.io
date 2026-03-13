@@ -6,7 +6,7 @@ description: A list of projects in which I participated or still participate
 nav: false
 nav_order: 2
 display_categories: [Ongoing, Past]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
