@@ -9,7 +9,7 @@ nav_order: 1
 
 ## Research interest
 
-<ul>
+<ul style="margin-bottom:30px">
 			<li>Ordinary and partial differential equations and their dynamics</li>
 			<li>Dynamical systems and ergodic theory</li>
 			<li>Kinetic theory and entropy methods</li>
@@ -31,10 +31,9 @@ nav_order: 1
 <h4 style="margin-top:100px"><b>Ongoing work</b></h4>
 {% bibliography --file ongoing %}
 
-## Projects participation
-
-
 <h4 style="margin-top:100px"><b>Theses</b></h4>
 {% bibliography --file theses %}
 
 </div>
+
+## Projects participation
