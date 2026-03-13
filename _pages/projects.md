@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A list of projects in which I participated or still participate
+description: A list of projects in which I was involved
 nav: false
 nav_order: 2
 display_categories: [Ongoing, Finished]
