@@ -8,7 +8,7 @@ email: ulbrich.dennis@icloud.com   # your email address
 # rss_icon: false # comment this line to hide the RSS icon
 arxiv_id: ulbrich_d_1
 orcid_id: 0000-0001-5541-011X
-scholar_userid: b1u5plUAAAAJ # your Google Scholar ID
+scholar_userid: b1u5plUAAAAJ # your Google Scholar IDs
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 # custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
