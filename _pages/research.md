@@ -9,7 +9,7 @@ nav_order: 1
 
 ## Research interest
 
-<ul style="margin-bottom:30px">
+<ul style="margin-bottom:50px">
 			<li>Ordinary and partial differential equations and their dynamics</li>
 			<li>Dynamical systems and ergodic theory</li>
 			<li>Kinetic theory and entropy methods</li>
@@ -22,7 +22,7 @@ nav_order: 1
 
 ## Publications
 
-<div class="publications">
+<div class="publications" style="margin-bottom:50px">
   
 <h4><b>Refereed journal articles</b></h4>
 {% bibliography %}
