@@ -9,6 +9,16 @@ nav_order: 1
 
 ## Research interest
 
+<ul>
+			<li>Ordinary and partial differential equations and their dynamics</li>
+			<li>Dynamical systems and ergodic theory</li>
+			<li>Kinetic theory and entropy methods</li>
+			<li>Boltzmann equation and its BGK-type approximations</li>
+			<li>Long-time behavior of solutions (hypocoercivity)</li>
+			<li>Physical applications</li>
+			<li>Models of chemical reactions</li>
+</ul>
+
 
 ## Publications
 
@@ -20,6 +30,8 @@ nav_order: 1
 
 <h4 style="margin-top:100px"><b>Ongoing work</b></h4>
 {% bibliography --file ongoing %}
+
+## Projects participation
 
 
 <h4 style="margin-top:100px"><b>Theses</b></h4>
