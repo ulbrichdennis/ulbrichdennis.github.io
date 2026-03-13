@@ -2,7 +2,7 @@
 layout: page
 title: DFG 384027439
 description: Ergodic theory of nonlinear waves in discrete and continuous excitable media
-img: /assets/img/proj2.jpg 
+<!--- img: /assets/img/proj2.jpg ---> 
 importance: 2
 category: Past
 related_publications: false
