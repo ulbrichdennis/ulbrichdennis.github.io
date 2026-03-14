@@ -412,7 +412,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-am-looking-for-a-job-in-university-research-or-teaching-any-suggestions-are-highly-appreciated",
+            },},{id: "news-math-1-the-first-exam-will-take-place-on-feb-10-2026-and-the-second-on-mar-24-2026-both-at-14-00-in-room-m26a",
+          title: 'Math 1: The first exam will take place on Feb 10, 2026 and...',
+          description: "",
+          section: "News",},{id: "news-i-am-looking-for-a-job-in-university-research-or-teaching-any-suggestions-are-highly-appreciated",
           title: 'I am looking for a job in university research or teaching. Any suggestions...',
           description: "",
           section: "News",},{id: "projects-dfg-456849348",
