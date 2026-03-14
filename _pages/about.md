@@ -30,7 +30,7 @@ I was a postdoc at the [Institute for Analysis and Numerics](https://www.uni-mue
 
 More details and further professional experiences can be found in my [CV](/cv). 
 
-Alternatively, please feel free to contact me.
+Alternatively, please feel free to <a href="mailto:ulbrich.dennis@icloud.com">contact me</a>.
 
 
 
