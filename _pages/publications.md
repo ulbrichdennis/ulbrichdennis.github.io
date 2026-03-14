@@ -25,7 +25,7 @@ toc:
 {% bibliography --file ongoing %}
 
 
-<h4 style="margin-top:100px"><b>Theses</b></h4>
+<h4 style="margin-top:100px"><b>Thesis</b></h4>
 {% bibliography --file theses %}
 
 </div>
