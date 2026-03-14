@@ -412,8 +412,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-math-1-the-first-exam-will-take-place-on-feb-10-2026-and-the-second-on-mar-24-2026-both-at-14-00-in-room-m26a",
-          title: 'Math 1: The first exam will take place on Feb 10, 2026 and...',
+            },},{id: "news-math-1-first-exam-will-take-place-on-feb-10-second-one-on-mar-24-both-at-14-00-room-m26a",
+          title: 'Math 1: First exam will take place on Feb 10, second one on...',
           description: "",
           section: "News",},{id: "news-i-am-looking-for-a-job-in-university-research-or-teaching-any-suggestions-are-highly-appreciated",
           title: 'I am looking for a job in university research or teaching. Any suggestions...',
