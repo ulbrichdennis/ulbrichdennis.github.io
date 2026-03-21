@@ -71,7 +71,7 @@ section { margin-bottom: 3em; }
   nav.show { transform: translateX(0); }
   #nav-toggle {
     display: block;
-    position: fixed;
+    /*position: fixed;*/
     top: 1em;
     left: 1em;
     z-index: 1100;
@@ -79,6 +79,7 @@ section { margin-bottom: 3em; }
     color: white;
     border: none;
     padding: 0.5em 1em;
+    margin-bottom: 15px;
     font-size: 1em;
     cursor: pointer;
   }
@@ -89,7 +90,7 @@ section { margin-bottom: 3em; }
 header {
   display: flex;
   align-items: flex-start; /* align items at top */
-  /*flex-wrap: wrap; */
+  flex-wrap: wrap; 
   gap: 2em;          /* dynamic space between photo and text */
   padding-bottom: 2em; /* dynamic space under header */
 }
