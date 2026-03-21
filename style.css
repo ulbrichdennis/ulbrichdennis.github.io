@@ -89,7 +89,7 @@ header {
   max-width: 90%;     /* scales down on smaller screens */
   height: auto;
   object-fit: cover; 
-  border: 2px solid #0077cc;
+  border: 2px solid gray;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   flex-shrink: 0;     /* prevents shrinking */
 }
