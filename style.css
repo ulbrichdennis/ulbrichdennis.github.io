@@ -85,10 +85,10 @@ header {
   flex-shrink: 0;     /* prevents shrinking */
 }
 
-.profile-photo:hover {
+/*.profile-photo:hover {
   transform: scale(1.08);
   box-shadow: 0 8px 20px rgba(0, 119, 204, 0.4);
-}
+} */
 
 /* Mobile adjustments */
 @media (max-width: 900px) {
