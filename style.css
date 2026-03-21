@@ -55,45 +55,39 @@ section { margin-bottom: 3em; }
 
  
 
-/* Standard: Sidebar versteckt */
-#sidebar {
-  position: fixed;
-  top: 0;
-  left: -250px; /* außerhalb des Bildschirms */
-  width: 250px;
-  height: 100%;
-  background-color: #333;
-  color: #fff;
-  transition: left 0.3s ease;
-  z-index: 1000;
-}
+/* Mobile navigation */
+#nav-toggle { display: none; }
 
-/* Sidebar sichtbar, wenn .show */
-#sidebar.show {
-  left: 0;
-}
-
-/* Hamburger nur auf mobilen Geräten */
-#nav-toggle {
-  display: none;
-}
-
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+  body { flex-direction: column; }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 220px;
+    transform: translateX(-100%);
+    z-index: 1000;
+  }
+  nav.show { transform: translateX(0); }
   #nav-toggle {
     display: block;
     position: fixed;
-    top: 10px;
-    left: 10px;
+    top: 1em;
+    left: 1em;
     z-index: 1100;
+    background: #0077cc;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    margin-bottom: 15px;
+    font-size: 1em;
     cursor: pointer;
-  }
+  }  
 
-  /* Optional: Sidebar nur auf Mobile */
-  #sidebar {
-    left: -250px;
-  }
-}
 
+  main { padding: 2em 1em 2em 1em; }
+} 
 
 /* Header layout with dynamic spacing */
 header {
