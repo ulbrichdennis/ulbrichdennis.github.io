@@ -71,7 +71,7 @@ section { margin-bottom: 3em; }
   nav.show { transform: translateX(0); }
   #nav-toggle {
     display: block;
-    /*position: fixed;*/
+    position: fixed;
     top: 1em;
     left: 1em;
     z-index: 1100;
