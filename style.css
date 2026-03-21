@@ -89,7 +89,7 @@ section { margin-bottom: 3em; }
 header {
   display: flex;
   align-items: flex-start; /* align items at top */
-  flex-wrap: wrap;
+  /*flex-wrap: wrap; */
   gap: 2em;          /* dynamic space between photo and text */
   padding-bottom: 2em; /* dynamic space under header */
 }
@@ -100,7 +100,7 @@ header {
   height: 160px;      /* desktop height */
   max-width: 90%;     /* scales down on smaller screens */
   height: auto;
-  /*object-fit: cover; */
+  object-fit: cover; 
   border: 2px solid #0077cc;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   flex-shrink: 0;     /* prevents shrinking */
