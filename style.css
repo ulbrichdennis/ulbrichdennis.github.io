@@ -1,0 +1,143 @@
+/* General */
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: 'Times New Roman', serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  background-color: #fefefe; /* plain light background */
+}
+
+/* Navigation */
+nav {
+  width: 220px;
+  padding: 2em;
+  background: #f9f9f9;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+
+
+nav a {
+  display: block;
+  margin-bottom: 1em;
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.2s;
+}
+
+nav a.active { color: #0077cc; }
+
+/* Main content */
+main { flex: 1; padding: 2em; }
+
+h1 { margin-top: 0; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2em;
+}
+th, td {
+  padding: 0.5em;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+section { margin-bottom: 3em; }
+
+/* Mobile navigation */
+#nav-toggle { display: none; }
+
+@media (max-width: 900px) {
+  body { flex-direction: column; }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 220px;
+    transform: translateX(-100%);
+    z-index: 1000;
+  }
+  nav.show { transform: translateX(0); }
+  #nav-toggle {
+    display: block;
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    z-index: 1100;
+    background: #0077cc;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  main { padding: 2em 1em 2em 1em; }
+}
+
+/* Header layout with dynamic spacing */
+header {
+  display: flex;
+  align-items: flex-start; /* align items at top */
+  flex-wrap: wrap;
+  gap: 2em;          /* dynamic space between photo and text */
+  padding-bottom: 2em; /* dynamic space under header */
+}
+
+/* Profile photo */
+.profile-photo {
+  width: 250px;       /* desktop width */
+  height: 160px;      /* desktop height */
+  max-width: 90%;     /* scales down on smaller screens */
+  height: auto;
+  object-fit: cover;
+  border: 2px solid #0077cc;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-shrink: 0;     /* prevents shrinking */
+}
+
+.profile-photo:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(0, 119, 204, 0.4);
+}
+
+/* Mobile adjustments */
+@media (max-width: 900px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    padding-bottom: 1.5em;
+  }
+
+  .profile-photo {
+    width: 80%;
+    height: auto;
+  }
+}
+
+/* Scroll fade-in animation */
+section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+ul {
+  list-style-position: outside;
+  padding-left: 15px;
+}
