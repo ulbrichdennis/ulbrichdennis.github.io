@@ -54,37 +54,46 @@ th, td {
 section { margin-bottom: 3em; }
 
  
-/* Mobile navigation */
-#nav-toggle { display: none; }
 
-@media (max-width: 900px) {
-  body { flex-direction: column; }
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 220px;
-    transform: translateX(-100%);
-    z-index: 1000;
-  }
-  nav.show { transform: translateX(0); }
+/* Standard: Sidebar versteckt */
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px; /* außerhalb des Bildschirms */
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+
+/* Sidebar sichtbar, wenn .show */
+#sidebar.show {
+  left: 0;
+}
+
+/* Hamburger nur auf mobilen Geräten */
+#nav-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
   #nav-toggle {
     display: block;
     position: fixed;
-    top: 1em;
-    left: 1em;
+    top: 10px;
+    left: 10px;
     z-index: 1100;
-    background: #0077cc;
-    color: white;
-    border: none;
-    padding: 0.5em 1em;
-    margin-bottom: 15px;
-    font-size: 1em;
     cursor: pointer;
   }
-  main { padding: 2em 1em 2em 1em; }
-} 
+
+  /* Optional: Sidebar nur auf Mobile */
+  #sidebar {
+    left: -250px;
+  }
+}
+
 
 /* Header layout with dynamic spacing */
 header {
