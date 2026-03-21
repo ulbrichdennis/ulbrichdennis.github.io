@@ -22,8 +22,6 @@ nav {
   transition: transform 0.3s ease;
 }
 
-
-
 nav a {
   display: block;
   margin-bottom: 1em;
@@ -54,24 +52,17 @@ th, td {
 section { margin-bottom: 3em; }
 
  
+/* No nobile navigation */
 
-/* Mobile navigation */
-/* #nav-toggle { display: none; }  */
-
-/* Smartphone: Navigation ausblenden */
 @media (max-width: 768px) {
   #sidebar {
-    display: none; /* komplett weg */
+    display: none; 
   }
 
   #nav-toggle {
-    display: none; /* Hamburger-Icon auch ausblenden */
+    display: none; 
   }
 }
-
-
-
-  
 
 /* Header layout with dynamic spacing */
 header {
