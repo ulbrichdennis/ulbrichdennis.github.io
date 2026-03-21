@@ -56,7 +56,7 @@ section { margin-bottom: 3em; }
  
 
 /* Mobile navigation */
-#nav-toggle { display: none; }
+/* #nav-toggle { display: none; }  */
 
 /* Smartphone: Navigation ausblenden */
 @media (max-width: 768px) {
