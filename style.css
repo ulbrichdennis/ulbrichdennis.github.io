@@ -53,36 +53,7 @@ th, td {
 
 section { margin-bottom: 3em; }
 
-/* Mobile navigation */
-#nav-toggle { display: none; }
 
-@media (max-width: 900px) {
-  body { flex-direction: column; }
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 220px;
-    transform: translateX(-100%);
-    z-index: 1000;
-  }
-  nav.show { transform: translateX(0); }
-  #nav-toggle {
-    display: block;
-    position: fixed;
-    top: 1em;
-    left: 1em;
-    z-index: 1100;
-    background: #0077cc;
-    color: white;
-    border: none;
-    padding: 0.5em 1em;
-    font-size: 1em;
-    cursor: pointer;
-  }
-  main { padding: 2em 1em 2em 1em; }
-}
 
 /* Header layout with dynamic spacing */
 header {
