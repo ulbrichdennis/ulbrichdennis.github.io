@@ -58,6 +58,16 @@ section { margin-bottom: 3em; }
 /* Mobile navigation */
 #nav-toggle { display: none; }
 
+/* Smartphone: Navigation ausblenden */
+@media (max-width: 768px) {
+  #sidebar {
+    display: none; /* komplett weg */
+  }
+
+  #nav-toggle {
+    display: none; /* Hamburger-Icon auch ausblenden */
+  }
+}
 @media (max-width: 900px) {
   body { flex-direction: column; }
   nav {
@@ -72,7 +82,7 @@ section { margin-bottom: 3em; }
   nav.show { transform: translateX(0); }
   #nav-toggle {
     display: block;
-    position: relative;
+    position: relativefixed;
     top: 1em;
     left: 1em;
     z-index: 1100;
