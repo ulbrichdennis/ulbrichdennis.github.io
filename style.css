@@ -68,7 +68,7 @@ section { margin-bottom: 3em; }
     display: none; /* Hamburger-Icon auch ausblenden */
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   body { flex-direction: column; }
   nav {
     position: relative;
@@ -81,7 +81,7 @@ section { margin-bottom: 3em; }
   }
   nav.show { transform: translateX(0); }
   #nav-toggle {
-    display: block;
+    display: none;
     position: relativefixed;
     top: 1em;
     left: 1em;
