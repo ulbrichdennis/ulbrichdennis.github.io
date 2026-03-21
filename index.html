@@ -152,7 +152,17 @@
   }));
 
 
-  
+  // Scroll animation for sections
+  const allSections = document.querySelectorAll('main section');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target); // animate once
+      }
+    });
+  }, { threshold: 0.1 });
+  allSections.forEach(section => observer.observe(section));
 </script>
 
 </body>
