@@ -68,36 +68,10 @@ section { margin-bottom: 3em; }
     display: none; /* Hamburger-Icon auch ausblenden */
   }
 }
-@media (max-width: 768px) {
-  body { flex-direction: column; }
-  nav {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 220px;
-    transform: translateX(-100%);
-    z-index: 1000;
-  }
-  nav.show { transform: translateX(0); }
-  #nav-toggle {
-    display: none;
-    position: relativefixed;
-    top: 1em;
-    left: 1em;
-    z-index: 1100;
-    background: #0077cc;
-    color: white;
-    border: none;
-    padding: 0.5em 1em;
-    margin-bottom: 15px;
-    font-size: 1em;
-    cursor: pointer;
-  }  
 
 
-  main { padding: 2em 1em 2em 1em; }
-} 
+
+  
 
 /* Header layout with dynamic spacing */
 header {
