@@ -91,6 +91,7 @@ p {
 /* Lists */
 ul {
   padding-left: 1.2rem;
+  list-style-position: outside;
 }
 
 /* Tables */
