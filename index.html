@@ -139,7 +139,8 @@
 <script>
  // Active link highlighting
   const sections = document.querySelectorAll("main section");
-  const navLinks = document.querySelectorAll("#sidebar a, .mobile-nav a");
+  const navLinks = document.querySelectorAll("nav a");
+
 
   window.addEventListener("scroll", () => {
     let current = "";
@@ -171,13 +172,7 @@
 </script>
 
 
-<nav class="mobile-nav">
-  <a href="#research">Research</a>
-  <a href="#publications">Papers</a>
-  <a href="#projects">Projects</a>
-  <a href="#teaching">Teaching</a>
-  <a href="#cv">CV</a>
-</nav>
+
 
 
 </body>
