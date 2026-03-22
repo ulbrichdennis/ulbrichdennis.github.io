@@ -9,7 +9,7 @@ html {
 
 body {
   margin: 0;
-  max-width: 1200px;
+  /*max-width: 1200px; */
   font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   color: #222;
   background: #ffffff;
