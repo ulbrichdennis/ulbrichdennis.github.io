@@ -18,15 +18,23 @@
 </head>
 <body>
 
-<nav id="sidebar">
+<div class="mobile-header">
+  <a href="#research">Research</a>
+  <a href="#publications">Papers</a>
+  <a href="#projects">Projects</a>
+  <a href="#teaching">Teaching</a>
+  <a href="#cv">CV</a>
+</div>
+
+<div class="container">
+  <nav id="sidebar">
   <a href="#research">Research interests</a>
   <a href="#publications">Publications</a>
   <a href="#projects">Projects participation</a>
   <a href="#teaching">Teaching</a>
   <a href="#cv">Short CV</a>
-  
-  
 </nav>
+
 
 <main>
   
@@ -78,7 +86,7 @@
 
 <ul>
   <li>Discrete hypocoercivity for a nonlinear kinetic reaction model without initial close-to-equilibrium assumption<br>
-  <a href="https://www.math.cuhk.edu.hk/~lliu/"" target="_blank">L. Liu</a>, <a href="https://www.uni-muenster.de/AMM/en/Pirner/index.shtml" target="_blank">M. Pirner</a>, <b>D. Ulbrich</b></li>
+  <a href="https://www.math.cuhk.edu.hk/~lliu/" target="_blank">L. Liu</a>, <a href="https://www.uni-muenster.de/AMM/en/Pirner/index.shtml" target="_blank">M. Pirner</a>, <b>D. Ulbrich</b></li>
 </ul>
 
 <h4>Thesis</h4>
@@ -135,11 +143,13 @@
 </footer>
 
 </main>
+</div> <!-- container -->
+
 
 <script>
  // Active link highlighting
   const sections = document.querySelectorAll("main section");
-  const navLinks = document.querySelectorAll("nav a");
+  const navLinks = document.querySelectorAll("#sidebar a, .mobile-header a");
 
 
   window.addEventListener("scroll", () => {
@@ -153,9 +163,7 @@
       if (link.getAttribute("href") === "#" + current) link.classList.add("active");
     });
   });
-  navLinks.forEach(link => link.addEventListener('click', () => {
-    if(window.innerWidth <= 900) sidebar.classList.remove('show');
-  }));
+  
 
 
   // Scroll animation for sections
