@@ -139,7 +139,8 @@
 <script>
  // Active link highlighting
   const sections = document.querySelectorAll("main section");
-  const navLinks = document.querySelectorAll("nav a");
+  const navLinks = document.querySelectorAll("#sidebar a, .mobile-nav a");
+
   window.addEventListener("scroll", () => {
     let current = "";
     sections.forEach(section => {
@@ -168,6 +169,16 @@
   }, { threshold: 0.1 });
   allSections.forEach(section => observer.observe(section));
 </script>
+
+
+<nav class="mobile-nav">
+  <a href="#research">Research</a>
+  <a href="#publications">Papers</a>
+  <a href="#projects">Projects</a>
+  <a href="#teaching">Teaching</a>
+  <a href="#cv">CV</a>
+</nav>
+
 
 </body>
 </html>
