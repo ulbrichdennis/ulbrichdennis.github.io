@@ -152,49 +152,5 @@ td, th {
   }
 }
 
-#backToTop {
-  position: fixed;
-  right: 25px;
-  bottom: 50px;
 
-  width: 36px;
-  height: 36px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border-radius: 50%;
-  border: 1px solid rgba(0,0,0,0.08);
-  background: transparent;
-  border: none;
-
-  color: #333;
-  cursor: pointer;
-
-  opacity: 0;
-  transform: translateY(10px);
-  transition: all 0.25s ease;
-
-  z-index: 999;
-}
-
-#backToTop.show {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-#backToTop:hover {
-  background: rgba(0,0,0,0.08);
-  transform: translateY(-2px);
-}
-
-/* Pfeil */
-#backToTop svg {
-  width: 16px;
-  height: 16px;
-  stroke: #333;
-  stroke-width: 2;
-  fill: none;
-}
 

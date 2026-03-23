@@ -185,39 +185,8 @@ window.addEventListener("scroll", () => {
   }
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-  const backToTop = document.getElementById("backToTop");
-
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 120) {
-      backToTop.classList.add("show");
-    } else {
-      backToTop.classList.remove("show");
-    }
-  });
-
-  backToTop.addEventListener("click", () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-  });
-});
 </script>
 
-
-
-
-
-
-
-
-
-<button id="backToTop" aria-label="Back to top">
-  <svg viewBox="0 0 24 24">
-    <path d="M6 15l6-6 6 6"/>
-  </svg>
-</button>
 
 </body>
 </html>
