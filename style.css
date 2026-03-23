@@ -155,26 +155,26 @@ td, th {
 #backToTop {
   position: fixed;
   bottom: 40px;
-  right: 20px;
+  right: 30px;
   background: none;
   border: none;
-  font-size: 24px;
-  color: #666;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.7); /* ← jetzt schwarz */
   cursor: pointer;
-  display: none;
   opacity: 0;
-  transform: translateY(10px);
-  transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
+  transform: translateY(15px);
+  transition: all 0.3s ease;
+  z-index: 999;
 }
 
 #backToTop:hover {
-  color: #000;
+  color: #555; /* leicht heller beim Hover */
   transform: translateY(0);
 }
 
 #backToTop.show {
-  display: block;
   opacity: 1;
   transform: translateY(0);
 }
+
 
