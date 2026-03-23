@@ -29,7 +29,9 @@ nav {
   min-height: 100vh;
 }
 
-
+a{
+  color:#0077cc;
+}
 
 
 /* Sidebar */
