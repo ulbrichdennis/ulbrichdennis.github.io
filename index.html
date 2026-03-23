@@ -195,12 +195,11 @@ window.addEventListener("scroll", () => {
   }
 });
 
-button.addEventListener("click", () => {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth"
-  });
-});
+<button id="backToTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24">
+    <path d="M6 15l6-6 6 6"/>
+  </svg>
+</button>
 </script>
 
 
