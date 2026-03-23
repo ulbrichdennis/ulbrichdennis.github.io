@@ -153,7 +153,6 @@ td, th {
 }
 
 #backToTop {
-  opacity: 1 !important;
   position: fixed;
   bottom: 40px;
   right: 30px;
