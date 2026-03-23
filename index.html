@@ -180,24 +180,30 @@
 <script>
 const button = document.getElementById("backToTop");
 
-window.onscroll = function() {
-  if (document.documentElement.scrollTop > 200) {
-    button.style.display = "block";
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 200) {
+    button.classList.add("show");
   } else {
-    button.style.display = "none";
+    button.classList.remove("show");
   }
-};
+});
 
-button.onclick = function() {
+button.addEventListener("click", () => {
   window.scrollTo({
     top: 0,
     behavior: "smooth"
   });
-};
+});
 </script>
 
 
-<button id="backToTop">↑</button>
+
+<button id="backToTop" aria-label="Nach oben">
+  <svg width="24" height="24" viewBox="0 0 24 24">
+    <path d="M12 5l-7 7h4v7h6v-7h4z" fill="currentColor"/>
+  </svg>
+</button>
+
 
 
 </body>
