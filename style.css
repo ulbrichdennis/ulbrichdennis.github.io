@@ -152,46 +152,5 @@ td, th {
   }
 }
 
-#backToTop {
-  position: fixed;
-  bottom: 40px;
-  right: 30px;
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 0.04);
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  color: #333;
-  cursor: pointer;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  opacity: 0;
-  transform: translateY(15px) scale(0.9);
-  transition: all 0.25s ease;
-
-  z-index: 999;
-}
-
-#backToTop.show {
-  opacity: 1;
-  transform: translateY(0) scale(1);
-}
-
-#backToTop:hover {
-  background: rgba(0, 0, 0, 0.08);
-  transform: translateY(-2px) scale(1.05);
-}
-
-/* Pfeil schöner machen */
-#backToTop svg {
-  width: 18px;
-  height: 18px;
-  stroke: #333;
-  stroke-width: 2;
-  fill: none;
-}
 
 
