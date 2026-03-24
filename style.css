@@ -160,20 +160,20 @@ td, th {
 }
 
 .social-icons .icon {
+  background: #f5f5f5;
+  color: #222; /* Farbe für die Icons - dunkler */
+  font-size: 20px; /* Größe anpassen */
   display: flex;
   align-items: center;
   justify-content: center;
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: #f5f5f5;
-  color: #444;
-  font-size: 18px;
   text-decoration: none;
-  transition: all 0.25s ease;
+  transition: all 0.3s ease;
 }
 
-/* Hover Effekt */
+/* Hover-Effekt für bessere Sichtbarkeit */
 .social-icons .icon:hover {
   transform: translateY(-3px);
   background: #0077cc;
