@@ -205,4 +205,16 @@ td, th {
   background: #666;
 }
 
+/* Sehr dezenter Hintergrund für den gesamten Body */
+body {
+  background-color: #f9f9f9; /* Sehr helles Grau */
+  background-image: url('https://www.transparenttextures.com/patterns/white-diamond-pattern.png'); /* Sehr dezentes Muster */
+  background-repeat: repeat; /* Wiederholt sich leicht, wenn der Inhalt länger ist */
+}
+
+/* Optional: Noch leichtere Hintergrundstruktur für den Header */
+header {
+  background-color: #f1f1f1; /* Helles Grau im Header */
+  padding: 2rem 0;
+}
 
