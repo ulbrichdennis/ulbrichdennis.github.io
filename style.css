@@ -159,6 +159,10 @@ td, th {
   gap: 10px;
 }
 
+.social-icons i {
+  font-size: 22px;
+}
+
 .social-icons .icon {
   background: #f5f5f5;
   color: #222; /* Farbe für die Icons - dunkler */
