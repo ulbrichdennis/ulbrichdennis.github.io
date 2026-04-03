@@ -15,9 +15,12 @@ body {
   background: #ffffff;
 }
 
-a {
-  color: #0077cc;
+nav {
+  width: 200px; /* vorher 220px */
+  padding: 1.5em; /* etwas weniger */
+  
 }
+
 
 /* Layout */
 .container {
@@ -26,10 +29,10 @@ a {
   min-height: 100vh;
 }
 
-nav {
-  width: 200px;
-  padding: 1.5em;
+a{
+  color:#0077cc;
 }
+
 
 /* Sidebar */
 #sidebar {
@@ -53,33 +56,25 @@ nav {
   color: #0077cc;
 }
 
-/* Main */
+
+
 main {
-  padding: 1.5em 0em;
+  
+  padding: 1.5em 0em; /* oben/unten | links/rechts */
   max-width: 900px;
-  flex: 1;
+  flex:1;
 }
+
 
 /* Header */
 header {
   margin-bottom: 2rem;
 }
 
-/* ✅ NEW: Flex layout for header */
-.header-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-}
-
-.header-text {
-  flex: 1;
-}
-
 .profile-photo {
   width: 180px;
   border-radius: 8px;
+  margin-top: 1rem;
 }
 
 /* Sections */
@@ -149,20 +144,15 @@ td, th {
     color: #0077cc;
   }
 
-  /* ✅ Stack header on mobile */
-  .header-content {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+  
 
   .profile-photo {
     width: 100%;
     max-width: 300px;
-    margin-top: 1rem;
   }
 }
 
-/* Social Icons */
+/* Social Icons modern */
 .social-icons {
   margin-top: 12px;
   display: flex;
@@ -175,8 +165,8 @@ td, th {
 
 .social-icons .icon {
   background: #f5f5f5;
-  color: #222;
-  font-size: 20px;
+  color: #222; /* Farbe für die Icons - dunkler */
+  font-size: 20px; /* Größe anpassen */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -187,13 +177,14 @@ td, th {
   transition: all 0.3s ease;
 }
 
+/* Hover-Effekt für bessere Sichtbarkeit */
 .social-icons .icon:hover {
   transform: translateY(-3px);
   background: #0077cc;
   color: white;
 }
 
-/* Individual hover colors */
+/* Individuelle Farben */
 .social-icons .orcid:hover {
   background: #a6ce39;
 }
@@ -213,3 +204,6 @@ td, th {
 .social-icons .email:hover {
   background: #666;
 }
+
+
+
