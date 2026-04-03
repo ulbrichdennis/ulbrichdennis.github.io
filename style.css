@@ -20,7 +20,7 @@ body{
   padding:2rem;
 }
 
-/* Hero */
+/* HERO */
 .hero{
   display:grid;
   grid-template-columns:150px 1fr;
@@ -43,27 +43,44 @@ h1{
   color:var(--muted);
 }
 
+/* SOCIAL ICONS (dein Style) */
 .social{
-  margin-top:1rem;
+  margin-top:12px;
   display:flex;
   gap:10px;
 }
 
+.social i{
+  font-size:22px;
+}
+
 .icon{
-  width:36px;
-  height:36px;
-  border-radius:50%;
-  background:#eee;
+  background:#f5f5f5;
+  color:#222;
+  font-size:20px;
   display:flex;
   align-items:center;
   justify-content:center;
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  text-decoration:none;
+  transition:all 0.3s ease;
 }
 
 .icon:hover{
-  background:var(--accent);
+  transform:translateY(-3px);
+  background:#1f4ea3;
   color:white;
 }
 
+.icon.orcid:hover{ background:#a6ce39; }
+.icon.linkedin:hover{ background:#0077b5; }
+.icon.scholar:hover{ background:#4285f4; }
+.icon.arxiv:hover{ background:#b31b1b; }
+.icon.email:hover{ background:#666; }
+
+/* BUTTON */
 .btn{
   display:inline-block;
   margin-top:1rem;
@@ -74,7 +91,7 @@ h1{
   text-decoration:none;
 }
 
-/* Sections */
+/* SECTIONS */
 section{
   margin-bottom:3rem;
 }
@@ -102,7 +119,7 @@ section{
   margin-bottom:0.5rem;
 }
 
-/* Mobile nav */
+/* MOBILE NAV */
 .mobile-nav{
   display:none;
 }
@@ -124,7 +141,7 @@ section{
   }
 }
 
-/* Dark mode */
+/* DARK MODE */
 body.dark{
   --bg:#111;
   --text:#eee;
