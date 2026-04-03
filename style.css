@@ -198,3 +198,30 @@ body.dark{
   --text:#eee;
   --card:#1a1a1a;
 }
+
+.mobile-nav{
+  display:none;
+}
+
+@media(max-width:900px){
+  .mobile-nav{
+    display:flex;
+    justify-content:space-around;
+    position:sticky;
+    top:0;
+    background:var(--card);
+    padding:0.6rem;
+    border-bottom:1px solid #eee;
+    z-index:1000;
+  }
+
+  .mobile-nav a{
+    font-size:0.9rem;
+    color:var(--muted);
+    text-decoration:none;
+  }
+
+  .mobile-nav a:hover{
+    color:var(--text);
+  }
+}
