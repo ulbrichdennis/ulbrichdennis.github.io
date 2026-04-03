@@ -21,6 +21,10 @@
 <!-- Academicons (für arXiv, ORCID, Scholar) -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
 
+<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+<script src="https://tikzjax.com/v1/tikzjax.js"></script>
+
+
 </head>
 <body>
 
@@ -35,6 +39,31 @@
 <div class="container">
   <nav id="sidebar"><br>
     <h5>Happy Easter Days!</h5><hr>
+
+<script type="text/tikz">
+  \begin{tikzpicture}[use Hobby shortcut]
+    \node[above,xshift=-3.5cm,yshift=-1.5cm] at (0.5,1){Easter Egg 1};
+    % path clipping
+    \clip[scale=-6]([closed=true]0.5,0.1) .. (0.775,0.35) .. (0.5,1) .. (0.225,0.35) .. (0.5,0.1);
+    % shading
+    \shade[easter bg color=orange,scale=-6]([closed=true]0.5,0.1) .. (0.775,0.35) .. (0.5,1) .. (0.225,0.35) .. (0.5,0.1);
+
+    % colored paths
+    \draw[double path=5pt colored by orange!80!yellow and yellow,scale=-6] (0.775,0.35) .. (0.735,0.35)  .. (0.65,0.3) .. (0.45,0.4) .. (0.235,0.355) .. (0.225,0.35);
+    \draw[double path=5pt colored by orange!80!yellow and yellow,scale=-6] (0.9,0.5) .. (0.775,0.55)  .. (0.55,0.5) .. (0.45,0.6) .. (0.235,0.55) .. (0.1,0.5);
+    \draw[double path=5pt colored by orange!80!yellow and yellow,scale=-6] (0.9,0.7) .. (0.775,0.75)  .. (0.55,0.7) .. (0.45,0.8) .. (0.235,0.75) .. (0.1,0.7);
+
+    % stars
+    \draw[easter decoration 1,scale=-6] (0.775,0.25) .. (0.735,0.25)  .. (0.65,0.2) .. (0.45,0.3) .. (0.235,0.255) .. (0.225,0.25);
+    \draw[easter decoration 1,scale=-6] (0.9,0.4) .. (0.775,0.45)  .. (0.55,0.4) .. (0.45,0.5) .. (0.235,0.45) .. (0.1,0.4);
+    \draw[easter decoration 1,scale=-6] (0.9,0.6) .. (0.775,0.65)  .. (0.55,0.6) .. (0.45,0.7) .. (0.235,0.65) .. (0.1,0.6);
+    \draw[easter decoration 1,scale=-6] (0.9,0.8) .. (0.775,0.85)  .. (0.55,0.8) .. (0.45,0.9) .. (0.235,0.85) .. (0.1,0.8);
+
+    % draw again the border
+    \draw[scale=-6]([closed=true]0.5,0.1) .. (0.775,0.35) .. (0.5,1) .. (0.225,0.35) .. (0.5,0.1);
+\end{tikzpicture}
+</script>
+
   <a href="#research">Research interests</a>
   <a href="#publications">Publications</a>
   <a href="#projects">Projects</a>
