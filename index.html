@@ -10,6 +10,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
+
 </head>
 
 <body>
@@ -99,7 +100,6 @@ My research focuses on nonlinear evolution equations with an emphasis on dynamic
 
 </section>
 
-<!-- TEACHING -->
 <section id="teaching">
 <h3 class="section-title">Teaching & Teaching Profile</h3>
 
@@ -143,6 +143,8 @@ I am strongly committed to high-quality undergraduate teaching and to long-term 
 </div>
 </div>
 
+<button id="topBtn" onclick="scrollToTop()">↑</button>
+
 <script>
 // Dark mode
 function toggleDark(){
@@ -179,6 +181,21 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+
+// Back to top visibility
+const topBtn = document.getElementById("topBtn");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    topBtn.style.display = "block";
+  } else {
+    topBtn.style.display = "none";
+  }
+});
+
+function scrollToTop(){
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
 </script>
 
 </body>

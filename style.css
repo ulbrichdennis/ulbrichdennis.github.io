@@ -156,6 +156,28 @@ section{
   border:none;
 }
 
+/* Back to top button */
+#topBtn{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  width:45px;
+  height:45px;
+  border:none;
+  border-radius:50%;
+  background:#1f4ea3;
+  color:white;
+  font-size:18px;
+  cursor:pointer;
+  display:none;
+  box-shadow:0 4px 10px rgba(0,0,0,0.2);
+  transition:0.3s;
+}
+
+#topBtn:hover{
+  transform:translateY(-3px);
+}
+
 /* Responsive */
 @media(max-width:900px){
   .layout{
