@@ -1,26 +1,43 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+}
 
-* { box-sizing: border-box; }
-
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
+  max-width: 950px;    
   font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  color: #1a1a1a;
-  background: linear-gradient(180deg, #f4f6f9 0%, #e9eef5 100%);
+  color: #222;
+  background: #ffffff;
 }
+
+nav {
+  width: 200px; /* vorher 220px */
+  padding: 1.5em; /* etwas weniger */
+  
+}
+
 
 /* Layout */
 .container {
   display: grid;
-  grid-template-columns: 260px 1fr;
+  grid-template-columns: 240px 1fr;
   min-height: 100vh;
 }
+
+a{
+  color:#0077cc;
+}
+
 
 /* Sidebar */
 #sidebar {
   padding: 2rem 1.5rem;
-  border-right: 1px solid #e0e6ed;
+  border-right: 1px solid #eee;
   position: sticky;
   top: 0;
   height: 100vh;
@@ -31,66 +48,125 @@ body {
   display: block;
   margin-bottom: 1rem;
   text-decoration: none;
-  color: #4a5568;
+  color: #555;
   font-weight: 500;
 }
 
-#sidebar a.active { color: #1a73e8; }
+#sidebar a.active {
+  color: #0077cc;
+}
 
-/* Main Card */
+
+
 main {
-  margin: 2rem;
-  padding: 2rem;
+  
+  padding: 1.5em 0em; /* oben/unten | links/rechts */
   max-width: 900px;
-  background: white;
-  border-radius: 14px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  flex:1;
 }
 
-/* Sections animation */
-section {
-  margin-bottom: 3rem;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: all 0.6s ease;
-}
-
-section.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Hover */
-main section {
-  padding: 1rem;
-  border-radius: 10px;
-  transition: all 0.3s ease;
-}
-
-main section:hover {
-  background: rgba(0,0,0,0.02);
-}
 
 /* Header */
+header {
+  margin-bottom: 2rem;
+}
+
 .profile-photo {
   width: 180px;
-  border-radius: 10px;
+  border-radius: 8px;
   margin-top: 1rem;
 }
 
-/* Links */
-a { color: #1a73e8; }
+/* Sections */
+section {
+  margin-bottom: 3rem;
+}
 
-/* Social */
+h2, h3 {
+  margin-bottom: 0.5rem;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Lists */
+ul {
+  padding-left: 1.2rem;
+  list-style-position: outside;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+/* Mobile Top Nav */
+.mobile-header {
+  display: none;
+}
+
+/* 📱 MOBILE */
+@media (max-width: 768px) {
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  #sidebar {
+    display: none;
+  }
+
+  .mobile-header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid #eee;
+    padding: 0.5rem;
+    justify-content: space-around;
+    z-index: 1000;
+  }
+
+  .mobile-header a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #555;
+  }
+
+  .mobile-header a.active {
+    color: #0077cc;
+  }
+
+  
+
+  .profile-photo {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* Social Icons modern */
 .social-icons {
   margin-top: 12px;
   display: flex;
   gap: 10px;
 }
 
+.social-icons i {
+  font-size: 22px;
+}
+
 .social-icons .icon {
-  background: #f1f5f9;
-  color: #1a1a1a;
+  background: #f5f5f5;
+  color: #222; /* Farbe für die Icons - dunkler */
+  font-size: 20px; /* Größe anpassen */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -98,37 +174,36 @@ a { color: #1a73e8; }
   height: 42px;
   border-radius: 50%;
   text-decoration: none;
-  transition: all 0.25s ease;
+  transition: all 0.3s ease;
 }
 
+/* Hover-Effekt für bessere Sichtbarkeit */
 .social-icons .icon:hover {
   transform: translateY(-3px);
-  background: #1a73e8;
+  background: #0077cc;
   color: white;
 }
 
-/* Dark Mode */
-#darkModeToggle {
-  margin-top: 10px;
-  padding: 6px 10px;
-  border: none;
-  border-radius: 6px;
-  background: #e5e7eb;
-  cursor: pointer;
+/* Individuelle Farben */
+.social-icons .orcid:hover {
+  background: #a6ce39;
 }
 
-body.dark {
-  background: linear-gradient(180deg, #0f172a, #1e293b);
-  color: #e5e7eb;
+.social-icons .linkedin:hover {
+  background: #0077b5;
 }
 
-body.dark main { background: #111827; }
-body.dark #sidebar { background: #0f172a; border-right: 1px solid #1f2937; }
-body.dark a { color: #60a5fa; }
-
-/* Mobile */
-@media (max-width: 768px) {
-  .container { grid-template-columns: 1fr; }
-  #sidebar { display: none; }
-  main { margin: 1rem; padding: 1.5rem; }
+.social-icons .scholar:hover {
+  background: #4285f4;
 }
+
+.social-icons .arxiv:hover {
+  background: #b31b1b;
+}
+
+.social-icons .email:hover {
+  background: #666;
+}
+
+
+

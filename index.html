@@ -1,69 +1,219 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dr. Dennis Ulbrich</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Dennis Ulbrich</title>
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
+  <link rel="stylesheet" href="style.css">
 
-<link rel="stylesheet" href="style.css">
+  <!-- MathJax -->
+  <script type="text/javascript" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <!-- jsPDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <!-- Font Awesome (für LinkedIn und andere) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></script>
+<!-- Academicons (für arXiv, ORCID, Scholar) -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
 
 </head>
-
 <body>
 
-<div class="container">
-<nav id="sidebar">
-<h4>Navigation</h4>
-<a href="#research">Research</a>
-<a href="#publications">Publications</a>
-<a href="#projects">Projects</a>
-<a href="#teaching">Teaching</a>
-<a href="#cv">CV</a>
+<div class="mobile-header">
+  <a href="#research">Research</a>
+  <a href="#publications">Publications</a>
+  <a href="#projects">Projects</a>
+  <a href="#teaching">Teaching</a>
+  <a href="#cv">CV</a>
+</div>
 
-<button id="darkModeToggle">🌙</button>
+<div class="container">
+  <nav id="sidebar"><br><br>
+    <h4>Navigation</h4>
+  <a href="#research">Research interests</a>
+  <a href="#publications">Publications</a>
+  <a href="#projects">Projects</a>
+  <a href="#teaching">Teaching</a>
+  <a href="#cv">Short CV</a>
 </nav>
 
+
 <main>
+  
+  <header>
+    <div>
+       <h2>Dr. Dennis Ulbrich</h2>
+      <img src="/img/Ulbrich_portrait.jpeg" alt="Dr. Dennis Ulbrich" class="profile-photo"> 
+      
+      <!-- <p><a href="https://orcid.org/0000-0001-5541-011X" target="_blank">ORCID: 0000-0001-5541-011X </a></p> 
+      <p><a href="mailto:ulbrich.dennis@icloud.com">E-Mail</a> | <a href="https://arxiv.org/a/ulbrich_d_1.html" target="_blank">arXiv</a> | <a href="https://scholar.google.com/citations?user=b1u5plUAAAAJ" target="_blank">Google Scholar</a> | <a href="https://www.linkedin.com/in/dr-dennis-ulbrich-5369773b8/" target="_blank">LinkedIn</a></p> -->
+    <div class="social-icons">
+  <a href="mailto:ulbrich.dennis@icloud.com" title="Email" class="icon email">
+    <i class="fa-solid fa-envelope"></i>
+  </a>
 
-<header>
-<h2>Dr. Dennis Ulbrich</h2>
-<img src="/img/Ulbrich_portrait.jpeg" class="profile-photo">
+  <a href="https://arxiv.org/a/ulbrich_d_1.html" target="_blank" title="arXiv" class="icon arxiv">
+    <i class="ai ai-arxiv"></i>
+  </a>
 
-<div class="social-icons">
-<a href="#" class="icon"><i class="fa-solid fa-envelope"></i></a>
+  <a href="https://orcid.org/0000-0001-5541-011X" target="_blank" title="ORCID" class="icon orcid">
+    <i class="ai ai-orcid"></i>
+  </a>
+
+  <a href="https://scholar.google.com/citations?user=b1u5plUAAAAJ" target="_blank" title="Google Scholar" class="icon scholar">
+    <i class="ai ai-google-scholar"></i>
+  </a>
+
+  <a href="https://www.linkedin.com/in/dr-dennis-ulbrich-5369773b8/" target="_blank" title="LinkedIn" class="icon linkedin">
+    <i class="fa-brands fa-linkedin"></i>
+  </a>
 </div>
 
-</header>
+    </div>
+  </header>
 
-<section id="research"><h3>Research</h3></section>
-<section id="publications"><h3>Publications</h3></section>
-<section id="projects"><h3>Projects</h3></section>
-<section id="teaching"><h3>Teaching</h3></section>
-<section id="cv"><h3>CV</h3></section>
+ <section>
+  <i>About.</i> Mathematician with research focus in nonlinear analysis, dynamical systems, ergodic theory and kinetic theory; several years of teaching experience in undergraduate mathematics, student supervision, and academic course organization
+ </section>
+
+  <section id="research">
+    <h3>Research interests</h3>
+    <ul>
+<li>Ordinary and partial differential equations and their dynamics</li>
+<li>Nonlinear wave solutions and their ergodic properties</li>
+<li>Kinetic theory, in particular entropy methods</li>
+<li>Boltzmann equation and its BGK-type approximations</li>
+<li>Long-time behavior of solutions (hypocoercivity)</li>
+<li>Physical applications</li>
+<li>Models of chemical reactions</li>
+</ul>
+  </section>
+
+  <section id="publications">
+    <h3>Publications</h3>
+
+  <h4>Peer-reviewed journal articles</h4>
+
+<ul>
+  <li><a href="https://sites.google.com/view/antoinepauthier/accueil" target="_blank">A. Pauthier</a>, <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html" target="_blank">J.D.M. Rademacher</a>, <i>D. Ulbrich</i><br>
+      Weak and strong interaction of excitation kinks in scalar parabolic equations<br>
+      J Dyn Diff Equat35, 2199–2235, (2023). [<a href="https://link.springer.com/article/10.1007/s10884-021-10040-2" target="_blank">DOI</a> | <a href="https://arxiv.org/abs/2012.00309" target="_blank">arXiv</a>]</li>
+  <li><a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer" target="_blank">M. Kesseböhmer</a>, <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html" target="_blank">J.D.M. Rademacher</a>, <i>D. Ulbrich</i><br>
+      Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata<br>
+      Ergodic Theory and Dynamical Systems, 41 (2020), no. 5, 1397–1430. [<a href="https://www.cambridge.org/core/journals/ergodic-theory-and-dynamical-systems/article/dynamics-and-topological-entropy-of-1d-greenberghastings-cellular-automata/1DBE1EC4EC7BE9F216E9E35C214F2F3C" target="_blank">DOI</a> | <a href="https://arxiv.org/abs/1903.02459" target="_blank">arXiv</a>]</li>
+</ul>
+
+<h4>Ongoing work</h4>
+
+<ul>
+  <li>Discrete hypocoercivity for a nonlinear kinetic reaction model without initial close-to-equilibrium assumption<br>
+  <a href="https://www.math.cuhk.edu.hk/~lliu/" target="_blank">L. Liu</a>, <a href="https://www.uni-muenster.de/AMM/en/Pirner/index.shtml" target="_blank">M. Pirner</a>, <i>D. Ulbrich</i></li>
+</ul>
+
+<h4>Thesis</h4>
+
+<ul>
+  <li>D. Ulbrich<br>
+      Ergodic theory of nonlinear waves in discrete and continuous excitable media<br>
+      Diss., 2021. [<a href="https://media.suub.uni-bremen.de/entities/publication/f6d1f31c-f9e0-4fcf-9d86-0ee66235e4d4" target="_blank">DOI</a>]</li>
+</ul>
+
+  </section>
+
+ <section id="projects">
+  <h3>Projects</h3>
+<p>Projects in which I participate(d):</p>
+<ul>
+  <li><a href="https://gepris.dfg.de/gepris/projekt/456849348?language=en" target="_blank">DFG 456849348</a> <br>
+      Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation</li>
+   <li><a href="https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2" target="_blank">DFG 384027439</a><br>
+       Ergodic theory of nonlinear waves in discrete and continuous excitable media</li>   
+</ul>
+ </section> 
+
+ <section id="teaching">
+  <h3>Teaching</h3>
+  <p>Undergraduate mathematics (including large-scale service courses); including student supervision and academic course organization </p>
+  <ul>
+<li>Winter 2024/2025: Mathematik 1 (lecture + tutorial), Hochschule Bremen, School of Nature and Engineering</li>
+<li>Spring 2022: Finite Mathematics (lecture + tutorial), Jacobs University Bremen, Mathematical Sciences</li>
+<li>Spring 2022: Introduction to dynamical systems (pro-seminar), Jacobs University Bremen, Mathematical Sciences</li>
+</ul>
+ </section>
+
+  <section id="cv">
+    <h3>Short CV</h3>
+<ul>
+ <li>since May 2025: Tutoring first-year students in Mathematics and related areas</li> 
+<li>Feb 2025 - May 2025: Research assistant at Hochschule Bremen</li>
+<li>Oct 2024 - Mar 2025: Lecturer in Mathematics at Hochschule Bremen</li>
+<li>Jun 2023 - Jun 2024: Postdoctoral researcher at University of Münster (<a href="https://www.uni-muenster.de/AMM/en/index.shtml" target="_blank">Institute for Analysis and Numerics</a>); supervision: <a href="https://www.uni-muenster.de/AMM/en/Pirner/index.shtml" target="_blank">M. Pirner</a></li>
+<li>Sep 2022 - Feb 2023: Internship (IT sector)</li>
+<li>Jan 2022 - Jun 2022: Lecturer in Mathematics at Jacobs University Bremen</li>  
+<li>Apr 2017 - Sep 2021: PhD (Dr. rer. nat.) in Mathematics at University of Bremen, cf. <a href="https://www.mathgenealogy.org/id.php?id=277103" target="_blank">MGP</a>; supervision: <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html" target="_blank">J. Rademacher</a>, <a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer" target="_blank">M. Keßeböhmer</a></li>
+</ul>
+    
+</section>
+
+  
+ 
+<footer style="font-size:small">
+  &copy; 2026 D. Ulbrich - Last updated: Mar 13, 2026 
+<!--  <a href="legal-notice.html">Legal Notice</a> | <a href="privacy.html">Privacy Policy</a>  -->
+</footer>
 
 </main>
-</div>
+</div> <!-- container -->
+
 
 <script>
-const sections = document.querySelectorAll("section");
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if(entry.isIntersecting){
-      entry.target.classList.add("visible");
-    }
-  });
-});
-sections.forEach(sec => observer.observe(sec));
+ // Active link highlighting
+  const sections = document.querySelectorAll("main section");
+  const navLinks = document.querySelectorAll("#sidebar a, .mobile-header a");
 
-const toggle = document.getElementById("darkModeToggle");
-toggle.addEventListener("click", () => {
-  document.body.classList.toggle("dark");
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 100;
+      if (pageYOffset >= sectionTop) current = section.getAttribute("id");
+    });
+    navLinks.forEach(link => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === "#" + current) link.classList.add("active");
+    });
+  });
+  
+
+
+  // Scroll animation for sections
+  const allSections = document.querySelectorAll('main section');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target); // animate once
+      }
+    });
+  }, { threshold: 0.1 });
+  allSections.forEach(section => observer.observe(section));
+  const backToTop = document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 250) {
+    backToTop.classList.add("show");
+  } else {
+    backToTop.classList.remove("show");
+  }
 });
+
 </script>
+
 
 </body>
 </html>
