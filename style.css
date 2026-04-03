@@ -9,11 +9,18 @@ html {
 
 body {
   margin: 0;
-  max-width: 950px;
+  max-width: 950px;    
   font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   color: #222;
   background: #ffffff;
 }
+
+nav {
+  width: 200px; /* vorher 220px */
+  padding: 1.5em; /* etwas weniger */
+  
+}
+
 
 /* Layout */
 .container {
@@ -22,9 +29,10 @@ body {
   min-height: 100vh;
 }
 
-a {
-  color: #0077cc;
+a{
+  color:#0077cc;
 }
+
 
 /* Sidebar */
 #sidebar {
@@ -48,26 +56,15 @@ a {
   color: #0077cc;
 }
 
-/* Main */
+
+
 main {
-  padding: 2rem;
+  
+  padding: 1.5em 0em; /* oben/unten | links/rechts */
   max-width: 900px;
-  width: 100%;
+  flex:1;
 }
 
-/* 🔥 HEADER FIX (Foto rechts) */
-.header-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 3rem;
-  width: 100%;
-}
-
-.header-text {
-  flex: 1;
-  min-width: 0;
-}
 
 /* Header */
 header {
@@ -78,12 +75,11 @@ header {
   width: 180px;
   border-radius: 8px;
   margin-top: 1rem;
-  flex-shrink: 0; /* verhindert Verrutschen */
 }
 
 /* Sections */
 section {
-  margin-bottom: 3.2rem;
+  margin-bottom: 3rem;
 }
 
 h2, h3 {
@@ -133,35 +129,30 @@ td, th {
     top: 0;
     background: white;
     border-bottom: 1px solid #eee;
-    padding: 0.6rem 0.4rem;
+    padding: 0.5rem;
     justify-content: space-around;
     z-index: 1000;
   }
 
   .mobile-header a {
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
     color: #555;
-    font-weight: 500;
   }
 
   .mobile-header a.active {
     color: #0077cc;
   }
 
-  /* Header wird untereinander */
-  .header-flex {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+  
 
   .profile-photo {
     width: 100%;
-    max-width: 280px;
+    max-width: 300px;
   }
 }
 
-/* Social Icons (dein Original, leicht optimiert) */
+/* Social Icons modern */
 .social-icons {
   margin-top: 12px;
   display: flex;
@@ -174,8 +165,8 @@ td, th {
 
 .social-icons .icon {
   background: #f5f5f5;
-  color: #222;
-  font-size: 20px;
+  color: #222; /* Farbe für die Icons - dunkler */
+  font-size: 20px; /* Größe anpassen */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -186,13 +177,14 @@ td, th {
   transition: all 0.3s ease;
 }
 
+/* Hover-Effekt für bessere Sichtbarkeit */
 .social-icons .icon:hover {
   transform: translateY(-3px);
   background: #0077cc;
   color: white;
 }
 
-/* individuelle Farben */
+/* Individuelle Farben */
 .social-icons .orcid:hover {
   background: #a6ce39;
 }
@@ -212,3 +204,6 @@ td, th {
 .social-icons .email:hover {
   background: #666;
 }
+
+
+
