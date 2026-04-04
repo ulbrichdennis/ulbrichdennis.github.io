@@ -1,6 +1,5 @@
+/* Reset */
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -9,131 +8,183 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #333;
-  background: #f9f9f9;
-  line-height: 1.6;
-  padding: 0;
   margin: 0;
-  width: 100%;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+  max-width: 950px;    
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: #222;
+  background: #ffffff;
 }
 
-/* Full-Width Layout */
+nav {
+  width: 200px; /* vorher 220px */
+  padding: 1.5em; /* etwas weniger */
+  
+}
+
+
+/* Layout */
 .container {
   display: grid;
-  grid-template-columns: 240px 1fr; /* Sidebar + content */
+  grid-template-columns: 240px 1fr;
   min-height: 100vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
 }
+
+a{
+  color:#0077cc;
+}
+
 
 /* Sidebar */
 #sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 240px;
-  height: 100vh;
   padding: 2rem 1.5rem;
-  border-right: 1px solid #eaeaea;
+  border-right: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  height: 100vh;
   background: #ffffff;
-  z-index: 100;
-}
-
-#sidebar h4 {
-  margin-bottom: 1.5rem;
-  color: #333;
 }
 
 #sidebar a {
   display: block;
   margin-bottom: 1rem;
+  text-decoration: none;
   color: #555;
   font-weight: 500;
-  transition: color 0.3s ease;
 }
 
 #sidebar a.active {
   color: #0077cc;
 }
 
-#sidebar a:hover {
-  color: #0077cc;
+
+
+main {
+  
+  padding: 1.5em 0em; /* oben/unten | links/rechts */
+  max-width: 900px;
+  flex:1;
 }
 
-/* Main Content */
-main {
-  padding: 2rem 3rem;
-  margin-left: 240px; /* Sidebar width */
-  background: #ffffff;
-  width: 100%; /* Full width of screen */
-  max-width: 1200px; /* Max width for readability */
-  margin-right: auto; /* Center content */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  z-index: 1;
-  overflow-x: hidden;
-  position: relative;
-  left: 0; /* Ensure it doesn't shift */
-}
 
 /* Header */
 header {
-  text-align: left;
-  margin-bottom: 1rem; /* Reduced margin to remove unnecessary space */
+  margin-bottom: 2rem;
 }
 
 .profile-photo {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin: 1rem 0;
-  border: 4px solid #fff;
-  max-width: 100%;
-  height: auto;
+  width: 180px;
+  border-radius: 8px;
+  margin-top: 1rem;
 }
 
-header h2 {
-  font-size: 2rem;
-  color: #333;
+/* Sections */
+section {
+  margin-bottom: 3rem;
+}
+
+h2, h3 {
   margin-bottom: 0.5rem;
 }
 
-/* Social Icons - Horizontal */
+p {
+  line-height: 1.6;
+}
+
+/* Lists */
+ul {
+  padding-left: 1.2rem;
+  list-style-position: outside;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+/* Mobile Top Nav */
+.mobile-header {
+  display: none;
+}
+
+/* 📱 MOBILE */
+@media (max-width: 768px) {
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  #sidebar {
+    display: none;
+  }
+
+  .mobile-header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid #eee;
+    padding: 0.5rem;
+    justify-content: space-around;
+    z-index: 1000;
+  }
+
+  .mobile-header a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #555;
+  }
+
+  .mobile-header a.active {
+    color: #0077cc;
+  }
+
+  
+
+  .profile-photo {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* Social Icons modern */
 .social-icons {
-  margin-top: 15px;
+  margin-top: 12px;
   display: flex;
-  gap: 12px;
-  justify-content: flex-start; /* Align left */
+  gap: 10px;
 }
 
 .social-icons i {
   font-size: 22px;
-  transition: transform 0.3s ease;
 }
 
 .social-icons .icon {
   background: #f5f5f5;
-  color: #222;
-  font-size: 20px;
+  color: #222; /* Farbe für die Icons - dunkler */
+  font-size: 20px; /* Größe anpassen */
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
+/* Hover-Effekt für bessere Sichtbarkeit */
 .social-icons .icon:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
   background: #0077cc;
   color: white;
 }
 
+/* Individuelle Farben */
 .social-icons .orcid:hover {
   background: #a6ce39;
 }
@@ -154,36 +205,5 @@ header h2 {
   background: #666;
 }
 
-/* Sections */
-section {
-  margin-bottom: 3rem;
-}
 
-h2, h3 {
-  color: #333;
-  margin-bottom: 0.5rem;
-}
 
-ul {
-  padding-left: 1.2rem;
-  list-style-position: outside;
-}
-
-ul li {
-  margin-bottom: 0.5rem;
-}
-
-p {
-  line-height: 1.6;
-}
-
-/* Footer */
-footer {
-  background-color: #333;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-  font-size: 0.9rem;
-  margin-top: 0; /* No space between main and footer */
-  width: 100%; /* Ensure footer stretches fully */
-}
