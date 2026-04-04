@@ -1,3 +1,4 @@
+/* Global Reset */
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +16,7 @@ body {
   line-height: 1.6;
   padding: 0;
   margin: 0;
-  width: 100%; /* Ensure full width of screen */
+  width: 100%;
 }
 
 /* Full-Width Layout */
@@ -30,13 +31,15 @@ body {
 
 /* Sidebar */
 #sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 100vh; /* Fixed height for the sidebar */
   padding: 2rem 1.5rem;
   border-right: 1px solid #eaeaea;
-  position: sticky;
-  top: 0;
   background: #ffffff;
-  height: 100vh;
-  width: 240px;
+  z-index: 100;
 }
 
 #sidebar h4 {
@@ -62,15 +65,13 @@ body {
 
 /* Main Content */
 main {
-  padding: 2rem;
-  max-width: 100%;
-  margin-left: 0; /* Remove any margin */
+  padding: 2rem 3rem;
+  margin-left: 240px; /* Sidebar width */
   background: #ffffff;
+  max-width: 100%; /* Full width of the screen */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  overflow: hidden;
   z-index: 1;
-  width: 100%;
 }
 
 /* Header */
