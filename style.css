@@ -89,7 +89,7 @@ header h2 {
 }
 
 .social-icons .icon {
-  background-color: #f0f0f0;
+  background-color: transparent;
   color: #333;
   font-size: 1.5em;
   width: 50px;
@@ -104,38 +104,31 @@ header h2 {
 
 /* Farben für jedes Icon */
 .social-icons .email {
-  background-color: #666; /* Grau für E-Mail */
-  color: white;
+  color: #666; /* Grau für E-Mail */
 }
 
 .social-icons .orcid {
-  background-color: #a6ce39; /* Grün für ORCID */
-  color: white;
+  color: #a6ce39; /* Grün für ORCID */
 }
 
 .social-icons .linkedin {
-  background-color: #0077b5; /* Blau für LinkedIn */
-  color: white;
+  color: #0077b5; /* Blau für LinkedIn */
 }
 
 .social-icons .scholar {
-  background-color: #4285f4; /* Blau für Google Scholar */
-  color: white;
+  color: #4285f4; /* Blau für Google Scholar */
 }
 
 .social-icons .arxiv {
-  background-color: #b31b1b; /* Rot für arXiv */
-  color: white;
+  color: #b31b1b; /* Rot für arXiv */
 }
 
 /* Hover-Effekt für die Icons */
 .social-icons .icon:hover {
-  transform: translateY(-3px);
   background-color: #0077cc;
   color: white;
 }
 
-/* Spezifische Hover-Farben für jedes Icon */
 .social-icons .email:hover {
   background-color: #444;
 }
@@ -325,4 +318,17 @@ hr {
     font-size: 1.3em;
     width: 45px;
     height: 45px;
-  }}
+  }
+
+  section {
+    padding: 1rem;
+  }
+
+  section p {
+    font-size: 1.1em;
+  }
+
+  .news-highlight {
+    font-size: 1.2em;
+  }
+}
