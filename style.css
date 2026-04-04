@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif; /* Modern font */
+  font-family: 'Roboto', sans-serif;
   color: #333;
   background: #f9f9f9; /* Soft background */
   line-height: 1.6;
@@ -28,7 +28,6 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  gap: 0; /* No gap between sidebar and main content */
 }
 
 /* Sidebar */
@@ -225,4 +224,5 @@ footer {
   text-align: center;
   font-size: 0.9rem;
   margin-top: 3rem;
+  width: 100%; /* Ensure footer stretches fully */
 }
