@@ -206,19 +206,17 @@ td, th {
   background: #666;
 }
 
-/* Aktuelle Neuigkeit hervorheben */
+/* Subtilere Hervorhebung der Neuigkeit */
 .news-highlight {
-  background-color: #ffeb3b;  /* Gelber Hintergrund */
-  color: #d32f2f;  /* Rote Schriftfarbe */
-  font-size: 1.4em;  /* Größere Schrift */
-  font-weight: bold;  /* Fettdruck */
-  padding: 1em;
-  border-radius: 8px;
-  border: 2px solid #f44336;  /* Roter Rand */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
-  margin-top: 2rem; /* Abstand zum oberen Text */
-  margin-bottom: 2rem; /* Abstand zum unteren Text */
-  text-align: center; /* Zentrierter Text */
+  background-color: #f0f0f0;  /* Sehr helles Grau für den Hintergrund */
+  color: #333333;  /* Dunkles Grau für den Text */
+  font-size: 1.2em;  /* Etwas größere Schrift */
+  font-weight: 500;  /* Leicht fetter Text */
+  padding: 0.8em;
+  border-radius: 6px;  /* Abgerundete Ecken */
+  border: 1px solid #dcdcdc;  /* Dünner grauer Rand */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Sehr leichter Schatten */
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
-
 
