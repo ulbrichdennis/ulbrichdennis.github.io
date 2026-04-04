@@ -52,7 +52,7 @@ body {
 
 .mobile-header a {
   color: white;
-  display: block;
+  display: inline-block;
   font-size: 1.1em;
   padding: 10px;
   text-decoration: none;
@@ -169,7 +169,7 @@ section {
 section p {
   font-size: 1.2em;
   color: #555;
-  text-align: center;
+  text-align: left;
   margin-bottom: 1.5rem;
 }
 
@@ -233,6 +233,20 @@ section p {
   margin-bottom: 1rem;
 }
 
+/* Ongoing Work Styling */
+#ongoing-work {
+  margin-top: 2rem;
+}
+
+#ongoing-work ul {
+  padding-left: 1.5rem;
+  list-style-type: none;
+}
+
+#ongoing-work li {
+  margin-bottom: 1rem;
+}
+
 /* Teaching Styling */
 #teaching {
   margin-top: 2rem;
@@ -290,6 +304,12 @@ hr {
 
   .mobile-header {
     display: block;
+    text-align: center;
+  }
+
+  .mobile-header a {
+    display: inline-block;
+    padding: 10px;
   }
 
   .profile-photo {
@@ -305,17 +325,4 @@ hr {
     font-size: 1.3em;
     width: 45px;
     height: 45px;
-  }
-
-  section {
-    padding: 1rem;
-  }
-
-  section p {
-    font-size: 1.1em;
-  }
-
-  .news-highlight {
-    font-size: 1.2em;
-  }
-}
+  }}
