@@ -69,11 +69,13 @@ main {
   padding: 2rem 3rem;
   margin-left: 240px; /* Sidebar width */
   background: #ffffff;
-  max-width: 100%; /* Ensures full width */
+  width: 100%; /* Stretch to full width */
+  position: relative;
+  left: 0; /* Remove any shifting */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   z-index: 1;
-  width: calc(100vw - 240px); /* Full screen minus sidebar */
+  overflow-x: hidden; /* Prevent any horizontal overflow */
 }
 
 /* Header */
