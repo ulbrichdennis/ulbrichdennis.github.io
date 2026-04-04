@@ -1,4 +1,3 @@
-/* Global Reset */
 * {
   margin: 0;
   padding: 0;
@@ -22,20 +21,11 @@ body {
 /* Full-Width Layout */
 .container {
   display: grid;
-  grid-template-columns: 240px 1fr;
+  grid-template-columns: 240px 1fr; /* Two equal columns */
   min-height: 100vh;
-  margin: 0; /* Remove outer margins */
-  padding: 0; /* Remove inner padding */
-  width: 100%; /* Ensure full-width usage */
-}
-
-a {
-  color: #0077cc;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #005fa3;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* Sidebar */
@@ -46,6 +36,7 @@ a:hover {
   top: 0;
   background: #ffffff;
   height: 100vh;
+  width: 240px;
 }
 
 #sidebar h4 {
@@ -71,9 +62,9 @@ a:hover {
 
 /* Main Content */
 main {
-  padding: 2rem 3rem; /* Added padding for clean spacing */
-  max-width: 100%; /* Use full width */
-  margin-left: 0; /* Removed any extra margins */
+  padding: 2rem;
+  max-width: 100%;
+  margin-left: 0; /* Remove any margin */
   background: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
