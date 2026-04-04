@@ -205,5 +205,15 @@ td, th {
   background: #666;
 }
 
+/* News Bereich hervorheben */
+section p strong {
+  background-color: #f0f8ff;  /* Helles Blau als Hintergrund */
+  color: #005f8d;  /* Dunkelblaue Schriftfarbe */
+  font-size: 1.2em;  /* Größere Schrift */
+  padding: 0.5em;
+  border-radius: 8px;
+  border: 2px solid #0077cc;  /* Rand in Blau */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* leichter Schatten */
+}
 
 
