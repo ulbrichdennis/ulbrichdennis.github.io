@@ -8,327 +8,215 @@ html {
 }
 
 body {
+  margin: 0;
+  max-width: 950px;    
+  /* font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; */
+  color: #222;
+  background: #ffffff;
   font-family: 'Roboto', sans-serif;
-  color: #333;
-  background-color: #f9f9f9;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
 }
 
-/* Desktop Navigation */
-#desktop-nav {
+nav {
+  width: 200px; /* vorher 220px */
+  padding: 1.5em; /* etwas weniger */
+  
+}
+
+
+/* Layout */
+.container {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  min-height: 100vh;
+}
+
+a{
+  color:#0077cc;
+}
+
+
+/* Sidebar */
+#sidebar {
+  padding: 2rem 1.5rem;
+  border-right: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background: #ffffff;
+}
+
+#sidebar a {
   display: block;
-  background-color: #0077cc;
-  padding: 1rem 0;
-  text-align: center;
-}
-
-#desktop-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-#desktop-nav li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-#desktop-nav a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.1em;
-  font-weight: bold;
-}
-
-/* Mobile Navigation */
-.mobile-header {
-  display: none;
-  background-color: #0077cc;
-  padding: 1rem 0;
-  text-align: center;
-}
-
-.mobile-header a {
-  color: white;
-  display: inline-block;
-  font-size: 1.1em;
-  padding: 10px;
-  text-decoration: none;
-}
-
-/* Header Styling */
-header {
-  background-color: #ffffff;
-  padding: 2rem 0;
-  text-align: center;
-  border-bottom: 2px solid #eeeeee;
-}
-
-header h2 {
-  font-size: 2.5em;
-  font-weight: bold;
-  color: #0077cc;
   margin-bottom: 1rem;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+#sidebar a.active {
+  color: #0077cc;
+}
+
+
+
+main {
+  
+  padding: 1.5em 0em; /* oben/unten | links/rechts */
+  max-width: 900px;
+  flex:1;
+}
+
+
+/* Header */
+header {
+  margin-bottom: 2rem;
 }
 
 .profile-photo {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid #0077cc;
+  width: 180px;
+  border-radius: 8px;
   margin-top: 1rem;
 }
 
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 1rem;
-}
-
-.social-icons .icon {
-  background-color: transparent;
-  color: #333;
-  font-size: 1.5em;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-/* Farben für jedes Icon */
-.social-icons .email {
-  color: #666; /* Grau für E-Mail */
-}
-
-.social-icons .orcid {
-  color: #a6ce39; /* Grün für ORCID */
-}
-
-.social-icons .linkedin {
-  color: #0077b5; /* Blau für LinkedIn */
-}
-
-.social-icons .scholar {
-  color: #4285f4; /* Blau für Google Scholar */
-}
-
-.social-icons .arxiv {
-  color: #b31b1b; /* Rot für arXiv */
-}
-
-/* Hover-Effekt für die Icons */
-.social-icons .icon:hover {
-  background-color: #0077cc;
-  color: white;
-}
-
-.social-icons .email:hover {
-  background-color: #444;
-}
-
-.social-icons .orcid:hover {
-  background-color: #85c641;
-}
-
-.social-icons .linkedin:hover {
-  background-color: #005f8d;
-}
-
-.social-icons .scholar:hover {
-  background-color: #3367d6;
-}
-
-.social-icons .arxiv:hover {
-  background-color: #900;
-}
-
-/* Section Styling */
+/* Sections */
 section {
-  max-width: 900px;
-  margin: 3rem auto;
-  padding: 1rem;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3rem;
 }
 
-section p {
-  font-size: 1.2em;
-  color: #555;
-  text-align: left;
-  margin-bottom: 1.5rem;
+h2, h3 {
+  margin-bottom: 0.5rem;
 }
 
-.news-highlight {
-  background-color: #e0f7fa; /* Helles Blau */
-  color: #0077cc;
-  font-size: 1.3em;
-  font-weight: bold;
-  padding: 1.2em;
-  border-radius: 8px;
-  border: 2px solid #0077cc;
-  margin-top: 2rem;
-  text-align: center;
+p {
   line-height: 1.6;
 }
 
-/* Research Interests Styling */
-#research {
-  margin-top: 2rem;
+/* Lists */
+ul {
+  padding-left: 1.2rem;
+  list-style-position: outside;
 }
 
-#research ul {
-  padding-left: 1.5rem;
-  list-style-type: disc;
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-/* Publications Styling */
-#publications {
-  margin-top: 2rem;
+td, th {
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
 }
 
-#publications ul {
-  padding-left: 1.5rem;
-  list-style-type: none;
+/* Mobile Top Nav */
+.mobile-header {
+  display: none;
 }
 
-#publications li {
-  margin-bottom: 1rem;
-}
-
-#publications a {
-  color: #0077cc;
-  text-decoration: none;
-}
-
-#publications a:hover {
-  text-decoration: underline;
-}
-
-/* Projects Styling */
-#projects {
-  margin-top: 2rem;
-}
-
-#projects ul {
-  padding-left: 1.5rem;
-  list-style-type: none;
-}
-
-#projects li {
-  margin-bottom: 1rem;
-}
-
-/* Ongoing Work Styling */
-#ongoing-work {
-  margin-top: 2rem;
-}
-
-#ongoing-work ul {
-  padding-left: 1.5rem;
-  list-style-type: none;
-}
-
-#ongoing-work li {
-  margin-bottom: 1rem;
-}
-
-/* Teaching Styling */
-#teaching {
-  margin-top: 2rem;
-}
-
-#teaching ul {
-  padding-left: 1.5rem;
-  list-style-type: none;
-}
-
-#teaching li {
-  margin-bottom: 1rem;
-}
-
-/* CV Styling */
-#cv {
-  margin-top: 2rem;
-}
-
-#cv h4 {
-  margin-top: 1rem;
-  font-weight: bold;
-}
-
-#cv ul {
-  padding-left: 1.5rem;
-  list-style-type: none;
-}
-
-#cv li {
-  margin-bottom: 1rem;
-}
-
-/* Footer Styling */
-footer {
-  font-size: small;
-  text-align: center;
-  margin-top: 3rem;
-  padding: 1rem;
-  background-color: #f1f1f1;
-}
-
-/* Trennlinien für Abschnitte */
-hr {
-  border: 0;
-  border-top: 1px solid #eeeeee;
-  margin: 2rem 0;
-}
-
-/* Mobile Ansicht */
+/* 📱 MOBILE */
 @media (max-width: 768px) {
-  #desktop-nav {
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  #sidebar {
     display: none;
   }
 
   .mobile-header {
-    display: block;
-    text-align: center;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid #eee;
+    padding: 0.5rem;
+    justify-content: space-around;
+    z-index: 1000;
   }
 
   .mobile-header a {
-    display: inline-block;
-    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #555;
   }
+
+  .mobile-header a.active {
+    color: #0077cc;
+  }
+
+  
 
   .profile-photo {
-    width: 120px;
-    height: 120px;
-  }
-
-  header h2 {
-    font-size: 2em;
-  }
-
-  .social-icons .icon {
-    font-size: 1.3em;
-    width: 45px;
-    height: 45px;
-  }
-
-  section {
-    padding: 1rem;
-  }
-
-  section p {
-    font-size: 1.1em;
-  }
-
-  .news-highlight {
-    font-size: 1.2em;
+    width: 100%;
+    max-width: 300px;
   }
 }
+
+/* Social Icons modern */
+.social-icons {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons i {
+  font-size: 22px;
+}
+
+.social-icons .icon {
+  background: #f5f5f5;
+  color: #222; /* Farbe für die Icons - dunkler */
+  font-size: 20px; /* Größe anpassen */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Hover-Effekt für bessere Sichtbarkeit */
+.social-icons .icon:hover {
+  transform: translateY(-3px);
+  background: #0077cc;
+  color: white;
+}
+
+/* Individuelle Farben */
+.social-icons .orcid:hover {
+  background: #a6ce39;
+}
+
+.social-icons .linkedin:hover {
+  background: #0077b5;
+}
+
+.social-icons .scholar:hover {
+  background: #4285f4;
+}
+
+.social-icons .arxiv:hover {
+  background: #b31b1b;
+}
+
+.social-icons .email:hover {
+  background: #666;
+}
+
+/* Subtilere Hervorhebung der Neuigkeit */
+.news-highlight {
+  background-color: #f0f0f0;  /* Sehr helles Grau für den Hintergrund */
+  color: #333333;  /* Dunkles Grau für den Text */
+  font-size: 1.2em;  /* Etwas größere Schrift */
+  font-weight: 500;  /* Leicht fetter Text */
+  padding: 0.8em;
+  border-radius: 6px;  /* Abgerundete Ecken */
+  border: 1px solid #dcdcdc;  /* Dünner grauer Rand */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Sehr leichter Schatten */
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+

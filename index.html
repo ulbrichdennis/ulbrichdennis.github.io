@@ -1,328 +1,241 @@
-/* Reset */
-* {
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Dennis Ulbrich</title>
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
+  <link rel="stylesheet" href="style.css">
 
-html {
-  scroll-behavior: smooth;
-}
+  <!-- MathJax -->
+  <script type="text/javascript" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  <!-- jsPDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <!-- Font Awesome (für LinkedIn und andere) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #333;
-  background-color: #f9f9f9;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-}
+<!-- Academicons (für arXiv, ORCID, Scholar) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+</head>
+<body>
 
-/* Desktop Navigation */
-#desktop-nav {
-  display: block;
-  background-color: #0077cc;
-  padding: 1rem 0;
-  text-align: center;
-}
+<div class="mobile-header">
+  <a href="#research">Research</a>
+  <a href="#publications">Publications</a>
+  <a href="#projects">Projects</a>
+  <a href="#teaching">Teaching</a>
+  <a href="#cv">CV</a>
+</div>
 
-#desktop-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+<div class="container">
+  <nav id="sidebar"><br><br>
+    <h4>Navigation</h4>
+  <a href="#research">Research interests</a>
+  <a href="#publications">Publications</a>
+  <a href="#projects">Projects</a>
+  <a href="#teaching">Teaching</a>
+  <a href="#cv">Short CV</a>
+</nav>
 
-#desktop-nav li {
-  display: inline-block;
-  margin-right: 20px;
-}
 
-#desktop-nav a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.1em;
-  font-weight: bold;
-}
+<main>
+  
+  <header>
+    <div>
+       <h2>Dr. Dennis Ulbrich</h2>
+      <img src="/img/Ulbrich_portrait.jpeg" alt="Dr. Dennis Ulbrich" class="profile-photo">
+      
+      <!-- <p><a href="https://orcid.org/0000-0001-5541-011X" target="_blank">ORCID: 0000-0001-5541-011X </a></p> 
+      <p><a href="mailto:ulbrich.dennis@icloud.com">E-Mail</a> | <a href="https://arxiv.org/a/ulbrich_d_1.html" target="_blank">arXiv</a> | <a href="https://scholar.google.com/citations?user=b1u5plUAAAAJ" target="_blank">Google Scholar</a> | <a href="https://www.linkedin.com/in/dr-dennis-ulbrich-5369773b8/" target="_blank">LinkedIn</a></p> -->
+    <div class="social-icons">
+  <a href="mailto:ulbrich.dennis@icloud.com" title="Email" class="icon email">
+    <i class="fa-solid fa-envelope"></i>
+  </a>
 
-/* Mobile Navigation */
-.mobile-header {
-  display: none;
-  background-color: #0077cc;
-  padding: 1rem 0;
-  text-align: center;
-}
+  <a href="https://arxiv.org/a/ulbrich_d_1.html" target="_blank" title="arXiv" class="icon arxiv">
+    <i class="ai ai-arxiv"></i>
+  </a>
 
-.mobile-header a {
-  color: white;
-  display: inline-block;
-  font-size: 1.1em;
-  padding: 10px;
-  text-decoration: none;
-}
+  <a href="https://orcid.org/0000-0001-5541-011X" target="_blank" title="ORCID" class="icon orcid">
+    <i class="ai ai-orcid"></i>
+  </a>
 
-/* Header Styling */
-header {
-  background-color: #ffffff;
-  padding: 2rem 0;
-  text-align: center;
-  border-bottom: 2px solid #eeeeee;
-}
+  <a href="https://scholar.google.com/citations?user=b1u5plUAAAAJ" target="_blank" title="Google Scholar" class="icon scholar">
+    <i class="ai ai-google-scholar"></i>
+  </a>
 
-header h2 {
-  font-size: 2.5em;
-  font-weight: bold;
-  color: #0077cc;
-  margin-bottom: 1rem;
-}
+  <a href="https://www.linkedin.com/in/dr-dennis-ulbrich-5369773b8/" target="_blank" title="LinkedIn" class="icon linkedin">
+    <i class="fa-brands fa-linkedin"></i>
+  </a>
+</div>
 
-.profile-photo {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid #0077cc;
-  margin-top: 1rem;
-}
+    </div>
+  </header>
 
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 1rem;
-}
+ <section>
+  <p>Mathematician with research experience in nonlinear analysis, dynamical systems, ergodic theory, and kinetic theory, with several years of proficiency and strong commitment to undergraduate teaching, student supervision, and academic course organization.</p>
+</section>
 
-.social-icons .icon {
-  background-color: #f0f0f0;
-  color: #333;
-  font-size: 1.5em;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
+  <section id="research">
+    <h3>Research interests</h3>
+<p>
+  My research interests include, but are not limited to:
+  </p>
+  <p>
+<ul>  
+<li>Ordinary and partial differential equations and their dynamics</li>
+<li>Nonlinear wave solutions and their ergodic properties</li>
+<li>Kinetic theory, in particular entropy methods</li>
+<li>Boltzmann equation and its BGK-type approximations</li>
+<li>Long-time behavior of solutions (hypocoercivity)</li>
+<li>Physical applications</li>
+<li>Models of chemical reactions</li>
+</ul>
+</p>
+  </section>
 
-/* Farben für jedes Icon */
-.social-icons .email {
-  background-color: #666; /* Grau für E-Mail */
-  color: white;
-}
+  <section id="publications">
+    <h3>Publications</h3>
+<p>
+  <h4>Peer-reviewed journal articles</h4>
+<p>
+<ul>
+  <li><a href="https://sites.google.com/view/antoinepauthier/accueil" target="_blank">A. Pauthier</a>, <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html" target="_blank">J.D.M. Rademacher</a>, <i>D. Ulbrich</i><br>
+      Weak and strong interaction of excitation kinks in scalar parabolic equations<br>
+      J Dyn Diff Equat35, 2199–2235, (2023). [<a href="https://link.springer.com/article/10.1007/s10884-021-10040-2" target="_blank">DOI</a> | <a href="https://arxiv.org/abs/2012.00309" target="_blank">arXiv</a>]</li>
+  <li><a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer" target="_blank">M. Kesseböhmer</a>, <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html" target="_blank">J.D.M. Rademacher</a>, <i>D. Ulbrich</i><br>
+      Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata<br>
+      Ergodic Theory and Dynamical Systems, 41 (2020), no. 5, 1397–1430. [<a href="https://www.cambridge.org/core/journals/ergodic-theory-and-dynamical-systems/article/dynamics-and-topological-entropy-of-1d-greenberghastings-cellular-automata/1DBE1EC4EC7BE9F216E9E35C214F2F3C" target="_blank">DOI</a> | <a href="https://arxiv.org/abs/1903.02459" target="_blank">arXiv</a>]</li>
+</ul>
+</p>
+</p>
 
-.social-icons .orcid {
-  background-color: #a6ce39; /* Grün für ORCID */
-  color: white;
-}
+<h4>Ongoing work</h4>
+<p>
+<ul>
+  <li>Discrete hypocoercivity for a nonlinear kinetic reaction model without initial close-to-equilibrium assumption<br>
+  <a href="https://www.math.cuhk.edu.hk/~lliu/" target="_blank">L. Liu</a>, <a href="https://www.uni-muenster.de/AMM/en/Pirner/index.shtml" target="_blank">M. Pirner</a>, <i>D. Ulbrich</i></li>
+</ul>
+</p>
 
-.social-icons .linkedin {
-  background-color: #0077b5; /* Blau für LinkedIn */
-  color: white;
-}
+<h4>Thesis</h4>
+<p>
+<ul>
+  <li>D. Ulbrich<br>
+      Ergodic theory of nonlinear waves in discrete and continuous excitable media<br>
+      Diss., 2021. [<a href="https://media.suub.uni-bremen.de/entities/publication/f6d1f31c-f9e0-4fcf-9d86-0ee66235e4d4" target="_blank">DOI</a>]</li>
+</ul>
+</p>
 
-.social-icons .scholar {
-  background-color: #4285f4; /* Blau für Google Scholar */
-  color: white;
-}
+  </section>
 
-.social-icons .arxiv {
-  background-color: #b31b1b; /* Rot für arXiv */
-  color: white;
-}
+ <section id="projects">
+ <h3>Projects</h3>
+<p>Projects in which I participate(d):</p>
+<ul>
+  <li><a href="https://gepris.dfg.de/gepris/projekt/456849348?language=en" target="_blank">DFG 456849348</a> <br>
+      Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation</li>
+   <li><a href="https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2" target="_blank">DFG 384027439</a><br>
+       Ergodic theory of nonlinear waves in discrete and continuous excitable media</li>   
+</ul>
+ </section> 
 
-/* Hover-Effekt für die Icons */
-.social-icons .icon:hover {
-  transform: translateY(-3px);
-  background-color: #0077cc;
-  color: white;
-}
+ <section id="teaching">
+<h3>Teaching</h3>
+ <p>  
+<ul>
+<li>Winter 2024/2025: Mathematik 1 (lecture + tutorial), Hochschule Bremen, School of Nature and Engineering</li>
+<li>Spring 2022: Finite Mathematics (lecture + tutorial), Jacobs University Bremen, Mathematical Sciences</li>
+<li>Spring 2022: Introduction to dynamical systems (pro-seminar), Jacobs University Bremen, Mathematical Sciences</li>
+</ul>
+</p>
+</section>
 
-/* Spezifische Hover-Farben für jedes Icon */
-.social-icons .email:hover {
-  background-color: #444;
-}
+<section id="cv">
+<h3>Short CV</h3>
+<p>
+<h4>Academic Positions</h4>
+<p>
+<div class="cv-item">since May 2025: Tutoring mathematics students</div>
+<div class="cv-item">Feb 2025 – May 2025: Research assistant, Hochschule Bremen</div>
+<div class="cv-item">Oct 2024 – Mar 2025: Lecturer in Mathematics, Hochschule Bremen</div>
+<div class="cv-item">Jun 2023 – Jun 2024: Postdoctoral researcher</div>
+<div class="cv-item">Jan 2022 – Jun 2022: Lecturer, Jacobs University Bremen</div>
+</p>
+</p>
 
-.social-icons .orcid:hover {
-  background-color: #85c641;
-}
+<h4>Education</h4>
+<p>
+<div class="cv-item">Oct 2017 – Sep 2021: PhD (Dr. rer. nat.) in Mathematics, University of Bremen</div>
+<div class="cv-item">Oct 2016 – Oct 2017: Brückenstipendium in Mathematics, University of Bremen</div>
+<div class="cv-item">Oct 2011 – Sep 2016: B.Sc. and M.Sc. in Mathematics, University of Bremen</div>
+</p>
 
-.social-icons .linkedin:hover {
-  background-color: #005f8d;
-}
+<h4>Additional Experience</h4>
+<p>
+<div class="cv-item">Sep 2022 – Feb 2023: Internship (IT sector)</div>
+ <p></p>   
+</section>
 
-.social-icons .scholar:hover {
-  background-color: #3367d6;
-}
-
-.social-icons .arxiv:hover {
-  background-color: #900;
-}
-
-/* Section Styling */
-section {
-  max-width: 900px;
-  margin: 3rem auto;
-  padding: 1rem;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-section p {
-  font-size: 1.2em;
-  color: #555;
-  text-align: left;
-  margin-bottom: 1.5rem;
-}
-
-.news-highlight {
-  background-color: #e0f7fa; /* Helles Blau */
-  color: #0077cc;
-  font-size: 1.3em;
-  font-weight: bold;
-  padding: 1.2em;
-  border-radius: 8px;
-  border: 2px solid #0077cc;
-  margin-top: 2rem;
-  text-align: center;
-  line-height: 1.6;
-}
-
-/* Research Interests Styling */
-#research {
-  margin-top: 2rem;
-}
-
-#research ul {
-  padding-left: 1.5rem;
-  list-style-type: disc;
-}
-
-/* Publications Styling */
-#publications {
-  margin-top: 2rem;
-}
-
-#publications ul {
-  padding-left: 1.5rem;
-  list-style-type: none;
-}
-
-#publications li {
-  margin-bottom: 1rem;
-}
-
-#publications a {
-  color: #0077cc;
-  text-decoration: none;
-}
-
-#publications a:hover {
-  text-decoration: underline;
-}
-
-/* Projects Styling */
-#projects {
-  margin-top: 2rem;
-}
-
-#projects ul {
-  padding-left: 1.5rem;
-  list-style-type: none;
-}
-
-#projects li {
-  margin-bottom: 1rem;
-}
-
-/* Ongoing Work Styling */
-#ongoing-work {
-  margin-top: 2rem;
-}
-
-#ongoing-work ul {
-  padding-left: 1.5rem;
-  list-style-type: none;
-}
-
-#ongoing-work li {
-  margin-bottom: 1rem;
-}
-
-/* Teaching Styling */
-#teaching {
-  margin-top: 2rem;
-}
-
-#teaching ul {
-  padding-left: 1.5rem;
-  list-style-type: none;
-}
-
-#teaching li {
-  margin-bottom: 1rem;
-}
-
-/* CV Styling */
-#cv {
-  margin-top: 2rem;
-}
-
-#cv h4 {
-  margin-top: 1rem;
-  font-weight: bold;
-}
-
-#cv ul {
-  padding-left: 1.5rem;
-  list-style-type: none;
-}
-
-#cv li {
-  margin-bottom: 1rem;
-}
-
-/* Footer Styling */
-footer {
-  font-size: small;
-  text-align: center;
-  margin-top: 3rem;
-  padding: 1rem;
-  background-color: #f1f1f1;
-}
-
-/* Trennlinien für Abschnitte */
-hr {
-  border: 0;
-  border-top: 1px solid #eeeeee;
-  margin: 2rem 0;
-}
-
-/* Mobile Ansicht */
-@media (max-width: 768px) {
-  #desktop-nav {
-    display: none;
-  }
-
-  .mobile-header {
-    display: block;
-    text-align: center;
-  }
-
-  .mobile-header a {
-    display: inline-block;
-    padding: 10px;
-  }
-
-  .profile-photo {
-    width: 120px;
-    height: 120px;
-  }
-
-  header h2 {
-    font-size: 2em;
-  }
-
-  .social-icons .icon {
-    font-size: 1.3em;
-    width: 45px;
-    height: 45px;
+  
  
+<footer style="font-size:small">
+  &copy; 2026 D. Ulbrich - Last updated: Apr 03, 2026 
+<!--  <a href="legal-notice.html">Legal Notice</a> | <a href="privacy.html">Privacy Policy</a>  -->
+</footer>
+
+</main>
+</div> <!-- container -->
+
+
+<script>
+ // Active link highlighting
+  const sections = document.querySelectorAll("main section");
+  const navLinks = document.querySelectorAll("#sidebar a, .mobile-header a");
+
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 100;
+      if (pageYOffset >= sectionTop) current = section.getAttribute("id");
+    });
+    navLinks.forEach(link => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === "#" + current) link.classList.add("active");
+    });
+  });
+  
+
+
+  // Scroll animation for sections
+  const allSections = document.querySelectorAll('main section');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target); // animate once
+      }
+    });
+  }, { threshold: 0.1 });
+  allSections.forEach(section => observer.observe(section));
+  const backToTop = document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 250) {
+    backToTop.classList.add("show");
+  } else {
+    backToTop.classList.remove("show");
+  }
+});
+
+</script>
+
+
+</body>
+</html>
