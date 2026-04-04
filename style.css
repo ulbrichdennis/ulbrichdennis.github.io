@@ -69,13 +69,11 @@ main {
   padding: 2rem 3rem;
   margin-left: 240px; /* Sidebar width */
   background: #ffffff;
-  width: calc(100vw - 240px); /* Full width of the screen minus sidebar */
-  max-width: 1200px; /* Max width for readability */
-  margin-right: auto;
+  width: 100%; /* Full width of the screen */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   z-index: 1;
-  overflow-x: hidden; /* Prevent any horizontal overflow */
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 /* Header */
@@ -90,8 +88,8 @@ header {
   border-radius: 50%;
   margin: 1rem 0;
   border: 4px solid #fff;
-  max-width: 100%;
-  height: auto;
+  max-width: 100%; /* Ensures it’s responsive */
+  height: auto; /* Maintain aspect ratio */
 }
 
 header h2 {
@@ -123,54 +121,13 @@ p {
   line-height: 1.6;
 }
 
-/* Mobile Navigation */
-.mobile-header {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  .container {
-    grid-template-columns: 1fr; /* Single column layout for mobile */
-  }
-
-  #sidebar {
-    display: none; /* Hide sidebar on mobile */
-  }
-
-  .mobile-header {
-    display: flex;
-    position: sticky;
-    top: 0;
-    background: #fff;
-    border-bottom: 1px solid #eee;
-    padding: 0.5rem;
-    justify-content: space-around;
-    z-index: 1000;
-  }
-
-  .mobile-header a {
-    text-decoration: none;
-    font-size: 14px;
-    color: #555;
-  }
-
-  .mobile-header a.active {
-    color: #0077cc;
-  }
-
-  .profile-photo {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-  }
-}
-
-/* Social Icons Modern */
+/* Social Icons - Left Aligned */
 .social-icons {
   margin-top: 15px;
   display: flex;
+  flex-direction: column; /* Align icons vertically */
   gap: 12px;
-  justify-content: center;
+  justify-content: flex-start; /* Align left */
 }
 
 .social-icons i {
