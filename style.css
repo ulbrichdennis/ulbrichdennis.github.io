@@ -1,4 +1,12 @@
-/* Allgemeine Layout-Anpassungen */
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #333;
@@ -17,7 +25,7 @@ header {
 }
 
 header h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: bold;
   color: #0077cc;
   margin-bottom: 1rem;
@@ -57,7 +65,7 @@ header h2 {
   color: white;
 }
 
-/* Textabschnitt Styling */
+/* Section Styling */
 section {
   max-width: 900px;
   margin: 3rem auto;
@@ -75,7 +83,7 @@ section p {
 }
 
 .news-highlight {
-  background-color: #e0f7fa;
+  background-color: #e0f7fa;  /* Helles Blau */
   color: #0077cc;
   font-size: 1.3em;
   font-weight: bold;
@@ -87,6 +95,95 @@ section p {
   line-height: 1.6;
 }
 
+/* Research Interests Styling */
+#research {
+  margin-top: 2rem;
+}
+
+#research ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+/* Publications Styling */
+#publications {
+  margin-top: 2rem;
+}
+
+#publications ul {
+  padding-left: 1.5rem;
+  list-style-type: none;
+}
+
+#publications li {
+  margin-bottom: 1rem;
+}
+
+#publications a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+#publications a:hover {
+  text-decoration: underline;
+}
+
+/* Projects Styling */
+#projects {
+  margin-top: 2rem;
+}
+
+#projects ul {
+  padding-left: 1.5rem;
+  list-style-type: none;
+}
+
+#projects li {
+  margin-bottom: 1rem;
+}
+
+/* Teaching Styling */
+#teaching {
+  margin-top: 2rem;
+}
+
+#teaching ul {
+  padding-left: 1.5rem;
+  list-style-type: none;
+}
+
+#teaching li {
+  margin-bottom: 1rem;
+}
+
+/* CV Styling */
+#cv {
+  margin-top: 2rem;
+}
+
+#cv h4 {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+#cv ul {
+  padding-left: 1.5rem;
+  list-style-type: none;
+}
+
+#cv li {
+  margin-bottom: 1rem;
+}
+
+/* Footer Styling */
+footer {
+  font-size: small;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: #f1f1f1;
+}
+
 /* Trennlinien für Abschnitte */
 hr {
   border: 0;
@@ -96,18 +193,30 @@ hr {
 
 /* Mobile Ansicht */
 @media (max-width: 768px) {
+  header h2 {
+    font-size: 2em;
+  }
+
   .profile-photo {
     width: 120px;
     height: 120px;
-  }
-
-  header h2 {
-    font-size: 1.8em;
   }
 
   .social-icons .icon {
     font-size: 1.3em;
     width: 45px;
     height: 45px;
+  }
+
+  section {
+    padding: 1rem;
+  }
+
+  section p {
+    font-size: 1.1em;
+  }
+
+  .news-highlight {
+    font-size: 1.2em;
   }
 }
