@@ -16,6 +16,48 @@ body {
   padding: 0;
 }
 
+/* Desktop Navigation */
+#desktop-nav {
+  display: block;
+  background-color: #0077cc;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+#desktop-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#desktop-nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#desktop-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+/* Mobile Navigation */
+.mobile-header {
+  display: none;
+  background-color: #0077cc;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.mobile-header a {
+  color: white;
+  display: block;
+  font-size: 1.1em;
+  padding: 10px;
+  text-decoration: none;
+}
+
 /* Header Styling */
 header {
   background-color: #ffffff;
@@ -48,7 +90,7 @@ header h2 {
 
 .social-icons .icon {
   background-color: #f0f0f0;
-  color: #0077cc;
+  color: #333;
   font-size: 1.5em;
   width: 50px;
   height: 50px;
@@ -60,9 +102,58 @@ header h2 {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Farben für jedes Icon */
+.social-icons .email {
+  background-color: #666; /* Grau für E-Mail */
+  color: white;
+}
+
+.social-icons .orcid {
+  background-color: #a6ce39; /* Grün für ORCID */
+  color: white;
+}
+
+.social-icons .linkedin {
+  background-color: #0077b5; /* Blau für LinkedIn */
+  color: white;
+}
+
+.social-icons .scholar {
+  background-color: #4285f4; /* Blau für Google Scholar */
+  color: white;
+}
+
+.social-icons .arxiv {
+  background-color: #b31b1b; /* Rot für arXiv */
+  color: white;
+}
+
+/* Hover-Effekt für die Icons */
 .social-icons .icon:hover {
+  transform: translateY(-3px);
   background-color: #0077cc;
   color: white;
+}
+
+/* Spezifische Hover-Farben für jedes Icon */
+.social-icons .email:hover {
+  background-color: #444;
+}
+
+.social-icons .orcid:hover {
+  background-color: #85c641;
+}
+
+.social-icons .linkedin:hover {
+  background-color: #005f8d;
+}
+
+.social-icons .scholar:hover {
+  background-color: #3367d6;
+}
+
+.social-icons .arxiv:hover {
+  background-color: #900;
 }
 
 /* Section Styling */
@@ -83,7 +174,7 @@ section p {
 }
 
 .news-highlight {
-  background-color: #e0f7fa;  /* Helles Blau */
+  background-color: #e0f7fa; /* Helles Blau */
   color: #0077cc;
   font-size: 1.3em;
   font-weight: bold;
@@ -193,13 +284,21 @@ hr {
 
 /* Mobile Ansicht */
 @media (max-width: 768px) {
-  header h2 {
-    font-size: 2em;
+  #desktop-nav {
+    display: none;
+  }
+
+  .mobile-header {
+    display: block;
   }
 
   .profile-photo {
     width: 120px;
     height: 120px;
+  }
+
+  header h2 {
+    font-size: 2em;
   }
 
   .social-icons .icon {
