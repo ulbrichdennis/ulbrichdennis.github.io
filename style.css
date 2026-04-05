@@ -251,6 +251,7 @@ td, th {
   }
 }
 
+@media (min-width: 768px){
 .to-top {
 	position: fixed;
 	bottom: 20px;
@@ -283,4 +284,5 @@ td, th {
 
 .to-top:hover {
 	border-color: #0077cc;
+}
 }
