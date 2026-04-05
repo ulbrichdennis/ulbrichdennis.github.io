@@ -200,7 +200,8 @@ courses (lectures, tutorials and exams), particularly in the service area for en
 </main>
 </div> <!-- container -->
 
-
+<!-- Back to Top Button -->
+<button id="backToTop" class="back-to-top">↑</button>
 <script>
  // Active link highlighting
   const sections = document.querySelectorAll("main section");
@@ -232,6 +233,7 @@ courses (lectures, tutorials and exams), particularly in the service area for en
     });
   }, { threshold: 0.1 });
   allSections.forEach(section => observer.observe(section));
+
   const backToTop = document.getElementById("backToTop");
 
 window.addEventListener("scroll", () => {
@@ -242,8 +244,18 @@ window.addEventListener("scroll", () => {
   }
 });
 
+ backToTop.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
 </script>
 
 
 </body>
 </html>
+
+
+
+
+
+

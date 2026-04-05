@@ -220,3 +220,30 @@ td, th {
   margin-bottom: 1.5rem;
 }
 
+/* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  display: none; /* Standardmäßig ausblenden */
+  transition: opacity 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-to-top:hover {
+  background-color: #005fa3;
+}
+
+/* Anzeige nur auf Desktop */
+@media (min-width: 768px) {
+  .back-to-top {
+    display: block;
+  }
+}
