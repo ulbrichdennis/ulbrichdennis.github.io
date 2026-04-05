@@ -273,7 +273,7 @@ td, th {
 	height: 50px;
 	width: 50px;
 	
-	background: white;
+	/* background: white;  */
 	/* border: 4px solid black; */
 	cursor: pointer;
 }
