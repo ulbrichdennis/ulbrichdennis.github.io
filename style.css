@@ -320,9 +320,7 @@ td, th {
   background: #f4fbf6;
 }
 
-.news-entry.highlight::before {
-  content: "🚀";
-}
+
 
 .news-entry {
   margin-bottom: 2rem;
