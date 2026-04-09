@@ -29,7 +29,6 @@ body {
   grid-template-columns: 250px 1fr;
 }
 
-/* Sidebar */
 #sidebar {
   padding: 2rem;
   border-right: 1px solid var(--border);
@@ -48,30 +47,19 @@ body {
 }
 
 #sidebar a:hover { color: var(--accent); }
-
-#sidebar a.active {
-  color: var(--accent);
-}
+#sidebar a.active { color: var(--accent); }
 
 main {
   padding: 2.5rem;
   max-width: 780px;
 }
 
-h2 {
-  font-size: 2.2rem;
-  margin-bottom: 0.5rem;
-}
+h2 { font-size: 2.2rem; }
 
 h3 {
   margin-top: 2.5rem;
   border-bottom: 1px solid var(--border);
   padding-bottom: 0.3rem;
-  font-size: 1.4rem;
-}
-
-h4 {
-  margin-top: 1.5rem;
 }
 
 .profile {
@@ -91,7 +79,6 @@ h4 {
   max-width: 500px;
 }
 
-/* News */
 .news-entry {
   padding: 1rem 1.2rem;
   border-left: 4px solid var(--accent);
@@ -102,34 +89,12 @@ h4 {
 .news-date {
   font-size: 0.85em;
   color: var(--muted);
-  margin-bottom: 0.3rem;
 }
 
-/* Publications */
-.publication {
-  margin-bottom: 1.4rem;
-}
+.publication { margin-bottom: 1.4rem; }
+.publication .title { font-style: italic; }
+.publication .journal { color: var(--muted); font-size: 0.95em; }
 
-.publication .title {
-  font-style: italic;
-}
-
-.publication .journal {
-  color: var(--muted);
-  font-size: 0.95em;
-}
-
-.publication a {
-  font-size: 0.9em;
-  color: var(--accent);
-  text-decoration: none;
-}
-
-.publication a:hover {
-  text-decoration: underline;
-}
-
-/* Smooth animation */
 section {
   opacity: 0;
   transform: translateY(20px);
@@ -141,11 +106,6 @@ section.visible {
   transform: translateY(0);
 }
 
-@media (prefers-reduced-motion: reduce) {
-  section { transition: none; transform: none; opacity: 1; }
-}
-
-/* Footer */
 footer {
   margin-top: 3rem;
   font-size: 0.85em;
@@ -154,19 +114,11 @@ footer {
   padding-top: 1rem;
 }
 
-/* Mobile */
-.mobile-header {
-  display: none;
-}
+.mobile-header { display: none; }
 
 @media (max-width: 768px) {
-  .container {
-    grid-template-columns: 1fr;
-  }
-
-  #sidebar {
-    display: none;
-  }
+  .container { grid-template-columns: 1fr; }
+  #sidebar { display: none; }
 
   .mobile-header {
     display: block;
@@ -174,7 +126,6 @@ footer {
     top: 0;
     background: white;
     border-bottom: 1px solid var(--border);
-    z-index: 1000;
   }
 
   .mobile-nav {
@@ -189,7 +140,6 @@ footer {
     text-decoration: none;
     font-size: 14px;
     color: var(--muted);
-    border-bottom: 2px solid transparent;
   }
 
   .mobile-nav a.active {
@@ -205,6 +155,7 @@ footer {
   <div class="mobile-nav">
     <a href="#research">Research</a>
     <a href="#publications">Publications</a>
+    <a href="#projects">Projects</a>
     <a href="#teaching">Teaching</a>
     <a href="#cv">CV</a>
   </div>
@@ -215,6 +166,7 @@ footer {
 <nav id="sidebar">
   <a href="#research">Research</a>
   <a href="#publications">Publications</a>
+  <a href="#projects">Projects</a>
   <a href="#teaching">Teaching</a>
   <a href="#cv">CV</a>
 </nav>
@@ -222,10 +174,10 @@ footer {
 <main id="top">
 
 <div class="profile">
-  <img src="https://via.placeholder.com/150" alt="Portrait">
+  <img src="/img/Ulbrich_portrait.jpeg" alt="Portrait">
   <div>
     <h2>Dr. Dennis Ulbrich</h2>
-    <p class="subtitle">Mathematician in nonlinear analysis, dynamical systems, and kinetic theory</p>
+    <p class="subtitle">Mathematician with research background in nonlinear analysis, dynamical systems, ergodic theory, and kinetic theory.</p>
   </div>
 </div>
 
@@ -233,17 +185,19 @@ footer {
 <h3>News</h3>
 <div class="news-entry">
   <div class="news-date">2026</div>
-  Open for postdoctoral and teaching-focused academic positions.
+  Open to academic positions, including postdoctoral and teaching-focused roles.
 </div>
 </section>
 
 <section id="research">
 <h3>Research Interests</h3>
 <ul>
-<li>Partial differential equations and dynamics</li>
-<li>Nonlinear waves and ergodic theory</li>
+<li>Ordinary and partial differential equations and their dynamics</li>
+<li>Nonlinear wave solutions and ergodic properties</li>
 <li>Kinetic theory and entropy methods</li>
+<li>Boltzmann equation and BGK models</li>
 <li>Long-time behavior and hypocoercivity</li>
+<li>Applications in physics and chemistry</li>
 </ul>
 </section>
 
@@ -251,19 +205,35 @@ footer {
 <h3>Publications</h3>
 
 <div class="publication">
-<span class="authors">A. Pauthier, J.D.M. Rademacher, <strong>D. Ulbrich</strong></span><br>
+A. Pauthier, J.D.M. Rademacher, <strong>D. Ulbrich</strong><br>
 <span class="title">Weak and strong interaction of excitation kinks in scalar parabolic equations</span><br>
-<span class="journal">J Dyn Diff Equat 35 (2023)</span><br>
-<a href="#">DOI</a> · <a href="#">arXiv</a>
+<span class="journal">J Dyn Diff Equat 35, 2199–2235 (2023)</span>
 </div>
 
 <div class="publication">
-<span class="authors">M. Keßeböhmer, J.D.M. Rademacher, <strong>D. Ulbrich</strong></span><br>
-<span class="title">Dynamics and topological entropy of 1D cellular automata</span><br>
-<span class="journal">Ergodic Theory Dynam. Systems (2020)</span><br>
-<a href="#">DOI</a> · <a href="#">arXiv</a>
+M. Keßeböhmer, J.D.M. Rademacher, <strong>D. Ulbrich</strong><br>
+<span class="title">Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata</span><br>
+<span class="journal">Ergodic Theory and Dynamical Systems 41 (2020)</span>
 </div>
 
+<h4>Ongoing Work</h4>
+<ul>
+<li>Discrete hypocoercivity for nonlinear kinetic reaction models</li>
+</ul>
+
+<h4>Thesis</h4>
+<ul>
+<li>Ergodic theory of nonlinear waves in excitable media (PhD thesis, 2021)</li>
+</ul>
+
+</section>
+
+<section id="projects">
+<h3>Projects</h3>
+<ul>
+<li>DFG Project: Kinetic theory applications (BGK equation)</li>
+<li>DFG Project: Ergodic theory of nonlinear waves</li>
+</ul>
 </section>
 
 <section id="teaching">
@@ -292,7 +262,6 @@ footer {
 </div>
 
 <script>
-// Scroll highlight
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll("#sidebar a, .mobile-nav a");
 
@@ -311,7 +280,6 @@ window.addEventListener("scroll", () => {
   });
 });
 
-// Animation
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
