@@ -67,10 +67,35 @@ h3 { margin-top: 2.5rem; border-bottom: 1px solid var(--border); }
 .subtitle { color: var(--muted); }
 
 .social {
-  margin-top: 10px;
+  margin-top: 12px;
   display: flex;
   gap: 10px;
 }
+
+.social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #f5f5f5;
+  color: #222;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.25s ease;
+}
+
+.social a:hover {
+  transform: translateY(-2px);
+  color: #fff;
+}
+
+.social a.email:hover { background: #666; }
+.social a.linkedin:hover { background: #0077b5; }
+.social a.scholar:hover { background: #4285f4; }
+.social a.arxiv:hover { background: #b31b1b; }
+.social a.orcid:hover { background: #a6ce39; }
 
 .social a {
   color: var(--muted);
@@ -96,9 +121,44 @@ footer {
   border-top: 1px solid var(--border);
 }
 
-/* Mobile NAV UPGRADE */
+/* Mobile Navigation (horizontal – improved version of your original) */
 .mobile-header {
   display: none;
+}
+
+@media (max-width: 768px) {
+  .container { grid-template-columns: 1fr; }
+  #sidebar { display: none; }
+
+  .mobile-header {
+    display: block;
+    position: sticky;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid var(--border);
+    z-index: 1000;
+  }
+
+  .mobile-nav {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .mobile-nav a {
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--muted);
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+  }
+
+  .mobile-nav a.active {
+    color: var(--accent);
+    border-bottom: 2px solid var(--accent);
+  }
 }
 
 .mobile-menu {
@@ -149,16 +209,13 @@ footer {
 <body>
 
 <div class="mobile-header">
-  <div><strong>Ulbrich</strong></div>
-  <div class="hamburger" onclick="toggleMenu()"><i class="fa fa-bars"></i></div>
-</div>
-
-<div class="mobile-menu" id="menu">
-  <a href="#research">Research</a>
-  <a href="#publications">Publications</a>
-  <a href="#projects">Projects</a>
-  <a href="#teaching">Teaching</a>
-  <a href="#cv">CV</a>
+  <div class="mobile-nav">
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#projects">Projects</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#cv">CV</a>
+  </div>
 </div>
 
 <div class="container">
@@ -179,10 +236,11 @@ footer {
     <h2>Dr. Dennis Ulbrich</h2>
     <p class="subtitle">Research in nonlinear PDEs, dynamical systems, and kinetic theory.</p>
     <div class="social">
-      <a href="mailto:ulbrich.dennis@icloud.com"><i class="fa fa-envelope"></i></a>
-      <a href="https://scholar.google.com"><i class="fa fa-graduation-cap"></i></a>
-      <a href="https://arxiv.org"><i class="fa fa-file"></i></a>
-      <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="mailto:ulbrich.dennis@icloud.com" class="email"><i class="fa fa-envelope"></i></a>
+      <a href="https://scholar.google.com/citations?user=b1u5plUAAAAJ" class="scholar" target="_blank"><i class="fa fa-graduation-cap"></i></a>
+      <a href="https://arxiv.org/a/ulbrich_d_1.html" class="arxiv" target="_blank"><i class="fa fa-file"></i></a>
+      <a href="https://orcid.org/0000-0001-5541-011X" class="orcid" target="_blank"><i class="fa fa-id-badge"></i></a>
+      <a href="https://www.linkedin.com/in/dr-dennis-ulbrich-5369773b8/" class="linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
     </div>
   </div>
 </div>
@@ -301,9 +359,24 @@ Ergodic theory of nonlinear waves in discrete and continuous excitable media</li
 </div>
 
 <script>
-function toggleMenu() {
-  document.getElementById("menu").classList.toggle("open");
-}
+// Active link highlighting
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll("#sidebar a, .mobile-nav a");
+
+window.addEventListener("scroll", () => {
+  let current = "";
+  sections.forEach(sec => {
+    const top = sec.offsetTop - 120;
+    if (pageYOffset >= top) current = sec.getAttribute("id");
+  });
+
+  navLinks.forEach(link => {
+    link.classList.remove("active");
+    if (link.getAttribute("href") === "#" + current) {
+      link.classList.add("active");
+    }
+  });
+});
 </script>
 
 </body>
