@@ -1,251 +1,222 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dr. Dennis Ulbrich</title>
-  
-  <!-- External CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
-  <link rel="stylesheet" href="style.css">
 
-  <!-- MathJax -->
-  <script type="text/javascript" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
-  <!-- jsPDF -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <!-- Font Awesome (für LinkedIn und andere) -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #f5f7fa;
+      color: #222;
+      line-height: 1.6;
+    }
 
-<!-- Academicons (für arXiv, ORCID, Scholar) -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 24px;
+      background: white;
+      border-bottom: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    nav.desktop {
+      display: flex;
+      gap: 24px;
+    }
+
+    nav.desktop a {
+      text-decoration: none;
+      color: #333;
+      font-size: 15px;
+    }
+
+    .burger {
+      display: none;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .mobile-menu {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 75%;
+      height: 100%;
+      background: white;
+      padding: 40px 24px;
+      transition: 0.3s;
+      box-shadow: -4px 0 10px rgba(0,0,0,0.1);
+    }
+
+    .mobile-menu a {
+      display: block;
+      margin-bottom: 20px;
+      font-size: 18px;
+      text-decoration: none;
+      color: #222;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .profile img {
+      width: 180px;
+      border-radius: 12px;
+      margin-top: 15px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .lead {
+      font-size: 17px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    .pub-item {
+      background: white;
+      padding: 16px;
+      margin-bottom: 12px;
+      border-radius: 8px;
+      border-left: 4px solid #0077cc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 14px;
+      color: #777;
+    }
+
+    @media (max-width: 768px) {
+      nav.desktop { display: none; }
+      .burger { display: block; }
+    }
+  </style>
 </head>
 <body>
 
-<div class="mobile-header">
+<header>
+  <div class="logo">Dr. Dennis Ulbrich</div>
+
+  <nav class="desktop">
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#cv">CV</a>
+  </nav>
+
+  <div class="burger" onclick="toggleMenu()">☰</div>
+</header>
+
+<div class="mobile-menu" id="menu">
+  <a href="#about">About</a>
   <a href="#research">Research</a>
   <a href="#publications">Publications</a>
-  <a href="#projects">Projects</a>
   <a href="#teaching">Teaching</a>
   <a href="#cv">CV</a>
 </div>
 
-<div class="container">
-  <nav id="sidebar"><br><br>
-    <br>
-  <a href="#research">Research interests</a>
-  <a href="#publications">Publications</a>
-  <a href="#projects">Projects</a>
-  <a href="#teaching">Teaching</a>
-  <a href="#cv">Short CV</a>
-</nav>
+<main class="container">
 
+  <div class="profile">
+    <h1>Dr. Dennis Ulbrich</h1>
+    <img src="/img/Ulbrich_portrait.jpeg" alt="Dr. Dennis Ulbrich">
+    <p class="lead">
+      Mathematician with research background in nonlinear analysis, dynamical systems, ergodic theory, and kinetic theory. Strong commitment to undergraduate teaching and academic course organization.
+    </p>
+  </div>
 
-<main id="top">
-  <a class="to-top" href="#top" aria-label="back to top"><img src="https://www.svgrepo.com/show/506650/chevron-top.svg" alt=""></a>
-  
-  <header>
-    <div>
-       <h2>Dr. Dennis Ulbrich</h2>
-      <img src="/img/Ulbrich_portrait.jpeg" alt="Dr. Dennis Ulbrich" class="profile-photo"><br>
-      <!-- <p><a href="https://orcid.org/0000-0001-5541-011X" target="_blank">ORCID: 0000-0001-5541-011X </a></p> 
-      <p><a href="mailto:ulbrich.dennis@icloud.com">E-Mail</a> | <a href="https://arxiv.org/a/ulbrich_d_1.html" target="_blank">arXiv</a> | <a href="https://scholar.google.com/citations?user=b1u5plUAAAAJ" target="_blank">Google Scholar</a> | <a href="https://www.linkedin.com/in/dr-dennis-ulbrich-5369773b8/" target="_blank">LinkedIn</a></p> -->
-    <div class="social-icons">
-  <a href="mailto:ulbrich.dennis@icloud.com" title="Email" class="icon email">
-    <i class="fa-solid fa-envelope"></i>
-  </a>
-
-  <a href="https://arxiv.org/a/ulbrich_d_1.html" target="_blank" title="arXiv" class="icon arxiv">
-    <i class="ai ai-arxiv"></i>
-  </a>
-
-  <a href="https://orcid.org/0000-0001-5541-011X" target="_blank" title="ORCID" class="icon orcid">
-    <i class="ai ai-orcid"></i>
-  </a>
-
-  <a href="https://scholar.google.com/citations?user=b1u5plUAAAAJ" target="_blank" title="Google Scholar" class="icon scholar">
-    <i class="ai ai-google-scholar"></i>
-  </a>
-
-  <a href="https://www.linkedin.com/in/dr-dennis-ulbrich-5369773b8/" target="_blank" title="LinkedIn" class="icon linkedin">
-    <i class="fa-brands fa-linkedin"></i>
-  </a>
-</div>
-
-    </div>
-  </header>
-
- <section><h5>About</h5>
-  <p>Mathematician with research background in nonlinear analysis, dynamical systems, ergodic theory, and kinetic theory, with several years of proficiency and strong commitment to undergraduate teaching, student supervision, and academic course organization</p>
-
- <section><h5><i>News</i></h5>
-  <i>Open to academic positions, including postdoctoral roles and teaching-focused positions; strong interest in combining research with high-quality undergraduate teaching and curriculum development</i>
+  <section id="research">
+    <h2>Research Interests</h2>
+    <ul>
+      <li>Ordinary and partial differential equations</li>
+      <li>Nonlinear wave solutions and ergodic properties</li>
+      <li>Kinetic theory and entropy methods</li>
+      <li>Boltzmann equation and BGK models</li>
+      <li>Long-time behavior (hypocoercivity)</li>
+      <li>Applications in physics and chemistry</li>
+    </ul>
   </section>
-
-<section id="research">
-    <h3>Research interests</h3>
-<p>
-  My research interests include, but are not limited to:
-  </p>
-<ul>  
-<li>Ordinary and partial differential equations and their dynamics</li>
-<li>Nonlinear wave solutions and their ergodic properties</li>
-<li>Kinetic theory, in particular entropy methods</li>
-<li>Boltzmann equation and its BGK-type approximations</li>
-<li>Long-time behavior of solutions (hypocoercivity)</li>
-<li>Physical applications</li>
-<li>Models of chemical reactions</li>
-</ul>
-</section>
 
   <section id="publications">
-    <h3>Publications</h3>
-<p>
-  <h4>Peer-reviewed journal articles</h4>
-<p>
-<ul>
-  <li>A. Pauthier, J.D.M. Rademacher, <i>D. Ulbrich</i><br>
+    <h2>Publications</h2>
+
+    <div class="pub-item">
+      <strong>Pauthier, Rademacher, Ulbrich (2023)</strong><br>
       Weak and strong interaction of excitation kinks in scalar parabolic equations<br>
-      J Dyn Diff Equat35, 2199–2235, (2023). [<a href="https://link.springer.com/article/10.1007/s10884-021-10040-2" target="_blank">DOI</a> | <a href="https://arxiv.org/abs/2012.00309" target="_blank">arXiv</a>]</li>
-  <li>M. Keßeböhmer, J.D.M. Rademacher, <i>D. Ulbrich</i><br>
+      <a href="https://arxiv.org/abs/2012.00309" target="_blank">arXiv</a>
+    </div>
+
+    <div class="pub-item">
+      <strong>Keßeböhmer, Rademacher, Ulbrich (2020)</strong><br>
       Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata<br>
-      Ergodic Theory and Dynamical Systems, 41 (2020), no. 5, 1397–1430. [<a href="https://www.cambridge.org/core/journals/ergodic-theory-and-dynamical-systems/article/dynamics-and-topological-entropy-of-1d-greenberghastings-cellular-automata/1DBE1EC4EC7BE9F216E9E35C214F2F3C" target="_blank">DOI</a> | <a href="https://arxiv.org/abs/1903.02459" target="_blank">arXiv</a>]</li>
-</ul>
-</p>
-</p>
-
-<h4>Ongoing work</h4>
-<p>
-<ul>
-  <li>Discrete hypocoercivity for a nonlinear kinetic reaction model without initial close-to-equilibrium assumption<br>
-  L. Liu, M. Pirner, <i>D. Ulbrich</i></li>
-</ul>
-</p>
-
-<h4>Thesis</h4>
-<p>
-<ul>
-  <li>D. Ulbrich<br>
-      Ergodic theory of nonlinear waves in discrete and continuous excitable media<br>
-      Diss., 2021. [<a href="https://media.suub.uni-bremen.de/entities/publication/f6d1f31c-f9e0-4fcf-9d86-0ee66235e4d4" target="_blank">DOI</a>] </li>
-</ul>
-</p>
+      <a href="https://arxiv.org/abs/1903.02459" target="_blank">arXiv</a>
+    </div>
 
   </section>
 
- <section id="projects">
- <h3>Projects</h3>
-<p>Projects in which I participated:</p>
-<p>
-<ul>
-  <li><a href="https://gepris.dfg.de/gepris/projekt/456849348?language=en" target="_blank">DFG 456849348</a> <br>
-      Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation</li>
-   <li><a href="https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2" target="_blank">DFG 384027439</a><br>
-       Ergodic theory of nonlinear waves in discrete and continuous excitable media</li>   
-</ul>
-</p>
- </section> 
+  <section id="teaching">
+    <h2>Teaching</h2>
+    <ul>
+      <li>2024/25: Mathematik 1, Hochschule Bremen</li>
+      <li>2022: Finite Mathematics, Jacobs University Bremen</li>
+      <li>2022: Dynamical Systems Seminar</li>
+    </ul>
+  </section>
 
- <section id="teaching">
-<h3>Teaching</h3>
-<p>Independent execution of university
-courses (lectures, tutorials and exams), particularly in the service area for engineering degree programs:</p>
-<p>
-<ul>
-<li>Winter 2024/2025: Mathematik 1, Hochschule Bremen, School of Nature and Engineering</li>
-<li>Spring 2022: Finite Mathematics, Jacobs University Bremen, Mathematical Sciences</li>
-<li>Spring 2022: Introduction to dynamical systems (pro-seminar), Jacobs University Bremen, Mathematical Sciences</li>
-</ul>
-</p>
-</section>
-
-<section id="cv">
-<h3>Short CV</h3>
-<p>
-<h4>Academic Positions</h4>
-</p>
-<p>
-<ul>
-<li>since May 2025: Tutoring mathematics students</li>
-<li>Feb 2025 – May 2025: Research assistant, Hochschule Bremen</li>
-<li>Oct 2024 – Mar 2025: Lecturer in Mathematics, Hochschule Bremen</li>
-<li>Jun 2023 – Jun 2024: Postdoctoral researcher, University of Münster (Institute for Analysis and Numerics), supervision: Prof. Dr. M. Pirner</li>
-<li>Jan 2022 – Jun 2022: Lecturer in Mathematics, Jacobs University Bremen</li>
-</ul>
-</p>
-
-
-<h4>Education</h4>
-<p>
-<ul>
-<li>Oct 2017 – Sep 2021: PhD (Dr. rer. nat.) in Mathematics, University of Bremen, supervision: Prof. Dr. J. Rademacher, Prof. Dr. M. Keßeböhmer, also see <a href="https://mathgenealogy.org/id.php?id=277103" target="_blank">MGP</a></li>
-<li>Oct 2016 – Oct 2017: Brückenstipendium in Mathematics, University of Bremen</li>
-<li>Oct 2011 – Sep 2016: B.Sc. and M.Sc. in Mathematics, University of Bremen</li>
-</ul>
-</p>
-
-<h4>Additional Experience</h4>
-<p>
-  <ul>
-<li>Sep 2022 – Feb 2023: Internship (IT sector)</li>
-</ul> 
-</p>
-</section>
-
-  
- 
-<footer style="font-size:small">
-  &copy; 2026 D. Ulbrich - Last updated: Apr 07, 2026 
-<!--  <a href="legal-notice.html">Legal Notice</a> | <a href="privacy.html">Privacy Policy</a>  -->
-</footer>
+  <section id="cv">
+    <h2>Short CV</h2>
+    <ul>
+      <li>Postdoc, University of Münster (2023–2024)</li>
+      <li>Lecturer, Hochschule Bremen (2024–2025)</li>
+      <li>PhD in Mathematics, University of Bremen (2021)</li>
+    </ul>
+  </section>
 
 </main>
-</div> <!-- container -->
+
+<footer>
+  © 2026 Dr. Dennis Ulbrich
+</footer>
 
 <script>
- // Active link highlighting
-  const sections = document.querySelectorAll("main section");
-  const navLinks = document.querySelectorAll("#sidebar a, .mobile-header a");
-
-
-  window.addEventListener("scroll", () => {
-    let current = "";
-    sections.forEach(section => {
-      const sectionTop = section.offsetTop - 100;
-      if (pageYOffset >= sectionTop) current = section.getAttribute("id");
-    });
-    navLinks.forEach(link => {
-      link.classList.remove("active");
-      if (link.getAttribute("href") === "#" + current) link.classList.add("active");
-    });
-  });
-  
-
-
-  // Scroll animation for sections
-  const allSections = document.querySelectorAll('main section');
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if(entry.isIntersecting){
-        entry.target.classList.add('visible');
-        observer.unobserve(entry.target); // animate once
-      }
-    });
-  }, { threshold: 0.1 });
-  allSections.forEach(section => observer.observe(section));
-
-  
-
+function toggleMenu() {
+  const menu = document.getElementById("menu");
+  menu.style.right = menu.style.right === "0px" ? "-100%" : "0";
+}
 </script>
-
 
 </body>
 </html>
-
-
-
-
-
-
