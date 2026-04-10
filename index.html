@@ -1,131 +1,116 @@
-import React, { useState } from "react";
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akademische Webseite</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans text-gray-800">
 
-export default function AcademicWebsite() {
-  const [menuOpen, setMenuOpen] = useState(false);
+<!-- Navbar -->
+<header class="fixed w-full bg-white/90 backdrop-blur shadow z-50">
+  <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+    <h1 class="text-xl font-bold">Dein Name</h1>
+    <nav class="hidden md:flex gap-6 text-sm">
+      <a href="#about">About</a>
+      <a href="#cv">CV</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="md:hidden text-xl" onclick="toggleMenu()">☰</button>
+  </div>
 
-  const closeMenu = () => setMenuOpen(false);
+  <div id="mobileMenu" class="hidden md:hidden bg-white shadow-lg p-4 flex flex-col gap-4 text-center">
+    <a href="#about" onclick="toggleMenu()">About</a>
+    <a href="#cv" onclick="toggleMenu()">CV</a>
+    <a href="#research" onclick="toggleMenu()">Research</a>
+    <a href="#publications" onclick="toggleMenu()">Publications</a>
+    <a href="#contact" onclick="toggleMenu()">Contact</a>
+  </div>
+</header>
 
-  return (
-    <div className="font-sans text-gray-800">
-      {/* Navbar */}
-      <header className="fixed w-full bg-white/90 backdrop-blur shadow z-50">
-        <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
-          <h1 className="text-xl font-bold">Dein Name</h1>
-          <nav className="hidden md:flex gap-6 text-sm">
-            <a href="#about">About</a>
-            <a href="#cv">CV</a>
-            <a href="#research">Research</a>
-            <a href="#publications">Publications</a>
-            <a href="#contact">Contact</a>
-          </nav>
-          <button
-            className="md:hidden text-xl"
-            onClick={() => setMenuOpen(!menuOpen)}
-          >
-            ☰
-          </button>
-        </div>
-
-        {/* Mobile Menu */}
-        {menuOpen && (
-          <div className="md:hidden bg-white shadow-lg p-4 flex flex-col gap-4 text-center">
-            <a onClick={closeMenu} href="#about">About</a>
-            <a onClick={closeMenu} href="#cv">CV</a>
-            <a onClick={closeMenu} href="#research">Research</a>
-            <a onClick={closeMenu} href="#publications">Publications</a>
-            <a onClick={closeMenu} href="#contact">Contact</a>
-          </div>
-        )}
-      </header>
-
-      {/* Hero */}
-      <section className="min-h-screen flex flex-col md:flex-row items-center justify-center gap-10 text-center md:text-left bg-gray-50 px-6">
-        <img
-          src="/img/Ulbrich_portrait.jpg"
-          alt="Profilbild"
-          className="w-40 h-40 rounded-full object-cover shadow-lg"
-        />
-        <div>
-          <h2 className="text-4xl font-bold mb-2">Dein Name</h2>
-          <p className="text-lg mb-4">Deine akademische Position / Titel</p>
-          <div className="flex gap-4 justify-center md:justify-start flex-wrap">
-            <a className="px-4 py-2 bg-black text-white rounded-xl" href="#contact">Kontakt</a>
-            <a className="px-4 py-2 border rounded-xl" href="/cv.pdf" download>
-              CV herunterladen
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* About */}
-      <section id="about" className="max-w-4xl mx-auto p-8">
-        <h3 className="text-2xl font-semibold mb-4">About</h3>
-        <p>
-          Hier kommt deine akademische Kurzbiografie rein. Fokussiere dich auf
-          deine Spezialisierung, Methodenkompetenzen und Forschungsschwerpunkte.
-        </p>
-      </section>
-
-      {/* CV */}
-      <section id="cv" className="bg-gray-50 p-8">
-        <div className="max-w-4xl mx-auto">
-          <h3 className="text-2xl font-semibold mb-4">Curriculum Vitae</h3>
-          <ul className="space-y-3">
-            <li>
-              <strong>2024 – heute:</strong> Position / Institution
-            </li>
-            <li>
-              <strong>2022 – 2024:</strong> Studium / Abschluss
-            </li>
-            <li>
-              Weitere Stationen…
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      {/* Research */}
-      <section id="research" className="max-w-4xl mx-auto p-8">
-        <h3 className="text-2xl font-semibold mb-4">Research</h3>
-        <p className="mb-4">
-          Beschreibe deine Forschungsthemen, laufenden Projekte und
-          methodischen Ansätze.
-        </p>
-        <ul className="list-disc ml-6 space-y-2">
-          <li>Forschungsschwerpunkt 1</li>
-          <li>Forschungsschwerpunkt 2</li>
-        </ul>
-      </section>
-
-      {/* Publications */}
-      <section id="publications" className="bg-gray-50 p-8">
-        <div className="max-w-4xl mx-auto">
-          <h3 className="text-2xl font-semibold mb-4">Publications</h3>
-          <ul className="space-y-3 text-sm">
-            <li>
-              Autor (Jahr): Titel. <em>Journal</em>.
-            </li>
-            <li>Weitere Publikationen…</li>
-          </ul>
-        </div>
-      </section>
-
-      {/* Contact */}
-      <section id="contact" className="max-w-4xl mx-auto p-8">
-        <h3 className="text-2xl font-semibold mb-4">Contact</h3>
-        <p>Email: deine.email@example.com</p>
-        <p>Institution: Deine Universität</p>
-        <div className="mt-4 flex gap-4 flex-wrap">
-          <a href="#" className="underline">Google Scholar</a>
-          <a href="#" className="underline">LinkedIn</a>
-          <a href="#" className="underline">ResearchGate</a>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white text-center p-4 text-sm">
-        © {new Date().getFullYear()} Dein Name
-      </footer>
+<!-- Hero -->
+<section class="min-h-screen flex flex-col md:flex-row items-center justify-center gap-10 text-center md:text-left bg-gray-50 px-6">
+  <img src="profile.jpg" alt="Profilbild" class="w-40 h-40 rounded-full object-cover shadow-lg">
+  <div>
+    <h2 class="text-4xl font-bold mb-2">Dein Name</h2>
+    <p class="text-lg mb-4">Deine akademische Position / Titel</p>
+    <div class="flex gap-4 justify-center md:justify-start flex-wrap">
+      <a class="px-4 py-2 bg-black text-white rounded-xl" href="#contact">Kontakt</a>
+      <a class="px-4 py-2 border rounded-xl" href="cv.pdf" download>CV herunterladen</a>
     </div>
-  );
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="max-w-4xl mx-auto p-8">
+  <h3 class="text-2xl font-semibold mb-4">About</h3>
+  <p>
+    Hier kommt deine akademische Kurzbiografie rein. Fokussiere dich auf deine Spezialisierung,
+    Methodenkompetenzen und Forschungsschwerpunkte.
+  </p>
+</section>
+
+<!-- CV -->
+<section id="cv" class="bg-gray-50 p-8">
+  <div class="max-w-4xl mx-auto">
+    <h3 class="text-2xl font-semibold mb-4">Curriculum Vitae</h3>
+    <ul class="space-y-3">
+      <li><strong>2024 – heute:</strong> Position / Institution</li>
+      <li><strong>2022 – 2024:</strong> Studium / Abschluss</li>
+      <li>Weitere Stationen…</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Research -->
+<section id="research" class="max-w-4xl mx-auto p-8">
+  <h3 class="text-2xl font-semibold mb-4">Research</h3>
+  <p class="mb-4">Beschreibe deine Forschungsthemen und Projekte.</p>
+  <ul class="list-disc ml-6 space-y-2">
+    <li>Forschungsschwerpunkt 1</li>
+    <li>Forschungsschwerpunkt 2</li>
+  </ul>
+</section>
+
+<!-- Publications -->
+<section id="publications" class="bg-gray-50 p-8">
+  <div class="max-w-4xl mx-auto">
+    <h3 class="text-2xl font-semibold mb-4">Publications</h3>
+    <ul class="space-y-3 text-sm">
+      <li>Autor (Jahr): Titel. <em>Journal</em>.</li>
+      <li>Weitere Publikationen…</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="max-w-4xl mx-auto p-8">
+  <h3 class="text-2xl font-semibold mb-4">Contact</h3>
+  <p>Email: deine.email@example.com</p>
+  <p>Institution: Deine Universität</p>
+  <div class="mt-4 flex gap-4 flex-wrap">
+    <a href="#" class="underline">Google Scholar</a>
+    <a href="#" class="underline">LinkedIn</a>
+    <a href="#" class="underline">ResearchGate</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white text-center p-4 text-sm">
+  © <span id="year"></span> Dein Name
+</footer>
+
+<script>
+function toggleMenu() {
+  const menu = document.getElementById('mobileMenu');
+  menu.classList.toggle('hidden');
 }
+
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
