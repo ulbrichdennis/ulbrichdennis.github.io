@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dr. Dennis Ulbrich</title>
+  <title>Akademische Webseite</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="font-sans text-gray-800">
@@ -11,7 +11,7 @@
 <!-- Navbar -->
 <header class="fixed w-full bg-white/80 backdrop-blur z-50 border-b border-gray-200">
   <div class="max-w-6xl mx-auto flex justify-between items-center px-3 py-1">
-    <h1 class="text-base font-semibold"></h1>
+    <h1 class="text-base font-semibold">Dein Name</h1>
     <nav class="hidden md:flex gap-5 text-xs tracking-wide uppercase">
       <a href="#about" class="relative group">About<span class="absolute left-0 -bottom-0.5 w-0 h-px bg-black transition-all duration-300 group-hover:w-full"></span></a>
       <a href="#cv">CV</a>
@@ -34,16 +34,40 @@
 <!-- Hero -->
 <section class="bg-gray-50 border-b border-gray-200 pt-20 pb-10 px-6">
   <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
-    <div class="flex items-center gap-5">
-      <img src="/img/Ulbrich_portrait.jpeg" alt="Dennis Ulbrich" class="w-28 h-28 rounded-lg object-cover shadow" />
+    <div class="flex flex-col md:flex-row items-center gap-5">
+      <img src="profile.jpg" alt="Profilbild" class="w-28 h-28 rounded-lg object-cover shadow" />
       <div>
-        <h2 class="text-3xl font-semibold">Dr. Dennis Ulbrich</h2>
-        <p class="text-sm text-gray-600">Mathematician</p>
+        <h2 class="text-3xl font-semibold">Dein Name</h2>
+        <p class="text-sm text-gray-600">Deine akademische Position / Titel</p>
+
+        <!-- Social Icons -->
+        <div class="flex flex-wrap gap-3 mt-3 text-sm">
+          <a href="#" title="ORCID" class="flex items-center gap-1 text-[#A6CE39] hover:opacity-80">
+            <span class="font-semibold">ORCID</span>
+          </a>
+
+          <a href="#" title="arXiv" class="flex items-center gap-1 text-[#B31B1B] hover:opacity-80">
+            <span class="font-semibold">arXiv</span>
+          </a>
+
+          <a href="#" title="Google Scholar" class="flex items-center gap-1 text-[#4285F4] hover:opacity-80">
+            <span class="font-semibold">Scholar</span>
+          </a>
+
+          <a href="mailto:deine.email@example.com" title="Email" class="flex items-center gap-1 text-gray-700 hover:opacity-80">
+            <span class="font-semibold">Email</span>
+          </a>
+
+          <a href="#" title="LinkedIn" class="flex items-center gap-1 text-[#0A66C2] hover:opacity-80">
+            <span class="font-semibold">LinkedIn</span>
+          </a>
+        </div>
       </div>
     </div>
+
     <div class="flex gap-3 flex-wrap">
-      <a href="#contact" class="px-4 py-2 text-sm bg-black text-white rounded-lg">Contact</a>
-      <a href="cv.pdf" download class="px-4 py-2 text-sm border border-gray-300 rounded-lg">Download CV</a>
+      <a href="#contact" class="px-4 py-2 text-sm bg-black text-white rounded-lg">Kontakt</a>
+      <a href="cv.pdf" download class="px-4 py-2 text-sm border border-gray-300 rounded-lg">CV herunterladen</a>
     </div>
   </div>
 </section>
