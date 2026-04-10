@@ -10,19 +10,19 @@
 
 <!-- Navbar -->
 <header class="fixed w-full bg-white/90 backdrop-blur shadow z-50">
-  <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
-    <h1 class="text-xl font-bold">Dein Name</h1>
-    <nav class="hidden md:flex gap-6 text-sm">
+  <div class="max-w-6xl mx-auto flex justify-between items-center px-4 py-2">
+    <h1 class="text-lg font-semibold">Dein Name</h1>
+    <nav class="hidden md:flex gap-4 text-xs">
       <a href="#about">About</a>
       <a href="#cv">CV</a>
       <a href="#research">Research</a>
       <a href="#publications">Publications</a>
       <a href="#contact">Contact</a>
     </nav>
-    <button class="md:hidden text-xl" onclick="toggleMenu()">☰</button>
+    <button class="md:hidden text-lg" onclick="toggleMenu()">☰</button>
   </div>
 
-  <div id="mobileMenu" class="hidden md:hidden bg-white shadow-lg p-4 flex flex-col gap-4 text-center">
+  <div id="mobileMenu" class="hidden md:hidden bg-white shadow-lg p-3 flex flex-col gap-3 text-center text-sm">
     <a href="#about" onclick="toggleMenu()">About</a>
     <a href="#cv" onclick="toggleMenu()">CV</a>
     <a href="#research" onclick="toggleMenu()">Research</a>
@@ -33,10 +33,10 @@
 
 <!-- Hero -->
 <section class="min-h-screen flex flex-col md:flex-row items-center justify-center gap-10 text-center md:text-left bg-gray-50 px-6">
-  <img src="/img/Ulbrich_portrait.jpeg" alt="Dennis Ulbrich" class="w-40 h-40 rounded-full object-cover shadow-lg">
+  <img src="profile.jpg" alt="Profilbild" class="w-40 h-40 rounded-full object-cover shadow-lg">
   <div>
-    <h2 class="text-4xl font-bold mb-2">Dr. Dennis Ulbrich</h2>
-    <p class="text-lg mb-4">Mathematician </p>
+    <h2 class="text-4xl font-bold mb-2">Dein Name</h2>
+    <p class="text-lg mb-4">Deine akademische Position / Titel</p>
     <div class="flex gap-4 justify-center md:justify-start flex-wrap">
       <a class="px-4 py-2 bg-black text-white rounded-xl" href="#contact">Kontakt</a>
       <a class="px-4 py-2 border rounded-xl" href="cv.pdf" download>CV herunterladen</a>
@@ -45,7 +45,7 @@
 </section>
 
 <!-- About -->
-<section id="about" class="max-w-4xl mx-auto p-8">
+<section id="about" class="max-w-4xl mx-auto p-8 mt-20">
   <h3 class="text-2xl font-semibold mb-4">About</h3>
   <p>
     Hier kommt deine akademische Kurzbiografie rein. Fokussiere dich auf deine Spezialisierung,
