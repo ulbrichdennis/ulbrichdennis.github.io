@@ -13,10 +13,24 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
 <style>
 
- a {
+ 
+/* Standard: ALLE Links */
+a {
   color: #2f3e5c;
   text-decoration: none;
-  position: relative;
+}
+
+/* Hover für normale Links */
+a:hover {
+  color: #0f172a;
+  text-decoration: underline;
+}
+
+/* ❌ Social Icons explizit überschreiben */
+.social-icons a,
+.social-icons a:hover {
+  text-decoration: none !important;
+  color: inherit !important;
 }
 
 /* feine Unterstreich-Animation */
@@ -101,13 +115,8 @@ a:hover {
   border-color: #0077b5;
 }
 
-.social-icons a {
-  text-decoration: none !important;
-}
 
-.social-icons a:hover {
-  text-decoration: none !important;
-}
+
 </style>
 </head>
 <body class="font-sans text-gray-800">
