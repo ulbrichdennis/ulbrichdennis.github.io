@@ -32,43 +32,68 @@
 </header>
 
 <!-- Hero -->
-<section class="bg-gray-50 border-b border-gray-200 pt-20 pb-10 px-6">
-  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
-    <div class="flex flex-col md:flex-row items-center gap-5">
-      <img src="profile.jpg" alt="Profilbild" class="w-28 h-28 rounded-lg object-cover shadow" />
+<section class="bg-gray-50 border-b border-gray-200 pt-16 pb-10 px-6">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
+
+    <!-- Profile -->
+    <div class="flex flex-col md:flex-row items-center gap-6">
+      <img src="profile.jpg" alt="Profilbild" class="w-32 h-32 rounded-lg object-cover shadow" />
       <div>
         <h2 class="text-3xl font-semibold">Dein Name</h2>
         <p class="text-sm text-gray-600">Deine akademische Position / Titel</p>
 
-        <!-- Social Icons -->
-        <div class="flex flex-wrap gap-3 mt-3 text-sm">
-          <a href="#" title="ORCID" class="flex items-center gap-1 text-[#A6CE39] hover:opacity-80">
-            <span class="font-semibold">ORCID</span>
+        <!-- Social Icons (premium minimal, icon-only) -->
+        <div class="flex items-center gap-4 mt-4">
+
+          <!-- ORCID (official style) -->
+          <a href="#" title="ORCID" class="hover:opacity-80">
+            <svg class="w-6 h-6" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="128" cy="128" r="128" fill="#A6CE39"/>
+              <circle cx="128" cy="128" r="52" fill="white"/>
+              <path d="M128 92c-20 0-36 16-36 36s16 36 36 36 36-16 36-36-16-36-36-36z" fill="#A6CE39"/>
+            </svg>
           </a>
 
-          <a href="#" title="arXiv" class="flex items-center gap-1 text-[#B31B1B] hover:opacity-80">
-            <span class="font-semibold">arXiv</span>
+          <!-- arXiv (clean wordmark icon style) -->
+          <a href="#" title="arXiv" class="hover:opacity-80">
+            <svg class="w-6 h-6" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <rect width="100" height="100" rx="18" fill="#B31B1B"/>
+              <text x="50" y="62" text-anchor="middle" font-size="40" fill="white" font-family="Arial">arX</text>
+            </svg>
           </a>
 
-          <a href="#" title="Google Scholar" class="flex items-center gap-1 text-[#4285F4] hover:opacity-80">
-            <span class="font-semibold">Scholar</span>
+          <!-- Google Scholar (graduation cap style) -->
+          <a href="#" title="Google Scholar" class="hover:opacity-80">
+            <svg class="w-6 h-6" viewBox="0 0 24 24" fill="#4285F4" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3z"/>
+              <path d="M5 12v4c0 2.21 3.58 4 7 4s7-1.79 7-4v-4l-7 3.82L5 12z"/>
+            </svg>
           </a>
 
-          <a href="mailto:deine.email@example.com" title="Email" class="flex items-center gap-1 text-gray-700 hover:opacity-80">
-            <span class="font-semibold">Email</span>
+          <!-- Email -->
+          <a href="mailto:deine.email@example.com" title="Email" class="hover:opacity-80">
+            <svg class="w-6 h-6" viewBox="0 0 24 24" fill="#444" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 4h20v16H2V4zm10 7L4 6h16l-8 5z"/>
+            </svg>
           </a>
 
-          <a href="#" title="LinkedIn" class="flex items-center gap-1 text-[#0A66C2] hover:opacity-80">
-            <span class="font-semibold">LinkedIn</span>
+          <!-- LinkedIn -->
+          <a href="#" title="LinkedIn" class="hover:opacity-80">
+            <svg class="w-6 h-6" viewBox="0 0 24 24" fill="#0A66C2" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 4h4v16H4V4zm6 6h4v2h.1A4 4 0 0 1 18 10c2.2 0 4 1.8 4 4v6h-4v-5c0-1.1-.9-2-2-2s-2 .9-2 2v5h-4V10z"/>
+            </svg>
           </a>
+
         </div>
       </div>
     </div>
 
+    <!-- Actions -->
     <div class="flex gap-3 flex-wrap">
       <a href="#contact" class="px-4 py-2 text-sm bg-black text-white rounded-lg">Kontakt</a>
       <a href="cv.pdf" download class="px-4 py-2 text-sm border border-gray-300 rounded-lg">CV herunterladen</a>
     </div>
+
   </div>
 </section>
 
