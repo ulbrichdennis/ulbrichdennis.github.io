@@ -63,12 +63,26 @@ body {
 .social-icons .linkedin:hover { background: #0077b5; color: #fff; }
 
 /* links */
+/* Gradient Links passend zum Accent */
 a {
-  transition: all 0.2s ease;
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(124, 58, 237, 0.3);
+  transition: all 0.25s ease;
 }
 
 a:hover {
-  opacity: 0.75;
+  border-bottom: 2px solid #7c3aed;
+  filter: brightness(1.1);
+}
+
+.social-icons .icon {
+  -webkit-text-fill-color: initial;
+  background: #f3f4f6;
+  color: #222;
+  border-bottom: none;
 }
 
 /* small accent */
@@ -77,6 +91,7 @@ a:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 
 </style>
 </head>
