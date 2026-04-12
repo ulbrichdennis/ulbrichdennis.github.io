@@ -13,27 +13,33 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
 
 <style>
-/* smoother base look */
+/* subtle modern base */
 body {
-  background: #fafafa;
+  background: linear-gradient(to bottom, #fafafa, #f5f7fa);
 }
 
 /* card feel */
 .section-card {
   background: white;
-  border-radius: 16px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.04);
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.section-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 40px rgba(0,0,0,0.06);
 }
 
 /* Social Icons */
 .social-icons {
-  margin-top: 12px;
+  margin-top: 14px;
   display: flex;
   gap: 10px;
 }
 
 .social-icons .icon {
-  background: #f5f5f5;
+  background: #f3f4f6;
   color: #222;
   display: flex;
   align-items: center;
@@ -43,11 +49,11 @@ body {
   border-radius: 50%;
   text-decoration: none;
   transition: all 0.25s ease;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #e5e7eb;
 }
 
 .social-icons .icon:hover {
-  transform: translateY(-4px) scale(1.05);
+  transform: translateY(-4px) scale(1.07);
 }
 
 .social-icons .orcid:hover { background: #a6ce39; color: #fff; }
@@ -56,13 +62,20 @@ body {
 .social-icons .email:hover { background: #666; color: #fff; }
 .social-icons .linkedin:hover { background: #0077b5; color: #fff; }
 
-/* subtle link styling */
+/* links */
 a {
   transition: all 0.2s ease;
 }
 
 a:hover {
-  opacity: 0.7;
+  opacity: 0.75;
+}
+
+/* small accent */
+.accent {
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 </style>
@@ -97,7 +110,7 @@ a:hover {
 <section class="pt-24 pb-12 px-6">
   <div class="max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-8">
 
-    <img src="/img/Ulbrich_portrait.jpeg" alt="D. Ulbrich" class="w-32 h-32 rounded-xl object-cover shadow-md" />
+    <img src="/img/Ulbrich_portrait.jpeg" alt="D. Ulbrich" class="w-32 h-32 rounded-2xl object-cover shadow-md" />
 
     <div>
       <h2 class="text-3xl font-semibold">Dr. Dennis Ulbrich</h2>
@@ -144,8 +157,10 @@ a:hover {
 
     <h4 class="font-semibold mt-6">Projects</h4>
     <ul class="list-disc ml-6 mt-3 space-y-2">
-      <li><a href="https://gepris.dfg.de/gepris/projekt/456849348?language=en" target="_blank">DFG 456849348</a><br>Modeling and mathematical description of concrete physical applications...</li>
-      <li><a href="https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2" target="_blank">DFG 384027439</a><br>Ergodic theory of nonlinear waves...</li>
+      <li><a href="https://gepris.dfg.de/gepris/projekt/456849348?language=en" target="_blank">DFG 456849348</a><br>
+      Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation</li>
+      <li><a href="https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2" target="_blank">DFG 384027439</a><br>
+      Ergodic theory of nonlinear waves in discrete and continuous excitable media</li>
     </ul>
   </div>
 </section>
@@ -153,20 +168,26 @@ a:hover {
 <section id="publications" class="scroll-mt-24">
   <div class="section-card max-w-3xl mx-auto p-8">
     <h3 class="text-xl font-semibold mb-4">Publications</h3>
+
     <h4 class="font-semibold">Peer-reviewed journal articles</h4>
     <ul class="list-disc ml-6 mt-3 space-y-2">
-      <li>A. Pauthier, J.D.M. Rademacher, <i>D. Ulbrich</i> ...</li>
-      <li>M. Keßeböhmer, J.D.M. Rademacher, <i>D. Ulbrich</i> ...</li>
+      <li>A. Pauthier, J.D.M. Rademacher, <i>D. Ulbrich</i><br>
+      Weak and strong interaction of excitation kinks in scalar parabolic equations<br>
+      J Dyn Diff Equat35, 2199–2235, (2023).</li>
+
+      <li>M. Keßeböhmer, J.D.M. Rademacher, <i>D. Ulbrich</i><br>
+      Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata<br>
+      Ergodic Theory and Dynamical Systems, 41 (2020).</li>
     </ul>
 
     <h4 class="font-semibold mt-6">Ongoing work</h4>
     <ul class="list-disc ml-6 mt-3">
-      <li>Discrete hypocoercivity for a nonlinear kinetic reaction model...</li>
+      <li>Discrete hypocoercivity for a nonlinear kinetic reaction model without initial close-to-equilibrium assumption</li>
     </ul>
 
     <h4 class="font-semibold mt-6">Thesis</h4>
     <ul class="list-disc ml-6 mt-3">
-      <li>D. Ulbrich ...</li>
+      <li>D. Ulbrich — Ergodic theory of nonlinear waves in discrete and continuous excitable media</li>
     </ul>
   </div>
 </section>
@@ -175,9 +196,9 @@ a:hover {
   <div class="section-card max-w-3xl mx-auto p-8">
     <h3 class="text-xl font-semibold mb-4">Teaching</h3>
     <ul class="list-disc ml-6 space-y-2">
-      <li>Winter 2024/2025: Mathematik 1...</li>
-      <li>Spring 2022: Finite Mathematics...</li>
-      <li>Spring 2022: Introduction to dynamical systems...</li>
+      <li>Winter 2024/2025: Mathematik 1, Hochschule Bremen</li>
+      <li>Spring 2022: Finite Mathematics, Jacobs University Bremen</li>
+      <li>Spring 2022: Introduction to dynamical systems (pro-seminar)</li>
     </ul>
   </div>
 </section>
@@ -189,12 +210,17 @@ a:hover {
     <h4 class="font-semibold">Academic Positions</h4>
     <ul class="list-disc ml-6 mt-3 space-y-1">
       <li>since May 2025: Tutoring mathematics students</li>
-      <li>Feb 2025 – May 2025: Research assistant...</li>
+      <li>Feb 2025 – May 2025: Research assistant, Hochschule Bremen</li>
+      <li>Oct 2024 – Mar 2025: Lecturer in Mathematics, Hochschule Bremen</li>
+      <li>Jun 2023 – Jun 2024: Postdoctoral researcher, University of Münster</li>
+      <li>Jan 2022 – Jun 2022: Lecturer in Mathematics, Jacobs University Bremen</li>
     </ul>
 
     <h4 class="font-semibold mt-6">Education</h4>
     <ul class="list-disc ml-6 mt-3 space-y-1">
-      <li>PhD in Mathematics...</li>
+      <li>PhD in Mathematics, University of Bremen</li>
+      <li>Brückenstipendium in Mathematics</li>
+      <li>B.Sc. and M.Sc. in Mathematics</li>
     </ul>
 
     <h4 class="font-semibold mt-6">Additional Experience</h4>
