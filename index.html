@@ -65,17 +65,16 @@ body {
 /* links */
 /* Gradient Links passend zum Accent */
 a {
-  background: linear-gradient(90deg, #2563eb, #7c3aed);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-decoration: none;
-  border-bottom: 1px solid rgba(124, 58, 237, 0.3);
-  transition: all 0.25s ease;
+  color: #374151; /* neutrales dunkles Grau */
+  text-decoration: underline;
+  text-decoration-color: rgba(55, 65, 81, 0.3);
+  text-underline-offset: 3px;
+  transition: all 0.2s ease;
 }
 
 a:hover {
-  border-bottom: 2px solid #7c3aed;
-  filter: brightness(1.1);
+  color: #111827; /* etwas dunkler beim Hover */
+  text-decoration-color: rgba(17, 24, 39, 0.6);
 }
 
 .social-icons .icon {
