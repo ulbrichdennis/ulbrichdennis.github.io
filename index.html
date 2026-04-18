@@ -137,7 +137,10 @@ nav a:hover {
 <section class="pt-24 pb-12 px-6">
   <div class="max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-8">
 
-   <img src="/img/Ulbrich.jpg" alt="D. Ulbrich" class="w-40 h-40 md:w-44 md:h-44 rounded-2xl object-cover shadow-md" /> 
+   <img src="/img/UlbrichDennis.jpg" 
+     alt="D. Ulbrich" 
+     class="w-40 h-40 md:w-44 md:h-44 rounded-2xl object-cover shadow-md cursor-pointer transition-transform duration-300 hover:scale-105"
+     onclick="openImage()" /> 
 
     <div>
       <h2 class="text-3xl font-semibold accent">Dr. Dennis Ulbrich</h2>
@@ -277,7 +280,63 @@ function toggleMenu() {
 }
 
 document.getElementById('year').textContent = new Date().getFullYear();
+
+
+<script>
+function toggleMenu() {
+  document.getElementById('mobileMenu').classList.toggle('hidden');
+}
+
+
+function openImage() {
+  const modal = document.getElementById('imageModal');
+  const img = document.getElementById('modalImage');
+
+  modal.classList.remove('hidden');
+  modal.classList.add('flex');
+
+  // kleine Animation
+  setTimeout(() => {
+    img.classList.remove('scale-90', 'opacity-0');
+    img.classList.add('scale-100', 'opacity-100');
+  }, 10);
+}
+
+// schließen bei Klick
+document.getElementById('imageModal').onclick = function () {
+  closeImage();
+};
+
+// ESC-Taste zum Schließen
+document.addEventListener('keydown', function (e) {
+  if (e.key === "Escape") {
+    closeImage();
+  }
+});
+
+function closeImage() {
+  const modal = document.getElementById('imageModal');
+  const img = document.getElementById('modalImage');
+
+  img.classList.remove('scale-100', 'opacity-100');
+  img.classList.add('scale-90', 'opacity-0');
+
+  setTimeout(() => {
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+  }, 200);
+}
+
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </script>
 
+
+
+<div id="imageModal" class="fixed inset-0 bg-black/80 hidden items-center justify-center z-50 backdrop-blur-sm transition-opacity duration-300">
+  <img src="/img/Ulbrich.jpg" 
+       class="max-w-[90%] max-h-[90%] rounded-xl shadow-2xl transform scale-90 opacity-0 transition-all duration-300"
+       id="modalImage" />
+</div>
 </body>
 </html>
