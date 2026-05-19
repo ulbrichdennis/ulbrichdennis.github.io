@@ -299,9 +299,15 @@ function openImage() {
 }
 
 // schließen bei Klick
-document.getElementById('imageModal').onclick = function () {
-  closeImage();
-};
+document.addEventListener("DOMContentLoaded", () => {
+  const modal = document.getElementById('imageModal');
+
+  if (modal) {
+    modal.onclick = function () {
+      closeImage();
+    };
+  }
+});
 
 // ESC-Taste zum Schließen
 document.addEventListener('keydown', function (e) {
