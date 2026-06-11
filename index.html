@@ -3,300 +3,302 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D. Ulbrich | Moderne Dienstleistungen</title>
+    <title>Dr. rer. nat. D. Ulbrich | Academic Homepage</title>
     <style>
-        /* Modernes Farbschema & Resets */
+        /* Akademisches, minimalistisches Farbschema */
         :root {
-            --bg-dark: #121212;
-            --bg-card: #1e1e1e;
-            --accent-gold: #d4af37;
-            --accent-gold-hover: #f3e5ab;
-            --text-light: #ffffff;
-            --text-muted: #a0a0a0;
+            --bg-light: #f8fafc;
+            --text-dark: #1e293b;
+            --text-muted: #64748b;
+            --accent-blue: #0f172a; /* Deep Slate Blue */
+            --accent-link: #2563eb;
+            --border-color: #e2e8f0;
+            --bg-card: #ffffff;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-light: #0f172a;
+                --text-dark: #f8fafc;
+                --text-muted: #94a3b8;
+                --accent-blue: #38bdf8;
+                --accent-link: #38bdf8;
+                --border-color: #334155;
+                --bg-card: #1e293b;
+            }
         }
 
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
         }
 
         body {
-            background-color: var(--bg-dark);
-            color: var(--text-light);
-            line-height: 1.6;
-            overflow-x: hidden;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.7;
         }
 
-        /* Header & Navigation */
+        /* Layout-Container */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        /* Header / Profil-Bereich */
         header {
-            position: fixed;
-            width: 100%;
-            top: 0;
-            background: rgba(18, 18, 18, 0.95);
-            backdrop-filter: blur(10px);
-            z-index: 1000;
-            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
-        }
-
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 1.5rem 2rem;
             display: flex;
-            justify-content: space-between;
             align-items: center;
-        }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: var(--accent-gold);
-            text-decoration: none;
-            letter-spacing: 1px;
-        }
-
-        .nav-menu {
-            display: flex;
-            list-style: none;
             gap: 2rem;
+            margin-bottom: 4rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 2.5rem;
         }
 
-        .nav-menu a {
-            color: var(--text-light);
-            text-decoration: none;
-            font-size: 1rem;
-            transition: color 0.3s ease;
-        }
-
-        .nav-menu a:hover {
-            color: var(--accent-gold);
-        }
-
-        /* Hero-Bereich mit Animation */
-        .hero {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 2rem;
-            background: radial-gradient(circle at center, #2a2a2a 0%, var(--bg-dark) 70%);
-            padding-top: 80px;
-        }
-
-        .hero h1 {
-            font-size: 3.5rem;
-            margin-bottom: 1rem;
-            letter-spacing: -1px;
-        }
-
-        .hero h1 span {
-            color: var(--accent-gold);
-        }
-
-        .hero p {
-            font-size: 1.25rem;
-            color: var(--text-muted);
-            max-width: 600px;
-            margin-bottom: 2rem;
-        }
-
-        .btn {
-            background-color: var(--accent-gold);
-            color: var(--bg-dark);
-            padding: 0.8rem 2rem;
-            border: none;
-            border-radius: 4px;
-            font-size: 1rem;
-            font-weight: bold;
-            text-decoration: none;
-            cursor: pointer;
-            transition: background 0.3s ease, transform 0.2s ease;
-        }
-
-        .btn:hover {
-            background-color: var(--accent-gold-hover);
-            transform: translateY(-2px);
-        }
-
-        /* Content-Sektionen */
-        .section {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 5rem 2rem;
-        }
-
-        .section-title {
+        .profile-info h1 {
             font-size: 2.25rem;
-            text-align: center;
-            margin-bottom: 3rem;
-            position: relative;
+            font-weight: 700;
+            color: var(--accent-blue);
+            line-height: 1.2;
+            margin-bottom: 0.5rem;
         }
 
-        .section-title::after {
-            content: '';
-            display: block;
-            width: 50px;
-            height: 3px;
-            background: var(--accent-gold);
-            margin: 0.5rem auto 0;
-        }
-
-        /* Grid für Leistungen */
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-
-        .card {
-            background-color: var(--bg-card);
-            padding: 2.5rem;
-            border-radius: 8px;
-            border: 1px solid rgba(212, 175, 55, 0.1);
-            transition: transform 0.3s ease, border-color 0.3s ease;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            border-color: var(--accent-gold);
-        }
-
-        .card h3 {
-            color: var(--accent-gold);
-            margin-bottom: 1rem;
-            font-size: 1.5rem;
-        }
-
-        /* Kontaktformular */
-        .contact-form {
-            max-width: 600px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-        }
-
-        .form-group {
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
-        }
-
-        .form-group label {
+        .profile-info .title {
+            font-size: 1.2rem;
             color: var(--text-muted);
+            margin-bottom: 1rem;
+        }
+
+        .meta-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
             font-size: 0.9rem;
         }
 
-        .form-group input, .form-group textarea {
-            background-color: var(--bg-card);
-            border: 1px solid rgba(212, 175, 55, 0.3);
-            padding: 1rem;
-            color: var(--text-light);
-            border-radius: 4px;
-            font-size: 1rem;
+        .meta-links a {
+            color: var(--accent-link);
+            text-decoration: none;
         }
 
-        .form-group input:focus, .form-group textarea:focus {
-            outline: none;
-            border-color: var(--accent-gold);
+        .meta-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Navigation (Optional, falls gescrollt werden soll) */
+        nav {
+            margin-bottom: 3rem;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        nav a {
+            color: var(--text-dark);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        nav a:hover {
+            color: var(--accent-link);
+        }
+
+        /* Sektionen */
+        section {
+            margin-bottom: 3.5rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: var(--accent-blue);
+            border-left: 4px solid var(--accent-link);
+            padding-left: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        /* Listen für Publikationen und Lehre */
+        .list-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            padding: 1.25rem;
+            border-radius: 6px;
+            margin-bottom: 1rem;
+            transition: transform 0.2s ease;
+        }
+
+        .list-item:hover {
+            transform: translateX(4px);
+        }
+
+        .list-item .authors {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .list-item .journal {
+            font-style: italic;
+            font-size: 0.95rem;
+            color: var(--text-dark);
+        }
+
+        .tags {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .tag {
+            font-size: 0.75rem;
+            background: var(--bg-light);
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            border: 1px solid var(--border-color);
+            color: var(--text-muted);
         }
 
         /* Footer */
         footer {
-            background-color: #0a0a0a;
-            padding: 2rem;
-            text-align: center;
+            margin-top: 6rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.85rem;
             color: var(--text-muted);
-            font-size: 0.9rem;
-            border-top: 1px solid rgba(212, 175, 55, 0.1);
+            display: flex;
+            justify-content: space-between;
         }
 
-        /* Mobile Optimierung */
-        @media (max-width: 768px) {
-            .nav-menu { display: none; } /* Vereinfacht für dieses Beispiel */
-            .hero h1 { font-size: 2.5rem; }
-            .section { padding: 3rem 1.5rem; }
+        footer a {
+            color: var(--text-muted);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--accent-link);
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 600px) {
+            header { flex-direction: column; align-items: flex-start; gap: 1rem; }
+            .container { padding: 2rem 1rem; }
+            nav ul { gap: 1rem; }
         }
     </style>
 </head>
 <body>
 
-    <!-- Navigation -->
-    <header>
-        <div class="nav-container">
-            <a href="#" class="logo">D. ULBRICH</a>
-            <ul class="nav-menu">
-                <li><a href="#leistungen">Leistungen</a></li>
-                <li><a href="#ueber-uns">Über uns</a></li>
-                <li><a href="#kontakt">Kontakt</a></li>
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <div class="profile-info">
+                <h1>Dr. Dennis Ulbrich</h1>
+                <div class="title">Mathematiker &amp; Wissenschaftlicher Mitarbeiter</div>
+                <div class="meta-links">
+                    <span>📍 Bremen / Münster</span>
+                    <a href="mailto:ihre.adresse@uni.de">📧 E-Mail senden</a>
+                    <a href="https://google.com" target="_blank">🎓 Google Scholar</a>
+                    <a href="https://www.researchgate.net" target="_blank">⚛️ ResearchGate</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="#about">Über mich</a></li>
+                <li><a href="#research">Forschung</a></li>
+                <li><a href="#publications">Publikationen</a></li>
+                <li><a href="#teaching">Lehre</a></li>
             </ul>
-        </div>
-    </header>
+        </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>Willkommen bei <span>D. Ulbrich</span></h1>
-        <p>Ihr zuverlässiger Partner für professionelle Dienstleistungen. Modern, präzise und zukunftsorientiert.</p>
-        <a href="#kontakt" class="btn">Jetzt anfragen</a>
-    </section>
-
-    <!-- Leistungen -->
-    <section id="leistungen" class="section">
-        <h2 class="section-title">Unsere Leistungen</h2>
-        <div class="grid">
-            <div class="card">
-                <h3>Dienstleistung 1</h3>
-                <p>Hier steht die Beschreibung Ihrer ersten Kernkompetenz. Nutzen Sie diesen Platz für prägnante Details.</p>
-            </div>
-            <div class="card">
-                <h3>Dienstleistung 2</h3>
-                <p>Hier steht die Beschreibung Ihrer zweiten Kernkompetenz. Kurz, direkt und überzeugend formuliert.</p>
-            </div>
-            <div class="card">
-                <h3>Dienstleistung 3</h3>
-                <p>Hier steht die Beschreibung Ihrer dritten Kernkompetenz. Zeigen Sie Ihren Kunden, was Sie auszeichnet.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Über uns -->
-    <section id="ueber-uns" class="section" style="background-color: var(--bg-card); max-width: 100%;">
-        <div style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
-            <h2 class="section-title">Über Uns</h2>
-            <p style="text-align: center; max-width: 800px; margin: 0 auto; color: var(--text-muted);">
-                Hier ist Platz für Ihre Unternehmensphilosophie. Schreiben Sie ein paar Sätze über Ihre Erfahrung, Ihre Werte und warum Kunden Ihnen vertrauen sollten.
+        <!-- Über mich -->
+        <section id="about">
+            <h2>Über mich</h2>
+            <p>
+                Ich bin Mathematiker mit den Forschungsschwerpunkten in der nichtlinearen Analyse, dynamischen Systemen, Ergodentheorie und kinetischen Theorie. Nach meiner Promotion (Dr. rer. nat.) an der Universität Bremen war ich unter anderem als Postdoc am Institut für Analysis und Numerics der Universität Münster tätig.
             </p>
-        </div>
-    </section>
+            <p>
+                Mein wissenschaftlicher Fokus liegt auf der mathematischen Beschreibung komplexer physikalischer und chemischer Prozesse sowie der langfristigen Dynamik von Lösungen.
+            </p>
+        </section>
 
-    <!-- Kontakt -->
-    <section id="kontakt" class="section">
-        <h2 class="section-title">Kontakt aufnehmen</h2>
-        <form class="contact-form" action="#" method="POST">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" required>
+        <!-- Forschungsschwerpunkte -->
+        <section id="research">
+            <h2>Forschungsschwerpunkte</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+                <div class="list-item">
+                    <strong>Dynamische Systeme &amp; Wellen</strong>
+                    <p style="font-size: 0.9rem; margin-top: 0.5rem; color: var(--text-muted);">Ergodentheorie von nichtlinearen Wellen in diskreten und kontinuierlichen Medien.</p>
+                </div>
+                <div class="list-item">
+                    <strong>Kinetische Theorie</strong>
+                    <p style="font-size: 0.9rem; margin-top: 0.5rem; color: var(--text-muted);">Entropiemethoden, Boltzmann-Gleichung und BGK-Approximationen.</p>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="email">E-Mail-Adresse</label>
-                <input type="email" id="email" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Ihre Nachricht</label>
-                <textarea id="message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="btn">Nachricht senden</button>
-        </form>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 D. Ulbrich. Alle Rechte vorbehalten. | <a href="#" style="color: var(--accent-gold); text-decoration: none;">Impressum</a> & <a href="#" style="color: var(--accent-gold); text-decoration: none;">Datenschutz</a></p>
-    </footer>
+        <!-- Publikationen -->
+        <section id="publications">
+            <h2>Ausgewählte Publikationen</h2>
+            
+            <div class="list-item">
+                <strong>Weak and strong interaction of excitation kinks in scalar parabolic equations</strong>
+                <div class="authors">A. Pauthier, J.D.M. Rademacher, D. Ulbrich</div>
+                <div class="journal">Journal of Dynamics and Differential Equations (2023)</div>
+                <div class="tags">
+                    <span class="tag">Parabolic Equations</span>
+                    <span class="tag">Excitation Kinks</span>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <strong>Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata</strong>
+                <div class="authors">M. Keßeböhmer, J.D.M. Rademacher, D. Ulbrich</div>
+                <div class="journal">Ergodic Theory and Dynamical Systems (2020)</div>
+                <div class="tags">
+                    <span class="tag">Cellular Automata</span>
+                    <span class="tag">Topological Entropy</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lehre -->
+        <section id="teaching">
+            <h2>Lehre &amp; Kurse</h2>
+            <p>Eigenverantwortliche Durchführung und Organisation von universitären Lehrveranstaltungen und Übungsbetreuungen, insbesondere im Servicebereich für Ingenieursstudiengänge:</p>
+            <ul>
+                <li>Mathematik 1 (Hochschule Bremen)</li>
+                <li>Finite Mathematics (Jacobs University Bremen)</li>
+                <li>Einführung in dynamische Systeme</li>
+            </ul>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div>&copy; 2026 Dr. Dennis Ulbrich</div>
+            <div>
+                <a href="#">Impressum</a> &middot; 
+                <a href="#">Datenschutz</a>
+            </div>
+        </footer>
+
+    </div>
 
 </body>
 </html>
