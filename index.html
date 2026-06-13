@@ -132,54 +132,41 @@
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
 
-        /* --- KONTAKT LISTE (NEU: AUSFALLSICHERES FLEXBOX-LAYOUT) --- */
-        .contact-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
+        /* --- STABILE INFOLISTE --- */
+        .info-block {
             margin-top: 20px;
-            list-style: none;
+            background: var(--white);
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
         }
 
-        .contact-item {
-            flex: 1 1 calc(25% - 15px); /* Teilt den Platz in 4 Spalten auf */
-            min-width: 200px; /* Verhindert, dass die Boxen zu klein werden */
-        }
-
-        .contact-button {
-            display: block;
-            text-align: center;
-            padding: 15px 10px;
-            background-color: var(--white);
-            border: 1px solid #dcdcdc;
-            border-radius: 6px;
-            text-decoration: none;
-            color: var(--primary);
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
             font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        .info-row:last-child {
+            border-bottom: none;
+        }
+
+        .info-label {
             font-weight: bold;
-            font-size: 0.95rem;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
-            transition: all 0.2s ease;
+            color: var(--primary);
         }
 
-        .contact-button:hover {
-            background-color: var(--primary);
-            color: var(--white);
-            border-color: var(--primary);
-            transform: translateY(-2px);
+        .info-link {
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 500;
         }
 
-        .contact-button span {
-            display: block;
-            font-size: 0.75rem;
-            font-weight: normal;
-            color: #777;
-            text-transform: uppercase;
-            margin-bottom: 4px;
-        }
-        
-        .contact-button:hover span {
-            color: rgba(255, 255, 255, 0.8);
+        .info-link:hover {
+            text-decoration: underline;
         }
 
         /* --- PUBLIKATIONEN --- */
@@ -241,8 +228,10 @@
                 padding: 40px 20px;
             }
 
-            .contact-item {
-                flex: 1 1 100%; /* Auf Smartphones untereinander anzeigen */
+            .info-row {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
             }
         }
     </style>
@@ -308,17 +297,26 @@
             <h2>Kontakt & Netzwerke</h2>
             <p>Sie können mich über meine universitäre E-Mail-Adresse erreichen oder meinen Forschungsarbeiten auf den folgenden Plattformen folgen:</p>
             
-            <ul class="contact-list">
-                <!-- E-Mail -->
-                <li class="contact-item">
-                    <a href="mailto:alex.morgan@example.edu" class="contact-button">
-                        <span>Universitäts-Adresse</span>
-                        E-Mail schreiben
-                    </a>
-                </li>
+            <div class="info-block">
+                <!-- Reihe 1: E-Mail -->
+                <div class="info-row">
+                    <span class="info-label">E-Mail</span>
+                    <a href="mailto:alex.morgan@example.edu" class="info-link">alex.morgan@example.edu</a>
+                </div>
 
-                <!-- LinkedIn -->
-                <li class="contact-item">
-                    <a href="https://linkedin.com" target="_blank" rel="noopener" class="contact-button">
-                        <span>Netzwerk</span>
-                        LinkedIn Profil
+                <!-- Reihe 2: LinkedIn -->
+                <div class="info-row">
+                    <span class="info-label">LinkedIn</span>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener" class="info-link">Profil anzeigen</a>
+                </div>
+
+                <!-- Reihe 3: arXiv -->
+                <div class="info-row">
+                    <span class="info-label">arXiv</span>
+                    <a href="https://arxiv.org" target="_blank" rel="noopener" class="info-link">Publikationen öffnen</a>
+                </div>
+
+                <!-- Reihe 4: ORCID -->
+                <div class="info-row">
+                    <span class="info-label">ORCID</span>
+                    <a href="https://orcid.org" target="_blank" rel="noopener" class="info-link">0000-0000-0000-0000</a>
