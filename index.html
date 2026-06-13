@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Alex Morgan | Akademische Website</title>
-    <!-- FontAwesome für E-Mail und LinkedIn Icons -->
-    <link rel="stylesheet" href="https://cloudflare.com">
-    
     <style>
         /* --- BASICS & FARBEN (Klassisch-Akademisch) --- */
         :root {
@@ -134,7 +131,7 @@
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
 
-        /* --- KONTAKT ELEMENTS (BUGFIXED) --- */
+        /* --- KONTAKT NETZWERKE (SICHERES INLINE SVG-LAYOUT) --- */
         .contact-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -162,12 +159,19 @@
             box-shadow: 0 4px 10px rgba(0,0,0,0.05);
         }
 
-        .contact-card i, .contact-card svg {
-            font-size: 1.5rem;
-            color: var(--primary);
-            width: 30px;
-            text-align: center;
+        /* CSS-Styling für alle Icons */
+        .contact-icon-wrapper {
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             flex-shrink: 0;
+        }
+
+        .contact-icon-wrapper svg {
+            width: 26px;
+            height: 26px;
         }
 
         .contact-info-text span {
@@ -235,7 +239,7 @@
             .hero-text h1 { font-size: 2rem; }
 
             section {
-                padding: 140px 20px 30px 20px; /* Erhöhter Abstand auf Handys wegen zweizeiliger Navleiste */
+                padding: 140px 20px 30px 20px; /* Perfekter Abstand auf Handys */
             }
             
             .bg-light .section-inner {
@@ -266,7 +270,7 @@
             <p class="subtitle">Senior-Lehrbeauftragter für Computational Linguistics</p>
             <p>Willkommen auf meiner akademischen Webseite. Ich forsche an der Schnittstelle zwischen künstlicher Intelligenz und historischer Sprachwissenschaft. Mein Fokus liegt auf der Rekonstruktion alter Texte mittels moderner Deep-Learning-Verfahren.</p>
         </div>
-        <!-- Hier dein Bildpfad einfügen (z.B. mein-bild.jpg) -->
+        <!-- Platzhalter für dein Foto -->
         <img src="https://placeholder.com" alt="Dr. Alex Morgan" class="hero-img">
     </section>
 
@@ -300,7 +304,7 @@
         </ul>
     </section>
 
-    <!-- Kontakt-Sektion -->
+    <!-- Kontakt-Sektion mit 100% verlässlichen SVG-Grafiken -->
     <div class="bg-light" id="contact">
         <div class="section-inner">
             <h2>Kontakt & Netzwerke</h2>
@@ -309,8 +313,5 @@
             <div class="contact-grid">
                 <!-- E-Mail -->
                 <a href="mailto:alex.morgan@example.edu" class="contact-card">
-                    <i class="fa-solid fa-envelope"></i>
-                    <div class="contact-info-text">
-                        <span>E-Mail</span>
-                        <p>E-Mail senden</p>
-                    </div>
+                    <div class="contact-icon-wrapper">
+                        <svg viewBox="0 0 24 24" style="fill: var(--primary);">
