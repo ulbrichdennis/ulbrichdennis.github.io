@@ -1,333 +1,344 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Dennis Ulbrich | Personal Website</title>
-    <style>
-        /* --- BASICS & FARBEN --- */
-        :root {
-            --primary: #0f2a4a;
-            --secondary: #c5a059;
-            --text: #333333;
-            --light-bg: #f8f9fa;
-            --white: #ffffff;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Dennis Ulbrich </title>
+  <script src="https://cdn.tailwindcss.com"></script>
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-        html {
-            scroll-behavior: smooth;
-            font-family: 'Georgia', 'Times New Roman', serif;
-            color: var(--text);
-            line-height: 1.6;
-        }
+  <!-- Academicons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
 
-        h1, h2, h3, .nav-logo {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            color: var(--primary);
-        }
+ 
+<style>
+/* subtle modern base */
+body {
+  background: linear-gradient(to bottom, #fafafa, #f5f7fa);
+}
 
-        /* --- FIXIERTE NAVIGATION --- */
-        header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background-color: var(--white);
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            z-index: 1000;
-        }
+/* card feel */
+.section-card {
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 
-        .nav-container {
-            max-width: 1100px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 20px;
-        }
+.section-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 40px rgba(0,0,0,0.06);
+}
 
-        .nav-logo {
-            font-size: 1.2rem;
-            font-weight: bold;
-            text-decoration: none;
-            letter-spacing: 1px;
-        }
+/* Social Icons */
+.social-icons {
+  margin-top: 14px;
+  display: flex;
+  gap: 10px;
+}
 
-        .nav-links {
-            display: flex;
-            list-style: none;
-            gap: 20px;
-        }
+.social-icons .icon {
+  background: #f3f4f6;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  border: 1px solid #e5e7eb;
+}
 
-        .nav-links a {
-            text-decoration: none;
-            color: var(--text);
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            font-size: 0.95rem;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
+.social-icons .icon i {
+  font-size: 20px;
+}
 
-        .nav-links a:hover {
-            color: var(--secondary);
-        }
+.social-icons .icon:hover {
+  transform: translateY(-4px) scale(1.07);
+}
 
-        /* --- LAYOUT & SEKTIONEN --- */
-        section {
-            padding: 120px 20px 40px 20px;
-            max-width: 1100px;
-            margin: 0 auto;
-        }
+.social-icons .orcid:hover { background: #a6ce39; color: #fff; }
+.social-icons .arxiv:hover { background: #b31b1b; color: #fff; }
+.social-icons .scholar:hover { background: #4285f4; color: #fff; }
+.social-icons .email:hover { background: #666; color: #fff; }
+.social-icons .linkedin:hover { background: #0077b5; color: #fff; }
 
-        .bg-light {
-            background-color: var(--light-bg);
-            width: 100%;
-        }
-        
-        .section-inner {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 60px 20px;
-        }
+/* links */
+.section-card a {
+  color: #374151; /* dunkles Grau, klar sichtbar */
+  text-decoration: underline;
+  text-decoration-color: #9ca3af; /* helle Linie */
+  text-underline-offset: 3px;
+}
 
-        h2 {
-            border-bottom: 2px solid var(--secondary);
-            padding-bottom: 8px;
-            margin-bottom: 25px;
-            font-size: 1.8rem;
-        }
+.section-card a:hover {
+  color: #111827; /* etwas dunkler */
+  text-decoration-color: #374151;
+}
 
-        /* --- HERO / INTRO SEKTION --- */
-        .hero {
-            display: flex;
-            align-items: center;
-            gap: 40px;
-            margin-top: 20px;
-        }
+.social-icons .icon {
+  -webkit-text-fill-color: initial;
+  background: #f3f4f6;
+  color: #222;
+  border-bottom: none;
+}
 
-        .hero-text h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
+nav a {
+  background: none;
+  -webkit-text-fill-color: inherit;
+  color: #4b5563;
+  border-bottom: none;
+}
 
-        .hero-text .subtitle {
-            font-size: 1.2rem;
-            color: var(--secondary);
-            font-style: italic;
-            margin-bottom: 20px;
-        }
+nav a:hover {
+  color: #111827;
+}
 
-        .hero-img {
-            width: 250px;
-            height: 250px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 4px solid var(--white);
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
+/* small accent */
+.accent {
+  background: linear-gradient(90deg, #0f172a, #1e293b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-        /* --- STABILE INFOLISTE --- */
-        .info-block {
-            margin-top: 20px;
-            background: var(--white);
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            padding: 20px;
-        }
 
-        .info-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 12px 0;
-            border-bottom: 1px solid #eee;
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-        }
-
-        .info-row:last-child {
-            border-bottom: none;
-        }
-
-        .info-label {
-            font-weight: bold;
-            color: var(--primary);
-        }
-
-        .info-link {
-            color: var(--secondary);
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        .info-link:hover {
-            text-decoration: underline;
-        }
-
-        /* --- PUBLIKATIONEN --- */
-        .pub-list {
-            list-style-type: none;
-        }
-
-        .pub-item {
-            margin-bottom: 20px;
-            padding-left: 15px;
-            border-left: 3px solid var(--primary);
-        }
-
-        .pub-authors { font-size: 0.95rem; }
-        .pub-title { font-weight: bold; color: var(--primary); }
-        .pub-journal { font-style: italic; color: #666; }
-
-        /* --- FOOTER --- */
-        footer {
-            background-color: var(--primary);
-            color: var(--white);
-            text-align: center;
-            padding: 30px 20px;
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            font-size: 0.9rem;
-        }
-
-        /* --- RESPONSIVE DESIGN --- */
-        @media (max-width: 768px) {
-            .nav-container {
-                flex-direction: column;
-                gap: 10px;
-                padding: 10px;
-            }
-
-            .nav-links {
-                gap: 15px;
-                font-size: 0.9rem;
-            }
-
-            .hero {
-                flex-direction: column-reverse;
-                text-align: center;
-                gap: 20px;
-            }
-
-            .hero-img {
-                width: 180px;
-                height: 180px;
-            }
-
-            .hero-text h1 { font-size: 2rem; }
-
-            section {
-                padding: 140px 20px 30px 20px;
-            }
-            
-            .bg-light .section-inner {
-                padding: 40px 20px;
-            }
-
-            .info-row {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 5px;
-            }
-        }
-    </style>
+</style>
 </head>
-<body>
 
-    <!-- Navigationsleiste -->
-    <header>
-        <nav class="nav-container">
-            <a href="#" class="nav-logo">Dr. Dennis Ulbrich</a>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#research">Research</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#contact">Teaching</a></li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    </header>
+<body class="font-sans text-gray-800" id="home">
 
-    <!-- Über mich / Hero -->
-    <section id="about" class="hero">
-        <div class="hero-text">
-            <h1>Dr. Dennis Ulbrich</h1>
-            <p class="subtitle">Mathematician &#x2022; Open to work</p>
-            <p>I am a mathematician with research background in nonlinear analysis, dynamical systems, ergodic theory, and kinetic theory, with several years of proficiency and strong commitment to undergraduate teaching, student supervision, and academic course organization.</p>
+<!-- Navbar -->
+<header class="fixed w-full bg-white/70 backdrop-blur border-b border-gray-200 z-50">
+  <div class="max-w-3xl mx-auto flex justify-between items-center px-4 py-2">
+    <h1 class="text-sm font-medium tracking-wide"><a href="#home">Home</a></h1>
+    <nav class="hidden md:flex gap-6 text-xs uppercase tracking-wide text-gray-600">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#cv">Short CV</a>
+    </nav>
+    <button class="md:hidden" onclick="toggleMenu()">☰</button>
+  </div>
+
+  <div id="mobileMenu" class="hidden md:hidden bg-white border-t p-3 flex flex-col gap-2 text-sm text-center">
+    <a href="#about" onclick="toggleMenu()">About</a>
+    <a href="#research" onclick="toggleMenu()">Research</a>
+    <a href="#publications" onclick="toggleMenu()">Publications</a>
+    <a href="#teaching" onclick="toggleMenu()">Teaching</a>
+    <a href="#cv" onclick="toggleMenu()">Short CV</a>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="pt-24 pb-12 px-6">
+  <div class="max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-8">
+
+   <img src="/img/UlbrichDennis.jpg" 
+     alt="D. Ulbrich" 
+     class="w-40 h-40 md:w-44 md:h-44 rounded-2xl object-cover shadow-md cursor-pointer transition-transform duration-300 hover:scale-105"
+     onclick="openImage()" /> 
+
+ <div>
+      <h2 class="text-3xl font-semibold accent">Dr. Dennis Ulbrich</h2>
+      <p class="text-gray-500 text-sm mt-1" style="text-align:center">Mathematician &#x2022; Open to work</p>  
+      <div class="social-icons">
+        <a href="mailto:ulbrich.dennis@icloud.com" class="icon email"><i class="fas fa-envelope"></i></a>
+        <a href="https://orcid.org/0000-0001-5541-011X" target="_blank" class="icon orcid"><i class="ai ai-orcid"></i></a>
+        <a href="https://arxiv.org/a/ulbrich_d_1.html" target="_blank" class="icon arxiv"><i class="ai ai-arxiv"></i></a>
+        <a href="https://scholar.google.com/citations?user=b1u5plUAAAAJ" target="_blank" class="icon scholar"><i class="ai ai-google-scholar"></i></a>
+        <a href="https://www.linkedin.com/in/dennis-ulbrich-5369773b8/" target="_blank" class="icon linkedin"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Sections -->
+<div class="space-y-10 pb-16">
+
+<section id="about" class="scroll-mt-24">
+  <div class="section-card max-w-3xl mx-auto p-8">
+    <h3 class="text-xl font-semibold mb-4">About</h3>
+    <p>I am a mathematician with research background in nonlinear analysis, dynamical systems, ergodic theory, and kinetic theory, with several years of proficiency and strong commitment to undergraduate teaching, student supervision, and academic course organization.</p>
     <br>
     <p>Among other things, I was a postdoc at the <a href="https://www.uni-muenster.de/AMM/en/index.shtml" target="_blank">Institute for Analysis and Numerics</a> of the <a href="https://www.uni-muenster.de/en/" target="_blank">University of Münster</a> and earned my PhD (Dr. rer. nat.) in Mathematics at the <a href="https://www.uni-bremen.de/en/" target="_blank">University of Bremen</a>.</p>
     <br>
     <p>Currently, I am exploring new professional opportunities in academia and industry.</p>
-        </div>
-        <img src="/img/UlbrichDennis.jpg" alt="D. Ulbrich" class="hero-img">
-    </section>
+  </div>
+</section>
 
-    <!-- Forschung -->
-    <div class="bg-light" id="research">
-        <div class="section-inner">
-            <h2>Research</h2>
 
-            <h3>Interests</h3>
-            <p>Meine Arbeit konzentriert sich auf die Entwicklung robuster Algorithmen für unstrukturierte, historische Textdaten. Aktuelle Projekte umfassen:</p>
-            <br>
-            <ul>
-                <li><strong>Projekt A:</strong> Neuronale Entzifferung von Manuskripten des 14. Jahrhunderts.</li>
-                <li><strong>Projekt B:</strong> Transfer Learning für ressourcenarme Sprachen.</li>
-            </ul>
-        </div>
-        <div class="section-inner">
-            <h3>Projects</h3>
-        </div>
-    
-    </div>
+<section id="research" class="scroll-mt-24">
+  <div class="section-card max-w-3xl mx-auto p-8">
+    <h3 class="text-xl font-semibold mb-4">Research</h3>
 
-    <!-- Publikationen -->
-    <section id="publications">
-        <h2>Ausgewählte Publikationen</h2>
-        <ul class="pub-list">
-            <li class="pub-item">
-                <span class="pub-authors"><strong>Morgan, A.</strong>, & Schmidt, L. (2025).</span><br>
-                <span class="pub-title">Automated Analysis of Medieval Syntax Using Transformers.</span><br>
-                <span class="pub-journal">Journal of Computational Linguistics, 42(3), 215–230.</span>
-            </li>
-            <li class="pub-item">
-                <span class="pub-authors">Müller, J., & <strong>Morgan, A.</strong> (2024).</span><br>
-                <span class="pub-title">Cross-lingual Embeddings for Historical Dialects.</span><br>
-                <span class="pub-journal">Conference on Empirical Methods in Natural Language Processing (EMNLP).</span>
-            </li>
-        </ul>
-    </section>
+    <h4 class="font-semibold">Research interests</h4>
+    <ul class="list-disc ml-6 mt-3 space-y-1">
+      <li>Ordinary and partial differential equations and their dynamics</li>
+      <li>Nonlinear wave solutions and their ergodic properties</li>
+      <li>Kinetic theory, in particular entropy methods</li>
+      <li>Boltzmann equation and its BGK-type approximations</li>
+      <li>Long-time behavior of solutions (hypocoercivity)</li>
+      <li>Physical applications</li>
+      <li>Models of chemical reactions</li>
+    </ul>
+    <br>
+    I am also open to new and interdisciplinary research directions beyond the areas listed.
 
-    <!-- Kontakt-Sektion -->
-    <div class="bg-light" id="contact">
-        <div class="section-inner">
-            <h2>Kontakt & Netzwerke</h2>
-            <p>Sie können mich über meine universitäre E-Mail-Adresse erreichen oder meinen Forschungsarbeiten auf den folgenden Plattformen folgen:</p>
-            
-            <div class="info-block">
-                <!-- Reihe 1: E-Mail -->
-                <div class="info-row">
-                    <span class="info-label">E-Mail</span>
-                    <a href="mailto:alex.morgan@example.edu" class="info-link">alex.morgan@example.edu</a>
-                </div>
+    <h4 class="font-semibold mt-6">Projects participation</h4>
+    <ul class="list-disc ml-6 mt-3 space-y-2">
+      <li><a href="https://gepris.dfg.de/gepris/projekt/456849348?language=en" target="_blank">DFG 456849348</a><br>
+      Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation</li>
+      <li><a href="https://gepris.dfg.de/gepris/projekt/384027439?language=en&selectedSubTab=2" target="_blank">DFG 384027439</a><br>
+      Ergodic theory of nonlinear waves in discrete and continuous excitable media</li>
+    </ul>
+  </div>
+</section>
 
-                <!-- Reihe 2: LinkedIn -->
-                <div class="info-row">
-                    <span class="info-label">LinkedIn</span>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener" class="info-link">Profil anzeigen</a>
-                </div>
+<section id="publications" class="scroll-mt-24">
+  <div class="section-card max-w-3xl mx-auto p-8">
+    <h3 class="text-xl font-semibold mb-4">Publications</h3>
 
-                <!-- Reihe 3: arXiv -->
-                <div class="info-row">
-                    <span class="info-label">arXiv</span>
-                    <a href="https://arxiv.org" target="_blank" rel="noopener" class="info-link">Publikationen öffnen</a>
-                </div>
+    <h4 class="font-semibold">Peer-reviewed journal articles</h4>
+    <ul class="list-disc ml-6 mt-3 space-y-2">
+      <li><a href="https://sites.google.com/view/antoinepauthier/accueil?pli=1" target="_blank">A. Pauthier</a>, <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html" target="_blank">J.D.M. Rademacher</a>, <i>D. Ulbrich</i><br>
+      Weak and strong interaction of excitation kinks in scalar parabolic equations<br>
+      J Dyn Diff Equat35, 2199–2235, (2023). [<a href="https://link.springer.com/article/10.1007/s10884-021-10040-2" target="_blank">DOI</a> | <a href="https://arxiv.org/abs/2012.00309" target="_blank">arXiv</a>]</li>
+  <li><a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer" target="_blank">M. Keßeböhmer</a>, <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html" target="_blank">J.D.M. Rademacher</a>, <i>D. Ulbrich</i><br>
+      Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata<br>
+      Ergodic Theory and Dynamical Systems, 41 (2020), no. 5, 1397–1430. [<a href="https://www.cambridge.org/core/journals/ergodic-theory-and-dynamical-systems/article/dynamics-and-topological-entropy-of-1d-greenberghastings-cellular-automata/1DBE1EC4EC7BE9F216E9E35C214F2F3C" target="_blank">DOI</a> | <a href="https://arxiv.org/abs/1903.02459" target="_blank">arXiv</a>]</li>
+    </ul>
 
-                <!-- Reihe 4: ORCID -->
-                <div class="info-row">
-                    <span class="info-label">ORCID</span>
-                    <a href="https://orcid.org" target="_blank" rel="noopener" class="info-link">0000-0000-0000-0000</a>
+    <h4 class="font-semibold mt-6">Ongoing work</h4>
+    <ul class="list-disc ml-6 mt-3">
+       <li>Discrete hypocoercivity for a nonlinear kinetic reaction model without initial close-to-equilibrium assumption<br>
+          <a href="https://www.math.cuhk.edu.hk/~lliu/" target="_blank">L. Liu</a>, <a href="https://www.uni-muenster.de/AMM/en/Pirner/index.shtml" target="_blank">M. Pirner</a>, <i>D. Ulbrich</i></li>
+    </ul>
+
+    <h4 class="font-semibold mt-6">Thesis</h4>
+    <ul class="list-disc ml-6 mt-3">
+      <li>D. Ulbrich<br>
+      Ergodic theory of nonlinear waves in discrete and continuous excitable media<br>
+      Diss., 2021. [<a href="https://media.suub.uni-bremen.de/entities/publication/f6d1f31c-f9e0-4fcf-9d86-0ee66235e4d4" target="_blank">DOI</a>] </li>
+    </ul>
+  </div>
+</section>
+
+<section id="teaching" class="scroll-mt-24">
+  <div class="section-card max-w-3xl mx-auto p-8">
+    <h3 class="text-xl font-semibold mb-4">Teaching</h3>
+    <p>Independent execution of university
+    courses (lectures, tutorials and exams), particularly in the service area for engineering degree programs:</p>
+    <br>
+    <ul class="list-disc ml-6 space-y-2">
+      <li>Winter 2024/2025: Mathematik 1, Hochschule Bremen</li>
+      <li>Spring 2022: Finite Mathematics, Jacobs University Bremen</li>
+      <li>Spring 2022: Introduction to dynamical systems (pro-seminar)</li>
+    </ul>
+  </div>
+</section>
+
+<section id="cv" class="scroll-mt-24">
+  <div class="section-card max-w-3xl mx-auto p-8">
+    <h3 class="text-xl font-semibold mb-4">Short CV</h3>
+
+    <h4 class="font-semibold">Academic Positions</h4>
+    <ul class="list-disc ml-6 mt-3 space-y-1">
+<li>since May 2025: Tutoring mathematics students</li>
+<li>Feb 2025 – May 2025: Research assistant, Hochschule Bremen</li>
+<li>Oct 2024 – Mar 2025: Lecturer in Mathematics, Hochschule Bremen</li>
+<li>Jun 2023 – Jun 2024: Postdoctoral researcher, University of Münster (Institute for Analysis and Numerics), supervision: <a href="https://www.uni-muenster.de/AMM/en/Pirner/index.shtml" target="_blank">Prof. Dr. M. Pirner</a></li>
+<li>Jan 2022 – Jun 2022: Lecturer in Mathematics, Jacobs University Bremen</li>
+    </ul>
+
+    <h4 class="font-semibold mt-6">Education</h4>
+    <ul class="list-disc ml-6 mt-3 space-y-1">
+<li>Oct 2017 – Sep 2021: PhD (Dr. rer. nat.) in Mathematics, University of Bremen, supervision: <a href="https://www.math.uni-hamburg.de/en/forschung/bereiche/am/ang-dynamische-systeme/personen/rademacher-jens.html" target="_blank">Prof. Dr. J. Rademacher</a>, <a href="https://www.uni-bremen.de/dynsys/members/prof-dr-marc-kesseboehmer" target="_blank">Prof. Dr. M. Keßeböhmer</a>, also see <a href="https://mathgenealogy.org/id.php?id=277103" target="_blank">MGP</a></li>
+<li>Oct 2016 – Oct 2017: Brückenstipendium in Mathematics, University of Bremen</li>
+<li>Oct 2011 – Sep 2016: B.Sc. and M.Sc. in Mathematics, University of Bremen</li>
+    </ul>
+
+    <h4 class="font-semibold mt-6">Additional Experience</h4>
+    <ul class="list-disc ml-6 mt-3">
+      <li>Sep 2022 – Feb 2023: IT-Consultant</li>
+    </ul>
+  </div>
+</section>
+
+</div>
+
+<!-- Footer -->
+<footer class="text-center text-sm text-gray-500 pb-6">
+  © <span id="year"></span> D. Ulbrich | Last updated: June 11, 2026
+</footer>
+
+<script>
+function toggleMenu() {
+  document.getElementById('mobileMenu').classList.toggle('hidden');
+}
+
+document.getElementById('year').textContent = new Date().getFullYear();
+
+function openImage() {
+  const modal = document.getElementById('imageModal');
+  const img = document.getElementById('modalImage');
+
+  modal.classList.remove('hidden');
+  modal.classList.add('flex');
+
+  // kleine Animation
+  setTimeout(() => {
+    img.classList.remove('scale-90', 'opacity-0');
+    img.classList.add('scale-100', 'opacity-100');
+  }, 10);
+}
+
+// schließen bei Klick
+document.addEventListener("DOMContentLoaded", () => {
+  const modal = document.getElementById('imageModal');
+
+  if (modal) {
+    modal.onclick = function () {
+      closeImage();
+    };
+  }
+});
+
+// ESC-Taste zum Schließen
+document.addEventListener('keydown', function (e) {
+  if (e.key === "Escape") {
+    closeImage();
+  }
+});
+
+function closeImage() {
+  const modal = document.getElementById('imageModal');
+  const img = document.getElementById('modalImage');
+
+  img.classList.remove('scale-100', 'opacity-100');
+  img.classList.add('scale-90', 'opacity-0');
+
+  setTimeout(() => {
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+  }, 200);
+}
+
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+
+
+
+<div id="imageModal" class="fixed inset-0 bg-black/80 hidden items-center justify-center z-50 backdrop-blur-sm transition-opacity duration-300">
+  <img src="/img/UlbrichDennis.jpg" 
+       class="max-w-[90%] max-h-[90%] rounded-xl shadow-2xl transform scale-90 opacity-0 transition-all duration-300"
+       id="modalImage" />
+</div>
+</body>
+</html>
