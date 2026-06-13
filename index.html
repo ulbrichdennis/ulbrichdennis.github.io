@@ -4,16 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Alex Morgan | Akademische Website</title>
-    <!-- FontAwesome für akademische & Social Icons -->
+    <!-- FontAwesome für E-Mail und LinkedIn Icons -->
     <link rel="stylesheet" href="https://cloudflare.com">
-    <!-- Academicons für arXiv und ORCID -->
-    <link rel="stylesheet" href="https://jsdelivr.net">
     
     <style>
-        /* --- BASICS & FARBEN --- */
+        /* --- BASICS & FARBEN (Klassisch-Akademisch) --- */
         :root {
-            --primary: #0f2a4a;
-            --secondary: #c5a059;
+            --primary: #0f2a4a; /* Dunkelblau für Seriösität */
+            --secondary: #c5a059; /* Gold/Bronze für Akzente */
             --text: #333333;
             --light-bg: #f8f9fa;
             --white: #ffffff;
@@ -27,13 +25,13 @@
 
         html {
             scroll-behavior: smooth;
-            font-family: 'Georgia', 'Times New Roman', serif;
+            font-family: 'Georgia', 'Times New Roman', serif; /* Papier-Look für Fließtext */
             color: var(--text);
             line-height: 1.6;
         }
 
         h1, h2, h3, .nav-logo {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-family: 'Helvetica Neue', Arial, sans-serif; /* Moderner Font für Überschriften */
             color: var(--primary);
         }
 
@@ -85,7 +83,7 @@
 
         /* --- LAYOUT & SEKTIONEN --- */
         section {
-            padding: 100px 20px 40px 20px;
+            padding: 120px 20px 40px 20px; /* Genug Abstand nach oben wegen fixierter Navleiste */
             max-width: 1100px;
             margin: 0 auto;
         }
@@ -112,7 +110,7 @@
             display: flex;
             align-items: center;
             gap: 40px;
-            margin-top: 40px;
+            margin-top: 20px;
         }
 
         .hero-text h1 {
@@ -136,10 +134,10 @@
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
 
-        /* --- KONTAKT BUTTONS --- */
+        /* --- KONTAKT ELEMENTS (BUGFIXED) --- */
         .contact-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 20px;
             margin-top: 20px;
         }
@@ -164,11 +162,12 @@
             box-shadow: 0 4px 10px rgba(0,0,0,0.05);
         }
 
-        .contact-card i, .contact-card ai {
+        .contact-card i, .contact-card svg {
             font-size: 1.5rem;
             color: var(--primary);
             width: 30px;
             text-align: center;
+            flex-shrink: 0;
         }
 
         .contact-info-text span {
@@ -236,7 +235,7 @@
             .hero-text h1 { font-size: 2rem; }
 
             section {
-                padding: 130px 20px 30px 20px;
+                padding: 140px 20px 30px 20px; /* Erhöhter Abstand auf Handys wegen zweizeiliger Navleiste */
             }
             
             .bg-light .section-inner {
@@ -265,9 +264,9 @@
         <div class="hero-text">
             <h1>Dr. Alex Morgan</h1>
             <p class="subtitle">Senior-Lehrbeauftragter für Computational Linguistics</p>
-            <p>Willkommen auf meiner akademischen Webseite. Ich forsche an der Schnittstelle zwischen künstlicher Intelligenz und historischer Sprachwissenschaft. Mein Fokus liegt auf der Rekonstruktion alte Texte mittels moderner Deep-Learning-Verfahren.</p>
+            <p>Willkommen auf meiner akademischen Webseite. Ich forsche an der Schnittstelle zwischen künstlicher Intelligenz und historischer Sprachwissenschaft. Mein Fokus liegt auf der Rekonstruktion alter Texte mittels moderner Deep-Learning-Verfahren.</p>
         </div>
-        <!-- Setze hier dein echtes Profilbild ein (z.B. mein-foto.jpg) -->
+        <!-- Hier dein Bildpfad einfügen (z.B. mein-bild.jpg) -->
         <img src="https://placeholder.com" alt="Dr. Alex Morgan" class="hero-img">
     </section>
 
@@ -313,8 +312,5 @@
                     <i class="fa-solid fa-envelope"></i>
                     <div class="contact-info-text">
                         <span>E-Mail</span>
-                        <p>alex.morgan@...</p>
+                        <p>E-Mail senden</p>
                     </div>
-                </a>
-
-                <!-- LinkedIn -->
