@@ -299,9 +299,9 @@ h1, h2, h3, h4 {
     display: block; 
   }
 
-  /* Navigationsleiste mobil umstrukturieren und standardmäßig verstecken */
+  /* Navigationsleiste mobil untereinander anordnen */
   .main-nav {
-    display: none;
+    display: none;             /* Versteckt das Menü im geschlossenen Zustand */
     position: absolute;
     top: 100%;
     left: 0;
@@ -316,10 +316,12 @@ h1, h2, h3, h4 {
   .main-nav .nav-link {
     font-size: 14px;
     padding: 4px 0;
+    display: block;            /* Macht jeden Link zu einer eigenen Zeile */
   }
 
-  /* WICHTIG: Wenn die Checkbox aktiv ist, zeige das Menü */
+  /* KORREKTUR: Wenn die Checkbox aktiv ist, erzwinge die Anzeige (display: flex) */
   #menu-toggle-input:checked ~ .main-nav {
-    display: flex;
+    display: flex !important;
   }
 }
+
