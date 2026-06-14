@@ -137,22 +137,34 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
   transition: all 0.2s ease;
 }
 
+/* Steuerung für Academicons Schriftzeichen */
+.social-icons .icon i {
+  color: #374151 !important;
+  font-size: 20px !important;
+  transition: color 0.2s ease;
+}
+
+/* Steuerung für die zwei nativen SVGs (E-Mail, LinkedIn) */
 .social-icons .icon svg {
   fill: #374151 !important;  
   width: 18px !important;    
   height: 18px !important;   
   display: block;
+  transition: fill 0.2s ease;
 }
 
 .social-icons .icon:hover { transform: translateY(-2px); }
 
+/* Individuelle Hover-Farben */
 .social-icons .orcid:hover { background-color: #a6ce39; border-color: #a6ce39; }
 .social-icons .arxiv:hover { background-color: #b31b1b; border-color: #b31b1b; }
 .social-icons .scholar:hover { background-color: #4285f4; border-color: #4285f4; }
 .social-icons .email:hover { background-color: #4b5563; border-color: #4b5563; }
 .social-icons .linkedin:hover { background-color: #0077b5; border-color: #0077b5; }
 
+/* Invertiert Symbole und Schriften im Kreis bei Hover auf Weiß */
 .social-icons .icon:hover svg { fill: #ffffff !important; }
+.social-icons .icon:hover i { color: #ffffff !important; }
 
 .clean-list { list-style: none; padding-left: 0; margin: 0; }
 .list-item { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; }
