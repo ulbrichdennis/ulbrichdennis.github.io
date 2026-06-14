@@ -210,3 +210,33 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
     display: flex !important; 
   }
 }
+
+/* Styling für die Fußzeile */
+.site-footer {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 50px;
+    border-top: 1px solid #e0e0e0; /* Dezente Trennlinie nach oben */
+    font-size: 0.85rem;            /* Etwas kleinere Schriftart */
+    color: #666666;                /* Unaufdringliches Grau */
+}
+
+/* Inhalt sauber nebeneinander oder untereinander anordnen */
+.footer-content {
+    max-width: 800px;              /* Anpassung an die Breite Ihrer Website */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Schiebt Copyright nach links, Datum nach rechts */
+    padding: 0 20px;
+}
+
+/* Responsive Ansicht für Smartphones */
+@media (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;                  /* Abstand zwischen den Zeilen auf dem Handy */
+        text-align: center;
+    }
+}
+
