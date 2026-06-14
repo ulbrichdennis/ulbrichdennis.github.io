@@ -1,38 +1,263 @@
+/* --- 1. GLOBALE BASIS-STILE --- */
 :root {
-  --primary-color: #111827;
-  --text-color: #374151;
-  --link-color: #2563eb;
+  --primary-color: #111827;    
+  --text-color: #374151;       
+  --link-color: #2563eb;       
   --link-hover: #1d4ed8;
-  --bg-body: #f9fafb;
-  --bg-card: #ffffff;
-  --border-color: #e5e7eb;
-}
-html { scroll-behavior: smooth; }
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: var(--text-color); background-color: var(--bg-body); margin: 0; }
-.container { max-width: 768px; margin: 0 auto; padding: 0 24px; }
-.main-content { margin-top: 40px; margin-bottom: 80px; }
-.section-card { background-color: var(--bg-card); border: 1px solid var(--border-color); border-radius: 8px; padding: 32px; margin-bottom: 24px; }
-.site-header { position: fixed; top: 0; left: 0; right: 0; background-color: rgba(255, 255, 255, 0.85); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border-color); z-index: 50; }
-.nav-wrapper { display: flex; justify-content: space-between; align-items: center; padding: 14px 24px; max-width: 768px; margin: 0 auto; }
-.nav-brand { font-size: 14px; font-weight: 600; color: var(--primary-color); text-decoration: none; }
-.main-nav { display: flex; gap: 24px; }
-.menu-toggle { display: none; background: none; border: none; font-size: 24px; cursor: pointer; }
-.nav-link { font-size: 12px; font-weight: 500; text-transform: uppercase; color: #6b7280; text-decoration: none; }
-.hero-flex { display: flex; gap: 24px; }
-.avatar {
-  width: 140px;          /* Erzwingt eine feste Breite */
-  height: 140px;         /* Erzwingt eine feste Höhe */
-  border-radius: 8px;    /* Leicht abgerundete Ecken */
-  object-fit: cover;     /* Verhindert, dass das Gesicht verzerrt oder gestaucht wird */
-  border: 1px solid var(--border-color);
-  flex-shrink: 0;        /* Verhindert, dass das Bild mobil zusammengedrückt wird */
+  --bg-body: #f9fafb;          
+  --bg-card: #ffffff;          
+  --border-color: #e5e7eb;     
 }
 
-.social-icons { display: flex; gap: 10px; }
-.social-icons .icon { display: flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--border-color); }
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-body);
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- 2. LAYOUT & KARTEN --- */
+.container {
+  max-width: 768px; 
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.main-content {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.section-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 32px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.scroll-margin {
+  scroll-margin-top: 100px;
+}
+
+/* --- 3. NAVIGATION (STICKY HEADER & REINES CSS-HAMBURGER) --- */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border-color);
+  z-index: 50;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 24px;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.nav-brand {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+#menu-toggle-input {
+  display: none;
+}
+
+.menu-toggle-label {
+  display: none;
+  font-size: 24px;
+  color: var(--primary-color);
+  cursor: pointer;
+  user-select: none;
+}
+
+.main-nav {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-link {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6b7280;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
+/* --- 4. TYPOGRAFIE & TEXTELEMENTE --- */
+h1, h2, h3, h4 {
+  color: var(--primary-color);
+  margin-top: 0;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #f3f4f6;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
+.subsection-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.text-meta {
+  font-size: 12px;
+  color: #9ca3af;
+  font-family: monospace;
+  margin-top: 4px;
+}
+
+.text-italic {
+  font-size: 14px;
+  font-style: italic;
+  color: #6b7280;
+}
+
+/* --- 5. HERO BEREICH (KOPFZEILE) --- */
+.hero-section {
+  padding-top: 110px;
+  padding-bottom: 24px;
+}
+
+.hero-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+/* BILD-KORREKTUR: Erzwingt die korrekte Größe */
+.avatar {
+  width: 140px !important;
+  height: 140px !important;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid var(--border-color);
+  flex-shrink: 0;
+}
+
+.hero-text h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  margin-top: 0;
+}
+
+.subtitle-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.badge-work {
+  background-color: #f0fdf4;
+  color: #166534;
+  border: 1px solid #bbf7d0;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* --- 6. LINKS & SOCIAL ICONS --- */
+.section-card a {
+  color: var(--link-color);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--link-color);
+  transition: all 0.15s ease;
+}
+
+.section-card a:hover {
+  color: var(--link-hover);
+  border-bottom: 1px solid var(--link-hover);
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.social-icons .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--border-color);
+  background-color: #f9fafb;
+  color: #374151 !important; /* ICON-KORREKTUR: Erzwingt dunkle Farbe */
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.social-icons .icon:hover { transform: translateY(-2px); }
+.social-icons .icon i, .social-icons .icon flex { color: inherit !important; }
+
+/* --- 7. LISTEN & PROJEKT-BOXEN --- */
+.clean-list { list-style: none; padding-left: 0; margin: 0; }
+.list-item { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; }
+.bullet-accent { color: var(--link-color); font-size: 11px; margin-top: 6px; }
+.project-box { background-color: #f9fafb; border: 1px solid var(--border-color); border-radius: 6px; padding: 16px; margin-bottom: 14px; }
+.project-title { font-weight: 600; color: var(--primary-color); }
+.timeline { border-left: 2px solid #e5e7eb; padding-left: 16px; }
+.timeline-item { margin-bottom: 20px; }
+.timeline-item:last-child { margin-bottom: 0; }
+.cv-title { font-weight: 600; color: var(--primary-color); display: block; }
+.cv-meta { font-size: 13px; color: #6b7280; }
+
+/* --- 8. MOBILE RESPONSIVENESS --- */
 @media (max-width: 640px) {
-  .hero-flex { flex-direction: column; text-align: center; }
-  .menu-toggle { display: block; }
-  .main-nav { display: none; position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; background: white; }
-  .main-nav.is-open { display: flex; }
+  .hero-flex { flex-direction: column; align-items: center; text-align: center; }
+  .subtitle-row { justify-content: center; }
+  .social-icons { justify-content: center; }
+  .section-card { padding: 20px; }
+
+  .menu-toggle-label { display: block; }
+  .main-nav {
+    display: none;
+    position: absolute;
+    top: 100%; left: 0; right: 0;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-bottom: 1px solid var(--border-color);
+    padding: 16px 24px;
+    gap: 16px;
+  }
+
+  .main-nav .nav-link { font-size: 14px; padding: 4px 0; }
+  #menu-toggle-input:checked ~ .main-nav { display: flex !important; }
 }
