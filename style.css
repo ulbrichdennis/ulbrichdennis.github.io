@@ -47,7 +47,7 @@ body {
   scroll-margin-top: 100px;
 }
 
-/* --- 3. NAVIGATION (STICKY HEADER & HAMBURGER) --- */
+/* --- 3. NAVIGATION (STICKY HEADER & REINES CSS-HAMBURGER) --- */
 .site-header {
   position: fixed;
   top: 0;
@@ -76,36 +76,23 @@ body {
   text-decoration: none;
 }
 
+/* Unsichtbare Checkbox, die den Klick-Status speichert */
+#menu-toggle-input {
+  display: none;
+}
+
+/* Der sichtbare Hamburger-Button auf Mobilgeräten */
+.menu-toggle-label {
+  display: none;
+  font-size: 24px;
+  color: var(--primary-color);
+  cursor: pointer;
+  user-select: none;
+}
+
 .main-nav {
   display: flex;
   gap: 24px;
-}
-
-/* Der Hamburger-Button (standardmäßig auf Desktop versteckt) */
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 22px;
-  color: var(--primary-color);
-  cursor: pointer;
-  padding: 0;
-  line-height: 1;
-}
-
-/* Das mobile Menü-Akkordeon (standardmäßig versteckt) */
-.mobile-nav {
-  display: none;
-  flex-direction: column;
-  background-color: #ffffff;
-  border-top: 1px solid var(--border-color);
-  padding: 12px 24px;
-  gap: 14px;
-}
-
-/* Klasse wird per JavaScript für das Hamburger-Menü aktiviert */
-.mobile-nav.is-open {
-  display: flex;
 }
 
 .nav-link {
@@ -120,11 +107,6 @@ body {
 
 .nav-link:hover {
   color: var(--primary-color);
-}
-
-.mobile-nav .nav-link {
-  font-size: 14px;
-  padding: 4px 0;
 }
 
 /* --- 4. TYPOGRAFIE & TEXTELEMENTE --- */
@@ -305,14 +287,39 @@ h1, h2, h3, h4 {
   color: #6b7280;
 }
 
-/* --- 8. MOBILE RESPONSIVENESS --- */
+/* --- 8. MOBILE RESPONSIVENESS (CSS-TRICK) --- */
 @media (max-width: 640px) {
   .hero-flex { flex-direction: column; align-items: center; text-align: center; }
   .subtitle-row { justify-content: center; }
   .social-icons { justify-content: center; }
-  
-  .main-nav { display: none; }    /* Versteckt normales Menü auf Mobilgeräten */
-  .menu-toggle { display: block; } /* Zeigt Hamburger-Button auf Mobilgeräten */
-  
   .section-card { padding: 20px; }
+
+  /* Hamburger-Button einblenden */
+  .menu-toggle-label { 
+    display: block; 
+  }
+
+  /* Navigationsleiste mobil umstrukturieren und standardmäßig verstecken */
+  .main-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-bottom: 1px solid var(--border-color);
+    padding: 16px 24px;
+    gap: 16px;
+  }
+
+  .main-nav .nav-link {
+    font-size: 14px;
+    padding: 4px 0;
+  }
+
+  /* WICHTIG: Wenn die Checkbox aktiv ist, zeige das Menü */
+  #menu-toggle-input:checked ~ .main-nav {
+    display: flex;
+  }
 }
