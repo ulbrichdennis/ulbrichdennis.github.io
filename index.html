@@ -17,20 +17,12 @@
 <!-- Navigation -->
 <header class="site-header"> 
   <div class="nav-wrapper">
-    <a href="#start" class="nav-brand">Start</a>
-    
-    <!-- Die unsichtbare Checkbox für die Klick-Logik -->
-    <input type="checkbox" id="menu-toggle-input">
-    
-    <!-- Der sichtbare Hamburger-Button -->
-    <label for="menu-toggle-input" class="menu-toggle-label">☰</label>
-    
-    <nav class="main-nav">
+    <a href="#" class="nav-brand">Name</a>
+    <!-- Echter Button statt Checkbox -->
+    <button class="menu-toggle" id="menuToggle">☰</button>
+    <nav class="main-nav" id="mainNav">
       <a href="#about" class="nav-link">About</a>
-      <a href="#research" class="nav-link">Research</a>
-      <a href="#publications" class="nav-link">Publications</a>
-      <a href="#teaching" class="nav-link">Teaching</a>
-      <a href="#cv" class="nav-link">Short CV</a>
+      <!-- Weitere Links -->
     </nav>
   </div>
 </header>
@@ -179,6 +171,16 @@
 
   </main>
 </div>
+
+<script>
+  const menuToggle = document.getElementById('menuToggle');
+  const mainNav = document.getElementById('mainNav');
+
+  menuToggle.addEventListener('click', () => {
+    mainNav.classList.toggle('is-open');
+    menuToggle.textContent = mainNav.classList.contains('is-open') ? '✕' : '☰';
+  });
+</script>
 
 </body>
 </html>
