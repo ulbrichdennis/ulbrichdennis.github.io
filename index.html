@@ -10,16 +10,16 @@
     <link rel="preconnect" href="https://gstatic.com" crossorigin>
     <link href="https://googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     
-    <!-- FontAwesome für Social Media Icons -->
+    <!-- FontAwesome für Social Media & Hamburger Icons -->
     <link rel="stylesheet" href="https://cloudflare.com">
 
     <style>
         /* --- BASIS STYLES --- */
         :root {
-            --primary-color: #0f172a; /* Dunkelblau/Schiefer für akademischen Look */
-            --accent-color: #2563eb;  /* Modernes Blau für Links/Buttons */
-            --text-color: #334155;    /* Angenehmes Dunkelgrau für Lesbarkeit */
-            --bg-light: #f8fafc;      /* Heller Hintergrund für Kontrast */
+            --primary-color: #0f172a; 
+            --accent-color: #2563eb;  
+            --text-color: #334155;    
+            --bg-light: #f8fafc;      
             --nav-height: 70px;
         }
 
@@ -38,7 +38,7 @@
             color: var(--text-color);
             line-height: 1.6;
             background-color: #ffffff;
-            padding-top: var(--nav-height); /* Verhindert das Verdecken durch die fixe Navibar */
+            padding-top: var(--nav-height); 
         }
 
         h1, h2, h3 {
@@ -52,10 +52,6 @@
             transition: color 0.3s ease;
         }
 
-        a:hover {
-            color: var(--primary-color);
-        }
-
         .container {
             max-width: 1000px;
             margin: 0 auto;
@@ -67,7 +63,7 @@
             border-bottom: 1px solid #e2e8f0;
         }
 
-        /* --- FIXIERTE NAVIGATION --- */
+        /* --- FIXIERTE NAVIGATION & HAMBURGER MENÜ --- */
         header {
             position: fixed;
             top: 0;
@@ -88,14 +84,27 @@
             justify-content: space-between;
             align-items: center;
             padding: 0 1.5rem;
+            position: relative;
         }
 
         .logo {
             font-weight: 700;
             font-size: 1.2rem;
             color: var(--primary-color);
+            white-space: nowrap;
         }
 
+        /* Hamburger Icon (Standardmäßig versteckt auf Desktop) */
+        .menu-toggle {
+            display: none;
+            font-size: 1.5rem;
+            background: none;
+            border: none;
+            color: var(--primary-color);
+            cursor: pointer;
+        }
+
+        /* Navigationsmenü (Desktop-Ansicht) */
         .nav-menu {
             display: flex;
             list-style: none;
@@ -106,13 +115,15 @@
             color: var(--text-color);
             font-weight: 500;
             font-size: 0.95rem;
+            display: block;
+            padding: 0.5rem 0;
         }
 
         .nav-menu a:hover {
             color: var(--accent-color);
         }
 
-        /* --- HERO / PROFIL SECTION --- */
+        /* --- PROFIL SECTION --- */
         .hero {
             display: flex;
             flex-direction: column;
@@ -170,11 +181,10 @@
             transform: translateY(-3px);
         }
 
-        /* --- AKADEMISCHER INHALT --- */
+        /* --- INHALTE --- */
         .section-title {
             font-size: 1.75rem;
             margin-bottom: 1.5rem;
-            position: relative;
         }
 
         .list-item {
@@ -203,8 +213,49 @@
             background-color: var(--bg-light);
         }
 
-        /* --- RESPONSIVE DESIGN (OPTIMIERUNG FÜR SMARTPHONES) --- */
-        @media (min-width: 768px) {
+        /* --- RESPONSIVE DESIGN (MOBIL-OPTIMIERUNG) --- */
+        @media (max-width: 768px) {
+            /* Hamburger Button anzeigen */
+            .menu-toggle {
+                display: block;
+            }
+
+            /* Menü in ein vertikales Dropdown verwandeln */
+            .nav-menu {
+                display: none; /* Standardmäßig auf dem Smartphone unsichtbar */
+                flex-direction: column;
+                position: absolute;
+                top: var(--nav-height);
+                left: 0;
+                width: 100%;
+                background-color: #ffffff;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+                padding: 1rem 1.5rem;
+                gap: 0;
+                border-top: 1px solid #e2e8f0;
+            }
+
+            /* Wenn das Menü aktiv ist, anzeigen */
+            .nav-menu.active {
+                display: flex;
+            }
+
+            .nav-menu li {
+                width: 100%;
+                border-bottom: 1px solid #f1f5f9;
+            }
+
+            .nav-menu li:last-child {
+                border-bottom: none;
+            }
+
+            .nav-menu a {
+                padding: 0.8rem 0;
+                font-size: 1rem;
+            }
+        }
+
+        @media (min-width: 769px) {
             .hero {
                 flex-direction: row;
                 text-align: left;
@@ -224,18 +275,6 @@
                 font-size: 2.8rem;
             }
         }
-
-        @media (max-width: 480px) {
-            .nav-menu {
-                gap: 0.8rem;
-            }
-            .nav-menu a {
-                font-size: 0.85rem;
-            }
-            .logo {
-                font-size: 1rem;
-            }
-        }
     </style>
 </head>
 <body>
@@ -244,11 +283,21 @@
     <header>
         <div class="nav-container">
             <div class="logo">Dr. A. Mustermann</div>
+            
+            <!-- Hamburger Button für Mobilgeräte -->
+            <button class="menu-toggle" id="mobile-menu" aria-label="Menü öffnen">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Erweiterbare Navigationsleiste -->
             <nav>
-                <ul class="nav-menu">
+                <ul class="nav-menu" id="nav-menu">
                     <li><a href="#about">Über mich</a></li>
                     <li><a href="#research">Forschung</a></li>
+                    <li><a href="#publications">Publikationen</a></li>
                     <li><a href="#teaching">Lehre</a></li>
+                    <li><a href="#projects">Projekte</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
                 </ul>
             </nav>
         </div>
@@ -256,17 +305,14 @@
 
     <div class="container">
         
-        <!-- Hauptbereich / Profil -->
+        <!-- Über mich -->
         <section id="about" class="hero">
-            <!-- Platzhalter-Bild (wird automatisch generiert, durch eigenes ersetzen) -->
-            <img src="https://unsplash.com" alt="Profilfoto von Dr. Alex Mustermann" class="profile-img">
-            
+            <img src="https://unsplash.com" alt="Profilfoto" class="profile-img">
             <div class="hero-text">
                 <h1>Dr. Alex Mustermann</h1>
                 <p class="subtitle">Postdoktorand im Bereich Künstliche Intelligenz & Gesellschaft</p>
-                <p>Willkommen auf meiner akademischen Webseite. Ich forsche an der Schnittstelle zwischen Technologie, Ethik und menschlicher Interaktion. Aktuell lehre ich am Institut für Informatik der Muster-Universität.</p>
+                <p>Willkommen auf meiner akademischen Webseite. Ich forsche an der Schnittstelle zwischen Technologie, Ethik und menschlicher Interaktion.</p>
                 
-                <!-- Social Media Buttons -->
                 <div class="social-links">
                     <a href="https://google.com" target="_blank" class="social-btn" title="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
                     <a href="https://orcid.org" target="_blank" class="social-btn" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
@@ -277,31 +323,6 @@
             </div>
         </section>
 
-        <!-- Forschungsbereich -->
+        <!-- Forschung -->
         <section id="research">
-            <h2 class="section-title">Forschung & Publikationen</h2>
-            <ul>
-                <li class="list-item">
-                    <span class="date">2026 • Journal of AI Ethics</span>
-                    <span class="title">"Die Zukunft der menschlichen Arbeit im Zeitalter generativer KI"</span>
-                    <p>Mustermann, A., &amp; Kollegin, B. Eine qualitative Studie über die Transformation von Arbeitsplätzen.</p>
-                </li>
-                <li class="list-item">
-                    <span class="date">2025 • Conference on Human-Computer Interaction</span>
-                    <span class="title">"Vertrauen und Transparenz in autonomen Systemen"</span>
-                    <p>Mustermann, A. Untersuchung von User-Interface-Mustern zur Erklärung von Algorithmen.</p>
-                </li>
-            </ul>
-        </section>
-
-        <!-- Lehrbereich -->
-        <section id="teaching">
-            <h2 class="section-title">Lehre</h2>
-            <ul>
-                <li class="list-item">
-                    <span class="date">Sommersemester 2026</span>
-                    <span class="title">Vorlesung: Ethik in der Informatik</span>
-                    <p>Master-Studiengang, 4 SWS. Einführung in ethische Fragestellungen moderner Softwaresysteme.</p>
-                </li>
-                <li class="list-item">
-                    <span class="date">Wintersemester 2025/26</span>
+            <h2 class="section-title">Forschungsschwerpunkte</h2>
