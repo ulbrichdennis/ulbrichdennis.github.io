@@ -5,12 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dr. Dennis Ulbrich</title>
   
-  <!-- Wichtig: Die CSS-Datei muss im selben Ordner liegen -->
+  <!-- Verknüpfung zur style.css -->
   <link rel="stylesheet" href="style.css">
-
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cloudflare.com">
-  <link rel="stylesheet" href="https://jsdelivr.net">
 </head>
 <body id="start">
 
@@ -32,11 +28,10 @@
   </div>
 </header>
 
-<!-- Kopfbereich (Hero) mit korrekten CSS-Klassen -->
+<!-- Kopfbereich (Hero) -->
 <div class="container">
   <section class="hero-section">
     <div class="hero-flex">
-      <!-- KORREKTUR: Klasse 'avatar' hinzugefügt -->
       <img src="/img/UlbrichDennis.jpg" alt="Dr. Dennis Ulbrich" class="avatar" loading="lazy"/> 
       
       <div class="hero-text">
@@ -47,13 +42,34 @@
           <span class="badge-work">Open to work</span>
         </div>  
         
-        <!-- KORREKTUR: Klassen für runde Icons hinzugefügt -->
+        <!-- Die geretteten Social-Icons (direkt als unzerstörbare SVGs eingebettet) -->
         <div class="social-icons">
-          <a href="mailto:ulbrich.dennis@icloud.com" class="icon email" title="Email"><i class="fas fa-envelope"></i></a>
-          <a href="https://orcid.org" target="_blank" class="icon orcid" title="ORCID"><i class="ai ai-orcid"></i></a>
-          <a href="https://arxiv.org" target="_blank" class="icon arxiv" title="arXiv"><i class="ai ai-arxiv"></i></a>
-          <a href="https://google.com" target="_blank" class="icon scholar" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-          <a href="https://linkedin.com" target="_blank" class="icon linkedin" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          
+          <!-- E-Mail -->
+          <a href="mailto:ulbrich.dennis@icloud.com" class="icon email" title="Email">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </a>
+          
+          <!-- ORCID -->
+          <a href="https://orcid.org" target="_blank" class="icon orcid" title="ORCID">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2.27 15.22h-1.3v-6.95h1.3v6.95zm-.65-7.79c-.43 0-.78-.34-.78-.77s.35-.77.78-.77.78.34.78.77-.35.77-.78.77zm7.53 7.79h-1.22l-2.12-3.41v3.41h-1.3v-6.95h1.3v3.13l2.03-3.13h1.35l-2.4 3.51 2.36 3.44z"/></svg>
+          </a>
+          
+          <!-- arXiv -->
+          <a href="https://arxiv.org" target="_blank" class="icon arxiv" title="arXiv">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.25 15.5h-2.5v-1.5h2.5v1.5zm1.5-3h-5.5V13h5.5v1.5zm1-3h-7.5V10h7.5v1.5z"/></svg>
+          </a>
+          
+          <!-- Google Scholar -->
+          <a href="https://google.com" target="_blank" class="icon scholar" title="Google Scholar">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2L1 9l11 7 9-5.73V17h2V9L12 2zm0 11.5L4.3 9 12 4.04 19.7 9 12 13.5zM12 15c-2.21 0-4 1.79-4 4h8c0-2.21-1.79-4-4-4z"/></svg>
+          </a>
+          
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com" target="_blank" class="icon linkedin" title="LinkedIn">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          
         </div>
       </div>
     </div>
@@ -153,26 +169,3 @@
 
     <!-- SHORT CV -->
     <section id="cv" class="section-card scroll-margin">
-      <h3 class="section-title">Short CV</h3>
-      <div class="timeline">
-        <div class="timeline-item">
-          <span class="cv-title">Postdoctoral Researcher</span>
-          <span class="cv-meta">University of Münster, Institute for Analysis and Numerics | 2023 – 2024</span>
-        </div>
-        <div class="timeline-item">
-          <span class="cv-title">PhD (Dr. rer. nat.) in Mathematics</span>
-          <span class="cv-meta">University of Bremen | 2018 – 2023</span>
-          <p style="font-size: 13px; color: #9ca3af; margin: 2px 0 0 0;">Thesis: "Ergodic properties of nonlinear waves in excitable media and hypocoercivity of a BGK model"</p>
-        </div>
-        <div class="timeline-item">
-          <span class="cv-title">M.Sc. & B.Sc. in Mathematics</span>
-          <span class="cv-meta">University of Bremen | 2012 – 2018</span>
-        </div>
-      </div>
-    </section>
-
-  </main>
-</div>
-
-</body>
-</html>
