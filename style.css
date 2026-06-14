@@ -214,29 +214,21 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 /* Styling für die Fußzeile */
 .site-footer {
     width: 100%;
-    padding: 20px 0;
-    margin-top: 50px;
-    border-top: 1px solid #e0e0e0; /* Dezente Trennlinie nach oben */
-    font-size: 0.85rem;            /* Etwas kleinere Schriftart */
-    color: #666666;                /* Unaufdringliches Grau */
+    padding: 25px 0;
+    margin-top: 60px;
+    border-top: 1px solid #e5e7eb; /* Sehr dezente, moderne Trennlinie */
+    font-size: 0.75rem;            /* Kleinere Schriftgröße (ca. 12px) */
+    color: #6b7280;                /* Unaufdringliches, mattes Grau */
+    font-family: inherit;
 }
 
-/* Inhalt sauber nebeneinander oder untereinander anordnen */
+/* Inhalt exakt in der Mitte zentrieren */
 .footer-content {
-    max-width: 800px;              /* Anpassung an die Breite Ihrer Website */
+    max-width: 800px;
     margin: 0 auto;
+    text-align: center;            /* Zentriert den gesamten Text */
     display: flex;
-    justify-content: space-between; /* Schiebt Copyright nach links, Datum nach rechts */
+    flex-direction: column;        /* Stapelt die Zeilen untereinander */
+    gap: 6px;                      /* Kleiner Abstand zwischen Copyright und Update-Datum */
     padding: 0 20px;
 }
-
-/* Responsive Ansicht für Smartphones */
-@media (max-width: 600px) {
-    .footer-content {
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;                  /* Abstand zwischen den Zeilen auf dem Handy */
-        text-align: center;
-    }
-}
-

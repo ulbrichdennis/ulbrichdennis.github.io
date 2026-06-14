@@ -215,27 +215,21 @@
       </div>
     </section>
 
-    <footer class="site-footer">
+<footer class="site-footer">
   <div class="footer-content">
-    <!-- Das Copyright-Jahr aktualisiert sich hierdurch von selbst -->
-    <span class="copyright">&copy; <span id="current-year"></span> Dr. Dennis Ulbrich. Alle Rechte vorbehalten.</span>
-    
-    <!-- Hier wird das Datum der letzten Datei-Änderung eingefügt -->
-    <span class="last-updated">Zuletzt aktualisiert: <span id="last-modified"></span></span>
+    <div class="copyright">&copy; <span id="current-year"></span> Dr. Dennis Ulbrich. All rights reserved.</div>
+    <div class="last-updated">Last updated: <span id="last-modified"></span></div>
   </div>
 </footer>
 
 <script>
-  // 1. Setzt das Copyright-Jahr automatisch auf das aktuelle Jahr
+  // 1. Setzt das Copyright-Jahr automatisch
   document.getElementById('current-year').textContent = new Date().getFullYear();
 
-  // 2. Liest das echte Änderungsdatum der HTML-Datei vom Server aus
+  // 2. Liest das Änderungsdatum aus und formatiert es auf Englisch
   const lastMod = new Date(document.lastModified);
-  
-  // Formatierungs-Optionen für ein deutsches Datumsformat (z. B. 14. Juni 2026)
   const options = { year: 'numeric', month: 'long', day: 'numeric' };
-  
-  // Schreibt das fertige Datum in die Fußzeile
-  document.getElementById('last-modified').textContent = lastMod.toLocaleDateString('de-DE', options);
+  document.getElementById('last-modified').textContent = lastMod.toLocaleDateString('en-US', options);
 </script>
+
 
