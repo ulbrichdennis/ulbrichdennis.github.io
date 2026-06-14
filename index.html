@@ -1,327 +1,65 @@
 <!DOCTYPE html>
 <html lang="de" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dr. Dennis Ulbrich</title>
-  
-  <!-- Tailwind CSS -->
-  <script src="https://tailwindcss.com"></script>
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://googleapis.com">
-  <link rel="preconnect" href="https://gstatic.com" crossorigin>
-  <link href="https://googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-  <!-- Icons -->
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Dennis Ulbrich</title><script src="https://tailwindcss.com"></script>
+  <link rel="preconnect" href="https://googleapis.com"><link rel="preconnect" href="https://gstatic.com" crossorigin>
+  <link href="https://googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cloudflare.com">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
-
-  <script>
-    tailwind.config = {
-      theme: { extend: { fontFamily: { sans: ['Inter', 'sans-serif'] } } }
-    }
-  </script>
-
-  <style>
-    body { background-color: #f8fafc; }
-    .academic-link {
-      color: #4f46e5;
-      text-decoration: none;
-      position: relative;
-      font-weight: 500;
-      transition: color 0.2s ease;
-    }
-    .academic-link::after {
-      content: '';
-      position: absolute;
-      width: 100%;
-      transform: scaleX(0);
-      height: 1px;
-      bottom: 0;
-      left: 0;
-      background-color: #4f46e5;
-      transform-origin: bottom right;
-      transition: transform 0.25s ease-out;
-    }
-    .academic-link:hover { color: #3730a3; }
-    .academic-link:hover::after { transform: scaleX(1); transform-origin: bottom left; }
-  </style>
+  <link rel="stylesheet" href="https://jsdelivr.net">
+  <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','sans-serif']}}}}</script>
+  <style>body{background-color:#f8fafc}.a-link{color:#4f46e5;font-weight:500;text-decoration:none}.a-link:hover{color:#3730a3;text-decoration:underline}</style>
 </head>
-
 <body class="font-sans text-slate-800 antialiased" id="start">
-
-  <!-- Navigationsbar -->
-  <header class="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md border-b border-slate-200/80 z-50">
+  <header class="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md border-b border-slate-200 z-50">
     <div class="max-w-3xl mx-auto flex justify-between items-center px-6 py-3.5">
-      <a href="#start" class="text-sm font-semibold tracking-tight text-slate-900 hover:text-indigo-600 transition-colors">Start</a>
+      <a href="#start" class="text-sm font-semibold tracking-tight text-slate-900 hover:text-indigo-600">Start</a>
       <nav class="hidden md:flex items-center gap-6 text-xs uppercase tracking-wider font-semibold text-slate-600">
-        <a href="#about" class="hover:text-indigo-600 transition-colors">About</a>
-        <a href="#research" class="hover:text-indigo-600 transition-colors">Research</a>
-        <a href="#publications" class="hover:text-indigo-600 transition-colors">Publications</a>
-        <a href="#teaching" class="hover:text-indigo-600 transition-colors">Teaching</a>
-        <a href="#cv" class="hover:text-indigo-600 transition-colors">Short CV</a>
+        <a href="#about" class="hover:text-indigo-600">About</a><a href="#research" class="hover:text-indigo-600">Research</a><a href="#publications" class="hover:text-indigo-600">Publications</a><a href="#teaching" class="hover:text-indigo-600">Teaching</a><a href="#cv" class="hover:text-indigo-600">Short CV</a>
       </nav>
-      <button class="md:hidden text-slate-600 hover:text-slate-900 focus:outline-none" onclick="toggleMenu()">
-        <i id="menuIcon" class="fas fa-bars text-lg"></i>
-      </button>
+      <button class="md:hidden text-slate-600" onclick="toggleMenu()"><i id="menuIcon" class="fas fa-bars text-lg"></i></button>
     </div>
     <div id="mobileMenu" class="hidden bg-white border-b border-slate-200 absolute w-full left-0 px-6 py-4 flex flex-col gap-3 shadow-md text-sm font-medium text-slate-600 text-center">
-      <a href="#about" onclick="toggleMenu()" class="hover:text-indigo-600 py-1">About</a>
-      <a href="#research" onclick="toggleMenu()" class="hover:text-indigo-600 py-1">Research</a>
-      <a href="#publications" onclick="toggleMenu()" class="hover:text-indigo-600 py-1">Publications</a>
-      <a href="#teaching" onclick="toggleMenu()" class="hover:text-indigo-600 py-1">Teaching</a>
-      <a href="#cv" onclick="toggleMenu()" class="hover:text-indigo-600 py-1">Short CV</a>
+      <a href="#about" onclick="toggleMenu()">About</a><a href="#research" onclick="toggleMenu()">Research</a><a href="#publications" onclick="toggleMenu()">Publications</a><a href="#teaching" onclick="toggleMenu()">Teaching</a><a href="#cv" onclick="toggleMenu()">Short CV</a>
     </div>
   </header>
-
-  <!-- Hero Sektion -->
   <section class="pt-32 pb-14 px-6 bg-gradient-to-b from-slate-100 to-slate-50 border-b border-slate-200/50">
     <div class="max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-8 md:gap-10">
-      <div class="flex-shrink-0 cursor-pointer" onclick="openImage()">
-        <img src="/img/UlbrichDennis.jpg" alt="Dr. Dennis Ulbrich" class="w-40 h-40 md:w-44 md:h-44 object-cover shadow-md border-4 border-white bg-white rounded-none hover:opacity-90 transition-opacity"/>
-      </div>
+      <div class="flex-shrink-0 cursor-pointer" onclick="openImage()"><img src="/img/UlbrichDennis.jpg" alt="Dr. Dennis Ulbrich" class="w-40 h-40 md:w-44 md:h-44 object-cover shadow-md border-4 border-white bg-white rounded-none hover:opacity-90"/></div>
       <div class="text-center md:text-left">
-        <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-slate-900">Dr. Dennis Ulbrich</h2>
-        <p class="text-slate-500 font-medium text-sm mt-1.5">Mathematician &bull; Open to work</p>
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Dr. Dennis Ulbrich</h2><p class="text-slate-500 font-medium text-sm mt-1.5">Mathematician &bull; Open to work</p>
         <div class="flex flex-wrap justify-center md:justify-start gap-2.5 mt-5">
-          <a href="mailto:ulbrich.dennis@icloud.com" class="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-slate-200 text-slate-700 shadow-sm hover:bg-slate-900 hover:text-white hover:border-slate-900 transition-all duration-200"><i class="fas fa-envelope"></i></a>
-          <a href="https://orcid.org" target="_blank" class="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-slate-200 text-slate-700 shadow-sm hover:bg-[#a6ce39] hover:text-white hover:border-[#a6ce39] transition-all duration-200"><i class="ai ai-orcid"></i></a>
-          <a href="https://arxiv.org" target="_blank" class="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-slate-200 text-slate-700 shadow-sm hover:bg-[#b31b1b] hover:text-white hover:border-[#b31b1b] transition-all duration-200"><i class="ai ai-arxiv"></i></a>
-          <a href="https://google.com" target="_blank" class="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-slate-200 text-slate-700 shadow-sm hover:bg-[#4285f4] hover:text-white hover:border-[#4285f4] transition-all duration-200"><i class="ai ai-google-scholar"></i></a>
-          <a href="https://linkedin.com" target="_blank" class="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-slate-200 text-slate-700 shadow-sm hover:bg-[#0077b5] hover:text-white hover:border-[#0077b5] transition-all duration-200"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:ulbrich.dennis@icloud.com" class="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-slate-200 text-slate-700 shadow-sm hover:bg-slate-900 hover:text-white"><i class="fas fa-envelope"></i></a>
+          <a href="https://orcid.org" target="_blank" class="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-slate-200 text-slate-700 shadow-sm hover:bg-[#a6ce39] hover:text-white"><i class="ai ai-orcid"></i></a>
+          <a href="https://arxiv.org" target="_blank" class="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-slate-200 text-slate-700 shadow-sm hover:bg-[#b31b1b] hover:text-white"><i class="ai ai-arxiv"></i></a>
+          <a href="https://google.com" target="_blank" class="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-slate-200 text-slate-700 shadow-sm hover:bg-[#4285f4] hover:text-white"><i class="ai ai-google-scholar"></i></a>
+          <a href="https://linkedin.com" target="_blank" class="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-slate-200 text-slate-700 shadow-sm hover:bg-[#0077b5] hover:text-white"><i class="fab fa-linkedin"></i></a>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- Hauptinhalte -->
-  <main class="max-w-3xl mx-auto px-6 py-12 space-y-10"> 
-    
-    <!-- About -->
-    <section id="about" class="scroll-mt-24">
-      <div class="bg-white border border-slate-200 rounded-none p-8 shadow-sm">
-        <h3 class="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100 flex items-center gap-2">
-          <i class="fas fa-user text-slate-400 text-base"></i> About
-        </h3>
-        <div class="space-y-4 text-slate-600 leading-relaxed text-[15px]">
-          <p>I am a mathematician with research background in nonlinear analysis, dynamical systems, ergodic theory, and kinetic theory, with several years of proficiency and strong commitment to undergraduate teaching, student supervision, and academic course organization.</p>
-          <p>Among other things, I was a postdoc at the <a href="https://uni-muenster.de" target="_blank" class="academic-link">Institute for Analysis and Numerics</a> of the <a href="https://uni-muenster.de" target="_blank" class="academic-link">University of Münster</a> and earned my PhD (Dr. rer. nat.) in Mathematics at the <a href="https://uni-bremen.de" target="_blank" class="academic-link">University of Bremen</a>.</p>
-          <p class="pt-1 text-slate-900 font-medium">Currently, I am exploring new professional opportunities in academia and industry.</p>
-        </div>
-      </div>
-    </section>
-
+  <main class="max-w-3xl mx-auto px-6 py-12 space-y-10">
+    <section id="about" class="scroll-mt-24"><div class="bg-white border border-slate-200 p-8 shadow-sm"><h3 class="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100"><i class="fas fa-user text-slate-400 mr-2"></i>About</h3><div class="space-y-4 text-slate-600 leading-relaxed text-[15px]"><p>I am a mathematician with research background in nonlinear analysis, dynamical systems, ergodic theory, and kinetic theory, with several years of proficiency and strong commitment to undergraduate teaching, student supervision, and academic course organization.</p><p>Among other things, I was a postdoc at the <a href="https://uni-muenster.de" target="_blank" class="a-link">Institute for Analysis and Numerics</a> of the <a href="https://uni-muenster.de" target="_blank" class="a-link">University of Münster</a> and earned my PhD (Dr. rer. nat.) in Mathematics at the <a href="https://uni-bremen.de" target="_blank" class="a-link">University of Bremen</a>.</p><p class="pt-1 text-slate-900 font-medium">Currently, I am exploring new professional opportunities in academia and industry.</p></div></div></section>
     <!-- Research -->
-    <section id="research" class="scroll-mt-24">
-      <div class="bg-white border border-slate-200 rounded-none p-8 shadow-sm">
-        <h3 class="text-xl font-bold text-slate-900 mb-5 pb-2 border-b border-slate-100 flex items-center gap-2">
-          <i class="fas fa-microscope text-slate-400 text-base"></i> Research
-        </h3>
-        <div class="mb-6">
-          <h4 class="font-semibold text-slate-900 text-base mb-2.5">Research interests</h4>
-          <ul class="space-y-1.5 text-slate-600 text-[15px]">
-            <li class="flex items-start gap-2"><i class="fas fa-chevron-right text-indigo-500 text-xs mt-1.5 flex-shrink-0"></i> Ordinary and partial differential equations and their dynamics</li>
-            <li class="flex items-start gap-2"><i class="fas fa-chevron-right text-indigo-500 text-xs mt-1.5 flex-shrink-0"></i> Nonlinear wave solutions and their ergodic properties</li>
-            <li class="flex items-start gap-2"><i class="fas fa-chevron-right text-indigo-500 text-xs mt-1.5 flex-shrink-0"></i> Kinetic theory, in particular entropy methods</li>
-            <li class="flex items-start gap-2"><i class="fas fa-chevron-right text-indigo-500 text-xs mt-1.5 flex-shrink-0"></i> Boltzmann equation and its BGK-type approximations</li>
-            <li class="flex items-start gap-2"><i class="fas fa-chevron-right text-indigo-500 text-xs mt-1.5 flex-shrink-0"></i> Long-time behavior of solutions (hypocoercivity)</li>
-            <li class="flex items-start gap-2"><i class="fas fa-chevron-right text-indigo-500 text-xs mt-1.5 flex-shrink-0"></i> Physical applications</li>
-            <li class="flex items-start gap-2"><i class="fas fa-chevron-right text-indigo-500 text-xs mt-1.5 flex-shrink-0"></i> Models of chemical reactions</li>
-          </ul>
-          <p class="mt-4 text-[14px] text-slate-500 italic">I am also open to new and interdisciplinary research directions beyond the areas listed.</p>
-        </div>
-        <div class="mt-6 pt-4 border-t border-slate-100">
-          <h4 class="font-semibold text-slate-900 text-base mb-3">Projects participation</h4>
-          <div class="space-y-3">
-            <div class="p-4 bg-slate-50 border border-slate-100 rounded-none">
-              <a href="https://dfg.de" target="_blank" class="academic-link text-sm">DFG 456849348</a>
-    <!-- Publications -->
-    <section id="publications" class="scroll-mt-24">
-      <div class="bg-white border border-slate-200 rounded-none p-8 shadow-sm">
-        <h3 class="text-xl font-bold text-slate-900 mb-5 pb-2 border-b border-slate-100 flex items-center gap-2"><i class="fas fa-book-open text-slate-400 text-base"></i> Publications</h3>
-        <div class="space-y-6 text-[15px]">
-          <div>
-            <h4 class="font-semibold text-slate-900 text-base mb-3">Peer-reviewed journal articles</h4>
-            <ul class="space-y-4 text-slate-600">
-              <li class="p-4 bg-slate-50 border border-slate-100 rounded-none">
-                <p class="font-medium text-slate-900">Weak and strong interaction of excitation kinks in scalar parabolic equations</p>
-                <p class="text-sm text-slate-500 mt-1">J. Dyn. Diff. Equat. 35, 2199–2235, (2023).</p>
-                <div class="flex gap-3 mt-2 text-xs">
-                  <a href="https://springer.com" target="_blank" class="text-indigo-600 font-semibold hover:underline">DOI</a>
-                  <span class="text-slate-300">|</span>
-                  <a href="https://arxiv.org" target="_blank" class="text-indigo-600 font-semibold hover:underline">arXiv</a>
-                </div>
-                <p class="text-xs text-slate-400 italic mt-1.5">with <a href="https://google.com" target="_blank" class="hover:underline">A. Pauthier</a>, <a href="https://uni-hamburg.de" target="_blank" class="hover:underline">J.D.M. Rademacher</a>, <a href="https://uni-bremen.de" target="_blank" class="hover:underline">M. Keßeböhmer</a></p>
-              </li>
-              <li class="p-4 bg-slate-50 border border-slate-100 rounded-none">
-                <p class="font-medium text-slate-900">Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata</p>
-                <p class="text-sm text-slate-500 mt-1">Ergodic Theory and Dynamical Systems, 41 (2021), no. 5, 1397–1420.</p>
-                <div class="flex gap-3 mt-2 text-xs">
-                  <a href="https://cambridge.org" target="_blank" class="text-indigo-600 font-semibold hover:underline">DOI</a>
-                  <span class="text-slate-300">|</span>
-                  <a href="https://arxiv.org" target="_blank" class="text-indigo-600 font-semibold hover:underline">arXiv</a>
-                </div>
-                <p class="text-xs text-slate-400 italic mt-1.5">with <a href="https://uni-bremen.de" target="_blank" class="hover:underline">M. Keßeböhmer</a>, <a href="https://uni-hamburg.de" target="_blank" class="hover:underline">J.D.M. Rademacher</a></p>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="font-semibold text-slate-900 text-base mb-3">Ongoing work</h4>
-            <ul class="space-y-3 text-slate-600">
-              <li class="p-4 bg-slate-50 border border-slate-100 rounded-none">
-                <p class="font-medium text-slate-900">Discrete hypocoercivity for a nonlinear kinetic reaction model without initial close-to-equilibrium assumption</p>
-                <p class="text-xs text-slate-500 mt-1.5">with <a href="https://cuhk.edu.hk" target="_blank" class="text-indigo-600 hover:underline">L. Liu</a>, <a href="https://uni-muenster.de" target="_blank" class="text-indigo-600 hover:underline">M. Pirner</a></p>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="font-semibold text-slate-900 text-base mb-3">Thesis</h4>
-            <ul class="space-y-3 text-slate-600">
-              <li class="p-4 bg-slate-50 border border-slate-100 rounded-none">
-                <p class="font-medium text-slate-900">Ergodic theory of nonlinear waves in discrete and continuous excitable media</p>
-                <p class="text-sm text-slate-500 mt-1">Diss., 2021. <a href="https://uni-bremen.de" target="_blank" class="text-indigo-600 font-semibold hover:underline">DOI</a></p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section id="research" class="scroll-mt-24"><div class="bg-white border border-slate-200 p-8 shadow-sm"><h3 class="text-xl font-bold text-slate-900 mb-5 pb-2 border-b border-slate-100"><i class="fas fa-microscope text-slate-400 mr-2"></i>Research</h3><div class="mb-6"><h4 class="font-semibold text-slate-900 text-base mb-2.5">Research interests</h4><ul class="space-y-1.5 text-slate-600 text-[15px]"><li class="flex items-start gap-2"><i class="fas fa-chevron-right text-indigo-500 text-xs mt-1.5 flex-shrink-0"></i> Ordinary and partial differential equations and their dynamics</li><li class="flex items-start gap-2"><i class="fas fa-chevron-right text-indigo-500 text-xs mt-1.5 flex-shrink-0"></i> Nonlinear wave solutions and their ergodic properties</li><li class="flex items-start gap-2"><i class="fas fa-chevron-right text-indigo-500 text-xs mt-1.5 flex-shrink-0"></i> Kinetic theory, in particular entropy methods</li><li class="flex items-start gap-2"><i class="fas fa-chevron-right text-indigo-500 text-xs mt-1.5 flex-shrink-0"></i> Boltzmann equation and its BGK-type approximations</li><li class="flex items-start gap-2"><i class="fas fa-chevron-right text-indigo-500 text-xs mt-1.5 flex-shrink-0"></i> Long-time behavior of solutions (hypocoercivity)</li><li class="flex items-start gap-2"><i class="fas fa-chevron-right text-indigo-500 text-xs mt-1.5 flex-shrink-0"></i> Physical applications</li><li class="flex items-start gap-2"><i class="fas fa-chevron-right text-indigo-500 text-xs mt-1.5 flex-shrink-0"></i> Models of chemical reactions</li></ul><p class="mt-4 text-[14px] text-slate-500 italic">I am also open to new and interdisciplinary research directions beyond the areas listed.</p></div><div class="mt-6 pt-4 border-t border-slate-100"><h4 class="font-semibold text-slate-900 text-base mb-3">Projects participation</h4><div class="space-y-3"><div class="p-4 bg-slate-50 border border-slate-100"><a href="https://dfg.de" target="_blank" class="a-link text-sm">DFG 456849348</a><p class="text-[14px] text-slate-600 mt-1">Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation</p></div><div class="p-4 bg-slate-50 border border-slate-100"><a href="https://dfg.de" target="_blank" class="a-link text-sm">DFG 384027439</a><p class="text-[14px] text-slate-600 mt-1">Ergodic theory of nonlinear waves in discrete and continuous excitable media</p></div></div></div></div></section>
 
+    <!-- Publications -->
+    <section id="publications" class="scroll-mt-24"><div class="bg-white border border-slate-200 p-8 shadow-sm"><h3 class="text-xl font-bold text-slate-900 mb-5 pb-2 border-b border-slate-100"><i class="fas fa-book-open text-slate-400 mr-2"></i>Publications</h3><div class="space-y-6 text-[15px]"><div><h4 class="font-semibold text-slate-900 text-base mb-3">Peer-reviewed journal articles</h4><ul class="space-y-4 text-slate-600"><li class="p-4 bg-slate-50 border border-slate-100"><p class="font-medium text-slate-900">Weak and strong interaction of excitation kinks in scalar parabolic equations</p><p class="text-sm text-slate-500 mt-1">J. Dyn. Diff. Equat. 35, 2199–2235, (2023).</p><div class="flex gap-3 mt-2 text-xs"><a href="https://springer.com" target="_blank" class="text-indigo-600 font-semibold hover:underline">DOI</a><span class="text-slate-300">|</span><a href="https://arxiv.org" target="_blank" class="text-indigo-600 font-semibold hover:underline">arXiv</a></div><p class="text-xs text-slate-400 italic mt-1.5">with <a href="https://google.com" target="_blank" class="hover:underline">A. Pauthier</a>, <a href="https://uni-hamburg.de" target="_blank" class="hover:underline">J.D.M. Rademacher</a>, <a href="https://uni-bremen.de" target="_blank" class="hover:underline">M. Keßeböhmer</a></p></li><li class="p-4 bg-slate-50 border border-slate-100"><p class="font-medium text-slate-900">Dynamics and topological entropy of 1D Greenberg-Hastings cellular automata</p><p class="text-sm text-slate-500 mt-1">Ergodic Theory and Dynamical Systems, 41 (2021), no. 5, 1397–1420.</p><div class="flex gap-3 mt-2 text-xs"><a href="https://cambridge.org" target="_blank" class="text-indigo-600 font-semibold hover:underline">DOI</a><span class="text-slate-300">|</span><a href="https://arxiv.org" target="_blank" class="text-indigo-600 font-semibold hover:underline">arXiv</a></div><p class="text-xs text-slate-400 italic mt-1.5">with <a href="https://uni-bremen.de" target="_blank" class="hover:underline">M. Keßeböhmer</a>, <a href="https://uni-hamburg.de" target="_blank" class="hover:underline">J.D.M. Rademacher</a></p></li></ul></div><div><h4 class="font-semibold text-slate-900 text-base mb-3">Ongoing work</h4><ul class="space-y-3 text-slate-600"><li class="p-4 bg-slate-50 border border-slate-100"><p class="font-medium text-slate-900">Discrete hypocoercivity for a nonlinear kinetic reaction model without initial close-to-equilibrium assumption</p><p class="text-xs text-slate-500 mt-1.5">with <a href="https://cuhk.edu.hk" target="_blank" class="text-indigo-600 hover:underline">L. Liu</a>, <a href="https://uni-muenster.de" target="_blank" class="text-indigo-600 hover:underline">M. Pirner</a></p></li></ul></div><div><h4 class="font-semibold text-slate-900 text-base mb-3">Thesis</h4><ul class="space-y-3 text-slate-600"><li class="p-4 bg-slate-50 border border-slate-100"><p class="font-medium text-slate-900">Ergodic theory of nonlinear waves in discrete and continuous excitable media</p><p class="text-sm text-slate-500 mt-1">Diss., 2021. <a href="https://uni-bremen.de" target="_blank" class="text-indigo-600 font-semibold hover:underline">DOI</a></p></li></ul></div></div></div></section>
     <!-- Teaching -->
-    <section id="teaching" class="scroll-mt-24">
-      <div class="bg-white border border-slate-200 rounded-none p-8 shadow-sm">
-        <h3 class="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100 flex items-center gap-2"><i class="fas fa-chalkboard-user text-slate-400 text-base"></i> Teaching</h3>
-        <div class="space-y-4 text-slate-600 text-[15px]">
-          <p>Independent execution of university courses (lectures, tutorials and exams), particularly in the service area for engineering degree programs:</p>
-          <ul class="space-y-2 text-slate-600">
-            <li class="flex items-start gap-2"><i class="fas fa-angle-right text-indigo-500 mt-1.5 flex-shrink-0"></i> Winter 2024/2025: Mathematik 1, Hochschule Bremen</li>
-            <li class="flex items-start gap-2"><i class="fas fa-angle-right text-indigo-500 mt-1.5 flex-shrink-0"></i> Spring 2022: Finite Mathematics, Jacobs University Bremen</li>
-            <li class="flex items-start gap-2"><i class="fas fa-angle-right text-indigo-500 mt-1.5 flex-shrink-0"></i> Spring 2022: Introduction to dynamical systems (pro-seminar)</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    <section id="teaching" class="scroll-mt-24"><div class="bg-white border border-slate-200 p-8 shadow-sm"><h3 class="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100"><i class="fas fa-chalkboard-user text-slate-400 mr-2"></i>Teaching</h3><div class="space-y-4 text-slate-600 text-[15px]"><p>Independent execution of university courses (lectures, tutorials and exams), particularly in the service area for engineering degree programs:</p><ul class="space-y-2 text-slate-600"><li class="flex items-start gap-2"><i class="fas fa-angle-right text-indigo-500 mt-1.5 flex-shrink-0"></i> Winter 2024/2025: Mathematik 1, Hochschule Bremen</li><li class="flex items-start gap-2"><i class="fas fa-angle-right text-indigo-500 mt-1.5 flex-shrink-0"></i> Spring 2022: Finite Mathematics, Jacobs University Bremen</li><li class="flex items-start gap-2"><i class="fas fa-angle-right text-indigo-500 mt-1.5 flex-shrink-0"></i> Spring 2022: Introduction to dynamical systems (pro-seminar)</li></ul></div></div></section>
+
     <!-- Short CV -->
-    <section id="cv" class="scroll-mt-24">
-      <div class="bg-white border border-slate-200 rounded-none p-8 shadow-sm">
-        <h3 class="text-xl font-bold text-slate-900 mb-5 pb-2 border-b border-slate-100 flex items-center gap-2">
-          <i class="fas fa-graduation-cap text-slate-400 text-base"></i> Short CV
-        </h3>
-        <div class="space-y-6 text-[15px]">
-          <div>
-            <h4 class="font-semibold text-slate-900 text-base mb-3">Academic Positions</h4>
-            <ul class="space-y-4 border-l-2 border-slate-100 ml-1 pl-4 text-slate-600">
-              <li>
-                <div class="text-xs font-bold text-indigo-600 uppercase tracking-wider">Since May 2025</div>
-                <p class="font-medium text-slate-900 mt-0.5">Freelance teaching for students (Calculus, Linear algebra, stochastics)</p>
-              </li>
-              <li>
-                <div class="text-xs font-bold text-slate-500 uppercase tracking-wider">Feb 2025 - May 2025</div>
-                <p class="font-medium text-slate-900 mt-0.5">Research Assistant, Hochschule Bremen</p>
-              </li>
-              <li>
-                <div class="text-xs font-bold text-slate-500 uppercase tracking-wider">Oct 2024 - Mar 2025</div>
-                <p class="font-medium text-slate-900 mt-0.5">Lecturer in Mathematics, Hochschule Bremen</p>
-              </li>
-              <li>
-                <div class="text-xs font-bold text-slate-500 uppercase tracking-wider">Jun 2023 - Jun 2024</div>
-                <p class="font-medium text-slate-900 mt-0.5">Postdoctoral researcher, University of Münster (Institute for Analysis and Numerics)</p>
-                <p class="text-xs text-slate-400 italic mt-0.5">supervision: <a href="https://uni-muenster.de" target="_blank" class="text-indigo-600 hover:underline">Prof. Dr. M. Pirner</a></p>
-              </li>
-              <li>
-                <div class="text-xs font-bold text-slate-500 uppercase tracking-wider">Jan 2022 - Jun 2022</div>
-                <p class="font-medium text-slate-900 mt-0.5">Lecturer in Mathematics, Jacobs University Bremen</p>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="font-semibold text-slate-900 text-base mb-3">Education</h4>
-            <ul class="space-y-4 border-l-2 border-slate-100 ml-1 pl-4 text-slate-600">
-              <li>
-                <div class="text-xs font-bold text-slate-500 uppercase tracking-wider">Oct 2017 - Sep 2021</div>
-                <p class="font-medium text-slate-900 mt-0.5">PhD (Dr. rer. nat.) in Mathematics, University of Bremen</p>
-                <p class="text-xs text-slate-400 italic mt-0.5">supervision: <a href="https://uni-hamburg.de" target="_blank" class="text-indigo-600 hover:underline">Prof. Dr. J. Rademacher</a>, <a href="https://uni-bremen.de" target="_blank" class="text-indigo-600 hover:underline">Prof. Dr. M. Keßeböhmer</a>, see <a href="https://mathgenealogy.org" target="_blank" class="text-indigo-600 hover:underline">MGP</a></p>
-              </li>
-              <li>
-                <div class="text-xs font-bold text-slate-500 uppercase tracking-wider">Oct 2016 - Oct 2017</div>
-                <p class="font-medium text-slate-900 mt-0.5">Brückenstipendium in Mathematics, University of Bremen</p>
-              </li>
-              <li>
-                <div class="text-xs font-bold text-slate-500 uppercase tracking-wider">Oct 2011 - Sep 2016</div>
-                <p class="font-medium text-slate-900 mt-0.5">B.Sc. and M.Sc. in Mathematics, University of Bremen</p>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h4 class="font-semibold text-slate-900 text-base mb-3">Additional Experience</h4>
-            <ul class="space-y-2 border-l-2 border-slate-100 ml-1 pl-4 text-slate-600">
-              <li>
-                <div class="text-xs font-bold text-slate-500 uppercase tracking-wider">Sep 2022 - Feb 2023</div>
-                <p class="font-medium text-slate-900 mt-0.5">IT-Consultant (Affinis AG, Bremen)</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section id="cv" class="scroll-mt-24"><div class="bg-white border border-slate-200 p-8 shadow-sm"><h3 class="text-xl font-bold text-slate-900 mb-5 pb-2 border-b border-slate-100"><i class="fas fa-graduation-cap text-slate-400 mr-2"></i>Short CV</h3><div class="space-y-6 text-[15px]"><div><h4 class="font-semibold text-slate-900 text-base mb-3">Academic Positions</h4><ul class="space-y-4 border-l-2 border-slate-100 ml-1 pl-4 text-slate-600"><li><div class="text-xs font-bold text-indigo-600 uppercase">Since May 2025</div><p class="font-medium text-slate-900 mt-0.5">Freelance teaching for students (Calculus, Linear algebra, stochastics)</p></li><li><div class="text-xs font-bold text-slate-500 uppercase">Feb 2025 - May 2025</div><p class="font-medium text-slate-900 mt-0.5">Research Assistant, Hochschule Bremen</p></li><li><div class="text-xs font-bold text-slate-500 uppercase">Oct 2024 - Mar 2025</div><p class="font-medium text-slate-900 mt-0.5">Lecturer in Mathematics, Hochschule Bremen</p></li><li><div class="text-xs font-bold text-slate-500 uppercase">Jun 2023 - Jun 2024</div><p class="font-medium text-slate-900 mt-0.5">Postdoctoral researcher, University of Münster</p><p class="text-xs text-slate-400 italic">supervision: <a href="https://uni-muenster.de" target="_blank" class="text-indigo-600 hover:underline">Prof. Dr. M. Pirner</a></p></li><li><div class="text-xs font-bold text-slate-500 uppercase">Jan 2022 - Jun 2022</div><p class="font-medium text-slate-900 mt-0.5">Lecturer in Mathematics, Jacobs University Bremen</p></li></ul></div><div><h4 class="font-semibold text-slate-900 text-base mb-3">Education</h4><ul class="space-y-4 border-l-2 border-slate-100 ml-1 pl-4 text-slate-600"><li><div class="text-xs font-bold text-slate-500 uppercase">Oct 2017 - Sep 2021</div><p class="font-medium text-slate-900 mt-0.5">PhD (Dr. rer. nat.) in Mathematics, University of Bremen</p><p class="text-xs text-slate-400 italic">supervision: <a href="https://uni-hamburg.de" target="_blank" class="text-indigo-600 hover:underline">Prof. Dr. J. Rademacher</a>, <a href="https://uni-bremen.de" target="_blank" class="text-indigo-600 hover:underline">Prof. Dr. M. Keßeböhmer</a>, see <a href="https://mathgenealogy.org" target="_blank" class="text-indigo-600 hover:underline">MGP</a></p></li><li><div class="text-xs font-bold text-slate-500 uppercase">Oct 2016 - Oct 2017</div><p class="font-medium text-slate-900 mt-0.5">Brückenstipendium in Mathematics, University of Bremen</p></li><li><div class="text-xs font-bold text-slate-500 uppercase">Oct 2011 - Sep 2016</div><p class="font-medium text-slate-900 mt-0.5">B.Sc. and M.Sc. in Mathematics, University of Bremen</p></li></ul></div><div><h4 class="font-semibold text-slate-900 text-base mb-3">Additional Experience</h4><ul class="space-y-2 border-l-2 border-slate-100 ml-1 pl-4 text-slate-600"><li><div class="text-xs font-bold text-slate-500 uppercase">Sep 2022 - Feb 2023</div><p class="font-medium text-slate-900 mt-0.5">IT-Consultant (Affinis AG, Bremen)</p></li></ul></div></div></div></section>
   </main>
 
-  <!-- Footer -->
-  <footer class="bg-white border-t border-slate-200 text-center py-6 text-xs text-slate-500">
-    <p>&copy; <span id="year"></span> Dr. Dennis Ulbrich. All rights reserved.</p>
-  </footer>
-
-  <!-- Bild-Modal -->
-  <div id="imageModal" class="fixed inset-0 bg-black/80 hidden items-center justify-center z-50 backdrop-blur-sm transition-opacity duration-300">
-    <img src="/img/UlbrichDennis.jpg" id="modalImage" class="max-w-[90%] max-h-[90%] rounded-xl shadow-2xl transform scale-90 opacity-0 transition-all duration-300" alt="Dr. Dennis Ulbrich" />
-  </div>
-
-  <!-- Scripts -->
+  <footer class="bg-white border-t border-slate-200 text-center py-6 text-xs text-slate-500"><p>&copy; <span id="year"></span> Dr. Dennis Ulbrich. All rights reserved.</p></footer>
+  <div id="imageModal" class="fixed inset-0 bg-black/80 hidden items-center justify-center z-50 backdrop-blur-sm transition-opacity duration-300" onclick="closeImage()"><img src="/img/UlbrichDennis.jpg" id="modalImage" class="max-w-[90%] max-h-[90%] rounded-xl shadow-2xl transform scale-90 opacity-0 transition-all duration-300" alt="Dr. Dennis Ulbrich" /></div>
   <script>
-    function toggleMenu() {
-      const menu = document.getElementById('mobileMenu');
-      const icon = document.getElementById('menuIcon');
-      if (menu.classList.contains('hidden')) {
-        menu.classList.remove('hidden');
-        icon.classList.remove('fa-bars');
-        icon.classList.add('fa-times');
-      } else {
-        menu.classList.add('hidden');
-        icon.classList.remove('fa-times');
-        icon.classList.add('fa-bars');
-      }
-    }
-
+    function toggleMenu(){const m=document.getElementById('mobileMenu'),i=document.getElementById('menuIcon');if(m.classList.contains('hidden')){m.classList.remove('hidden');i.classList.remove('fa-bars');i.classList.add('fa-times')}else{m.classList.add('hidden');i.classList.remove('fa-times');i.classList.add('fa-bars')}}
     document.getElementById('year').textContent = new Date().getFullYear();
-
-    function openImage() {
-      const modal = document.getElementById('imageModal');
-      const img = document.getElementById('modalImage');
-      modal.classList.remove('hidden');
-      modal.classList.add('flex');
-      setTimeout(() => {
-        img.classList.remove('scale-90', 'opacity-0');
-        img.classList.add('scale-100', 'opacity-100');
-      }, 10);
-    }
-
-    function closeImage() {
-      const modal = document.getElementById('imageModal');
-      const img = document.getElementById('modalImage');
-      img.classList.remove('scale-100', 'opacity-100');
-      img.classList.add('scale-90', 'opacity-0');
-      setTimeout(() => {
-        modal.classList.remove('flex');
-        modal.classList.add('hidden');
-      }, 200);
-    }
-
-    document.getElementById('imageModal').addEventListener('click', closeImage);
-    document.addEventListener('keydown', function (e) {
-      if (e.key === "Escape") { closeImage(); }
-    });
+    function openImage(){const m=document.getElementById('imageModal'),i=document.getElementById('modalImage');m.classList.remove('hidden');m.classList.add('flex');setTimeout(()=>{i.classList.remove('scale-90','opacity-0');i.classList.add('scale-100','opacity-100')},10)}
+    function closeImage(){const m=document.getElementById('imageModal'),i=document.getElementById('modalImage');i.classList.remove('scale-100','opacity-100');i.classList.add('scale-90','opacity-0');setTimeout(()=>{m.classList.remove('flex');m.classList.add('hidden')},200)}
+    document.addEventListener('keydown',function(e){if(e.key==="Escape")closeImage()});
   </script>
-
 </body>
 </html>
