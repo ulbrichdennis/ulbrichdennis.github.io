@@ -17,9 +17,15 @@
 /* subtle modern base */
 body {
   background: linear-gradient(to bottom, #fafafa, #f5f7fa);
-  background-image: radial-gradient(#e0e0e0 1px, transparent 1px);
+  /* background-image: radial-gradient(#e0e0e0 1px, transparent 1px);
   background-size: 20px 20px; /* Abstand der Punkte zueinander */
-  background-attachment: fixed; /* Der Hintergrund scrollt nicht unruhig mit */
+  /*background-attachment: fixed;    */
+
+  background-image: 
+    radial-gradient(circle at 100% 150%, #fcfcfc 24%, #f0f4f8 24%, #f0f4f8 28%, #fcfcfc 28%, #fcfcfc 36%, #f0f4f8 36%, #f0f4f8 40%, #fcfcfc 40%),
+    radial-gradient(circle at 0% 150%, #fcfcfc 24%, #f0f4f8 24%, #f0f4f8 28%, #fcfcfc 28%, #fcfcfc 36%, #f0f4f8 36%, #f0f4f8 40%, #fcfcfc 40%);
+  background-size: 40px 40px;
+  background-attachment: fixed;
 }
 
 /* card feel */
