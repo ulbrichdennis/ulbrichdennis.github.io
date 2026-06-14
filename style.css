@@ -102,19 +102,6 @@ body {
   color: var(--primary-color);
 }
 
-/* Styling für alle normalen, unbesuchten und besuchten Links */
-a, a:link, a:visited {
-    color: #333333;          /* Ein weiches, dunkles Anthrazit statt Knallschwarz */
-    text-decoration: none;   /* Entfernt den standardmäßigen Unterstrich */
-    border-bottom: 1px solid #cccccc; /* Ein feiner, dezenter Unterstrich */
-    transition: color 0.2s ease, border-color 0.2s ease; /* Macht den Farbwechsel elegant */
-}
-
-/* Styling, wenn man mit der Maus über den Link fährt (Hover) */
-a:hover, a:active {
-    color: #8b0000;          /* Ein edles Dunkelrot (Weinrot) */
-    border-bottom-color: #8b0000; /* Der Unterstrich färbt sich mit */
-}
 
 
 h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
