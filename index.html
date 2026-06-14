@@ -32,6 +32,15 @@ body {
   transition: transform 0.2s ease, box-shadow 0.2s ease;  
 }
 
+/* Verhindert, dass die angewählte Box (z. B. durch #about) vom Browser aufgehellt wird */
+.section-card:target,
+#about:target .section-card,
+section:target .section-card {
+  background: white !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05) !important;
+}
+
+
 /* .section-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 14px 40px rgba(0,0,0,0.06);
@@ -164,8 +173,8 @@ nav a:hover {
 </section>
 
 <!-- Sections -->
-<!-- <div class="space-y-10 pb-16"> -->
-  <div class="space-y-10 pb-16 pt-10">
+<div class="space-y-10 pb-16"> 
+  
 
 <section id="about" class="scroll-mt-24">
   <div class="section-card max-w-3xl mx-auto p-8">
