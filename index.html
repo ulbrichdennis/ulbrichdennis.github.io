@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Dennis Ulbrich | Mathematician</title>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts (Inter für moderne & saubere Lesbarkeit) -->
+  <link rel="preconnect" href="https://googleapis.com">
+  <link rel="preconnect" href="https://gstatic.com" crossorigin>
+  <link href="https://googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Academicons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #f8fafc; /* Sehr helles, edles Grau-Blau */
+    }
+    
+    /* Sanfter Hover-Effekt für akademische Links im Text */
+    .content-link {
+      position: relative;
+      color: #4f46e5;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    .content-link::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 1px;
+      bottom: 0;
+      left: 0;
+      background-color: #4f46e5;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+    .content-link:hover::after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+  </style>
+</head>
+
+<body class="font-sans text-slate-800 antialiased" id="start">
+
+  <!-- Fixierte Navigationsbar -->
+  <header class="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md border-b border-slate-200/80 z-50 transition-all duration-300">
+    <div class="max-w-4xl mx-auto flex justify-between items-center px-6 py-3.5">
+      <a href="#start" class="text-base font-semibold tracking-tight text-slate-900 hover:text-indigo-600 transition-colors">
+        Dr. Dennis Ulbrich
+      </a>
+      
+      <!-- Desktop Navigation -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+        <a href="#about" class="hover:text-indigo-600 transition-colors">About</a>
+        <a href="#research" class="hover:text-indigo-600 transition-colors">Research</a>
+        <a href="#publications" class="hover:text-indigo-600 transition-colors">Publications</a>
+        <a href="#teaching" class="hover:text-indigo-600 transition-colors">Teaching</a>
+        <a href="#cv" class="hover:text-indigo-600 transition-colors">Short CV</a>
+      </nav>
+
+      <!-- Mobile Menu Button -->
+      <button class="md:hidden p-1 text-slate-600 hover:text-slate-900 focus:outline-none" onclick="toggleMenu()" aria-label="Menü öffnen">
+        <i id="menuIcon" class="fas fa-bars text-xl"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Dropdown -->
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-b border-slate-200 absolute w-full left-0 px-6 py-4 flex flex-col gap-3.5 shadow-sm text-sm font-medium text-slate-600">
+      <a href="#about" onclick="toggleMenu()" class="hover:text-indigo-600 py-1 transition-colors">About</a>
+      <a href="#research" onclick="toggleMenu()" class="hover:text-indigo-600 py-1 transition-colors">Research</a>
+      <a href="#publications" onclick="toggleMenu()" class="hover:text-indigo-600 py-1 transition-colors">Publications</a>
+      <a href="#teaching" onclick="toggleMenu()" class="hover:text-indigo-600 py-1 transition-colors">Teaching</a>
+      <a href="#cv" onclick="toggleMenu()" class="hover:text-indigo-600 py-1 transition-colors">Short CV</a>
+    </div>
+  </header>
+
+  <!-- Hero / Profil-Sektion -->
+  <section class="pt-32 pb-16 px-6 bg-gradient-to-b from-slate-100 to-slate-50 border-b border-slate-200/60">
+    <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
+      
+      <!-- Profilbild mit feiner Kontur & Schatten -->
+      <div class="relative flex-shrink-0">
+        <img src="/img/UlbrichDennis.jpg" 
+             alt="Dr. Dennis Ulbrich" 
+             class="w-44 h-44 md:w-48 md:h-48 rounded-2xl object-cover shadow-lg border-2 border-white bg-white"/>
+      </div>
+
+      <!-- Name & Akademischer Status -->
+      <div class="flex-col text-center md:text-left mt-2">
+        <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-slate-900">Dr. Dennis Ulbrich</h2>
+        <p class="text-indigo-600 font-medium text-base mt-1.5">Mathematician &bull; Open to work</p>
+        
+        <!-- Social & Academic Buttons -->
+        <div class="flex flex-wrap justify-center md:justify-start gap-3 mt-6">
+          <a href="mailto:ulbrich.dennis@icloud.com" title="E-Mail" class="flex items-center justify-center w-10 h-10 rounded-xl bg-white border border-slate-200 text-slate-600 shadow-sm hover:bg-slate-900 hover:text-white hover:border-slate-900 transition-all duration-200"><i class="fas fa-envelope text-lg"></i></a>
+          <a href="https://orcid.org/0000-0001-5541-011X" target="_blank" title="ORCID" class="flex items-center justify-center w-10 h-10 rounded-xl bg-white border border-slate-200 text-slate-600 shadow-sm hover:bg-[#a6ce39] hover:text-white hover:border-[#a6ce39] transition-all duration-200"><i class="ai ai-orcid text-xl"></i></a>
+          <a href="https://arxiv.org/a/ulbrich_d_1.html" target="_blank" title="arXiv" class="flex items-center justify-center w-10 h-10 rounded-xl bg-white border border-slate-200 text-slate-600 shadow-sm hover:bg-[#b31b1b] hover:text-white hover:border-[#b31b1b] transition-all duration-200"><i class="ai ai-arxiv text-xl"></i></a>
+          <a href="https://scholar.google.com/citations?user=b1u5plUAAAAJ" target="_blank" title="Google Scholar" class="flex items-center justify-center w-10 h-10 rounded-xl bg-white border border-slate-200 text-slate-600 shadow-sm hover:bg-[#4285f4] hover:text-white hover:border-[#4285f4] transition-all duration-200"><i class="ai ai-google-scholar text-xl"></i></a>
+          <a href="https://www.linkedin.com/in/dennis-ulbrich-5369773b8/" target="_blank" title="LinkedIn" class="flex items-center justify-center w-10 h-10 rounded-xl bg-white border border-slate-200 text-slate-600 shadow-sm hover:bg-[#0077b5] hover:text-white hover:border-[#0077b5] transition-all duration-200"><i class="fab fa-linkedin text-lg"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Hauptinhalte -->
+  <main class="max-w-4xl mx-auto px-6 py-12 space-y-16"> 
+    
+    <!-- About Section -->
+    <section id="about" class="scroll-mt-24">
+      <div class="bg-white rounded-2xl p-8 md:p-10 shadow-sm border border-slate-200/60">
+        <h3 class="text-xl font-bold text-slate-900 mb-5 pb-2 border-b border-slate-100 flex items-center gap-2">
+          <i class="fas fa-user text-slate-400 text-lg"></i> About
+        </h3>
+        <div class="space-y-4 text-slate-600 leading-relaxed text-[15px]">
+          <p>I am a mathematician with research background in nonlinear analysis, dynamical systems, ergodic theory, and kinetic theory, with several years of proficiency and strong commitment to undergraduate teaching, student supervision, and academic course organization.</p>
+          <p>Among other things, I was a postdoc at the <a href="https://www.uni-muenster.de/AMM/en/index.shtml" target="_blank" class="content-link font-medium">Institute for Analysis and Numerics</a> of the <a href="https://www.uni-muenster.de/en/" target="_blank" class="content-link font-medium">University of Münster</a> and earned my PhD (Dr. rer. nat.) in Mathematics at the <a href="https://www.uni-bremen.de/en/" target="_blank" class="content-link font-medium">University of Bremen</a>.</p>
+          <p class="pt-2 text-slate-800 font-medium">Currently, I am exploring new professional opportunities in academia and industry.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="scroll-mt-24">
+      <div class="bg-white rounded-2xl p-8 md:p-10 shadow-sm border border-slate-200/60">
+        <h3 class="text-xl font-bold text-slate-900 mb-6 pb-2 border-b border-slate-100 flex items-center gap-2">
+          <i class="fas fa-microscope text-slate-400 text-lg"></i> Research
+        </h3>
+
+        <!-- Research Interests -->
+        <div class="mb-8">
+          <h4 class="font-semibold text-slate-900 text-base mb-3">Research interests</h4>
+          <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2 text-slate-600 text-[15px]">
+            <li class="flex items-start gap-2.5"><i class="fas fa-circle-nodes text-indigo-500/70 text-xs mt-1.5 flex-shrink-0"></i> Ordinary and partial differential equations</li>
+            <li class="flex items-start gap-2.5"><i class="fas fa-circle-nodes text-indigo-500/70 text-xs mt-1.5 flex-shrink-0"></i> Nonlinear wave solutions & ergodic properties</li>
+            <li class="flex items-start gap-2.5"><i class="fas fa-circle-nodes text-indigo-500/70 text-xs mt-1.5 flex-shrink-0"></i> Kinetic theory & entropy methods</li>
+            <li class="flex items-start gap-2.5"><i class="fas fa-circle-nodes text-indigo-500/70 text-xs mt-1.5 flex-shrink-0"></i> Boltzmann equation & BGK-type approximations</li>
+            <li class="flex items-start gap-2.5"><i class="fas fa-circle-nodes text-indigo-500/70 text-xs mt-1.5 flex-shrink-0"></i> Long-time behavior of solutions (hypocoercivity)</li>
+            <li class="flex items-start gap-2.5"><i class="fas fa-circle-nodes text-indigo-500/70 text-xs mt-1.5 flex-shrink-0"></i> Physical applications</li>
