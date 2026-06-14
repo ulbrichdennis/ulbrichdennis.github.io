@@ -47,13 +47,13 @@ body {
   scroll-margin-top: 100px;
 }
 
-/* --- 3. NAVIGATION (STICKY HEADER & REINES CSS-HAMBURGER) --- */
+/* --- 3. NAVIGATION (STICKY HEADER & MOBILER CSS-SCHALTER) --- */
 .site-header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border-color);
@@ -156,7 +156,6 @@ h1, h2, h3, h4 {
   gap: 24px;
 }
 
-/* BILD-KORREKTUR: Erzwingt die korrekte Größe */
 .avatar {
   width: 140px !important;
   height: 140px !important;
@@ -219,13 +218,17 @@ h1, h2, h3, h4 {
   border-radius: 50%;
   border: 1px solid var(--border-color);
   background-color: #f9fafb;
-  color: #374151 !important; /* ICON-KORREKTUR: Erzwingt dunkle Farbe */
   text-decoration: none;
   transition: all 0.2s ease;
 }
 
+/* KORREKTUR: Erzwingt die korrekte Farbe der Symbole */
+.social-icons .icon i {
+  color: #374151 !important;
+  font-size: 18px !important;
+}
+
 .social-icons .icon:hover { transform: translateY(-2px); }
-.social-icons .icon i, .social-icons .icon flex { color: inherit !important; }
 
 /* --- 7. LISTEN & PROJEKT-BOXEN --- */
 .clean-list { list-style: none; padding-left: 0; margin: 0; }
@@ -239,14 +242,17 @@ h1, h2, h3, h4 {
 .cv-title { font-weight: 600; color: var(--primary-color); display: block; }
 .cv-meta { font-size: 13px; color: #6b7280; }
 
-/* --- 8. MOBILE RESPONSIVENESS --- */
+/* --- 8. MOBILE RESPONSIVENESS (KORRIGIERT) --- */
 @media (max-width: 640px) {
   .hero-flex { flex-direction: column; align-items: center; text-align: center; }
   .subtitle-row { justify-content: center; }
   .social-icons { justify-content: center; }
   .section-card { padding: 20px; }
 
+  /* Hamburger-Button mobil sichtbar schalten */
   .menu-toggle-label { display: block; }
+  
+  /* Mobiles Menü übereinander stapeln */
   .main-nav {
     display: none;
     position: absolute;
@@ -258,6 +264,14 @@ h1, h2, h3, h4 {
     gap: 16px;
   }
 
-  .main-nav .nav-link { font-size: 14px; padding: 4px 0; }
-  #menu-toggle-input:checked ~ .main-nav { display: flex !important; }
+  .main-nav .nav-link { 
+    font-size: 14px; 
+    padding: 4px 0; 
+    color: #374151 !important; /* Erhöht Sichtbarkeit mobiler Links */
+  }
+  
+  /* KORREKTUR: Zeigt das Menü absolut fehlerfrei an, wenn angeklickt */
+  #menu-toggle-input:checked ~ .main-nav { 
+    display: flex !important; 
+  }
 }

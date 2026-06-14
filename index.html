@@ -5,21 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dr. Dennis Ulbrich</title>
   
-  <!-- Verknüpfung zur style.css -->
+  <!-- Lokale CSS-Datei -->
   <link rel="stylesheet" href="style.css">
 
-  <!-- Externe Icon-Schriften für die Links -->
+  <!-- Stabile, vollständige Icon-Schriften für alle Social-Media-Links -->
   <link rel="stylesheet" href="https://cloudflare.com">
-  <link rel="stylesheet" href="https://jsdelivr.net">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.6/css/academicons.min.css">
 </head>
 <body id="start">
 
-<!-- Navigation -->
+<!-- Navigation (Funktioniert mobil per CSS-Schalter) -->
 <header class="site-header"> 
   <div class="nav-wrapper">
     <a href="#start" class="nav-brand">Dr. Dennis Ulbrich</a>
     
+    <!-- Die unsichtbare Checkbox speichert den Klick-Status am Smartphone -->
     <input type="checkbox" id="menu-toggle-input">
+    <!-- Das sichtbare Hamburger-Symbol -->
     <label for="menu-toggle-input" class="menu-toggle-label">☰</label>
     
     <nav class="main-nav">
