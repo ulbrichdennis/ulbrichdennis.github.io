@@ -47,7 +47,7 @@ body {
   scroll-margin-top: 100px;
 }
 
-/* --- 3. NAVIGATION (STICKY HEADER) --- */
+/* --- 3. NAVIGATION (STICKY HEADER & HAMBURGER) --- */
 .site-header {
   position: fixed;
   top: 0;
@@ -81,6 +81,33 @@ body {
   gap: 24px;
 }
 
+/* Der Hamburger-Button (standardmäßig auf Desktop versteckt) */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 22px;
+  color: var(--primary-color);
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+/* Das mobile Menü-Akkordeon (standardmäßig versteckt) */
+.mobile-nav {
+  display: none;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-top: 1px solid var(--border-color);
+  padding: 12px 24px;
+  gap: 14px;
+}
+
+/* Klasse wird per JavaScript für das Hamburger-Menü aktiviert */
+.mobile-nav.is-open {
+  display: flex;
+}
+
 .nav-link {
   font-size: 12px;
   font-weight: 500;
@@ -93,6 +120,11 @@ body {
 
 .nav-link:hover {
   color: var(--primary-color);
+}
+
+.mobile-nav .nav-link {
+  font-size: 14px;
+  padding: 4px 0;
 }
 
 /* --- 4. TYPOGRAFIE & TEXTELEMENTE --- */
@@ -127,7 +159,7 @@ h1, h2, h3, h4 {
 
 .text-italic {
   font-size: 14px;
-  style: italic;
+  font-style: italic;
   color: #6b7280;
 }
 
@@ -148,7 +180,7 @@ h1, h2, h3, h4 {
   width: 130px;
   height: 130px;
   border-radius: 8px;
-  object-cover: cover;
+  object-fit: cover;
   border: 1px solid var(--border-color);
 }
 
@@ -278,6 +310,9 @@ h1, h2, h3, h4 {
   .hero-flex { flex-direction: column; align-items: center; text-align: center; }
   .subtitle-row { justify-content: center; }
   .social-icons { justify-content: center; }
-  .main-nav { display: none; } /* Versteckt Menü auf Mobilgeräten */
+  
+  .main-nav { display: none; }    /* Versteckt normales Menü auf Mobilgeräten */
+  .menu-toggle { display: block; } /* Zeigt Hamburger-Button auf Mobilgeräten */
+  
   .section-card { padding: 20px; }
 }
