@@ -4,168 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dr. Dennis Ulbrich</title>
-  
-  <!-- Verknüpfung zur style.css -->
   <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome & Academicons CDN -->
+  <link rel="stylesheet" href="https://cloudflare.com">
+  <link rel="stylesheet" href="https://jsdelivr.net">
 </head>
 <body id="start">
-
-<!-- Navigation -->
-<header class="site-header"> 
-  <div class="nav-wrapper">
-    <a href="#start" class="nav-brand">Dr. Dennis Ulbrich</a>
-    
-    <input type="checkbox" id="menu-toggle-input">
-    <label for="menu-toggle-input" class="menu-toggle-label">☰</label>
-    
-    <nav class="main-nav">
-      <a href="#about" class="nav-link">About</a>
-      <a href="#research" class="nav-link">Research</a>
-      <a href="#publications" class="nav-link">Publications</a>
-      <a href="#teaching" class="nav-link">Teaching</a>
-      <a href="#cv" class="nav-link">Short CV</a>
-    </nav>
-  </div>
-</header>
-
-<!-- Kopfbereich (Hero) -->
-<div class="container">
-  <section class="hero-section">
-    <div class="hero-flex">
-      <img src="/img/UlbrichDennis.jpg" alt="Dr. Dennis Ulbrich" class="avatar" loading="lazy"/> 
-      
-      <div class="hero-text">
-        <h1>Dr. Dennis Ulbrich</h1>
-        <div class="subtitle-row">
-          <span>Mathematician</span>
-          <span>•</span>
-          <span class="badge-work">Open to work</span>
-        </div>  
-        
-        <!-- Die geretteten Social-Icons (direkt als unzerstörbare SVGs eingebettet) -->
+  <!-- Navigation -->
+  <header class="site-header"> ... </header>
+  
+  <div class="container">
+    <section class="hero-section">
+      <div class="hero-flex">
+        <!-- Social-Icons mit CDN-Klassen -->
         <div class="social-icons">
-          
-          <!-- E-Mail -->
-          <a href="mailto:ulbrich.dennis@icloud.com" class="icon email" title="Email">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-          </a>
-          
-          <!-- ORCID -->
-          <a href="https://orcid.org" target="_blank" class="icon orcid" title="ORCID">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2.27 15.22h-1.3v-6.95h1.3v6.95zm-.65-7.79c-.43 0-.78-.34-.78-.77s.35-.77.78-.77.78.34.78.77-.35.77-.78.77zm7.53 7.79h-1.22l-2.12-3.41v3.41h-1.3v-6.95h1.3v3.13l2.03-3.13h1.35l-2.4 3.51 2.36 3.44z"/></svg>
-          </a>
-          
-          <!-- arXiv -->
-          <a href="https://arxiv.org" target="_blank" class="icon arxiv" title="arXiv">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.25 15.5h-2.5v-1.5h2.5v1.5zm1.5-3h-5.5V13h5.5v1.5zm1-3h-7.5V10h7.5v1.5z"/></svg>
-          </a>
-          
-          <!-- Google Scholar -->
-          <a href="https://google.com" target="_blank" class="icon scholar" title="Google Scholar">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2L1 9l11 7 9-5.73V17h2V9L12 2zm0 11.5L4.3 9 12 4.04 19.7 9 12 13.5zM12 15c-2.21 0-4 1.79-4 4h8c0-2.21-1.79-4-4-4z"/></svg>
-          </a>
-          
-          <!-- LinkedIn -->
-          <a href="https://linkedin.com" target="_blank" class="icon linkedin" title="LinkedIn">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-          </a>
-          
+          <a href="mailto:..." class="icon email" title="Email"><i class="fas fa-envelope"></i></a>
+          <a href="..." class="icon orcid" title="ORCID"><i class="ai ai-orcid"></i></a>
+          <a href="..." class="icon arxiv" title="arXiv"><i class="ai ai-arxiv"></i></a>
+          <a href="..." class="icon scholar" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+          <a href="..." class="icon linkedin" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
         </div>
       </div>
-    </div>
-  </section>
-</div>
-
-<!-- Inhaltsbereiche -->
-<div class="container">
-  <main class="main-content"> 
-    
-    <!-- ABOUT -->
-    <section id="about" class="section-card scroll-margin">
-      <h3 class="section-title">About</h3>
-      <p>I am a mathematician with a research background in nonlinear analysis, dynamical systems, ergodic theory, and kinetic theory, with several years of proficiency and a strong commitment to undergraduate teaching, student supervision, and academic course organization.</p>
-      <p>Among other things, I was a postdoc at the <a href="https://uni-muenster.de" target="_blank">Institute for Analysis and Numerics</a> of the <a href="https://uni-muenster.de" target="_blank">University of Münster</a> and earned my PhD (Dr. rer. nat.) in Mathematics at the <a href="https://uni-bremen.de" target="_blank">University of Bremen</a>.</p>
-      <p>Currently, I am exploring new professional opportunities in academia and industry.</p>
     </section>
-
-    <!-- RESEARCH -->
-    <section id="research" class="section-card scroll-margin">
-      <h3 class="section-title">Research</h3>
-      <h4 class="subsection-title">Research interests</h4>
-      <ul class="clean-list">
-        <li class="list-item"><span class="bullet-accent">◆</span> Ordinary and partial differential equations and their dynamics</li>
-        <li class="list-item"><span class="bullet-accent">◆</span> Nonlinear wave solutions and their ergodic properties</li>
-        <li class="list-item"><span class="bullet-accent">◆</span> Kinetic theory, in particular entropy methods</li>
-        <li class="list-item"><span class="bullet-accent">◆</span> Boltzmann equation and its BGK-type approximations</li>
-        <li class="list-item"><span class="bullet-accent">◆</span> Long-time behavior of solutions (hypocoercivity)</li>
-        <li class="list-item"><span class="bullet-accent">◆</span> Physical applications</li>
-        <li class="list-item"><span class="bullet-accent">◆</span> Models of chemical reactions</li>
-      </ul>
-      <p class="text-italic">I am also open to new and interdisciplinary research directions beyond the areas listed.</p>
-
-      <h4 class="subsection-title" style="margin-top: 32px;">Project Participation</h4>
-      <div class="project-box">
-        <a href="https://dfg.de" target="_blank" class="project-title">DFG 456849348</a>
-        <div class="text-meta" style="margin-bottom: 8px;">Research Grant</div>
-        <p>Modeling and mathematical description of concrete physical applications in the context of kinetic theory using the Bathnagar-Gross-Krook equation.</p>
-      </div>
-      <div class="project-box">
-        <a href="https://dfg.de" target="_blank" class="project-title">DFG 384027439</a>
-        <div class="text-meta" style="margin-bottom: 8px;">Research Grant</div>
-        <p>Ergodic theory of nonlinear waves in discrete and continuous excitable media.</p>
-      </div>
-    </section>
-
-    <!-- PUBLICATIONS -->
-    <section id="publications" class="section-card scroll-margin">
-      <h3 class="section-title">Publications</h3>
-      <h4 class="subsection-title">Articles (peer-reviewed)</h4>
-      <ul class="clean-list">
-        <li class="list-item">
-          <span class="bullet-accent">◆</span>
-          <div>
-            <strong>D. Ulbrich</strong>: <em>Hypocoercivity of a BGK model for chemical reactions.</em> Kinetic and Related Models, 17(2), 241-274, 2024. 
-            <div class="text-meta">[<a href="https://doi.org" target="_blank">DOI</a>] [<a href="https://arxiv.org" target="_blank">arXiv:2301.07604</a>]</div>
-          </div>
-        </li>
-        <li class="list-item">
-          <span class="bullet-accent">◆</span>
-          <div>
-            <strong>J. Rademacher, D. Ulbrich</strong>: <em>Ergodic properties of nonlinear waves in regular trees of excitable cells.</em> Physica D: Nonlinear Phenomena, 442, 133519, 2022. 
-            <div class="text-meta">[<a href="https://doi.org" target="_blank">DOI</a>] [<a href="https://arxiv.org" target="_blank">arXiv:2202.13840</a>]</div>
-          </div>
-        </li>
-      </ul>
-
-      <h4 class="subsection-title" style="margin-top: 32px;">Preprints</h4>
-      <ul class="clean-list">
-        <li class="list-item">
-          <span class="bullet-accent">◆</span>
-          <div>
-            <strong>M. Breden, C. Schmeiser, D. Ulbrich</strong>: <em>Hypocoercivity and convergence to equilibrium for a kinetic model of chemical reactions.</em> Preprint, 2024. 
-            <div class="text-meta">[<a href="https://arxiv.org" target="_blank">arXiv:2405.02102</a>]</div>
-          </div>
-        </li>
-      </ul>
-    </section>
-
-    <!-- TEACHING -->
-    <section id="teaching" class="section-card scroll-margin">
-      <h3 class="section-title">Teaching</h3>
-      <p style="font-weight: 600; margin-bottom: 8px;">University of Münster (as Postdoc / Lecturer):</p>
-      <ul class="clean-list" style="margin-bottom: 24px;">
-        <li class="list-item"><span class="bullet-accent">◆</span> Seminar on Kinetic Theory (Summer 2024)</li>
-        <li class="list-item"><span class="bullet-accent">◆</span> Exercises in Partial Differential Equations (Winter 2023/24)</li>
-        <li class="list-item"><span class="bullet-accent">◆</span> Calculus for Biologists and Geoscientists (Winter 2023/24)</li>
-      </ul>
-      
-      <p style="font-weight: 600; margin-bottom: 8px;">University of Bremen (as Teaching Assistant):</p>
-      <ul class="clean-list">
-        <li class="list-item"><span class="bullet-accent">◆</span> Analysis 1, 2 & 3 (Linear & Nonlinear Analysis)</li>
-        <li class="list-item"><span class="bullet-accent">◆</span> Linear Algebra 1 & 2</li>
-        <li class="list-item"><span class="bullet-accent">◆</span> Mathematics for Engineers and Physicists</li>
-      </ul>
-    </section>
-
-    <!-- SHORT CV -->
-    <section id="cv" class="section-card scroll-margin">
+  </div>
+  <!-- Inhalt (About, Research, Publications, Teaching, CV) -->
+</body>
+</html>
