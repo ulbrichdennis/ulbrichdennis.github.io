@@ -21,8 +21,15 @@ body {
   background-size: 20px 20px; /* Abstand der Punkte zueinander */
   /*background-attachment: fixed;    */
 
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://w3.org' width='100' height='100' viewBox='0 0 100 100'%3E%3Cpath d='M0 0 L50 30 L100 0 L100 100 L50 70 L0 100 Z' fill='none' stroke='%23f0f4f8' stroke-width='1'/%3E%3Cpath d='M50 30 L50 70 M0 50 L100 50' fill='none' stroke='%23e6eef5' stroke-width='0.5'/%3E%3Ccircle cx='50' cy='30' r='2' fill='%23d0daf0'/%3E%3Ccircle cx='50' cy='70' r='2' fill='%23d0daf0'/%3E%3C/svg%3E");
-  background-size: 120px 120px;
+ background-image: 
+    linear-gradient(30deg, rgba(30, 41, 59, 0.02) 12%, transparent 12.5%, transparent 87%, rgba(30, 41, 59, 0.02) 87.5%, rgba(30, 41, 59, 0.02)),
+    linear-gradient(150deg, rgba(30, 41, 59, 0.02) 12%, transparent 12.5%, transparent 87%, rgba(30, 41, 59, 0.02) 87.5%, rgba(30, 41, 59, 0.02)),
+    linear-gradient(270deg, rgba(30, 41, 59, 0.03) 22%, transparent 22.5%, transparent 78%, rgba(30, 41, 59, 0.03) 78.5%, rgba(30, 41, 59, 0.03)),
+    linear-gradient(330deg, rgba(15, 23, 42, 0.01) 12%, transparent 12.5%, transparent 87%, rgba(15, 23, 42, 0.01) 87.5%, rgba(15, 23, 42, 0.01)),
+    linear-gradient(90deg, rgba(15, 23, 42, 0.01) 12%, transparent 12.5%, transparent 87%, rgba(15, 23, 42, 0.01) 87.5%, rgba(15, 23, 42, 0.01)),
+    linear-gradient(210deg, rgba(15, 23, 42, 0.01) 12%, transparent 12.5%, transparent 87%, rgba(15, 23, 42, 0.01) 87.5%, rgba(15, 23, 42, 0.01));
+  background-size: 80px 140px;
+  background-position: 0 0, 0 0, 0 0, 40px 70px, 40px 70px, 40px 70px;
   background-attachment: fixed;
 }
 
