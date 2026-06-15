@@ -102,8 +102,6 @@ body {
   color: var(--primary-color);
 }
 
-
-
 h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 .section-title { font-size: 16px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 1px solid #f3f4f6; padding-bottom: 12px; margin-bottom: 20px; }
 .subsection-title { font-size: 15px; font-weight: 600; margin-top: 24px; margin-bottom: 12px; }
@@ -139,14 +137,12 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
   transition: all 0.2s ease;
 }
 
-/* Steuerung für Academicons Schriftzeichen */
 .social-icons .icon i {
   color: #374151 !important;
   font-size: 20px !important;
   transition: color 0.2s ease;
 }
 
-/* Steuerung für die zwei nativen SVGs (E-Mail, LinkedIn) */
 .social-icons .icon svg {
   fill: #374151 !important;  
   width: 18px !important;    
@@ -157,14 +153,12 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 
 .social-icons .icon:hover { transform: translateY(-2px); }
 
-/* Individuelle Hover-Farben */
 .social-icons .orcid:hover { background-color: #a6ce39; border-color: #a6ce39; }
 .social-icons .arxiv:hover { background-color: #b31b1b; border-color: #b31b1b; }
 .social-icons .scholar:hover { background-color: #4285f4; border-color: #4285f4; }
 .social-icons .email:hover { background-color: #4b5563; border-color: #4b5563; }
 .social-icons .linkedin:hover { background-color: #0077b5; border-color: #0077b5; }
 
-/* Invertiert Symbole und Schriften im Kreis bei Hover auf Weiß */
 .social-icons .icon:hover svg { fill: #ffffff !important; }
 .social-icons .icon:hover i { color: #ffffff !important; }
 
@@ -211,24 +205,22 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
   }
 }
 
-/* Styling für die Fußzeile */
 .site-footer {
     width: 100%;
     padding: 25px 0;
     margin-top: 60px;
-    border-top: 1px solid #e5e7eb; /* Sehr dezente, moderne Trennlinie */
-    font-size: 0.75rem;            /* Kleinere Schriftgröße (ca. 12px) */
-    color: #6b7280;                /* Unaufdringliches, mattes Grau */
+    border-top: 1px solid #e5e7eb; 
+    font-size: 0.75rem;            
+    color: #6b7280;                
     font-family: inherit;
 }
 
-/* Inhalt exakt in der Mitte zentrieren */
 .footer-content {
     max-width: 800px;
     margin: 0 auto;
-    text-align: center;            /* Zentriert den gesamten Text */
+    text-align: center;           
     display: flex;
-    flex-direction: column;        /* Stapelt die Zeilen untereinander */
-    gap: 6px;                      /* Kleiner Abstand zwischen Copyright und Update-Datum */
+    flex-direction: column;        
+    gap: 6px;                      
     padding: 0 20px;
 }
