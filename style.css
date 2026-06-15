@@ -211,6 +211,21 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
   }
 }
 
+/* Links fast wie normaler Text, aber mit feiner, dezenter Linie */
+a:link, a:visited {
+    color: #333333;
+    text-decoration: underline;
+    text-decoration-color: #bbbbbb; /* Unterstreichung stark aufgehellt */
+    text-underline-offset: 3px; /* Schafft etwas Abstand zum Text */
+}
+
+/* Hover-Effekt: Text wird beim Drüberfahren blau und die Linie deutlicher */
+a:hover, a:focus {
+    color: #1a568a;
+    text-decoration-color: #1a568a;
+}
+
+
 /* Styling für die Fußzeile */
 .site-footer {
     width: 100%;
