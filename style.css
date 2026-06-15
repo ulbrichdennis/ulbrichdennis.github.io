@@ -110,7 +110,7 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 
 .hero-section { padding-top: 110px; padding-bottom: 24px; }
 .hero-flex { display: flex; flex-direction: row; align-items: flex-start; gap: 24px; }
-.avatar { width: 240px !important; height: 240px !important; border-radius: 8px; object-fit: cover; border: 1px solid var(--border-color); flex-shrink: 0; }
+.avatar { width: 160px !important; height: 160px !important; border-radius: 8px; object-fit: cover; border: 1px solid var(--border-color); flex-shrink: 0; }
 .hero-text h1 { font-size: 30px; font-weight: 700; margin-bottom: 6px; margin-top: 0; }
 .subtitle-row { display: flex; align-items: center; gap: 8px; font-size: 14px; color: #6b7280; }
 .badge-work { background-color: #f0fdf4; color: #166534; border: 1px solid #bbf7d0; padding: 2px 8px; border-radius: 9999px; font-size: 12px; font-weight: 600; }
