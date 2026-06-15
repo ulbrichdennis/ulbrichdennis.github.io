@@ -1,8 +1,8 @@
 :root {
   --primary-color: #111827;    
   --text-color: #374151;       
-  --link-color: #2563eb;       
-  --link-hover: #1d4ed8;
+  --link-color: #6b7280;      
+  --link-hover: #111827;
   --bg-body: #f9fafb;          
   --bg-card: #ffffff;          
   --border-color: #e5e7eb;     
@@ -41,10 +41,6 @@ body {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-.section-card-link {
-  color: #6b7280;
-  text-decoration: underline; 
-}
 
 .scroll-margin {
   scroll-margin-top: 100px;
