@@ -229,3 +229,29 @@
 </script>
 
 
+<!-- Saisonales Hintergrundbild für den Header -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var header = document.querySelector(".site-header");
+    if (header) {
+      var month = new Date().getMonth(); // 0 = Januar, 11 = Dezember
+      var img = "fotos/herbst.jpg";      // Standardwert
+
+      if (month === 11 || month <= 1) {
+        img = "fotos/winter.jpg";
+      } else if (month >= 2 && month <= 4) {
+        img = "fotos/fruehling.jpg";
+      } else if (month >= 5 && month <= 7) {
+        img = "fotos/sommer.jpg";
+      }
+
+      // Setzt das Bild mit 85% weißer Tönung für beste Lesbarkeit
+      header.style.backgroundImage = "linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('" + img + "')";
+      header.style.backgroundSize = "cover";
+      header.style.backgroundPosition = "center";
+    }
+  });
+</script>
+
+
+</body> 
