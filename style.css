@@ -272,15 +272,11 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
   }
 }
 
-/* --- Mini-Vorschau (64px) --- */
+ /* --- Mini-Vorschau (64px) --- */
 .snapshot-mini-row {
   display: flex;
   align-items: center;
   gap: 16px;
-}
-
-.lightbox-trigger {
-  border-bottom: none !important; /* Verhindert die gepunktete Linie aus Ihrem CSS */
 }
 
 .snapshot-wrapper {
@@ -296,7 +292,7 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 }
 
 .snapshot-wrapper:hover {
-  transform: scale(1.05); /* Minimaler Zoom-Effekt beim Drüberfahren */
+  transform: scale(1.05);
 }
 
 .snapshot-img {
@@ -312,35 +308,29 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
   gap: 2px;
 }
 
-/* --- Reines CSS Lightbox-Overlay --- */
+/* --- JS gesteuerte Lightbox --- */
 .lightbox-overlay {
-  display: none; /* Standardmäßig unsichtbar */
+  display: none; /* Standardmäßig aus */
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(17, 24, 27, 0.9); /* Nutzt Ihre --primary-color als dunklen Hintergrund */
-  z-index: 2000; /* Weit über dem Header (z-index 50) */
+  background-color: rgba(17, 24, 27, 0.95); /* Dunkler Hintergrund */
+  z-index: 9999; /* Garantiert über allen Elementen, auch dem Header */
   align-items: center;
   justify-content: center;
   padding: 24px;
+  cursor: zoom-out;
 }
 
-/* Wird aktiviert, wenn die ID #photo-lightbox aufgerufen wird */
-.lightbox-overlay:target {
+/* Diese Klasse wird per JS hinzugefügt */
+.lightbox-overlay.active {
   display: flex;
 }
 
-.lightbox-close {
-  display: block;
-  max-width: 90%;
-  max-height: 90vh;
-  border-bottom: none !important;
-  cursor: zoom-out; /* Zeigt eine Lupe zum Verkleinern an */
-}
-
 .lightbox-full-img {
-  max-width: 100%;
+  max-width: 90%;
   max-height: 85vh;
   object-fit: contain;
   border-radius: 6px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.5);
 }
+

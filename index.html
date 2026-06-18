@@ -213,29 +213,25 @@
     </section>
 </main>
 
-<!-- Mini Current Snapshot Section with Lightbox Click -->
+<!-- Mini Current Snapshot Section with JS Lightbox -->
 <div class="section-card snapshot-card scroll-margin" id="snapshot">
   <div class="snapshot-mini-row">
     
-    <!-- Klickbarer Bereich für das Bild -->
-    <a href="#photo-lightbox" class="lightbox-trigger" aria-label="View full image">
-      <div class="snapshot-wrapper">
-        <img src="images/current.jpg" alt="Current snapshot" class="snapshot-img" id="current-photo">
-      </div>
-    </a>
+    <!-- Das klickbare Mini-Bild -->
+    <div class="snapshot-wrapper" onclick="openLightbox()" title="Click to enlarge">
+      <img src="img/current.jpeg" alt="Current snapshot" class="snapshot-img" id="current-photo">
+    </div>
 
     <div class="snapshot-text">
-      <span class="text-italic">Current snapshot: A casual glimpse from conferences, travels, or daily life. <span style="font-size: 11px; color: var(--link-color);">(Click to enlarge)</span></span>
-      <div class="text-meta">images/current.jpg</div>
+      <span class="text-italic">Current snapshot: A casual glimpse from conferences, travels, or daily life. <span style="font-size: 11px; color: var(--link-color); cursor: pointer;" onclick="openLightbox()">(Click to enlarge)</span></span>
+      <div class="text-meta">img/current.jpeg</div>
     </div>
   </div>
 </div>
 
-<!-- Das versteckte Overlay (Lightbox), das beim Klicken erscheint -->
-<div id="photo-lightbox" class="lightbox-overlay">
-  <a href="#snapshot" class="lightbox-close" aria-label="Close image">
-    <img src="img/current.jpeg" alt="Current snapshot full view" class="lightbox-full-img" id="current-photo-large">
-  </a>
+<!-- Das versteckte Overlay (Lightbox) -->
+<div id="photo-lightbox" class="lightbox-overlay" onclick="closeLightbox()">
+  <img src="img/current.jpeg" alt="Current snapshot full view" class="lightbox-full-img" id="current-photo-large">
 </div>
 
 
@@ -259,6 +255,7 @@
 
 
 <script>
+  // 1. Cache-Buster für aktuelle Bilder (angepasst an img/ und .jpeg)
   window.addEventListener('DOMContentLoaded', () => {
     const timestamp = "?t=" + new Date().getTime();
     const thumb = document.getElementById('current-photo');
@@ -267,7 +264,25 @@
     if (thumb) thumb.src = "img/current.jpeg" + timestamp;
     if (large) large.src = "img/current.jpeg" + timestamp;
   });
+
+  // 2. Lightbox-Funktionen
+  function openLightbox() {
+    const lightbox = document.getElementById('photo-lightbox');
+    if (lightbox) {
+      lightbox.classList.add('active');
+      document.body.style.overflow = 'hidden'; /* Verhindert das Scrollen im Hintergrund */
+    }
+  }
+
+  function closeLightbox() {
+    const lightbox = document.getElementById('photo-lightbox');
+    if (lightbox) {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = ''; /* Aktiviert Scrollen wieder */
+    }
+  }
 </script>
+
 
 
 
