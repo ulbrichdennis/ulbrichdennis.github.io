@@ -235,14 +235,14 @@
     var header = document.querySelector(".site-header");
     if (header) {
       var month = new Date().getMonth(); // 0 = Januar, 11 = Dezember
-      var img = "fotos/herbst.jpg";      // Standardwert
+      var img = "img/herbst.jpeg";      // Standardwert
 
       if (month === 11 || month <= 1) {
-        img = "fotos/winter.jpg";
+        img = "img/winter.jpeg";
       } else if (month >= 2 && month <= 4) {
-        img = "fotos/fruehling.jpg";
+        img = "img/fruehling.jpeg";
       } else if (month >= 5 && month <= 7) {
-        img = "fotos/sommer.jpg";
+        img = "img/sommer.jpeg";
       }
 
       // Setzt das Bild mit 85% weißer Tönung für beste Lesbarkeit
