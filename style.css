@@ -225,3 +225,37 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
     gap: 6px;                      
     padding: 0 20px;
 }
+
+/* --- Sektion für das wechselnde Foto --- */
+.snapshot-card {
+  margin-top: 32px;
+}
+
+.snapshot-wrapper {
+  width: 100%;
+  max-height: 400px; /* Begrenzt die Höhe im Desktop-Layout */
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-body);
+}
+
+.snapshot-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Schneidet das Bild sauber zu, falls die Proportionen abweichen */
+  display: block;
+  filter: grayscale(15%); /* Integriert das Bild dezent in das minimalistische Design */
+  transition: filter 0.25s ease;
+}
+
+.snapshot-img:hover {
+  filter: grayscale(0%); /* Zeigt die vollen Farben beim Drüberfahren */
+}
+
+/* Anpassung für mobile Endgeräte */
+@media (max-width: 640px) {
+  .snapshot-wrapper {
+    max-height: 280px; /* Kompakter auf dem Smartphone */
+  }
+}
