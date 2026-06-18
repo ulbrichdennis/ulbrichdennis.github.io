@@ -213,23 +213,31 @@
     </section>
 </main>
 
-<!-- Aktuelles Foto Sektion (Kompakt) -->
+<!-- Mini Current Snapshot Section with Lightbox Click -->
 <div class="section-card snapshot-card scroll-margin" id="snapshot">
-  <h2 class="section-title">Current Snapshot</h2>
-  
-  <div class="snapshot-flex">
-    <div class="snapshot-wrapper">
-      <img src="images/current.jpg" alt="Aktuelles Foto" class="snapshot-img" id="current-photo">
-    </div>
+  <div class="snapshot-mini-row">
     
+    <!-- Klickbarer Bereich für das Bild -->
+    <a href="#photo-lightbox" class="lightbox-trigger" aria-label="View full image">
+      <div class="snapshot-wrapper">
+        <img src="images/current.jpg" alt="Current snapshot" class="snapshot-img" id="current-photo">
+      </div>
+    </a>
+
     <div class="snapshot-text">
-      <p class="text-italic" style="margin-top: 0; margin-bottom: 8px;">
-        Ein unregelmäßiger Einblick von Konferenzen, Reisen oder aus dem Alltag.
-      </p>
+      <span class="text-italic">Current snapshot: A casual glimpse from conferences, travels, or daily life. <span style="font-size: 11px; color: var(--link-color);">(Click to enlarge)</span></span>
       <div class="text-meta">images/current.jpg</div>
     </div>
   </div>
 </div>
+
+<!-- Das versteckte Overlay (Lightbox), das beim Klicken erscheint -->
+<div id="photo-lightbox" class="lightbox-overlay">
+  <a href="#snapshot" class="lightbox-close" aria-label="Close image">
+    <img src="img/current.jpeg" alt="Current snapshot full view" class="lightbox-full-img" id="current-photo-large">
+  </a>
+</div>
+
 
 
 </div>
@@ -251,14 +259,16 @@
 
 
 <script>
-  // Zwingt den Browser, das Bild bei jedem Laden frisch vom Server abzufragen
   window.addEventListener('DOMContentLoaded', () => {
-    const photo = document.getElementById('current-photo');
-    if (photo) {
-      photo.src = "img/current.jpeg?t=" + new Date().getTime();
-    }
+    const timestamp = "?t=" + new Date().getTime();
+    const thumb = document.getElementById('current-photo');
+    const large = document.getElementById('current-photo-large');
+    
+    if (thumb) thumb.src = "img/current.jpeg" + timestamp;
+    if (large) large.src = "img/current.jpeg" + timestamp;
   });
 </script>
+
 
 
 </body> 
