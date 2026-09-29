@@ -221,7 +221,7 @@
   document.getElementById('current-year').textContent = new Date().getFullYear();
 
   const lastMod = new Date(document.lastModified);
-  const options = { year: 'numeric', month: 'numeric', day: 'numeric' };
+  const options = { year: 'numeric', month: 'short', day: 'numeric' };
   document.getElementById('last-modified').textContent = lastMod.toLocaleDateString('en-US', options);
 </script>
 
