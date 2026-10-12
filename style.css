@@ -232,7 +232,7 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
   border: 1px solid black;  /* #fef3c7;
   border-left: 4px solid black; /* #d97706;  Akzentleiste links */
   border-radius: 6px;
-  padding: 16px 20px;
+  padding: 0px 20px;
   margin-bottom: 24px;
 }
 .archive-notice p {
