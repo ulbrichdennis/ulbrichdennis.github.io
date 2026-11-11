@@ -5,7 +5,8 @@
   --link-hover: #111827;
   --bg-body: #f9fafb;          
   --bg-card: #ffffff;          
-  --border-color: #e5e7eb;     
+  --border-color: #e5e7eb;  
+  %bla
 }
 
 html {
