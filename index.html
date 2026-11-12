@@ -293,10 +293,10 @@
     const modal = document.getElementById("archive-modal");
     const closeBtn = document.getElementById("close-modal-btn");
 
-    // Prüfen, ob der Hinweis in dieser Sitzung schon weggeklickt wurde
-    if (sessionStorage.getItem("archiveNoticeDismissed") === "true") {
-      modal.classList.add("modal-hidden");
-    }
+     // Prüfen, ob der Hinweis in dieser Sitzung schon weggeklickt wurde
+    // if (sessionStorage.getItem("archiveNoticeDismissed") === "true") {
+    //  modal.classList.add("modal-hidden");
+    // }  
 
     // Schließen per Klick auf den Button
     closeBtn.addEventListener("click", function () {
