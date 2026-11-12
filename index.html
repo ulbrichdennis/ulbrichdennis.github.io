@@ -28,6 +28,21 @@
 
 </head>
 <body id="start">
+
+<!-- Archiv-Overlay -->
+<div id="archive-modal" class="modal-backdrop">
+  <div class="modal-card">
+    <h3>Archive Notice</h3>
+    <p>
+      I have left academia. This website is no longer actively maintained and remains online solely as a reference to my past academic work.
+    </p>
+    <button id="close-modal-btn" class="modal-btn">Continue to website</button>
+  </div>
+</div>
+
+
+
+
 <header class="site-header"> 
   <div class="nav-wrapper">
     <a href="#start" class="nav-brand">Start</a>
@@ -273,6 +288,33 @@
   }
 </script>
 
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const modal = document.getElementById("archive-modal");
+    const closeBtn = document.getElementById("close-modal-btn");
+
+    // Prüfen, ob der Hinweis in dieser Sitzung schon weggeklickt wurde
+    if (sessionStorage.getItem("archiveNoticeDismissed") === "true") {
+      modal.classList.add("modal-hidden");
+    }
+
+    // Schließen per Klick auf den Button
+    closeBtn.addEventListener("click", function () {
+      modal.classList.add("modal-hidden");
+      sessionStorage.setItem("archiveNoticeDismissed", "true");
+    });
+
+    // Optional: Auch schließen, wenn man neben die Karte klickt
+    modal.addEventListener("click", function (event) {
+      if (event.target === modal) {
+        modal.classList.add("modal-hidden");
+        sessionStorage.setItem("archiveNoticeDismissed", "true");
+      }
+    });
+  });
+</script>
 
 
 
