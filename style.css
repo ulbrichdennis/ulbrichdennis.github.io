@@ -370,7 +370,7 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
   .avatar {
     width: 100px !important;
     height: 100px !important;
-    border-radius: 0%;
+    
   }
 
   .hero-text h1 {
