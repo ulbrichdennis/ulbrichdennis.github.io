@@ -172,8 +172,7 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
   width: 100%;
   height: 100%;
   display: block;
-  transform: scaleY(1.8); /* Erhöht die Wellenhöhe um 60 % – passe den Wert nach Wunsch an (z. B. 1.4 bis 2.0) */
-  transform-origin: center center;
+  
 }
 .badge-work { background-color: #eff6ff; color: var(--primary-color); border: 1px solid #bfdbfe; padding: 1px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; }
 
@@ -444,12 +443,26 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
   }
 }
 
-@keyframes standingWave {
+@keyframes waveRight {
+  0%   { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+
+/* Welle 2 läuft nach links */
+@keyframes waveLeft {
+  0%   { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Resultierende Welle: schwingt zwischen voller Höhe und kompletter Auslöschung (Nulllinie) */
+@keyframes interferenceResult {
   0%, 100% {
-    transform: scaleY(1);
+    transform: scaleY(1.8); /* Volle Amplitude */
+    opacity: 1;
   }
   50% {
-    transform: scaleY(-1); /* Spiegelt die Welle an der Mittelachse nach unten */
+    transform: scaleY(0);   /* Komplette Auslöschung zur geraden Linie */
+    opacity: 0.35;
   }
 }
 
@@ -458,26 +471,27 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 }
 
 .hero-graphic svg {
-  width: 100%; /* Keine Überbreite mehr nötig, da nichts seitlich wandert */
-  height: 100%;
-  display: block;
+  width: 200%;
+  max-width: none;
 }
 
-.hero-graphic svg path {
-  transform-box: fill-box;      /* Wichtig: Bezieht den Drehpunkt direkt auf den jeweiligen Pfad */
-  transform-origin: center;     /* Schwingt exakt um die horizontale Mittelachse */
-  animation: standingWave 5s ease-in-out infinite;
+/* Pfad 1: Erste laufende Welle (dezent im Hintergrund) */
+.hero-graphic svg path:nth-child(1) {
+  animation: waveRight 8s linear infinite;
+  opacity: 0.3;
+  stroke-dasharray: 4 4;
 }
 
-/* Zeitversetzte Schwingungen für einen organischen, dynamischen Effekt */
+/* Pfad 2: Gegenläufige Welle (dezent im Hintergrund) */
 .hero-graphic svg path:nth-child(2) {
-  animation-duration: 6.5s;
-  animation-delay: -1.5s;
-  opacity: 0.7;
+  animation: waveLeft 8s linear infinite;
+  opacity: 0.3;
+  stroke-dasharray: 4 4;
 }
 
+/* Pfad 3: Die Summenwelle, die sich auslöscht */
 .hero-graphic svg path:nth-child(3) {
-  animation-duration: 8s;
-  animation-delay: -3s;
-  opacity: 0.5;
+  transform-box: view-box;
+  transform-origin: center;
+  animation: interferenceResult 4s ease-in-out infinite;
 }
