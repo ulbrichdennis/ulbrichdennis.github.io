@@ -168,7 +168,7 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
   -webkit-mask-image: linear-gradient(to right, transparent, black 25%);
 }
 
-..hero-graphic svg {
+.hero-graphic svg {
   width: 100%;
   height: 100%;
   display: block;
