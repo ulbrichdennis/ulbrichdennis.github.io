@@ -160,18 +160,19 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 /* Wellengrafik rechts im Hero-Bereich */
 .hero-graphic {
   margin-left: auto;
-  width: 240px;
+  width: 300px; /* Vorher 240px – nutzt den freien Platz besser */
   flex-shrink: 0;
   display: flex;
-  align-items: center;
+  align-items: stretch; /* Streckt die Grafik auf die volle Höhe des Hero-Bereichs */
+  mask-image: linear-gradient(to right, transparent, black 25%);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 25%);
 }
 
 .hero-graphic svg {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
 }
-
 .badge-work { background-color: #eff6ff; color: var(--primary-color); border: 1px solid #bfdbfe; padding: 1px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; }
 
 /* Links */
