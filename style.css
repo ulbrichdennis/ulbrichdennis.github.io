@@ -136,8 +136,8 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 .hero-flex { display: flex; flex-direction: row; align-items: center; gap: 20px; }
 
 .avatar { 
-  width: 160px !important;  
-  height: 160px !important; 
+  width: 200px !important;  
+  height: 200px !important; 
   border-radius: 50%; 
   object-fit: cover; 
   border: 2px solid #ffffff;
