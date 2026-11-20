@@ -124,7 +124,7 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
   font-size: 14px; 
   font-weight: 600; 
   margin-top: 16px; 
-  margin-bottom: 8px; 
+  margin-bottom: 10px; 
   color: var(--primary-color);
 }
 
