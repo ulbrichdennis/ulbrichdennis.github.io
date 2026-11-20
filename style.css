@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #0f172a;    /* Tiefes Dunkelblau/Anthrazit */
-  --accent-color: #1e40af;     /* Deutlich dunkleres Marineblau (vorher #2563eb) */
-  --text-color: #334155;       /* Angenehmes Dunkelgrau für Fließtext */
-  --text-muted: #64748b;       /* Sekundärer Text */
-  --bg-body: #f1f5f9;          /* Leicht kühleres, modernes Grau */
+  --primary-color: #0f172a;    
+  --accent-color: #1e40af;     
+  --text-color: #334155;       
+  --text-muted: #64748b;      
+  --bg-body: #f1f5f9;         
   --bg-card: #ffffff;          
   --border-color: #e2e8f0;  
   --link-color: #6b7280;      
@@ -36,7 +36,7 @@ body {
   margin-bottom: 40px;
 }
 
-/* Kompaktere Karten */
+
 .section-card {
   background-color: var(--bg-card);
   border: 1px solid var(--border-color);
@@ -50,7 +50,7 @@ body {
   scroll-margin-top: 75px;
 }
 
-/* Header */
+
 .site-header {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -106,7 +106,7 @@ body {
   color: var(--primary-color);
 }
 
-/* Typografie */
+
 h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 
 .section-title { 
@@ -131,13 +131,13 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 .text-meta { font-size: 12px; color: var(--text-muted); font-family: monospace; margin-top: 2px; }
 .text-italic { font-size: 13.5px; font-style: italic; color: var(--text-muted); }
 
-/* Kompakterer Hero-Bereich */
+
 .hero-section { padding-top: 76px; padding-bottom: 10px; }
 .hero-flex { display: flex; flex-direction: row; align-items: center; gap: 20px; }
-/* Desktop-Ansicht (ca. Zeile 132) */
+
 .avatar { 
-  width: 160px !important;  /* Vorher: 120px */
-  height: 160px !important; /* Vorher: 120px */
+  width: 160px !important;  
+  height: 160px !important; 
   border-radius: 10px; 
   object-fit: cover; 
   border: 2px solid #ffffff;
@@ -145,15 +145,7 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
   flex-shrink: 0; 
 }
 
-/* Mobile-Ansicht (im @media (max-width: 640px) Block, ca. Zeile 334) */
-@media (max-width: 640px) {
-  /* ... anderer Code ... */
-  .avatar {
-    width: 100px !important;  /* Vorher: 76px */
-    height: 100px !important; /* Vorher: 76px */
-    border-radius: 50%;
-  }
-}
+
 .hero-text h1 { font-size: 26px; font-weight: 700; margin-bottom: 4px; }
 .subtitle-row { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--text-muted); }
 
