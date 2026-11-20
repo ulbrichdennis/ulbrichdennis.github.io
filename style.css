@@ -131,14 +131,25 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 /* Kompakterer Hero-Bereich */
 .hero-section { padding-top: 76px; padding-bottom: 10px; }
 .hero-flex { display: flex; flex-direction: row; align-items: center; gap: 20px; }
+/* Desktop-Ansicht (ca. Zeile 132) */
 .avatar { 
-  width: 120px !important;
-  height: 120px !important; 
+  width: 160px !important;  /* Vorher: 120px */
+  height: 160px !important; /* Vorher: 120px */
   border-radius: 10px; 
   object-fit: cover; 
   border: 2px solid #ffffff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   flex-shrink: 0; 
+}
+
+/* Mobile-Ansicht (im @media (max-width: 640px) Block, ca. Zeile 334) */
+@media (max-width: 640px) {
+  /* ... anderer Code ... */
+  .avatar {
+    width: 100px !important;  /* Vorher: 76px */
+    height: 100px !important; /* Vorher: 76px */
+    border-radius: 50%;
+  }
 }
 .hero-text h1 { font-size: 26px; font-weight: 700; margin-bottom: 4px; }
 .subtitle-row { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--text-muted); }
