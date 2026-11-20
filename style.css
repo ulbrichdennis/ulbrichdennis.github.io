@@ -129,7 +129,7 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 }
 
 .text-meta { font-size: 12px; color: var(--text-muted); font-family: monospace; margin-top: 2px; }
-.text-italic { font-size: 13.5px; font-style: italic; color: var(--text-muted); }
+.text-italic { font-size: 13.5px; color: var(--text-muted); }
 
 
 .hero-section { padding-top: 76px; padding-bottom: 10px; }
