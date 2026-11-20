@@ -160,7 +160,7 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 /* Wellengrafik rechts im Hero-Bereich */
 .hero-graphic {
   margin-left: auto;
-  width: 300px; /* Vorher 240px – nutzt den freien Platz besser */
+  width: 600px; /* Vorher 240px – nutzt den freien Platz besser */
   flex-shrink: 0;
   display: flex;
   align-items: stretch; /* Streckt die Grafik auf die volle Höhe des Hero-Bereichs */
