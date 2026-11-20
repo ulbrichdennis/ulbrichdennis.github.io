@@ -449,7 +449,7 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
     transform: scaleY(1);
   }
   50% {
-    transform: scaleY(-1); /* Spiegelt die Welle an der Mittelachse nach unten */
+    transform: scaleY(-1); 
   }
 }
 
@@ -458,15 +458,14 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 }
 
 .hero-graphic svg {
-  width: 100%; /* Keine Überbreite mehr nötig, da nichts seitlich wandert */
+  width: 100%; 
   height: 100%;
   display: block;
 }
 
 .hero-graphic svg path {
-  transform-box: fill-box;      /* Wichtig: Bezieht den Drehpunkt direkt auf den jeweiligen Pfad */
-  transform-origin: center;     /* Schwingt exakt um die horizontale Mittelachse */
-  animation: standingWave 5s ease-in-out infinite;
+  transform-box: fill-box;      
+  animation: standingWave 15s ease-in-out infinite;
 }
 
 /* Zeitversetzte Schwingungen für einen organischen, dynamischen Effekt */
