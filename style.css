@@ -247,7 +247,7 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 .archive-notice {
   background-color: #f8fafc;           /* Sehr helles Schiefergrau, passend zu .project-box */
   border: 1px solid #cbd5e1;           /* Dezenter kühler Rahmen */
-  border-left: 4px solid var(--accent-color); /* Nutzt direkt dein dunkles Akzent-Blau */
+  border-left: 4px solid var(--primary-color); /* Nutzt direkt dein dunkles Akzent-Blau */
   border-radius: 8px;
   padding: 12px 16px;
   margin-bottom: 16px;
@@ -261,7 +261,7 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 }
 
 .archive-notice strong { 
-  color: var(--primary-color);         /* Tiefes Dunkelblau/Anthrazit für das Wort "Archive Notice:" */
+  color: var(--primary-color);         
 }
 
 /* Footer */
