@@ -345,7 +345,7 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 .modal-btn:hover { opacity: 0.9; }
 .modal-hidden { display: none !important; }
 
-/* Optimierte mobile Darstellung: Nichts gestaucht, volle Breite, kompakte Visitenkarte oben */
+
 @media (max-width: 640px) {
   body {
     font-size: 14.5px;
@@ -370,7 +370,7 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
   .avatar {
     width: 76px !important;
     height: 76px !important;
-    border-radius: 50%;
+    border-radius: 0%;
   }
 
   .hero-text h1 {
@@ -465,10 +465,9 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 
 .hero-graphic svg path {
   transform-box: fill-box;      
-  animation: standingWave 15s ease-in-out infinite;
-}
+  animation: standingWave 5s ease-in-out infinite;
 
-/* Zeitversetzte Schwingungen für einen organischen, dynamischen Effekt */
+
 .hero-graphic svg path:nth-child(2) {
   animation-duration: 6.5s;
   animation-delay: -1.5s;
