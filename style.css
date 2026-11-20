@@ -481,3 +481,22 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
   animation-delay: -3s;
   opacity: 0.5;
 }
+
+/* Deaktiviert Animationen, wenn der Nutzer "Bewegung reduzieren" aktiviert hat */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .hero-graphic svg path {
+    animation: none;
+  }
+
+  .social-icons .icon {
+    transition: none;
+  }
+
+  .social-icons .icon:hover {
+    transform: none;
+  }
+}
