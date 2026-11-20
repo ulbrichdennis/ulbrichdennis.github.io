@@ -138,7 +138,7 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
 .avatar { 
   width: 160px !important;  
   height: 160px !important; 
-  border-radius: 10px; 
+  border-radius: 50%; 
   object-fit: cover; 
   border: 2px solid #ffffff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
@@ -362,6 +362,7 @@ h1, h2, h3, h4 { color: var(--primary-color); margin-top: 0; }
   .avatar {
     width: 100px !important;
     height: 100px !important;
+    border-radius: 50%;
     
   }
 
